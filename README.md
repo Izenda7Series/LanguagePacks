@@ -3,6 +3,44 @@ The Izenda 7 Series language pack allows you to support additional languages in 
 
  :warning: This feature does not translate your database information.
 
+## Supported Languages
+- Arabic - ar
+- Bulgarian	- bg
+- Chinese - zh-CN
+- ChineseTaiwan - zh-TW
+- Croatian - hr
+- Czech - cs
+- Danish - da
+- Dutch - nl
+- English - United States - en-US
+- Estonian - et
+- Finnish - fi
+- French - fr
+- German - de
+- Greek - el
+- Hebrew - iw
+- Hindi - hi
+- Hungarian - hu
+- Icelandic - is
+- Italian - it
+- Japanese - ja
+- Korean - ko
+- Latvian - lv
+- Lithuanian - lt
+- Macedonian - mk
+- Norwegian - no
+- Polish - pl
+- Portuguese - pt
+- Romanian - ro
+- Russian - ru
+- Serbian - sr
+- Slovenian - sl
+- Spanish - es
+- Swedish - sv
+- Turkish - tr
+- Ukrainian - uk
+- Vietnamese - vi
+
 ## Installation
 
 ### Downloading Files
