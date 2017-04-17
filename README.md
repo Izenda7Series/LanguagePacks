@@ -103,4 +103,6 @@ The Izenda 7 Series language pack allows you to support additional languages in 
 - Under my profile, expand the languages dropdown and verify that the new languages are listed.
 
 ## Adding additional languages
-Additional lanugages not included here can be added by creating a custom language file.
+Additional lanugages not included here can be added by creating a custom language file. You can use the Izenda.texts.en-US.js as a template.
+- Download the <a href="https://github.com/Izenda7Series/LanguagePacks/blob/master/Templates/Izenda.texts.en-US.js">Izenda.texts.en-US.js</a> file.
+
