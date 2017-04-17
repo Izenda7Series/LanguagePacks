@@ -103,6 +103,31 @@ The Izenda 7 Series language pack allows you to support additional languages in 
 - Under my profile, expand the languages dropdown and verify that the new languages are listed.
 
 ## Adding additional languages
-Additional lanugages not included here can be added by creating a custom language file. You can use the Izenda.texts.en-US.js as a template.
+Additional languages not included here can be added by creating a custom language file. You can use the Izenda.texts.en-US.js as a template.
 - Download the <a href="https://github.com/Izenda7Series/LanguagePacks/blob/master/Templates/Izenda.texts.en-US.js">Izenda.texts.en-US.js</a> file.
+- Modify the language specification (last line) to include the desired language.
 
+```javascript
+  }, 'zh-TW');
+```
+- Replace the English text with its translated equivalent for the desired language.
+
+Original:
+```javascript
+  EXPORT_CONSTANTS_LABEL_MARGIN_TOP: 'Top',
+  EXPORT_CONSTANTS_LABEL_MARGIN_LEFT: 'Left',
+  EXPORT_CONSTANTS_LABEL_MARGIN_BOTTOM: 'Bottom',
+```
+Translated Values:
+```javascript
+  EXPORT_CONSTANTS_LABEL_MARGIN_TOP : '最佳',
+  EXPORT_CONSTANTS_LABEL_MARGIN_LEFT : '剩下',
+  EXPORT_CONSTANTS_LABEL_MARGIN_BOTTOM : '底部',
+```
+
+- Save the file to the front-end, you may find it helpful to follow the naming conventions above, Izenda.texts.{language code here}.js 
+- Update the database to include the new language, you can modify the SQL statement below:
+
+```sql
+INSERT INTO IzendaLanguage (Id, CultureName, Language, Deleted) VALUES(NEWID(), 'zh-TW','ChineseTaiwan', 0);
+```
