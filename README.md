@@ -102,4 +102,5 @@ The Izenda 7 Series language pack allows you to support additional languages in 
 - Login to the application
 - Under my profile, expand the languages dropdown and verify that the new languages are listed.
 
-
+## Adding additional languages
+Additional lanugages not included here can be added by creating a custom language file.
