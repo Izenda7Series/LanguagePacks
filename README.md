@@ -45,7 +45,7 @@ The Izenda 7 Series language pack allows you to support additional languages in 
 
 ### Downloading Files
 - Download the language pack <a href="https://github.com/Izenda7Series/LanguagePacks/archive/master.zip">here</a>.
-- Extract the contents of the Languages folder to [Your Front End Folder]/languages
+- Extract the contents of the Languages folder to [Your Front End Folder]/languages (this will be a new foler you create in your Front End Folder to hold the new Language files)
 
 ### Updating the front end resources 
 - Open the index.html file and add references to the languages as shown below:
