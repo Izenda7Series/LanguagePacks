@@ -1,3 +1,4 @@
+
 /* Arabic (ar) */
 BEGIN
     IF NOT EXISTS(SELECT * FROM[IzendaLanguage] WHERE[CultureName] = 'ar')
