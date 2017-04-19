@@ -129,5 +129,11 @@ Translated Values:
 - Update the database to include the new language, you can modify the SQL statement below:
 
 ```sql
-INSERT INTO IzendaLanguage (Id, CultureName, Language, Deleted) VALUES(NEWID(), 'zh-TW','ChineseTaiwan', 0);
+/* ChineseTaiwan (zh-TW) */
+BEGIN
+    IF NOT EXISTS(SELECT * FROM[IzendaLanguage] WHERE[CultureName] = 'zh-TW')
+    BEGIN
+        INSERT INTO IzendaLanguage (Id, CultureName, Language, Deleted) VALUES(NEWID(), 'zh-TW', 'ChineseTaiwan', 0);
+    END
+END
 ```
