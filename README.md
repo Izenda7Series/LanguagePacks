@@ -39,7 +39,7 @@ The Izenda 7 Series language pack allows you to support additional languages in 
 - Swedish - sv
 - Turkish - tr
 - Ukrainian - uk
-- Vietnamese - vi
+
 
 ## Installation
 
