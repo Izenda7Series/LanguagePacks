@@ -1,3 +1,7 @@
+/* 
+If you experience errors regarding the 'uuid_generate_v4' function, you may need to enable the uuid-ossp extension as shown below.
+  create extension "uuid-ossp";
+*/
 
 /* Arabic (ar) */
 INSERT INTO IzendaLanguage(Id, CultureName, Language, Deleted)
