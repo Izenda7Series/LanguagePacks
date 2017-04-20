@@ -48,7 +48,7 @@ The Izenda 7 Series language pack allows you to support additional languages in 
 - Extract the contents of the Languages folder to [Your Front End Folder]/languages (this will be a new foler you create in your Front End Folder to hold the new Language files)
 
 ### Updating the front end resources 
-- Open the index.html file and add references to the languages as shown below:
+- Open the index.html file and add references to the desired languages as shown below:
 
 ```html
 <!-- Add additional languages -->
@@ -88,6 +88,11 @@ The Izenda 7 Series language pack allows you to support additional languages in 
 <script type="text/javascript" src="/languages/Izenda.texts.zh-TW.js"></script>
 </body>
 ``` 
+#### Important Note for Arabic and French (Canadian)
+:warning: If you are using version 1.25.3 or earlier, and would like to use Arabic or French (Canadian) there are a few additional steps to take. These versions of Izenda include Arabic and French (Canadian) references that need to be removed.
+- Open izenda_locales.js and rename the following as show below (any arbitrary value will do): </br>
+"fr-CA" -> "fr-CA-legacy" </br>
+"ar" -> "ar-legacy" </br>
 
 ### Updating the database
 :warning: As best practice, we always recommend backing up your data before any schema/data changes.
