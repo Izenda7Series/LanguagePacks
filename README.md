@@ -90,7 +90,7 @@ The Izenda 7 Series language pack allows you to support additional languages in 
 ``` 
 #### Important Note for Arabic and French (Canadian)
 :warning: If you are using version 1.25.3 or earlier, and would like to use Arabic or French (Canadian) there are a few additional steps to take. These versions of Izenda include Arabic and French (Canadian) references that need to be removed.
-- Open izenda_locales.js and rename the following as show below (any arbitrary value will do): </br>
+- Open izenda_locales.js and rename the following as shown below (any arbitrary value will do): </br>
 "fr-CA" -> "fr-CA-legacy" </br>
 "ar" -> "ar-legacy" </br>
 
