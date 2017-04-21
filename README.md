@@ -31,6 +31,7 @@ The Izenda 7 Series language pack allows you to support additional languages in 
 - Norwegian - no
 - Polish - pl
 - Portuguese - pt
+- Português (Brazil) - pt-BR
 - Romanian - ro
 - Russian - ru
 - Serbian - sr
