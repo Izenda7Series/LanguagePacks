@@ -3,46 +3,47 @@ MODEL_LABEL_TABLE : 'الطاولة',
 MODEL_LABEL_VIEW : 'رأي',
 MODEL_LABEL_PROCEDURE : 'إجراء مخزن',
 MODEL_LABEL_FUNCTION : 'وظيفة',
-CONTEXT_MENU_LABEL_SYSTEM_DB_LICENSE : 'نظام DB',
+CONTEXT_MENU_LABEL_SYSTEM_DB_LICENSE : 'دب النظام',
 CONTEXT_MENU_LABEL_TENANT_SETUP : 'إعداد المستأجر',
 CONTEXT_MENU_LABEL_DATA_SETUP : 'إعداد البيانات',
 CONTEXT_MENU_LABEL_CONNECTION_STRING : 'سلسلة الاتصال',
 CONTEXT_MENU_LABEL_DATA_MODEL : 'نموذج البيانات',
 CONTEXT_MENU_LABEL_ADVANCED_SETTINGS : 'إعدادات متقدمة',
-CONTEXT_MENU_LABEL_COPY_MANAGEMENT : 'إدارة نسخة',
-CONTEXT_MENU_LABEL_ROLE_SETUP : 'الإعداد دور',
+CONTEXT_MENU_LABEL_COPY_MANAGEMENT : 'إدارة النسخ',
+CONTEXT_MENU_LABEL_DATABASE_MAPPING : 'تخطيط قاعدة البيانات',
+CONTEXT_MENU_LABEL_ROLE_SETUP : 'إعداد الدور',
 CONTEXT_MENU_LABEL_USER_SETUP : 'إعداد المستخدم',
 CONTEXT_MENU_LABEL_SYSTEM_CONFIGURATION : 'أعدادات النظام',
 CONTEXT_MENU_LABEL_DASHBOARD : 'لوحة القيادة',
-CONTEXT_MENU_LABEL_SECURITY_POLICIES : 'سياسات الأمن',
+CONTEXT_MENU_LABEL_SECURITY_POLICIES : 'سياسات الأمان',
 CONTEXT_MENU_LABEL_EMAIL : 'البريد الإلكتروني',
 CONTEXT_MENU_LABEL_REPORT : 'أبلغ عن',
-CONTEXT_MENU_LABEL_REPORT_DESIGN : 'تصميم تقرير',
+CONTEXT_MENU_LABEL_REPORT_DESIGN : 'تصميم التقرير',
 CONTEXT_MENU_LABEL_SCHEDULING : 'جدولة',
 TOP_MENU_REPORTS : 'تقارير',
 TOP_MENU_DASHBOARDS : 'لوحات',
 TOP_MENU_SETTINGS : 'إعدادات',
-COMMON_MESSAGES_ANOTHER_USER_MODIFIED : 'مستخدم آخر تعديل في الآونة الأخيرة هذه البيانات. ما يصل إلى تاريخ البيانات تم إعادة تحميل. يمكنك الآن مراجعة ومواصلة العمل الخاصة بك.',
-COMMON_MESSAGES_CONFIRM_CANCEL : 'هل أنت متأكد أنك تريد إلغاء التغييرات؟',
-COMMON_MESSAGES_CONFIRM_CHANGES_LOST : 'هل أنت واثق؟ سيتم فقدان جميع التغييرات.',
-COMMON_MESSAGES_CONFIRM_SAVE : 'هل أنت متأكد أنك تريد حفظ جميع التعديلات؟',
-COMMON_MESSAGES_DETAILS_WERE_SAVED : 'تم حفظها من التفاصيل.',
-COMMON_MESSAGES_FORMAT_DATE : 'الرجاء إدخال قيمة صالحة في \'ح ح / ي / س س س س MM: مم &quot;الشكل.',
-COMMON_MESSAGES_FORMAT_NUMBER : 'الرجاء إدخال قيمة صالحة في شكل رقمي.',
-COMMON_MESSAGES_INVALID_KEY_JOIN : 'هذا الكائن البيانات الخارجية غير صالح عندما يتم إسقاط هنا ينضم المفتاح.',
-COMMON_MESSAGES_INVALID_RELATIONSHIP : 'هذا الكائن البيانات الخارجية يصبح غير صالح عندما يتم نقل هذه العلاقة.',
-COMMON_MESSAGES_NO_CHANGES_FOUND : 'لا توجد تغييرات.',
+COMMON_MESSAGES_ANOTHER_USER_MODIFIED : 'قام مستخدم آخر مؤخرا بتعديل هذه البيانات. تمت إعادة تحميل بيانات محدثة. يمكنك الآن مراجعة عملك ومتابعته.',
+COMMON_MESSAGES_CONFIRM_CANCEL : 'هل تريد بالتأكيد إلغاء التغييرات؟',
+COMMON_MESSAGES_CONFIRM_CHANGES_LOST : 'هل أنت واثق؟ سيتم فقد جميع التغييرات.',
+COMMON_MESSAGES_CONFIRM_SAVE : 'هل تريد بالتأكيد حفظ جميع التعديلات؟',
+COMMON_MESSAGES_DETAILS_WERE_SAVED : 'تم حفظ التفاصيل.',
+COMMON_MESSAGES_FORMAT_DATE : 'الرجاء إدخال قيمة صالحة بتنسيق &quot;مم / د / يي ه: مم&quot;.',
+COMMON_MESSAGES_FORMAT_NUMBER : 'الرجاء إدخال قيمة صالحة بتنسيق رقمي.',
+COMMON_MESSAGES_INVALID_KEY_JOIN : 'هذا الكائن البيانات الخارجية غير صالح عند إسقاط مفتاح إسقاط هنا.',
+COMMON_MESSAGES_INVALID_RELATIONSHIP : 'يصبح كائن البيانات الخارجية هذا غير صالح عند نقل العلاقة.',
+COMMON_MESSAGES_NO_CHANGES_FOUND : 'لم يتم العثور على أية تغييرات.',
 COMMON_MESSAGES_NO_RECORD_FOUND : 'لا يوجد سجلات.',
-COMMON_MESSAGES_NUMBER_SMALLER : '{0} يجب أن يكون عدد أصغر من أو يساوي {1}.',
-COMMON_MESSAGES_REQUIRED : '{0} هو مطلوب.',
-COMMON_MESSAGES_MUST_BE_FUNCTION : 'إذا تم استخدام وظائف، ويجب أن يكون كل اختيار وظيفة.',
+COMMON_MESSAGES_NUMBER_SMALLER : '{0} يجب أن يكون رقم أصغر من أو يساوي {1}.',
+COMMON_MESSAGES_REQUIRED : '{0} مطلوب.',
+COMMON_MESSAGES_MUST_BE_FUNCTION : 'إذا تم استخدام وظائف، يجب أن يكون كل اختيار وظيفة.',
 COMMON_MESSAGES_NO_RESULT : 'لا نتيجة',
-COMMON_MESSAGES_EMAIL_CONFIGURATION : 'لم يتم تكوين إعدادات البريد الإلكتروني للنظام الخاص بك / المستأجر حتى الان. الرجاء الاتصال بمسؤول النظام للحصول على المساعدة',
+COMMON_MESSAGES_EMAIL_CONFIGURATION : 'لم تتم تهيئة إعدادات البريد الإلكتروني للنظام / المستأجر حتى الآن. يرجى الاتصال بمسؤول النظام للحصول على المساعدة',
 COMMON_MESSAGES_ERROR : 'خطأ',
 COMMON_MESSAGES_NOPERMISSION_VIEWREPORT : 'ليس لديك إذن لعرض هذا التقرير.',
 COMMON_MESSAGES_GENERAL_ERROR : 'حدثت أخطاء، يرجى تصحيحها قبل المتابعة.',
-COMMON_MESSAGES_GENERIC_ERROR : 'واجه التطبيق خطأ غير معروف. الرجاء الاتصال بمسؤول النظام لمزيد من المعلومات والمساعدة.',
-COMMON_MESSAGES_EXPIRED_LICENSE : 'هناك مشكلة مع الترخيص. الرجاء الاتصال بمسؤول النظام للحصول على المساعدة.',
+COMMON_MESSAGES_GENERIC_ERROR : 'واجه التطبيق خطأ غير معروف. يرجى الاتصال بمسؤول النظام للحصول على مزيد من المعلومات والمساعدة.',
+COMMON_MESSAGES_EXPIRED_LICENSE : 'هناك مشكلة في الترخيص. يرجى الاتصال بمسؤول النظام للحصول على المساعدة.',
 COMMON_REQUIRE_CONSTRAINT : 'مطلوب.',
 COMMON_CONSTRAINT_REQUIRED : 'مطلوب',
 COMMON_LABEL_ACCESS : 'التمكن من',
@@ -52,13 +53,14 @@ COMMON_LABEL_ACTIONS : 'أفعال',
 COMMON_LABEL_ACTIVATE : 'تفعيل',
 COMMON_LABEL_ALIGN_CENTER : 'مركز',
 COMMON_LABEL_ALIGN_JUSTIFY : 'برر',
-COMMON_LABEL_ALIGN_LEFT : 'محاذاة إلى اليسار',
+COMMON_LABEL_ALIGN_LEFT : 'محاذاة لليسار',
 COMMON_LABEL_ALIGN_RIGHT : 'محاذاة اليمين',
 COMMON_LABEL_ALL : 'الكل',
 COMMON_LABEL_ATTACHMENT : 'المرفق',
 COMMON_LABEL_ATTACHMENT_TYPE : 'نوع المرفق',
 COMMON_LABEL_CANCEL : 'إلغاء',
 COMMON_LABEL_CATEGORY : 'الفئة',
+COMMON_LABEL_SAVEINTO : 'حفظ في',
 COMMON_LABEL_CONFIGURATION : 'ترتيب',
 COMMON_LABEL_CONNECT : 'الاتصال',
 COMMON_LABEL_COPY : 'نسخ',
@@ -76,13 +78,13 @@ COMMON_LABEL_DETAILS : 'تفاصيل',
 COMMON_LABEL_EDIT : 'تصحيح',
 COMMON_LABEL_EMAIL : 'البريد الإلكتروني',
 COMMON_LABEL_EMAILING : 'البريد الإلكتروني',
-COMMON_LABEL_EMBEDDED_HTML : 'جزءا لا يتجزأ من HTML',
+COMMON_LABEL_EMBEDDED_HTML : 'جزءا لا يتجزأ من هتمل',
 COMMON_LABEL_EXPORT : 'تصدير',
 COMMON_LABEL_EXPORTING : 'تصدير',
-COMMON_LABEL_EXPORTING_ERROR : 'تصدير الخطأ',
+COMMON_LABEL_EXPORTING_ERROR : 'خطأ في التصدير',
 COMMON_LABEL_FROM : 'من عند',
 COMMON_LABEL_HOURS : 'ساعة (ق)',
-COMMON_LABEL_JOIN_TYPE : 'تاريخ النوع',
+COMMON_LABEL_JOIN_TYPE : 'تاريخ نوع',
 COMMON_LABEL_LINK : 'حلقة الوصل',
 COMMON_LABEL_LOGIN : 'تسجيل الدخول',
 COMMON_LABEL_METRIC : 'قياس',
@@ -97,14 +99,15 @@ COMMON_LABEL_OWNER : 'صاحب',
 COMMON_LABEL_PASSWORD : 'كلمه السر',
 COMMON_LABEL_PERMISSIONS : 'أذونات',
 COMMON_LABEL_PREVIEW : 'معاينة',
-COMMON_LABEL_REPORT_VIEWER : 'عارض تقرير',
+COMMON_LABEL_REPORT_VIEWER : 'عارض التقرير',
 COMMON_LABEL_PRINT : 'طباعة',
-COMMON_LABEL_REPORT_PART : 'تقرير الجزء',
+COMMON_LABEL_REPORT_PART : 'جزء التقرير',
 COMMON_LABEL_REPORTS : 'تقارير',
 COMMON_LABEL_ROLE : 'وظيفة',
-COMMON_LABEL_ROLE_SETUP : 'الإعداد دور',
+COMMON_LABEL_ROLE_SETUP : 'إعداد الدور',
 COMMON_LABEL_SAVE : 'حفظ',
 COMMON_LABEL_SAVE_AS : 'حفظ باسم',
+COMMON_LABEL_SAVE_INTO : 'حفظ في',
 COMMON_LABEL_SCHEDULE : 'جدول',
 COMMON_LABEL_SCHEDULING : 'جدولة',
 COMMON_LABEL_SEARCH : 'بحث',
@@ -133,7 +136,7 @@ COMMON_LABEL_DATABASE_NAME : 'اسم قاعدة البيانات',
 COMMON_LABEL_DATA_OBJECT : 'كائن البيانات',
 COMMON_LABEL_FIELD : 'حقل',
 COMMON_LABEL_FOREIGN_DATA_OBJECT : 'كائن البيانات الخارجية',
-COMMON_LABEL_JOIN_FIELD : 'تاريخ الميدان',
+COMMON_LABEL_JOIN_FIELD : 'الانضمام إلى الحقل',
 COMMON_LABEL_SYSTEM : 'النظام',
 COMMON_LABEL_TEMPLATE : 'قالب',
 COMMON_LABEL_TEMPLATES : 'قوالب',
@@ -141,7 +144,7 @@ COMMON_LABEL_TENANT_NAME : 'اسم المستأجر',
 COMMON_LABEL_OTHERS : 'الآخرين',
 COMMON_LABEL_INSTANCE_NAME : 'اسم المثيل',
 COMMON_LABEL_DELIVERY_TYPE : 'نوع التوصيل',
-COMMON_LABEL_FILTER_VALUE_SELECTION : 'تصفية القيمة اختيار',
+COMMON_LABEL_FILTER_VALUE_SELECTION : 'تصفية تحديد القيمة',
 COMMON_LABEL_STRIKETHROUGH : 'يتوسطه',
 COMMON_LABEL_MIDDLE : 'وسط',
 COMMON_LABEL_TOP : 'أعلى',
@@ -160,10 +163,10 @@ COMMON_LABEL_ARCHIVED : 'أرشفة',
 COMMON_LABEL_FIELD_NAME : 'اسم الحقل',
 COMMON_LABEL_DATA_TYPE : 'نوع البيانات',
 COMMON_LABEL_VISIBLE : 'مرئي',
-COMMON_LABEL_CUSTOM_URL : 'URL مخصص',
-COMMON_LABEL_EMBEDDED_JAVASCRIPT : 'جزءا لا يتجزأ من جافا سكريبت',
-COMMON_LABEL_ADD_CALCULATED_FIELD : 'إضافة حقل محتسب',
-COMMON_LABEL_FILTER_PROPERTIES : 'خصائص تصفية',
+COMMON_LABEL_CUSTOM_URL : 'عنوان ورل مخصص',
+COMMON_LABEL_EMBEDDED_JAVASCRIPT : 'جافا سكريبت مضمن',
+COMMON_LABEL_ADD_CALCULATED_FIELD : 'إضافة حقل محسوب',
+COMMON_LABEL_FILTER_PROPERTIES : 'تصفية خصائص',
 COMMON_LABEL_FIELD_PROPERTIES : 'خصائص الحقل',
 COMMON_LABEL_COLOR : 'اللون',
 COMMON_LABEL_ADD_SETTING : 'إضافة إعداد',
@@ -174,13 +177,13 @@ COMMON_LABEL_WEDNESDAY : 'الأربعاء',
 COMMON_LABEL_THURSDAY : 'الخميس',
 COMMON_LABEL_FRIDAY : 'يوم الجمعة',
 COMMON_LABEL_SATURDAY : 'يوم السبت',
-COMMON_LABEL_CHART_TYPE : 'نوع الرسم البياني',
+COMMON_LABEL_CHART_TYPE : 'نوع المخطط',
 COMMON_LABEL_DATA_SOURCE : 'مصدر البيانات',
 COMMON_LABEL_APPLY : 'تطبيق',
 COMMON_LABEL_ADD : 'إضافة',
 COMMON_LABEL_INSERT : 'إدراج',
 COMMON_LABEL_REMOVE : 'إزالة',
-COMMON_LABEL_DATE_TIME : 'التاريخ الوقت',
+COMMON_LABEL_DATE_TIME : 'تاريخ الوقت',
 COMMON_LABEL_SUBTOTAL : 'حاصل الجمع',
 COMMON_LABEL_GRAND_TOTAL : 'المبلغ الإجمالي',
 COMMON_LABEL_BORDER : 'الحدود',
@@ -188,19 +191,19 @@ COMMON_LABEL_GENERAL_INFO : 'معلومات عامة',
 COMMON_LABEL_GROUPING : 'تجمع',
 COMMON_LABEL_USE_SEPARATOR : 'استخدام فاصل',
 COMMON_LABEL_INVERTED : 'مقتبس',
-COMMON_LABEL_DATA_REFRESH_INTERVAL_SETTING : 'إعدادات الفاصل الزمني للتحديث البيانات',
+COMMON_LABEL_DATA_REFRESH_INTERVAL_SETTING : 'إعدادات تحديث الفاصل الزمني للبيانات',
 COMMON_LABEL_USE_PAGINATION : 'استخدام ترقيم الصفحات',
 COMMON_LABEL_ITEM_PER_ROW : 'البند (ق) لكل صف',
-COMMON_LABEL_EMBEDDED_REPORT_SETTINGS : 'إعدادات التقرير جزءا لا يتجزأ من',
+COMMON_LABEL_EMBEDDED_REPORT_SETTINGS : 'إعدادات التقرير المضمنة',
 COMMON_LABEL_FORMAT : 'شكل',
 COMMON_LABEL_HEADING : 'عنوان',
 COMMON_LABEL_COLUMN : 'عمود',
 COMMON_LABEL_REPORT_NAME : 'تقرير اسم',
 COMMON_LABEL_REPORT_DESCRIPTION : 'وصف تقرير',
 COMMON_LABEL_TEMPLATE_NAME : 'اسم القالب',
-COMMON_LABEL_TEMPLATE_DESCRIPTION : 'قالب الوصف',
+COMMON_LABEL_TEMPLATE_DESCRIPTION : 'وصف النموذج',
 COMMON_LABEL_EXPRESSION : 'التعبير',
-COMMON_LABEL_PREVIEW_RESULT : 'نتيجة المعاينة',
+COMMON_LABEL_PREVIEW_RESULT : 'معاينة النتيجة',
 COMMON_LABEL_CLOSE : 'قريب',
 COMMON_LABEL_HIDE : 'إخفاء',
 COMMON_LABEL_SHOW : 'تبين',
@@ -222,34 +225,36 @@ COMMON_LABEL_LANGUAGE : 'لغة',
 COMMON_LABEL_DATE_FORMAT : 'صيغة التاريخ',
 COMMON_LABEL_SECURITY_QUESTIONS : 'اسئلةالأمان',
 COMMON_LABEL_SECURITY_QUESTION : '.مسألة أمان',
-COMMON_LABEL_CHANGE_SECURITY_QUESTION : 'أسئلة التغيير الأمن',
+COMMON_LABEL_CHANGE_SECURITY_QUESTION : 'تغيير أسئلة الأمان',
 COMMON_LABEL_CHANGE_PASSWORD : 'تغيير كلمة السر',
 COMMON_LABEL_CURRENT_PASSWORD : 'كلمة السر الحالية',
 COMMON_LABEL_YOUR_ANSWER : 'اجابتك',
 COMMON_LABEL_YOUR_ANSWER_IS_REQUIRED : 'مطلوب إجابتك',
 COMMON_LABEL_UNDEFINED_VALUE : 'قيمة غير محددة',
-COMMON_LABEL_COPY_SETTINGS : 'إعدادات النسخ',
-COMMON_LABEL_HELP_SYSTEM : 'نظام مساعدة',
+COMMON_LABEL_COPY_SETTINGS : 'نسخ الإعدادات',
+COMMON_LABEL_HELP_SYSTEM : 'نظام المساعدة',
 COMMON_LABEL_BACK : 'الى الخلف',
+COMMON_LABEL_GLOBAL_REPORT : 'التقرير العالمي',
+COMMON_LABEL_GLOBAL_DASHBOARD : 'لوحة التحكم العالمية',
 COMMON_DATA_TYPE_IMAGE : 'صورة',
 COMMON_DATA_TYPE_TEXT : 'نص',
 COMMON_TOOLTIP_CANCEL_CHANGE : 'إلغاء التغيير',
 COMMON_TOOLTIP_RENAME : 'إعادة تسمية',
-COMMON_TOOLTIP_UPDATE_CHANGE : 'تغيير التحديث',
+COMMON_TOOLTIP_UPDATE_CHANGE : 'تحديث التغيير',
 COMMON_PLACEHOLDER_SEARCH : 'بحث...',
-COMMON_CRITERIA_AVERAGE_RENDERING_TIME : 'متوسط ​​الوقت التقديم',
+COMMON_CRITERIA_AVERAGE_RENDERING_TIME : 'متوسط ​​وقت التقديم',
 COMMON_CRITERIA_CREATED_BY : 'صنع من قبل',
 COMMON_CRITERIA_CREATED_DATE : 'تاريخ الإنشاء',
-COMMON_CRITERIA_EDITED_BY : 'التعديل الأخير تم بواسطة',
-COMMON_CRITERIA_EDITED_DATE : 'التعديل الأخير تم التسجيل',
-COMMON_CRITERIA_LAST_EDITED : 'محرر الماضي',
+COMMON_CRITERIA_EDITED_BY : 'آخر تعديل بواسطة',
+COMMON_CRITERIA_EDITED_DATE : 'تاريخ آخر تعديل',
+COMMON_CRITERIA_LAST_EDITED : 'آخر تعديل',
 COMMON_CRITERIA_LAST_VIEWED : 'ينظر الماضي',
-COMMON_CRITERIA_NUMBER_OF_VIEWS : 'عدد المشاهدات',
+COMMON_CRITERIA_NUMBER_OF_VIEWS : 'عدد مرات المشاهدة',
 COMMON_CRITERIA_VERSION : 'الإصدار',
-COMMON_CRITERIA_DASHBOARD_OWNER : 'لوحة المالك',
+COMMON_CRITERIA_DASHBOARD_OWNER : 'لوحة التحكم المالك',
 PAGINATOR_ITEMS_PER_PAGE : '{0} إلى {1} من {2} | مواد لكل صفحة',
 PAGINATOR_WITHOUT_ITEMS_PER_PAGE : '{0} إلى {1} من {2}',
-IZENDA_SELECT_ADD_LABEL_TEXT : 'إضافة &quot;{التسمية}&quot;؟',
+IZENDA_SELECT_ADD_LABEL_TEXT : 'إضافة &quot;{لابيل}&quot;؟',
 IZENDA_SELECT_CLEAR_ALL_TEXT : 'امسح الكل',
 IZENDA_SELECT_CLEAR_VALUE_TEXT : 'قيمة واضحة',
 IZENDA_SELECT_NO_RESULT_TEXT : 'لا توجد نتائج',
@@ -260,120 +265,124 @@ TINY_MCE_SPELL_CHECKER : 'مدقق املائي',
 BORDER_SETTING_LABEL_NONE : 'لا شيء',
 BORDER_SETTING_LABEL_OUTLINE : 'الخطوط العريضة',
 BORDER_SETTING_LABEL_INSIDE : 'في داخل',
-BORDER_SETTING_LABEL_DASH_STYLE : 'اندفاعة نمط',
+BORDER_SETTING_LABEL_DASH_STYLE : 'نمط داش',
 BORDER_SETTING_LABEL_THICKNESS : 'سماكة',
-BORDER_SETTING_TOOLTIP_APPLY_BORDER : 'استخدام الأزرار لتطبيق الحدود',
+BORDER_SETTING_TOOLTIP_APPLY_BORDER : 'استخدم الأزرار لتطبيق الحدود',
 BORDER_SETTING_LABEL_SETIING : 'ضبط',
 BUTTON_HIGHLIGHT_WRAP_TEXT : 'دوران النص',
 COLOR_SETTING_TOOLTIP : 'إعدادات الألوان',
-COLOR_SETTING_POINT_OPTIONS : 'خيارات نقطة',
+COLOR_SETTING_POINT_OPTIONS : 'خيارات النقطة',
 COLOR_STYLING_TEXT_TOOLTIP : 'لون الخط',
 COLOR_STYLING_BACKGROUND_TOOLTIP : 'لون الخلفية',
 FONT_STYLE_BOLD_TOOLTIP : 'بالخط العريض',
 FONT_STYLE_ITALIC_TOOLTIP : 'مائل',
 FONT_STYLE_UNDERLINE_TOOLTIP : 'أكد',
 FONT_STYLE_ARIA_LABEL : 'نوع الخط',
-NO_DATA_TO_SHOW : 'لا توجد بيانات لاظهار',
+NO_DATA_TO_SHOW : 'لا توجد بيانات للعرض',
 NO_RECORD_FOUND : 'لا يوجد سجلات',
-NO_PERMISSION_TEXT : 'حسابك ليس لديه صلاحية لدخول لهذه الصفحة. الرجاء الاتصال بمسؤول النظام للحصول على المساعدة.',
+NO_PERMISSION_TEXT : 'ليس لدى حسابك إذن بالدخول إلى هذه الصفحة. يرجى الاتصال بمسؤول النظام للحصول على المساعدة.',
 NOT_FOUND_PAGE : 'وجه الفتاة! لم يتم العثور على هذه الصفحة.',
 ORIENTATION_SETTING_NORMAL : 'عادي',
-ORIENTATION_SETTING_ANGLE_COUNTER : 'زاوية عقارب الساعة',
-ORIENTATION_SETTING_ANGLE_CLOCKWISE : 'زاوية باتجاه حركة عقارب الساعة',
+ORIENTATION_SETTING_ANGLE_COUNTER : 'زاوية عكس اتجاه عقارب الساعة',
+ORIENTATION_SETTING_ANGLE_CLOCKWISE : 'زاوية في اتجاه عقارب الساعة',
 ORIENTATION_SETTING_ROTATE_TEXT_UP : 'تدوير النص لأعلى',
-ORIENTATION_SETTING_ROTATE_TEXT_DOWN : 'تدوير النص أسفل',
+ORIENTATION_SETTING_ROTATE_TEXT_DOWN : 'تدوير النص إلى أسفل',
 POPUP_INPUT_DEFAULT_TITLE : 'العنوان الافتراضي',
 SETTING_BY_RANGE_ADD_SETTING : 'إضافة إعداد',
-TEXT_CELL_COLOR_TOOLTIP_TEXT_COLOR : 'إعدادات لون الخط',
-TEXT_CELL_COLOR_TOOLTIP_CELL_COLOR : 'إعدادات الخليوي اللون',
+TEXT_CELL_COLOR_TOOLTIP_TEXT_COLOR : 'إعدادات لون النص',
+TEXT_CELL_COLOR_TOOLTIP_CELL_COLOR : 'إعدادات لون الخلية',
 USER_MENU_MY_PROFILE : 'ملفي',
 USER_MENU_SIGN_OUT : 'خروج',
 PERFORMANCE_LABEL_QUERY_TIMEOUT : 'الاستعلام مهلة',
 PERFORMANCE_LABEL_USE_NO_LOCK : 'استخدام لا قفل',
-PERFORMANCE_LABEL_DATA_SOURCE_LIMIT : 'الحد مصدر البيانات',
-PERFORMANCE_TIMEOUT_TOOLTIP : 'يحدد وقت الانتظار بالثواني القوائم المنسدلة التي تستخدم النتائج تحميلها من استعلامات قاعدة البيانات. إذا انقضى وقت الانتظار وعدم عودة الاستعلام، ينتهي الأمر.',
-PERFORMANCE_NOLOCK_TOOLTIP : 'تعيين القيمة تشير إلى ما إذا سيتم استخدام العبارة NOLOCK في استعلامات SQL.',
-PERFORMANCE_DATASOURCE_TOOLTIP : 'يحدد الحد الأقصى لعدد مصادر البيانات المسموح بها في تقرير واحد.',
-PERFORMANCE_RESET_TO_DEFAULT : 'العودة إلى القيمة الافتراضية.',
+PERFORMANCE_LABEL_DATA_SOURCE_LIMIT : 'حد مصدر البيانات',
+PERFORMANCE_TIMEOUT_TOOLTIP : 'تعيين وقت الانتظار بالثواني لقوائم منسدلة تستخدم النتائج المحملة من استعلامات قاعدة البيانات. إذا انقضى وقت الانتظار ولم يتم إرجاع الاستعلام، ينتهي الأمر.',
+PERFORMANCE_NOLOCK_TOOLTIP : 'لتعيين القيمة التي تشير إلى ما إذا كان سيتم استخدام عبارة نولوك في استعلامات سكل.',
+PERFORMANCE_DATASOURCE_TOOLTIP : 'لتعيين الحد الأقصى لعدد مصادر البيانات المسموح بها في تقرير واحد.',
+PERFORMANCE_RESET_TO_DEFAULT : 'الرجوع إلى القيمة الافتراضية.',
 PERFORMANCE_QUERY_TIMEOUT_REQUIRED : 'مطلوب مهلة الاستعلام.',
-PERFORMANCE_QUERY_TIMEOUT_NUMBERICALITY : 'يجب أن تكون مهلة الاستعلام عددا كاملا.',
-PERFORMANCE_QUERY_TIMEOUT_GREATER_THAN_0 : 'يجب أن تكون مهلة الاستعلام عدد أكبر من أو يساوي 0.',
-PERFORMANCE_QUERY_TIMEOUT_LESS_THAN_MAX_INT : 'يجب أن تكون مهلة الاستعلام عدد أقل من أو يساوي 2147483648.',
-PERFORMANCE_DS_LIMIT_REQUIRED : 'مطلوب المصدر حدود البيانات.',
-PERFORMANCE_DS_LIMIT_NUMBERICALITY : 'يجب أن يكون مصدر البيانات الحد عددا كاملا.',
-PERFORMANCE_DS_LIMIT_GREATER_THAN_0 : 'يجب أن يكون مصدر البيانات الحد عددا أكبر من أو يساوي 0.',
-PERFORMANCE_DS_LIMIT_LESS_THAN_MAX_INT : 'يجب أن يكون المصدر الحد بيانات عدد أقل من أو يساوي 2147483648.',
-PERFORMANCE_FIELD_LIMIT_REQUIRED : 'مطلوب الحد الميدان.',
-PERFORMANCE_FIELD_LIMIT_NUMBERICALITY : 'يجب أن يكون الحد الحقل عدد صحيح.',
-PERFORMANCE_FIELD_LIMIT_GREATER_THAN_0 : 'يجب أن يكون الحد الميدان عددا أكبر من أو يساوي 0.',
-PERFORMANCE_FIELD_LIMIT_LESS_THAN_MAX_INT : 'يجب أن يكون الحد الميدان عددا أقل من أو يساوي 2147483648.',
-PERFORMANCE_QUERY_LIMIT_REQUIRED : 'مطلوب الحد الاستعلام.',
-PERFORMANCE_QUERY_LIMIT_NUMBERICALITY : 'يجب أن يكون الحد الاستعلام عددا كاملا.',
-PERFORMANCE_QUERY_LIMIT_GREATER_THAN_0 : 'يجب أن يكون الحد الاستعلام عدد أكبر من أو يساوي 0.',
-PERFORMANCE_QUERY_LIMIT_LESS_THAN_MAX_INT : 'يجب أن يكون الحد الاستعلام عدد أقل من أو يساوي 2147483648.',
-PERFORMANCE_PIVOT_COLUMN_LIMIT_REQUIRED : 'مطلوب الحد محور العمود.',
-PERFORMANCE_PIVOT_COLUMN_LIMIT_NUMBERICALITY : 'وينبغي أن يكون محور الحد عمود عدد صحيح.',
-PERFORMANCE_PIVOT_COLUMN_LIMIT_GREATER_THAN_0 : 'يجب أن يكون محور الحد العمود عددا أكبر من أو يساوي 0.',
-PERFORMANCE_PIVOT_COLUMN_LIMIT_LESS_THAN_MAX_INT : 'يجب أن يكون محور الحد العمود عدد أقل من أو يساوي 2147483648.',
+PERFORMANCE_QUERY_TIMEOUT_NUMBERICALITY : 'يجب أن يكون مهلة طلب البحث رقما صحيحا.',
+PERFORMANCE_QUERY_TIMEOUT_GREATER_THAN_0 : 'يجب أن يكون مهلة طلب البحث رقما أكبر من أو يساوي 0.',
+PERFORMANCE_QUERY_TIMEOUT_LESS_THAN_MAX_INT : 'يجب أن يكون مهلة الاستعلام رقما أصغر من أو يساوي 2147483648.',
+PERFORMANCE_DS_LIMIT_REQUIRED : 'مطلوب حد مصدر البيانات.',
+PERFORMANCE_DS_LIMIT_NUMBERICALITY : 'يجب أن يكون حد مصدر البيانات رقما صحيحا.',
+PERFORMANCE_DS_LIMIT_GREATER_THAN_0 : 'يجب أن يكون حد مصدر البيانات أكبر من أو يساوي 0.',
+PERFORMANCE_DS_LIMIT_LESS_THAN_MAX_INT : 'يجب أن يكون حد مصدر البيانات أصغر من أو يساوي 2147483648.',
+PERFORMANCE_FIELD_LIMIT_REQUIRED : 'مطلوب حد الحقل.',
+PERFORMANCE_FIELD_LIMIT_NUMBERICALITY : 'يجب أن يكون الحد الميداني عددا صحيحا.',
+PERFORMANCE_FIELD_LIMIT_GREATER_THAN_0 : 'يجب أن يكون حد الحقل رقما أكبر من أو يساوي 0.',
+PERFORMANCE_FIELD_LIMIT_LESS_THAN_MAX_INT : 'يجب أن يكون حد الحقل رقما أصغر من أو يساوي 2147483648.',
+PERFORMANCE_QUERY_LIMIT_REQUIRED : 'طلب الاستعلام مطلوب.',
+PERFORMANCE_QUERY_LIMIT_NUMBERICALITY : 'يجب أن يكون حد طلب البحث رقما صحيحا.',
+PERFORMANCE_QUERY_LIMIT_GREATER_THAN_0 : 'يجب أن يكون حد طلب البحث رقما أكبر من أو يساوي 0.',
+PERFORMANCE_QUERY_LIMIT_LESS_THAN_MAX_INT : 'يجب أن يكون حد الاستعلام رقما أصغر من أو يساوي 2147483647.',
+PERFORMANCE_PIVOT_COLUMN_LIMIT_REQUIRED : 'مطلوب تعيين عمود العمود المحوري.',
+PERFORMANCE_PIVOT_COLUMN_LIMIT_NUMBERICALITY : 'يجب أن يكون رقم عمود المحور هو رقم صحيح.',
+PERFORMANCE_PIVOT_COLUMN_LIMIT_GREATER_THAN_0 : 'يجب أن يكون حد العمود المحوري رقما أكبر من أو يساوي 0.',
+PERFORMANCE_PIVOT_COLUMN_LIMIT_LESS_THAN_MAX_INT : 'يجب أن يكون حد عمود المحورية رقما أصغر من أو يساوي 2147483648.',
 PERFORMANCE_FILTER_LIMIT_REQUIRED : 'مطلوب حد التصفية.',
-PERFORMANCE_FILTER_LIMIT_NUMBERICALITY : 'يجب أن يكون الحد تصفية عدد صحيح.',
-PERFORMANCE_FILTER_LIMIT_GREATER_THAN_0 : 'يجب أن يكون الحد تصفية عدد أكبر من أو يساوي 0.',
-PERFORMANCE_FILTER_LIMIT_LESS_THAN_MAX_INT : 'يجب أن يكون الحد تصفية عدد أقل من أو يساوي 2147483648.',
-PERFORMANCE_FIELD_LIMIT : 'الحد الميدان',
-PERFORMANCE_FIELD_LIMIT_TOOLTIP : 'يحدد الحد الأقصى لعدد الحقول يسمح للاستخدام في جزء التقرير.',
-PERFORMANCE_QUERY_LIMIT : 'الحد الاستعلام',
-PERFORMANCE_PIVOT_COLUMN_LIMIT : 'الحد العمود المحوري',
-PERFORMANCE_QUERY_LIMIT_TOOLTIP : 'يحدد الحد الأقصى لعدد القيم التي يتم إرجاعها من الاستعلام في المصمم / المشاهد / لوحات / الصادرات.',
-PERFORMANCE_PIVOT_COLUMN_LIMIT_TOOLTIP : 'يحدد الحد الأقصى لعدد الأعمدة محور المسموح به في إطار التقرير.',
-PERFORMANCE_FILTER_LIMIT : 'الحد فلتر',
-PERFORMANCE_FILTER_LIMIT_TOOLTIP : 'يحدد الحد الأقصى لعدد العناصر المعروضة في القائمة المنسدلة تصفية القيمة.',
-CATEGORY_MESSAGE_CONFIRM_DELETE : 'هل أنت متأكد أنك تريد حذف هذه الفئة؟ فإن أي مصادر البيانات ضمن هذه الفئة أصبحت غير مصنف.',
+PERFORMANCE_FILTER_LIMIT_NUMBERICALITY : 'يجب أن يكون الحد الأقصى للتصفية رقما صحيحا.',
+PERFORMANCE_FILTER_LIMIT_GREATER_THAN_0 : 'يجب أن يكون الحد الأقصى للتصفية رقما أكبر من أو يساوي 0.',
+PERFORMANCE_FILTER_LIMIT_LESS_THAN_MAX_INT : 'يجب أن يكون الحد الأقصى للتصفية رقما أصغر من أو يساوي 2147483648.',
+PERFORMANCE_FIELD_LIMIT : 'حد الحقل',
+PERFORMANCE_FIELD_LIMIT_TOOLTIP : 'لتعيين الحد الأقصى لعدد الحقول المسموح بها للاستخدام في جزء التقرير.',
+PERFORMANCE_QUERY_LIMIT : 'حد طلب البحث',
+PERFORMANCE_PIVOT_COLUMN_LIMIT : 'حد عمود المحورية',
+PERFORMANCE_QUERY_LIMIT_TOOLTIP : 'لتعيين الحد الأقصى لعدد القيم التي تم إرجاعها من الاستعلام في المصمم / المشاهد / لوحات البيانات / الصادرات.',
+PERFORMANCE_PIVOT_COLUMN_LIMIT_TOOLTIP : 'لتعيين الحد الأقصى لعدد الأعمدة المحورية المسموح بها في جزء التقرير.',
+PERFORMANCE_FILTER_LIMIT : 'حد الفلتر',
+PERFORMANCE_FILTER_LIMIT_TOOLTIP : 'لتعيين الحد الأقصى لعدد العناصر المعروضة في القائمة المنسدلة تصفية القيمة.',
+CATEGORY_MESSAGE_CONFIRM_DELETE : 'هل تريد بالتأكيد حذف هذه الفئة؟ وستصبح أي مصادر بيانات في إطار هذه الفئة غير مصنفة.',
 CATEGORY_LABEL_NAME : 'اسم التصنيف',
-CATEGORY_LABEL_NAME_TOOLTIP : 'يحدد قائمة بفئات مصدر البيانات.',
+CATEGORY_LABEL_NAME_TOOLTIP : 'تعيين قائمة فئات مصدر البيانات.',
 CATEGORY_LABEL_ADD_NEW : 'اضف جديد',
-CATEGORY_ERROR_MESSAGE_TEMPLATE : '^ A / فئة $ {القيمة} موجود بالفعل.',
-CATEGORY_REQUIRED_NAME : '^ مطلوب اسم التصنيف.',
+CATEGORY_ERROR_MESSAGE_TEMPLATE : '^ A / أن الفئة $ {فالو} موجودة بالفعل.',
+CATEGORY_REQUIRED_NAME : '^ اسم الفئة مطلوب.',
 CATEGORY_REQUIRED_SUBCATEGORY : 'مطلوب اسم الفئة الفرعية.',
-CATEGORY_MESSAGES_CONFIRM_DELETE_CATEGORY : 'هل أنت متأكد أنك تريد حذف {0} الفئة؟ تنتمي كل الفئات الفرعية للستتم إزالة هذه الفئة أيضا.',
-CATEGORY_MESSAGES_CONFIRM_DELETE_SUBCATEGORY : 'هل أنت متأكد أنك تريد حذف {0} فرعية؟',
-SECURITY_LABEL_SHOW_TENANT_FIELD : 'مشاهدة المستأجر الميدان',
-SECURITY_LABEL_TENANT_FIELD : 'المستأجر الميدان',
-SECURITY_LABEL_ADDITIVE_FIELDS_AUTO_VISIBLE : 'تعيين المرئية المضافة الميدان السيارات',
-SECURITY_LABEL_ADDITIVE_FIELDS_AUTO_FILTERABLE : 'تعيين المضافة الميدان السيارات ترشيح',
-SECURITY_TENANT_TOOLTIP : 'اسم حقول قاعدة البيانات التي تخزن المعلومات المستأجر للمستخدمين. وتستخدم TenantIDs المستخدم باسم القيم التي من شأنها أن تكون مطابقة ضمن بيانات الحقل.',
-SECURITY_SHOW_TENANT_TOOLTIP : 'عندما كاذبة، وهذا يخفي الميدانية التي تم تحديدها في الممتلكات المستأجر الميدان من اختياره أو عرضها من قبل المستخدمين. فإن أي المرشحات على أساس مجال المستأجر لا يزال يؤثر على النتائج.',
-SECURITY_VISIBLE_FIELD_TOOLTIP : 'إذا تم تحديد هذا سيتم تلقائيا تعيين الحقول المضافة إلى مرئية عندما تتغير نموذج البيانات الفعلية.',
-SECURITY_FILTERABLE_FIELD_TOOLTIP : 'إذا كان هذا محددا ثم سيتم تلقائيا تعيين الحقول المضافة لفلترة عندما يتغير نموذج البيانات الفعلية.',
-SECURITY_TENANT_FIELD_NO_RESULT_TEXT : 'أدخل لإضافة الحقل المستأجر',
-SECURITY_RESET_TENANT_FIELD_TOOLTIP : 'العودة إلى القيمة الافتراضية.',
-SECURITY_LABEL_SYSTEM_TENANT_FIELD : 'الميدان المستأجر النظام:',
-OTHER_SETTINGS_LABEL_SORT_COLUMN_NAME : 'اسم نوع العمود',
-OTHER_SETTINGS_SORT_COLUMN_NAME : 'فرز حسب الترتيب الأبجدي أسماء الأعمدة في القوائم.',
+CATEGORY_MESSAGES_CONFIRM_DELETE_CATEGORY : 'هل تريد بالتأكيد حذف الفئة {0}؟ سيتم إزالة جميع الفئات الفرعية تنتمي إلى هذه الفئة أيضا.',
+CATEGORY_MESSAGES_CONFIRM_DELETE_SUBCATEGORY : 'هل تريد بالتأكيد حذف الفئة الفرعية {0}؟',
+SECURITY_LABEL_SHOW_TENANT_FIELD : 'إظهار حقل المستأجر',
+SECURITY_LABEL_TENANT_FIELD : 'المستأجر الميداني',
+SECURITY_LABEL_ADDITIVE_FIELDS_AUTO_VISIBLE : 'تعيين حقل مضاف تلقائي مرئي',
+SECURITY_LABEL_ADDITIVE_FIELDS_AUTO_FILTERABLE : 'تعيين حقل المضافة تصفية السيارات',
+SECURITY_TENANT_TOOLTIP : 'اسم حقول قاعدة البيانات التي تخزن معلومات المستأجر للمستخدمين. يتم استخدام تينانتيدس المستخدم كقيم التي سيتم مطابقتها ضمن بيانات الحقل.',
+SECURITY_SHOW_TENANT_TOOLTIP : 'عندما يكون خطأ، يخفي هذا الحقل المحدد في خاصية حقل المستأجر من أن يتم اختياره أو عرضه من قبل المستخدمين. وستظل أي فلاتر تستند إلى حقل المستأجر تؤثر على النتائج.',
+SECURITY_VISIBLE_FIELD_TOOLTIP : 'إذا تم تحديد هذه الحقول المضافة تلقائيا إلى مرئية عندما يتغير نموذج البيانات المادية.',
+SECURITY_FILTERABLE_FIELD_TOOLTIP : 'إذا تم تحديد ذلك، سيتم تلقائيا تعيين الحقول المضافة إلى قابل للتصفية عندما يتغير نموذج البيانات الفعلية.',
+SECURITY_TENANT_FIELD_NO_RESULT_TEXT : 'أدخل لإضافة حقل المستأجر',
+SECURITY_RESET_TENANT_FIELD_TOOLTIP : 'الرجوع إلى القيمة الافتراضية.',
+SECURITY_LABEL_SYSTEM_TENANT_FIELD : 'حقل المستأجر النظام:',
+OTHER_SETTINGS_LABEL_SORT_COLUMN_NAME : 'فرز اسم العمود',
+OTHER_SETTINGS_SORT_COLUMN_NAME : 'أبجديا فرز أسماء الأعمدة في القوائم.',
 OTHER_SETTINGS_LABEL_TRIM_TIME_IN_JOINS : 'تقليم الوقت في ينضم',
-OTHER_SETTINGS_TRIM_TIME_IN_JOINS : 'مجموعات سواء ينضم باستخدام حقول التاريخ والوقت سيتم استخدام جزء الوقت من الحقل.',
-OTHER_SETTINGS_LABEL_TIMEZONE_FOR_DATA_OFFSET : 'المنطقة الزمنية للبيانات الموازنة',
-OTHER_SETTINGS_TIMEZONE_FOR_DATA_ZONE : 'تعيين القيمة تشير إلى إزاحة المنطقة الزمنية للبيانات قاعدة البيانات في مصمم تقرير / المشاهد / لوحة القيادة في ساعات.',
-OTHER_SETTINGS_LABEL_TIMEZONE_FOR_TIMESTAMP_OFFSET : 'المنطقة الزمنية للالطابع الزمني الموازنة',
-OTHER_SETTINGS_TIMEZONE_FOR_TIMESTAMP_ZONE : 'تعيين القيمة تشير إلى إزاحة المنطقة الزمنية للالطوابع المستخدمة في النظام خلال ساعات.',
-OTHER_SETTINGS_LABEL_CONVERT_NULL_TO_EMPTY_STRING : 'تحويل لاغية لإفراغ سلسلة',
-OTHER_SETTINGS_CONVERT_NULL_TO_EMPTY_STRING : 'إذا تم تشغيل هذا العلم على، والنظام تظهر فارغة لأي حقل يحتوي على NULL وفارغة لأي حقل يحتوي فارغة.',
-OTHER_SETTINGS_LABEL_SHOW_SCHEMA_NAME : 'اسم المعرض مخطط',
-OTHER_SETTINGS_SHOW_SCHEMA_NAME : 'تعيين إذا يتم عرض اسم مخطط جنبا إلى جنب مع اسم مصدر البيانات',
-OTHER_SETTINGS_LABEL_SHOW_INTRODUCTION_NAME : 'مشاهدة مقدمة النص',
-OTHER_SETTINGS_SHOW_INTRODUCTION_NAME : 'تعيين إذا ثبت النص مقدمة في تقرير التبويب مصمم مصدر بيانات',
+OTHER_SETTINGS_TRIM_TIME_IN_JOINS : 'لتحديد ما إذا كان الارتباط باستخدام حقول داتيتيم سيستخدم الجزء الزمني من الحقل.',
+OTHER_SETTINGS_LABEL_TIMEZONE_FOR_DATA_OFFSET : 'المنطقة الزمنية لإيقاف البيانات',
+OTHER_SETTINGS_TIMEZONE_FOR_DATA_ZONE : 'لتعيين القيمة التي تشير إلى إزاحة المنطقة الزمنية لبيانات قاعدة البيانات في مصمم التقرير / المشاهد / لوحة التحكم في ساعات العمل.',
+OTHER_SETTINGS_LABEL_TIMEZONE_FOR_TIMESTAMP_OFFSET : 'المنطقة الزمنية لإزاحة الطابع الزمني',
+OTHER_SETTINGS_TIMEZONE_FOR_TIMESTAMP_ZONE : 'لتعيين القيمة التي تشير إلى إزاحة المنطقة الزمنية للطوابع الزمنية المستخدمة في النظام خلال ساعات.',
+OTHER_SETTINGS_LABEL_CONVERT_NULL_TO_EMPTY_STRING : 'تحويل نول إلى سلسلة فارغة',
+OTHER_SETTINGS_CONVERT_NULL_TO_EMPTY_STRING : 'إذا تم تشغيل هذه العلامة، فسيظهر النظام فارغا لأي حقل يحتوي على نول و فارغ لأي حقل يحتوي على فارغا.',
+OTHER_SETTINGS_LABEL_SHOW_SCHEMA_NAME : 'إظهار اسم المخطط',
+OTHER_SETTINGS_SHOW_SCHEMA_NAME : 'تعيين إذا تم عرض اسم المخطط جنبا إلى جنب مع اسم مصدر البيانات',
+OTHER_SETTINGS_LABEL_SHOW_INTRODUCTION_NAME : 'عرض نص المقدمة',
+OTHER_SETTINGS_SHOW_INTRODUCTION_NAME : 'تعيين إذا تم عرض نص مقدمة في علامة التبويب مصدر بيانات مصمم التقرير',
 OTHER_SETTINGS_LABEL_INTRODUCTION_TEXT : 'مقدمة النص',
-OTHER_SETTINGS_INTRODUCTION_TEXT : 'تعيين نص التعليمات لتوجيه المستخدمين النهائيين لإنشاء تقارير',
-OTHER_SETTINGS_LABEL_SEND_TO_DISK_PATH : 'ارسل الى مسار القرص',
-OTHER_SETTINGS_SEND_TO_DISK_PATH : 'يحدد المسار حيث سيتم حفظ الملفات لأي حالات المقرر مع إرسال إلى موقع القرص المحدد',
-OTHER_SETTINGS_RESET_TO_DEFAULT : 'العودة إلى القيمة الافتراضية.',
-OTHER_SETTINGS_INTRODUCTION_TEXT_REQUIRED : 'مطلوب إدخال النص.',
-OTHER_SETTINGS_LABEL_DETERMINE_COMMON_FILTER : 'تحديد مرشح مشترك لنفس المجال على أساس',
-OTHER_SETTINGS_TOOLTIP_DETERMINE_COMMON_FILTER : 'تكوين كيف يمكن لنظام ينبغي أن تنظر ما إذا كانت المرشحات المختلفة لتصفية حقل &quot;نفس&quot; أو لا بحيث تكون مؤهلة للنظر في الفلتر كما شائع في لوحة القيادة.',
-OTHER_SETTINGS_SAMEFIELD_SAMEDBSCHEMA : 'الحقل نفسه من وجوه البيانات نفسها من نفس المخطط DB',
-OTHER_SETTINGS_SAMEFIELD_SAMEDBSCHEMA_OR_CONNECTIONSTRING : 'اسم الحقل نفسه بغض النظر عن مخطط DB أو سلسلة اتصال',
-OTHER_SETTINGS_SAMEALIAS : 'اسم مستعار نفسه بغض النظر عن مخطط DB أو سلسلة اتصال',
-RELATIONSHIP_MESSAGE_CONFIRM_DELETE_RELATIONSHIP_HAS_USED : 'سوف تتأثر أي تقرير جزءا بنيت من هذه العلاقة. هل أنت متأكد أنك تريد حذف هذه العلاقة؟',
-RELATIONSHIP_MESSAGE_CONFIRM_DELETE_RELATIONSHIP : 'هل أنت متأكد أنك تريد حذف هذه العلاقة؟',
+OTHER_SETTINGS_INTRODUCTION_TEXT : 'عين نص المساعدة لتوجيه المستخدمين النهائيين لإنشاء التقارير',
+OTHER_SETTINGS_LABEL_SEND_TO_DISK_PATH : 'إرسال إلى مسار القرص',
+OTHER_SETTINGS_SEND_TO_DISK_PATH : 'لتعيين المسار حيث سيتم حفظ الملفات لأي مثيلات مجدولة مع موقع إرسال إلى القرص المحدد',
+OTHER_SETTINGS_RESET_TO_DEFAULT : 'الرجوع إلى القيمة الافتراضية.',
+OTHER_SETTINGS_INTRODUCTION_TEXT_REQUIRED : 'إنترودكتيون النص مطلوب.',
+OTHER_SETTINGS_LABEL_DETERMINE_COMMON_FILTER : 'حدد عامل تصفية مشترك للحقل نفسه استنادا إلى',
+OTHER_SETTINGS_TOOLTIP_DETERMINE_COMMON_FILTER : 'قم بتكوين الكيفية التي ينبغي أن ينظر بها النظام في ما إذا كانت الفلاتر المختلفة ستعمل على تصفية الحقل &quot;نفسه&quot; أو لا بحيث تكون مؤهلة للنظر فيها كفلتر شائع في لوحة التحكم.',
+OTHER_SETTINGS_SAMEFIELD_SAMEDBSCHEMA : 'نفس الحقل من نفس كائن البيانات من نفس المخطط دب',
+OTHER_SETTINGS_SAMEFIELD_SAMEDBSCHEMA_OR_CONNECTIONSTRING : 'اسم الحقل نفسه بغض النظر عن مخطط دب أو سلسلة الاتصال',
+OTHER_SETTINGS_SAMEALIAS : 'نفس الاسم المستعار بغض النظر عن مخطط دب أو سلسلة الاتصال',
+OTHER_SETTING_LABEL_MULTIPLE_SORT_ON_GRID_HEADER : 'السماح أنواع متعددة على رأس الشبكة',
+OTHER_SETTING_MULTIPLE_SORT_ON_GRID_HEADER : 'في حالة تشغيل هذه العلامة، يسمح النظام بترتيب عدة أعمدة في رأس الشبكة. إذا تم إيقاف هذه العلامة، يسمح النظام الفرز عمود واحد في رأس الشبكة',
+OTHER_SETTING_LABEL_SHOW_PREVIEW_HEADER : 'عرض قسم المعاينة في وضع التهيئة',
+OTHER_SETTING_LABEL_SHOW_PREVIEW_TOOLTIP : 'تكوين لإظهار أو إخفاء المقطع معاينة في الجزء الخلفي جزء التقرير.',
+RELATIONSHIP_MESSAGE_CONFIRM_DELETE_RELATIONSHIP_HAS_USED : 'أي جزء تقرير بنيت من هذه العلاقة سوف تتأثر. هل تريد بالتأكيد حذف هذه العلاقة؟',
+RELATIONSHIP_MESSAGE_CONFIRM_DELETE_RELATIONSHIP : 'هل تريد بالتأكيد حذف العلاقة؟',
 RELATIONSHIP_LABEL_RELATIONSHIP : 'العلاقات',
 REPORTDESIGNER_LABEL_JOIN_TYPE_INNER : 'داخلي',
 REPORTDESIGNER_LABEL_JOIN_TYPE_FULL : 'ممتلئ',
@@ -381,7 +390,7 @@ REPORTDESIGNER_LABEL_JOIN_TYPE_LEFT : 'اليسار',
 REPORTDESIGNER_LABEL_JOIN_TYPE_CROSS : 'تعبر',
 REPORTDESIGNER_LABEL_JOIN_TYPE_RIGHT : 'حق',
 REPORTDESIGNER_LABEL_UNCATEGORIZED : 'غير مصنف',
-REPORTDESIGNER_FILTER_TOOLTIP : 'أصبح المرشح صالح. الرجاء حذفه أو اتصل بمسؤول النظام للحصول على المساعدة.',
+REPORTDESIGNER_FILTER_TOOLTIP : 'أصبح الفلتر غير صالح. يرجى حذفه أو الاتصال بمسؤول النظام للحصول على المساعدة.',
 REPORTDESIGNER_LABEL_CRITERIA_LIST_SIMPLE_MODE_CATEGORY : 'الفئة',
 REPORTDESIGNER_LABEL_CRITERIA_LIST_SIMPLE_MODE_DATABASE_NAME : 'اسم قاعدة البيانات',
 REPORTDESIGNER_LABEL_CRITERIA_LIST_SIMPLE_MODE_DATA_OBJECT : 'كائن البيانات',
@@ -390,35 +399,35 @@ REPORTDESIGNER_LABEL_CRITERIA_LIST_SIMPLE_MODE_SCHEMA_NAME : 'اسم المخط�
 REPORTDESIGNER_LABEL_CRITERIA_LIST_ADVANCED_MODE_JOIN_ALIAS : 'تاريخ الاسم المستعار',
 REPORTDESIGNER_LABEL_CRITERIA_LIST_ADVANCED_MODE_CATEGORY : 'الفئة',
 REPORTDESIGNER_LABEL_CRITERIA_LIST_ADVANCED_MODE_DATA_OBJECT : 'كائن البيانات',
-REPORTDESIGNER_LABEL_CRITERIA_LIST_ADVANCED_MODE_JOIN_FIELD : 'تاريخ الميدان',
+REPORTDESIGNER_LABEL_CRITERIA_LIST_ADVANCED_MODE_JOIN_FIELD : 'الانضمام إلى الحقل',
 REPORTDESIGNER_LABEL_CRITERIA_LIST_ADVANCED_MODE_FOREIGN_DATA_OBJECT : 'كائن البيانات الخارجية',
 REPORTDESIGNER_LABEL_CRITERIA_LIST_ADVANCED_MODE_FIELD : 'حقل',
-REPORTDESIGNER_MESSAGE_CONFIRM_DELETE_RELATIONSHIP : 'هل أنت متأكد أنك تريد حذف هذه العلاقة؟',
-REPORTDESIGNER_MESSAGE_CONFIRM_DELETE_RELATIONSHIP_WITH_KEYJOIN : 'هل أنت متأكد أنك تريد حذف العلاقة وجميع مفتاحه ينضم؟',
-REPORTDESIGNER_MESSAGE_DELETE_KEYJOIN : 'هل أنت متأكد أنك تريد حذف مفتاح الانضمام؟',
-REPORTDESIGNER_ALLOW_NULL_TOOLTIP : 'هذا يتحول كل ينضم في الاستعلام إنشاؤها إلى اليسار الكامل ينضم.',
-REPORTDESIGNER_MESSAGE_COLUMN_NAME_REQUIRED : 'مطلوب اسم العمود',
-REPORTDESIGNER_MESSAGE_FIELD_CANNOT_BE_FILTER : 'لا يمكن تحديد الحقل كعامل تصفية.',
-REPORTDESIGNER_MESSAGE_CANNOT_DROP_RELATIONSHIP_IN_KEYJOIN_DEST : 'لا يمكن إسقاط العلاقة في مكان الرئيسية الانضمام.',
-REPORTDESIGNER_MESSAGE_CANNOT_DROP_KEYJOIN_HAVING_CROSS_JOIN : 'مفتاح الانضمام لا يمكن الاستغناء عنها في العلاقة التي لديها &quot;الصليب&quot;، كما نوع الصلة.',
-REPORTDESIGNER_MESSAGE_VALID_SQL_STATEMENT : 'وقال بيان SQL صحيح يمكن بناؤها من علاقات معينة.',
-REPORTDESIGNER_MESSAGE_FIELD_NAME_EXISTS : 'هذا اسم حقل موجود بالفعل.',
-REPORTDESIGNER_MESSAGE_FIELD_NAME_EXISTS_IN_REPORT_PART : 'هذا اسم مستعار حقل موجود مسبقا في &quot;{0}&quot; تقرير جزئيا.',
-REPORTDESIGNER_MESSAGE_CONFIRM_SAVE_FILTER : 'سيتم فقدان جميع التكوين للمرشح الحالي عندما يتم تغييره إلى حقل مختلف. هل أنت متأكد أنك تريد تحديد حقل جديد للمرشح الحالي؟',
-REPORTDESIGNER_MESSAGE_ADJUST_NUMBER_DATA_OBJECTS : 'تم تكوين الحد مصدر البيانات لتكون أقل من العدد الحالي للكائنات البيانات المحددة. يرجى ضبط عدد من الكائنات البيانات المحددة.',
-REPORTDESIGNER_MESSAGE_DATA_SOURCES_EXCEEDED_LIMITATION : 'وتجاوز عدد مصادر البيانات المحددة الحد',
-REPORTDESIGNER_MESSAGE_FIELDS_IN_REPORT_PART_EXCEEDED_LIMITATION : 'عدد الحقول التي تضاف في هذا الجزء التقرير يتجاوز الحد',
-REPORTDESIGNER_MESSAGE_SIMPLE_UNSELECT : 'كنت إلغاء تحديد كائن البيانات. الأخطاء الرئيسية التالية يمكن أن يحدث وجعل وتحطمت التقرير. <br/><ul style=";text-align:right;direction:rtl"><li style=";text-align:right;direction:rtl"> أي كائن البيانات التي لديها علاقة مع هذا الكائن ستكون غير محددة ومخبأة في وسط لوحة في شاشة مصدر البيانات، ويتم استبعادها من علامات التبويب الأخرى في تقرير مصمم. </li><li style=";text-align:right;direction:rtl"> سيتم إزالة أي مجال الذي ينتمي إلى كائن بيانات غير محددة / إزالتها من جزء التقرير. </li><li style=";text-align:right;direction:rtl"> سيتم حذف أي مرشح باستخدام حقل من كائن بيانات غير محددة / إزالة. </li><li style=";text-align:right;direction:rtl"> أي حساب وتجميع المرتبطة الحقل ينتمون إلى كائن البيانات غير محددة / إزالة يمكن أن تكون غير صحيحة. </li></ul></br> هل أنت متأكد أنك تريد إلغاء تحديد هذا الكائن البيانات؟',
-REPORTDESIGNER_MESSAGE_ADVANCED_UNSELECT : 'كنت إلغاء تحديد كائن البيانات. الأخطاء الرئيسية التالية يمكن أن يحدث وجعل وتحطمت التقرير. <br/><ul style=";text-align:right;direction:rtl"><li style=";text-align:right;direction:rtl"> سيتم حذف أي علاقة مع كائن البيانات في شاشة مصدر البيانات. </li><li style=";text-align:right;direction:rtl"> العلاقة بين بعض الكائنات بيانات أخرى يمكن تقسيم وستتم إزالة هذه الكائنات البيانات من علامات التبويب الأخرى في تقرير مصمم. </li><li style=";text-align:right;direction:rtl"> سيتم إزالة أي مجال الذي ينتمي إلى كائن بيانات غير محددة / إزالتها من جزء التقرير. </li><li style=";text-align:right;direction:rtl"> سيتم حذف أي مرشح باستخدام حقل من كائن بيانات غير محددة / إزالة. </li><li style=";text-align:right;direction:rtl"> أي حساب وتجميع المرتبطة الحقل ينتمون إلى كائن البيانات غير محددة / إزالة يمكن أن تكون غير صحيحة. </li></ul><br/> هل أنت متأكد أنك تريد إلغاء تحديد هذا الكائن البيانات؟',
-REPORTDESIGNER_MESSAGE_SELECT_CROSS_JOIN : 'ينضم سيتم حذف كل مفتاح عندما &quot;الصليب&quot; هو اختيار نوع الصلة. هل أنت متأكد أنك تريد تغيير نوع الصلة ب &quot;الصليب&quot;؟',
-REPORTDESIGNER_MESSAGE_CHANGE_JOIN_TYPE : 'نوع الصلة بين &quot;{0}&quot; و &quot;{1}&quot; في علاقة جديدة مختلفة عن تلك المحددة في العلاقة القائمة السابقة (ق). هل أنت متأكد أنك تريد تحديث نوع الصلة بين هذه الكائنات البيانات اثنين في كل العلاقة القائمة (ق) إلى واحد جديد',
-REPORTDESIGNER_MESSAGE_SAVE_BEFORE_PREVIEW : 'هل يتم حفظ هذا التقرير العلامة التجارية الجديدة حتى الان. يرجى حفظه قبل معاينته في عارض التقرير.',
-REPORTDESIGNER_MESSAGE_CONFIRM_PREVIEW : 'أنت على وشك معاينة التقرير في عارض التقرير. سيتم فقدان أية تغييرات غير محفوظة. هل تريد الاستمرار؟',
-REPORTDESIGNER_LABEL_DRILL_DOWN_STYLE_LINK_NEW_WINDOW : 'الارتباط (نافذة جديدة)',
+REPORTDESIGNER_MESSAGE_CONFIRM_DELETE_RELATIONSHIP : 'هل تريد بالتأكيد حذف العلاقة؟',
+REPORTDESIGNER_MESSAGE_CONFIRM_DELETE_RELATIONSHIP_WITH_KEYJOIN : 'هل تريد بالتأكيد حذف العلاقة وانضمام جميع مفاتيحها؟',
+REPORTDESIGNER_MESSAGE_DELETE_KEYJOIN : 'هل تريد بالتأكيد حذف المفتاح؟',
+REPORTDESIGNER_ALLOW_NULL_TOOLTIP : 'يؤدي هذا إلى تحويل جميع الارتباطات في الاستعلام الذي تم إنشاؤه إلى ارتباطات اليمين الكاملة.',
+REPORTDESIGNER_MESSAGE_COLUMN_NAME_REQUIRED : 'اسم العمود مطلوب',
+REPORTDESIGNER_MESSAGE_FIELD_CANNOT_BE_FILTER : 'لا يمكن تحديد الحقل كفلتر.',
+REPORTDESIGNER_MESSAGE_CANNOT_DROP_RELATIONSHIP_IN_KEYJOIN_DEST : 'لا يمكن إسقاط العلاقة في وجهة الانضمام الرئيسية.',
+REPORTDESIGNER_MESSAGE_CANNOT_DROP_KEYJOIN_HAVING_CROSS_JOIN : 'لا يمكن إسقاط مفتاح الانضمام في العلاقة التي لديها &quot;الصليب&quot; كنوع الانضمام.',
+REPORTDESIGNER_MESSAGE_VALID_SQL_STATEMENT : 'يمكن إنشاء عبارة سكل صالحة من العلاقات المعطاة.',
+REPORTDESIGNER_MESSAGE_FIELD_NAME_EXISTS : 'اسم الحقل هذا موجود من قبل.',
+REPORTDESIGNER_MESSAGE_FIELD_NAME_EXISTS_IN_REPORT_PART : 'يوجد اسم الاسم المستعار هذا بالفعل في قسم &quot;{0}&quot;.',
+REPORTDESIGNER_MESSAGE_CONFIRM_SAVE_FILTER : 'سيتم فقدان جميع التكوين من المرشح الحالي عندما يتم تغييره إلى حقل مختلف. هل تريد بالتأكيد تحديد حقل جديد للمرشح الحالي؟',
+REPORTDESIGNER_MESSAGE_ADJUST_NUMBER_DATA_OBJECTS : 'تم تكوين حد مصدر البيانات ليكون أقل من العدد الحالي لكائنات البيانات المحددة. يرجى ضبط عدد كائنات البيانات المحددة.',
+REPORTDESIGNER_MESSAGE_DATA_SOURCES_EXCEEDED_LIMITATION : 'يتم تجاوز عدد من مصادر البيانات المحددة الحد',
+REPORTDESIGNER_MESSAGE_FIELDS_IN_REPORT_PART_EXCEEDED_LIMITATION : 'عدد الحقول التي تمت إضافتها في هذا التقرير يتجاوز الحد',
+REPORTDESIGNER_MESSAGE_SIMPLE_UNSELECT : 'أنت تقوم بإلغاء تحديد كائن بيانات. قد تحدث الأخطاء الرئيسية التالية وتحطم التقرير. <br/><ul style=";text-align:right;direction:rtl"><li style=";text-align:right;direction:rtl"> سيتم إلغاء تحديد أي كائن بيانات له علاقة بهذا الكائن وإخفائه في اللوحة الوسطى في شاشة مصدر البيانات، ويتم إزالته من علامات التبويب الأخرى في &quot;مصمم التقارير&quot;. </li><li style=";text-align:right;direction:rtl"> سيتم إزالة أي حقل الذي ينتمي إلى ونزلكتد / إزالة كائن البيانات من جزء التقرير. </li><li style=";text-align:right;direction:rtl"> سيتم حذف أي فلتر باستخدام حقل من كائن بيانات غير محدد / تمت إزالته. </li><li style=";text-align:right;direction:rtl"> يمكن أن يكون أي حساب وتجميع مرتبط بالمجال الذي ينتمي إلى كائن البيانات غير المحدد / الذي تم إزالته غير صحيح. </li></ul></br> هل تريد بالتأكيد إلغاء تحديد كائن البيانات هذا؟',
+REPORTDESIGNER_MESSAGE_ADVANCED_UNSELECT : 'أنت تقوم بإلغاء تحديد كائن بيانات. قد تحدث الأخطاء الرئيسية التالية وتحطم التقرير. <br/><ul style=";text-align:right;direction:rtl"><li style=";text-align:right;direction:rtl"> سيتم حذف أي علاقة مقترنة بكائن البيانات في شاشة مصدر البيانات. </li><li style=";text-align:right;direction:rtl"> يمكن كسر العلاقة بين بعض عناصر البيانات الأخرى وسيتم إزالة كائنات البيانات هذه من علامات التبويب الأخرى في &quot;مصمم التقارير&quot;. </li><li style=";text-align:right;direction:rtl"> سيتم إزالة أي حقل الذي ينتمي إلى ونزلكتد / إزالة كائن البيانات من جزء التقرير. </li><li style=";text-align:right;direction:rtl"> سيتم حذف أي فلتر باستخدام حقل من كائن بيانات غير محدد / تمت إزالته. </li><li style=";text-align:right;direction:rtl"> يمكن أن يكون أي حساب وتجميع مرتبط بالمجال الذي ينتمي إلى كائن البيانات غير المحدد / الذي تم إزالته غير صحيح. </li></ul><br/> هل تريد بالتأكيد إلغاء تحديد كائن البيانات هذا؟',
+REPORTDESIGNER_MESSAGE_SELECT_CROSS_JOIN : 'سيتم حذف جميع ارتباطات المفتاح عند تحديد &quot;كروس&quot; كنوع ارتباط. هل تريد بالتأكيد تغيير نوع الانضمام إلى &quot;كروس&quot;؟',
+REPORTDESIGNER_MESSAGE_CHANGE_JOIN_TYPE : 'نوع الارتباط بين &quot;{0}&quot; و &quot;{1}&quot; في العلاقة الجديدة يختلف عن العلاقة المحددة في العلاقة (العلاقات) القائمة السابقة. هل تريد بالتأكيد تحديث نوع الربط بين كائنين من البيانات في كل العلاقات القائمة (العلاقات) الحالية',
+REPORTDESIGNER_MESSAGE_SAVE_BEFORE_PREVIEW : 'لم تحفظ هذا التقرير الجديد بعد. الرجاء حفظه قبل معاينته في عارض التقارير.',
+REPORTDESIGNER_MESSAGE_CONFIRM_PREVIEW : 'أنت على وشك معاينة التقرير في عارض التقارير. سيتم فقد أية تغييرات لم يتم حفظها. هل تريد الاستمرار؟',
+REPORTDESIGNER_LABEL_DRILL_DOWN_STYLE_LINK_NEW_WINDOW : 'رابط (نافذة جديدة)',
 REPORTDESIGNER_LABEL_DRILL_DOWN_STYLE_EMBEDDED : 'المضمنة',
 REPORTDESIGNER_LABEL_DRILL_DOWN_STYLE_POPUP : 'يظهر فجأة',
-REPORTDESIGNER_MESSAGE_HINT_CATEGORY : '(Enter لإنشاء فئة جديدة)',
-REPORTDESIGNER_MESSAGE_HINT_SUB_CATEGORY : '(أدخل إلى خلق فرص عمل جديدة الفئة الفرعية)',
+REPORTDESIGNER_MESSAGE_HINT_CATEGORY : '(أدخل لإنشاء فئة جديدة)',
+REPORTDESIGNER_MESSAGE_HINT_SUB_CATEGORY : '(أدخل لإنشاء فئة فرعية جديدة)',
 REPORTDESIGNER_LABEL_TABLE_DEF_SIMPLE_MODE_CATEGORY : 'الفئة',
 REPORTDESIGNER_LABEL_TABLE_DEF_SIMPLE_MODE_DATABASE_NAME : 'اسم قاعدة البيانات',
 REPORTDESIGNER_LABEL_TABLE_DEF_SIMPLE_MODE_SCHEMA_NAME : 'اسم المخطط',
@@ -429,50 +438,50 @@ REPORTDESIGNER_LABEL_TABLE_DEF_ADVANCED_MODE_OPERATOR : 'المشغل أو ال�
 REPORTDESIGNER_LABEL_TABLE_DEF_ADVANCED_MODE_CATEGORY : 'الفئة',
 REPORTDESIGNER_LABEL_TABLE_DEF_ADVANCED_MODE_DATA_OBJECT : 'كائن البيانات',
 REPORTDESIGNER_LABEL_TABLE_DEF_ADVANCED_MODE_SELECTED_JOIN_SOURCE_ALIAS : 'كائن البيانات',
-REPORTDESIGNER_LABEL_TABLE_DEF_ADVANCED_MODE_JOIN_FIELD : 'تاريخ الميدان',
+REPORTDESIGNER_LABEL_TABLE_DEF_ADVANCED_MODE_JOIN_FIELD : 'الانضمام إلى الحقل',
 REPORTDESIGNER_LABEL_TABLE_DEF_ADVANCED_MODE_FOREIGN_CATEGORY : 'الفئة',
 REPORTDESIGNER_LABEL_TABLE_DEF_ADVANCED_MODE_FOREIGN_DATA_OBJECT : 'كائن البيانات الخارجية',
 REPORTDESIGNER_LABEL_TABLE_DEF_ADVANCED_MODE_FOREIGN_SOURCE_ALIAS : 'كائن البيانات الخارجية',
 REPORTDESIGNER_LABEL_TABLE_DEF_ADVANCED_MODE_FOREIGN_FIELD_NAME : 'حقل',
 REPORTDESIGNER_LABEL_OPERATOR_TYPE_AND : 'و',
 REPORTDESIGNER_LABEL_OPERATOR_TYPE_OR : 'أو',
-REPORTDESIGNER_LABEL_DEFAULT_REPORT_NAME : 'اسم سبيل المثال تقرير',
-REPORTDESIGNER_LABEL_DEFAULT_TEMPLATE_NAME : 'اسم المثال قالب',
+REPORTDESIGNER_LABEL_DEFAULT_REPORT_NAME : 'مثال اسم التقرير',
+REPORTDESIGNER_LABEL_DEFAULT_TEMPLATE_NAME : 'مثال لاسم النموذج',
 REPORTDESIGNER_LABEL_FIELDS_FILTERS_HEADER : 'منقي',
-REPORTDESIGNER_LABEL_FIELDS_SHOW_FILTERS : 'إظهار الفلاتر ووصف التقرير',
-REPORTDESIGNER_LABEL_FIELDS_ADD_FILTER : 'إضافة تصفية',
+REPORTDESIGNER_LABEL_FIELDS_SHOW_FILTERS : 'عرض الفلاتر ضمن وصف التقرير',
+REPORTDESIGNER_LABEL_FIELDS_ADD_FILTER : 'إضافة فلتر',
 REPORTDESIGNER_LABEL_FIELDS_FREEZE : 'تجمد',
 REPORTDESIGNER_LABEL_FIELDS_FILTER_LOGIC : 'تصفية المنطق',
 REPORTDESIGNER_PLACEHOLDER_FIELDS_FILTER_LOGIC : 'مثال (1 أو 2) و (3 أو 4)',
 REPORTDESIGNER_LABEL_FIELDS_VALIDATE_SYNTAX : 'التحقق من صحة بناء الجملة',
-REPORTDESIGNER_MESSAGE_REPORT_NAME_REQUIRED : 'مطلوب تقرير الاسم.',
-REPORTDESIGNER_MESSAGE_TEMPLATE_NAME_REQUIRED : 'مطلوب اسم القالب.',
+REPORTDESIGNER_MESSAGE_REPORT_NAME_REQUIRED : 'اسم التقرير مطلوب.',
+REPORTDESIGNER_MESSAGE_TEMPLATE_NAME_REQUIRED : 'اسم النموذج مطلوب.',
 REPORTDESIGNER_LABEL_PREVIEW_RECORD_TEN : '10',
 REPORTDESIGNER_LABEL_MENU_DEF_FIELDS : 'مجالات',
 REPORTDESIGNER_LABEL_MENU_DEF_FORMAT : 'شكل',
 REPORTDESIGNER_LABEL_MENU_DEF_SCHEDULE : 'جدول',
 REPORTDESIGNER_LABEL_MENU_DEF_ACCESS : 'التمكن من',
-REPORTDESIGNER_LABEL_DELETE_FILTER : 'سيتم البيانات في التقرير بأكمله إعادة الاستعلام عندما يتم حذف التصفية. هل أنت متأكد أنك تريد حذف فلتر؟',
-REPORTDESIGNER_LABEL_CANNOT_DELETE_PARAM_SP : 'هذا المرشح هو توفير مدخلات لأحد الإجراء المخزن المحدد وأنه لا يمكن حذفها.',
+REPORTDESIGNER_LABEL_DELETE_FILTER : 'سيتم إعادة تسجيل البيانات في التقرير بالكامل عند حذف الفلتر. هل تريد بالتأكيد حذف الفلتر؟',
+REPORTDESIGNER_LABEL_CANNOT_DELETE_PARAM_SP : 'هذا الفلتر هو توفير مدخلات واحدة من الإجراء المخزن المحدد ولا يمكن حذفه.',
 REPORTDESIGNER_LABEL_UPDATE_RESULT : 'تحديث النتيجة',
 REPORTDESIGNER_LABEL_PREVIEW_RECORDS : 'معاينة السجلات',
-REPORTDESIGNER_LABEL_ADD_RELATIONSHIP : 'إضافة العلاقة',
+REPORTDESIGNER_LABEL_ADD_RELATIONSHIP : 'إضافة علاقة',
 REPORTDESIGNER_LABEL_DISTINCT : 'خامد',
-REPORTDESIGNER_LABEL_ALLOW_NULLS : 'السماح بلا قيم',
-REPORTDESIGNER_LABEL_ADD_KEY_JOIN : 'إضافة مفتاح تاريخ',
-REPORTDESIGNER_TOOLTIP_COPY_KEY_JOIN : 'نسخة مفتاح تاريخ',
-REPORTDESIGNER_TOOLTIP_COPY_RELATIONSHIP : 'نسخة العلاقة',
-REPORTDESIGNER_TOOLTIP_DELETE_KEY_JOIN : 'حذف مفتاح تاريخ',
+REPORTDESIGNER_LABEL_ALLOW_NULLS : 'السماح بالإلغاءات',
+REPORTDESIGNER_LABEL_ADD_KEY_JOIN : 'إضافة مفتاح الانضمام',
+REPORTDESIGNER_TOOLTIP_COPY_KEY_JOIN : 'مفتاح النسخ انضم',
+REPORTDESIGNER_TOOLTIP_COPY_RELATIONSHIP : 'نسخ العلاقة',
+REPORTDESIGNER_TOOLTIP_DELETE_KEY_JOIN : 'حذف مفتاح الانضمام',
 REPORTDESIGNER_TOOLTIP_DELETE_RELATIONSHIP : 'حذف العلاقة',
-REPORTDESIGNER_TOOLTIP_REPORT_FOOTER : 'تقرير تذييل',
+REPORTDESIGNER_TOOLTIP_REPORT_FOOTER : 'تقرير تذييل الصفحة',
 REPORTDESIGNER_TOOLTIP_REPORT_HEADER : 'رأس التقرير',
-REPORTDESIGNER_MESSAGE_ITEM_NAME_REQUIRED : 'مطلوب اسم العنصر.',
+REPORTDESIGNER_MESSAGE_ITEM_NAME_REQUIRED : 'اسم العنصر مطلوب.',
 REPORTDESIGNER_TOOLTIP_REPORT_TITLE_AND_DESCRIPTION : 'عنوان التقرير',
-REPORTDESIGNER_LABEL_REPORT_PART_PROPERTIES : 'خصائص جزء تقرير',
-REPORTDESIGNER_LABEL_FORMAT_PROPERTIES : 'خصائص تنسيق',
-REPORTDESIGNER_PLACEHOLDER_PASTE_JAVASCRIPT_CODE : 'لصق كود جافا سكريبت الخاصة بك هنا ...',
+REPORTDESIGNER_LABEL_REPORT_PART_PROPERTIES : 'تقرير خصائص الجزء',
+REPORTDESIGNER_LABEL_FORMAT_PROPERTIES : 'خصائص التنسيق',
+REPORTDESIGNER_PLACEHOLDER_PASTE_JAVASCRIPT_CODE : 'الصق شفرة جافا سكريبت هنا ...',
 REPORTDESIGNER_MESSAGE_DO_NOT_SUPPORT : 'لا تدعم',
-REPORTDESIGNER_LABEL_VIEW_SETTING_AS : 'هل ترغب في عرض هذا الإعداد على النحو التالي:',
+REPORTDESIGNER_LABEL_VIEW_SETTING_AS : 'تريد عرض هذا الإعداد على النحو التالي:',
 REPORTDESIGNER_LABEL_ENTIRE_CHART : 'مخطط كامل',
 REPORTDESIGNER_LABEL_PLOT_AREA : 'مساحة الأرض',
 REPORTDESIGNER_TOOLTIP_APPLIED_TO : 'تنطبق على',
@@ -486,131 +495,138 @@ REPORTDESIGNER_LABEL_LAYOUT : 'نسق',
 REPORTDESIGNER_LABEL_BORDER : 'الحدود',
 REPORTDESIGNER_LABEL_INTERVALS : 'فترات',
 REPORTDESIGNER_LABEL_STARTING_POINT : 'نقطة البداية',
-REPORTDESIGNER_LABEL_THRESHOLD_LABEL_SETTINGS : 'إعدادات عتبة التسمية',
-REPORTDESIGNER_LABEL_COPY_SETTING : 'وضع نسخة',
-REPORTDESIGNER_LABEL_DELETE_SETTING : 'حذف وضع',
+REPORTDESIGNER_LABEL_THRESHOLD_LABEL_SETTINGS : 'إعدادات تصنيف العتبة',
+REPORTDESIGNER_LABEL_COPY_SETTING : 'نسخ الإعداد',
+REPORTDESIGNER_LABEL_DELETE_SETTING : 'حذف الإعداد',
 REPORTDESIGNER_LABEL_ENABLED : 'تمكين',
 REPORTDESIGNER_LABEL_TO_CREATE_REPORT_PART : 'لإنشاء جزء تقرير',
-REPORTDESIGNER_LABEL_SELECT_A_TYPE : 'اختر نوع:',
-REPORTDESIGNER_LABEL_REPORT_BODY : 'تقرير الهيئة',
+REPORTDESIGNER_LABEL_SELECT_A_TYPE : 'حدد نوع:',
+REPORTDESIGNER_LABEL_REPORT_BODY : 'تقرير الجسم',
 REPORTDESIGNER_MESSAGE_MUST_BE_FRONT_SIDE_TO_RUN : 'يجب أن يكون الجانب الأمامي لتشغيل هذا',
 REPORTDESIGNER_LABEL_NUMBER_OF_RECORDS : 'عدد السجلات',
-REPORTDESIGNER_LABEL_EDIT_REPORT_PART_NAME : 'اسم تحرير تقرير الجزء',
+REPORTDESIGNER_LABEL_EDIT_REPORT_PART_NAME : 'تحرير تقرير اسم الجزء',
 REPORTDESIGNER_LABEL_SET_NEW_REPORT_PART_NAME : 'تعيين اسم تقرير جديد',
-REPORTDESIGNER_LABEL_REVERT_REPORT_PART_NAME : 'تعود اسم التقرير',
-REPORTDESIGNER_LABEL_DRAG_FIELD : 'السحب أو',
+REPORTDESIGNER_LABEL_REVERT_REPORT_PART_NAME : 'عودة اسم التقرير',
+REPORTDESIGNER_LABEL_DRAG_FIELD : 'اسحب أو',
 REPORTDESIGNER_LABEL_ADD_NEW_FIELD : 'إضافة حقل',
-REPORTDESIGNER_LABEL_FIELD_SELECTION : 'اختيار الميدان',
+REPORTDESIGNER_LABEL_FIELD_SELECTION : 'اختيار الحقل',
 REPORTDESIGNER_LABEL_METRICS : 'المقاييس',
-REPORTDESIGNER_LABEL_GRANDTOTAL_FOR : '{0} في {1}',
-REPORTDESIGNER_LABEL_OPEN_ACTIONS : 'تطبيقات مفتوحة',
-REPORTDESIGNER_LABEL_OPEN_SUBREPORT : 'فتح فرعي',
+REPORTDESIGNER_LABEL_GRANDTOTAL_FOR : '{0} ل {1}',
+REPORTDESIGNER_LABEL_OPEN_ACTIONS : 'فتح الإجراءات',
+REPORTDESIGNER_LABEL_OPEN_SUBREPORT : 'فتح تقرير فرعي',
 REPORTDESIGNER_LABEL_OPEN_LINK : 'افتح الرابط',
 REPORTDESIGNER_LABEL_PERFORM_ACTION : 'تنفيذ الإجراء',
-REPORTDESIGNER_LABEL_TITLE_SETTINGS : 'إعدادات عنوان',
-REPORTDESIGNER_LABEL_DESCRIPTION_SETTINGS : 'وصف إعدادات',
+REPORTDESIGNER_LABEL_TITLE_SETTINGS : 'إعدادات العنوان',
+REPORTDESIGNER_LABEL_DESCRIPTION_SETTINGS : 'إعدادات الوصف',
 REPORTDESIGNER_LABEL_LABELS : 'تسميات',
-REPORTDESIGNER_LABEL_X_AXIS_NAME : '{0} (X-محور)',
-REPORTDESIGNER_LABEL_X_AXIS_LABELS : 'تسميات (X-محور)',
-REPORTDESIGNER_LABEL_Y_AXIS_VALUES : 'القيم (Y-محور)',
-REPORTDESIGNER_LABEL_TOTAL_LABEL : 'مجموع تسمية',
+REPORTDESIGNER_LABEL_X_AXIS_NAME : '{0} (المحور السيني)',
+REPORTDESIGNER_LABEL_X_AXIS_LABELS : 'التصنيفات (المحور السيني)',
+REPORTDESIGNER_LABEL_Y_AXIS_VALUES : 'القيم (المحور الصادي)',
+REPORTDESIGNER_LABEL_TOTAL_LABEL : 'إجمالي التسمية',
 REPORTDESIGNER_LABEL_SEPARATORS : 'فواصل',
-REPORTDESIGNER_PLACEHOLDER_CHART_GOES_HERE : '\ <Chart Goes here\\>',
-REPORTDESIGNER_PLACEHOLDER_GAUGE_GOES_HERE : '\ <Gauge Goes here\\>',
+REPORTDESIGNER_PLACEHOLDER_CHART_GOES_HERE : '<chart goes here>',
+REPORTDESIGNER_PLACEHOLDER_GAUGE_GOES_HERE : '<gauge goes here>',
 REPORTDESIGNER_PLACEHOLDER_ERROR : '<h1 style=";text-align:right;direction:rtl"> خطأ </h1>',
-REPORTDESIGNER_LABEL_SHOW_TOTAL : 'عرض إجمالي',
+REPORTDESIGNER_LABEL_SHOW_TOTAL : 'إظهار المجموع',
 REPORTDESIGNER_LABEL_SETTINGS : 'إعدادات',
 REPORTDESIGNER_LABEL_CHART_LINE : 'خط',
 REPORTDESIGNER_LABEL_CHART_AREA : 'منطقة',
-REPORTDESIGNER_LABEL_CHART_SETTINGS : 'إعدادات الرسم البياني',
-REPORTDESIGNER_LABEL_REPORT_PART_USED : 'تقرير الجزء (ق) مستعمل',
-REPORTDESIGNER_LABEL_EMBEDDED_REPORT_SETTINGS : 'إعدادات التقرير جزءا لا يتجزأ من',
-REPORTDESIGNER_PLACEHOLDER_DUMMY_REPORT_PART_FORM : 'نموذج جزء تقرير بيانات وهمية',
-REPORTDESIGNER_LABEL_FIND_AND_REPLACE : 'بحث واستبدال',
+REPORTDESIGNER_LABEL_CHART_SETTINGS : 'إعدادات المخطط',
+REPORTDESIGNER_LABEL_REPORT_PART_USED : 'تقرير جزء (ق) المستخدمة',
+REPORTDESIGNER_LABEL_EMBEDDED_REPORT_SETTINGS : 'إعدادات التقرير المضمنة',
+REPORTDESIGNER_PLACEHOLDER_DUMMY_REPORT_PART_FORM : 'وود داتا ريبورت بارت فورم',
+REPORTDESIGNER_LABEL_FIND_AND_REPLACE : 'البحث والاستبدال',
 REPORTDESIGNER_LABEL_FIND : 'تجد',
 REPORTDESIGNER_LABEL_REPLACE : 'يحل محل',
 REPORTDESIGNER_LABEL_REPLACE_WITH : 'استبدل ب',
 REPORTDESIGNER_LABEL_SPELL_CHECKER : 'مدقق املائي',
 REPORTDESIGNER_LABEL_SUBTOTAL : 'حاصل الجمع',
 REPORTDESIGNER_LABEL_GRAND_TOTAL : 'المبلغ الإجمالي',
-REPORTDESIGNER_LABEL_PRIMARY_KPI : 'KPI الأساسي',
-REPORTDESIGNER_LABEL_UNIT_LABEL : 'تسمية وحدة',
-REPORTDESIGNER_LABEL_SUPPLEMENTARY_KPI : 'KPI التكميلي',
+REPORTDESIGNER_LABEL_PRIMARY_KPI : 'كبي الأساسي',
+REPORTDESIGNER_LABEL_UNIT_LABEL : 'وحدة التسمية',
+REPORTDESIGNER_LABEL_SUPPLEMENTARY_KPI : 'كبي التكميلي',
 REPORTDESIGNER_LABEL_THRESHOLD_SETTINGS : 'إعدادات العتبة',
 REPORTDESIGNER_LABEL_ROWS : 'الصفوف',
 REPORTDESIGNER_LABEL_COLUMNS : 'أعمدة',
 REPORTDESIGNER_LABEL_GROUPS : 'المجموعات',
 REPORTDESIGNER_LABEL_VALUES : 'القيم',
-REPORTDESIGNER_LABEL_ADD_SIDE_TOTAL : 'إضافة الجانبية إجمالي',
-REPORTDESIGNER_LABEL_USE_EXPANDERS : 'استخدام موسعات',
-REPORTDESIGNER_LABEL_TOTAL_FOR : 'إجمالي ل{0}',
+REPORTDESIGNER_LABEL_ADD_SIDE_TOTAL : 'إضافة الجانب الإجمالي',
+REPORTDESIGNER_LABEL_USE_EXPANDERS : 'استخدام الموسعين',
+REPORTDESIGNER_LABEL_TOTAL_FOR : 'المجموع ل {0}',
 REPORTDESIGNER_MESSAGE_NO_RESULT_FOUND : 'لم يتم العثور على نتائج.',
-REPORTDESIGNER_LABEL_POINT_OPTIONS : 'خيارات نقطة',
+REPORTDESIGNER_LABEL_POINT_OPTIONS : 'خيارات النقطة',
 REPORTDESIGNER_LABEL_ADD_ITEM : 'اضافة عنصر',
 REPORTDESIGNER_LABEL_REPORT_NAME : 'تقرير اسم',
 REPORTDESIGNER_LABEL_TEMPLATE_NAME : 'اسم القالب',
 REPORTDESIGNER_LABEL_SUB_CATEGORY : 'الفئة الفرعية',
-REPORTDESIGNER_LABEL_ADD_REPORT_PART : 'إضافة تقرير الجزء',
-REPORTDESIGNER_LABEL_DATA_AUTO_REFRESHED : 'البيانات منتعشة السيارات',
+REPORTDESIGNER_LABEL_ADD_REPORT_PART : 'إضافة جزء التقرير',
+REPORTDESIGNER_LABEL_DATA_AUTO_REFRESHED : 'تم تحديث بيانات السيارات',
 REPORTDESIGNER_LABEL_UPDATE_INTERVAL : 'الفاصل الزمني للتحديث',
-REPORTDESIGNER_LABEL_SPECIFY_DESTINATION : 'تحديد معلومات جهة إلى {0} ل',
-REPORTDESIGNER_MESSAGE_CHANGE_SCHEMA_NON_DYNAMIC : 'مخطط عاد المقابلة لقيمة التصفية المحدد يختلف عن واحد في نموذج البيانات. الرجاء الاتصال بمسؤول النظام لإعادة تعريف الإعداد الصحيح الإجراء المخزن.',
-REPORTDESIGNER_MESSAGE_CHANGE_SCHEMA_DYNAMIC : 'مخطط عاد المقابلة لقيمة التصفية المحدد يختلف عن واحد في الشاشة مصدر البيانات. وبالتالي، سيتم التراجع في قيمة التصفية المحدد سابقا للمرشح.',
-REPORTDESIGNER_LOGGING_VIEWER_MODE : 'احصل على تقرير البيانات الجزء المحتوى في عارض تقرير',
-REPORTDESIGNER_LOGGING_MODE : 'احصل على تقرير البيانات الجزء المحتوى في تقرير مصمم',
-REPORTDESIGNER_LOGGING_EMBEDDED_REPORT_PART : 'الحصول على بيانات عن تقرير الجزء الحاويات (المضمنة)',
+REPORTDESIGNER_LABEL_SPECIFY_DESTINATION : 'حدد معلومات الوجهة إلى {0}',
+REPORTDESIGNER_MESSAGE_CHANGE_SCHEMA_NON_DYNAMIC : 'المخطط الذي تم إرجاعه إلى قيمة الفلتر المحدد يختلف عن المخطط الموجود في نموذج البيانات. يرجى الاتصال بمسؤول النظام لإعادة تحديد الإعداد الصحيح للإجراء المخزن.',
+REPORTDESIGNER_MESSAGE_CHANGE_SCHEMA_DYNAMIC : 'المخطط الذي تم إرجاعه إلى قيمة الفلتر المحدد يختلف عن المخطط الموجود في شاشة مصدر البيانات. وبالتالي، سيتم إعادة قيمة الفلتر المحدد سابقا للمرشح.',
+REPORTDESIGNER_LOGGING_VIEWER_MODE : 'الحصول على تقرير البيانات محتوى الجزء في عارض التقرير',
+REPORTDESIGNER_LOGGING_MODE : 'الحصول على تقرير البيانات جزء المحتوى في مصمم تقرير',
+REPORTDESIGNER_LOGGING_EMBEDDED_REPORT_PART : 'الحصول على بيانات لحاوية جزء التقرير (جزءا لا يتجزأ)',
 REPORTDESIGNER_LABEL_REPORT_BODY_SNAP_MODE_CHECKBOX : 'المفاجئة إلى الشبكة',
+CROSSFILTERING_OPTION_LABEL : 'تصفية الصليب',
+CROSSFILTERING_OPTION_TOOLTIP : 'إعدادات التصفية عبر',
+CROSSFILTERING_PREVIOUS_TOOLTIP : 'مرر إلى اليسار',
+CROSSFILTERING_NEXT_TOOLTIP : 'مرر إلى اليمين',
+CROSSFILTERING_REMOVE_TOOLTIP : 'أزل هذا الفلتر المتقاطع',
+CROSSFILTERING_REMOVE_ALL_TOOLTIP : 'أزل جميع الفلاتر المتقاطعة',
+CROSSFILTERING_REMOVE_ALL_CONFIRM : 'هل تريد بالتأكيد إزالة جميع الفلاتر المتقاطعة؟',
 SCHEMA_ZOOM : 'تكبير',
 CONNECTION_LABEL_ADD_CONNECTION : 'إضافة اتصال',
-CONNECTION_DELETE_MESSAGE : 'سيتم إزالة جميع عناصر البيانات المتوفرة في نموذج البيانات الحالية المرتبطة بهذا الصدد. هل أنت متأكد أنك تريد حذف هذا الصدد؟',
-CONNECTION_INVISIBLE_MESSAGE : 'وسوف تتاح لعناصر البيانات الحالية المرتبطة بهذا الصدد واضحة في نموذج البيانات. هل أنت متأكد أنك تريد أن تجعل جميع البيانات المرتبطة مرئية؟',
-CONNECTION_VISIBLE_MESSAGE : 'وسوف تتاح لعناصر البيانات الحالية المرتبطة بهذا الصدد مخفية في نموذج البيانات. هل أنت متأكد أنك تريد أن تجعل جميع البيانات المرتبطة خفية؟',
-CONNECTION_DELETED_DATASOURCE_MESSAGE : 'هذا التقرير يحتوي على مصادر البيانات التي يتم حذفها من المسؤول. الرجاء إعادة تصميم ذلك.',
-CONNECTION_OVERRIDE_MESSAGE : 'سيتم إزالة جميع عناصر البيانات المتوفرة في نموذج البيانات الحالية المرتبطة بهذا الصدد. هل أنت متأكد أنك تريد تجاوز ذلك؟',
-CONNECTION_MISMATCH_CONNECIONSTRING_DATASOURCE : 'سلسلة الاتصال الذي أدخلته لا تتطابق مع قائمة من مصدر البيانات. يرجى إعادة الاتصال للحصول على التحديث لأول مرة.',
-CONNECTION_NEW_CONNECTIONSTRING_DIFFERENT_SCHEMA : 'لقد غيرت الاتصال. سيتم تحميل نموذج بيانات جديد. هل أنت متأكد أنك تريد تغيير الاتصال؟',
-CONNECTION_GUIDECONTENT : 'يمكنك تحديد العنصر أو مجموعة للتنقل بين المتاحة والمرئية مصادر البيانات.',
-CONNECTION_REVERSE_CONNECTION_STRING : 'سلسلة اتصال غير صالحة. وسوف يستمر النظام لاستخدام سلسلة اتصال صالحة السابقة.',
+CONNECTION_DELETE_MESSAGE : 'ستتم إزالة جميع عناصر البيانات المتوفرة في نموذج البيانات الحالي المرتبط بهذا الاتصال. هل تريد بالتأكيد حذف هذا الاتصال؟',
+CONNECTION_INVISIBLE_MESSAGE : 'وستكون عناصر البيانات الحالية المرتبطة بهذا الاتصال مرئية في نموذج البيانات. هل تريد بالتأكيد جعل جميع البيانات مرئية؟',
+CONNECTION_VISIBLE_MESSAGE : 'سيتم جعل عناصر البيانات الحالية المرتبطة بهذا الاتصال مخفية في نموذج البيانات. هل تريد بالتأكيد جعل جميع البيانات المرتبطة مخفية؟',
+CONNECTION_DELETED_DATASOURCE_MESSAGE : 'يحتوي هذا التقرير على مصادر البيانات التي يتم حذفها من المشرف. يرجى إعادة تصميمه.',
+CONNECTION_OVERRIDE_MESSAGE : 'ستتم إزالة جميع عناصر البيانات المتوفرة في نموذج البيانات الحالي المرتبط بهذا الاتصال. هل تريد بالتأكيد تجاوزه؟',
+CONNECTION_MISMATCH_CONNECIONSTRING_DATASOURCE : 'سلسلة الاتصال التي أدخلتها لا تتطابق مع قائمة مصدر البيانات. يرجى إعادة الاتصال للحصول على التحديث أولا.',
+CONNECTION_NEW_CONNECTIONSTRING_DIFFERENT_SCHEMA : 'لقد غيرت الاتصال. سيتم تحميل نموذج البيانات الجديد. هل تريد بالتأكيد تغيير الاتصال؟',
+CONNECTION_GUIDECONTENT : 'يمكنك تحديد العنصر أو المجموعة للتنقل بين مصادر البيانات المتوفرة والمرئية.',
+CONNECTION_REVERSE_CONNECTION_STRING : 'سلسلة الاتصال غير صالحة. سيستمر النظام في استخدام سلسلة الاتصال الصالحة السابقة.',
 CONNECTION_TYPE_CONNECT : 'الاتصال',
 CONNECTION_TYPE_RECONNECT : 'إعادة الاتصال',
 CONNECTION_REQUIRE_CONNECTION_STRING : 'مطلوب سلسلة الاتصال.',
-CONNECTION_REQUIRE_DATABASE_NAME : 'مطلوب اسم قاعدة البيانات.',
+CONNECTION_REQUIRE_DATABASE_NAME : 'اسم قاعدة البيانات مطلوب.',
 CONNECTION_MAX_LENGTH_DATABASE_NAME : 'الحد الأقصى لطول اسم قاعدة البيانات هو 150 حرفا.',
-CONNECTION_GUIDE_CONTENT : 'يمكنك تحديد العنصر أو مجموعة للتنقل بين المتوفر والمرئية مصدر البيانات.',
+CONNECTION_GUIDE_CONTENT : 'يمكنك تحديد العنصر أو المجموعة للتحرك بين مصدر البيانات المتاح والمرئي.',
 CONNECTION_NEW_DATA_SOURCE : 'مصدر بيانات جديد.',
-CONNECTION_DELETED_DATA_SOURCE : 'مصدر البيانات المحذوفة.',
-CONNECTION_DATA_SOURCE_CHANGES : 'التغييرات مصدر البيانات.',
+CONNECTION_DELETED_DATA_SOURCE : 'تم حذف مصدر البيانات.',
+CONNECTION_DATA_SOURCE_CHANGES : 'تغييرات مصدر البيانات.',
 CONNECTION_UNKNOWN_STATUS : 'غير معروف',
 CONNECTION_VALID_STATUS : 'صالح',
 CONNECTION_INVALID_STATUS : 'غير صالحة',
-CONNECTION_DETECT_CHANGE_ICON_TOOLTIP : 'التغييرات مصدر البيانات',
+CONNECTION_DETECT_CHANGE_ICON_TOOLTIP : 'تغييرات مصدر البيانات',
 CONNECTION_LABEL_DATABASE_NAME : 'اسم قاعدة البيانات',
-CONNECTION_LABEL_DATA_SERVER_TYPE : 'نوع الخادم البيانات',
+CONNECTION_LABEL_DATA_SERVER_TYPE : 'نوع خادم البيانات',
 CONNECTION_LABEL_CONNECTION_STRING : 'سلسلة الاتصال',
-CONNECTION_LABEL_CONNECTION_BUILDER : 'باني اتصال',
+CONNECTION_LABEL_CONNECTION_BUILDER : 'كونكتيون بيلدر',
 CONNECTION_AVAILABLE_DATA_SOURCE : 'مصادر البيانات المتاحة',
 CONNECTION_VISIBLE_DATA_SOURCE : 'مصادر البيانات المرئية',
-CONNECTION_STRING_BUILDER_REQUIRED_SERVER_NAME : 'مطلوب اسم الخادم.',
-CONNECTION_STRING_BUILDER_REQUIRED_DATABASE : 'مطلوب قاعدة البيانات.',
+CONNECTION_STRING_BUILDER_REQUIRED_SERVER_NAME : 'اسم الخادم مطلوب.',
+CONNECTION_STRING_BUILDER_REQUIRED_DATABASE : 'قاعدة البيانات مطلوبة.',
 CONNECTION_STRING_BUILDER_STANDARD_AUTHENTICATION : 'اساسي',
 CONNECTION_STRING_BUILDER_TRUSTED_AUTHENTICATION : 'موثوق به',
 CONNECTION_STRING_BUILDER_TEXT_AUTHENTICATION : 'المصادقة',
 CONNECTION_STRING_BUILDER_LABEL_SERVER_NAME : 'اسم الخادم',
 CONNECTION_STRING_BUILDER_LABEL_DATABASE : 'قاعدة البيانات',
 CONNECTION_STRING_BUILDER_LABEL_DATABASE_CONNECTION : 'اتصال قاعدة البيانات',
-QUERY_SOURCE_TYPE_CONFIG_MESSAGE_REQUIRE_PARAMETER : 'الإجراءات المخزنة تتطلب NOT NULL للمعلمة الإدخال. النظام لا يمكن الحصول على المخطط في هذا الوقت.',
-QUERY_SOURCE_TYPE_CONFIG_MESSAGE_CHANGE_PROCEDURE_TYPE : 'سيتم تغيير الإجراء المخزن إلى حيوية. مخطط للالإجراءات المخزنة ديناميكية لا يمكن تحديدها. سيتم إزالة المخطط الحالي، هل أنت متأكد أنك تريد تغيير نوع الإجراء المخزن؟',
-QUERY_SOURCE_TYPE_CONFIG_MESSAGE_CHANGE_FIELD : 'هناك حقل الذي تم تغيير مرئية / خيارها ترشيح وأي جزء تقرير المرتبطة تتأثر. هل أنت متأكد أنك تريد أن تجعل هذا التغيير؟',
+QUERY_SOURCE_TYPE_CONFIG_MESSAGE_REQUIRE_PARAMETER : 'تتطلب الإجراءات المخزنة نوت نول لمعلمة الإدخال. يتعذر على النظام الحصول على المخطط في الوقت الحالي.',
+QUERY_SOURCE_TYPE_CONFIG_MESSAGE_CHANGE_PROCEDURE_TYPE : 'سيتم تغيير الإجراء المخزن إلى دينامية. لا يمكن تحديد مخطط الإجراءات المخزنة الديناميكية. سيتم إزالة المخطط الحالي، هل أنت متأكد من أنك تريد تغيير نوع الإجراء المخزن؟',
+QUERY_SOURCE_TYPE_CONFIG_MESSAGE_CHANGE_FIELD : 'هناك حقل تم تغيير خياره المرئي / القابل للتصفية وأي جزء من التقارير المرتبطة به يتأثر. هل تريد بالتأكيد إجراء هذا التغيير؟',
 QUERY_SOURCE_TYPE_CONFIG_LABEL_CRITERIALIST_DATABASE_NAME : 'اسم قاعدة البيانات',
-QUERY_SOURCE_TYPE_CONFIG_LABEL_CRITERIALIST_FUNCTION_NAME : 'اسم وظيفة',
+QUERY_SOURCE_TYPE_CONFIG_LABEL_CRITERIALIST_FUNCTION_NAME : 'اسم الوظيفة',
 QUERY_SOURCE_TYPE_CONFIG_LABEL_DEFAULT_CRITERIA_LIST_CATEGORY : 'الفئة',
 QUERY_SOURCE_TYPE_CONFIG_LABEL_DEFAULT_CRITERIA_LIST_DATABASE_NAME : 'اسم قاعدة البيانات',
 QUERY_SOURCE_TYPE_CONFIG_LABEL_DEFAULT_CRITERIA_LIST_DATA_SOURCE_NAME : 'اسم مصدر البيانات',
-QUERY_SOURCE_TYPE_CONFIG_LABEL_DEFAULT_CRITERIA_LIST_DATA_SOURCE_ALIAS : 'المصدر الاسم المستعار البيانات',
+QUERY_SOURCE_TYPE_CONFIG_LABEL_DEFAULT_CRITERIA_LIST_DATA_SOURCE_ALIAS : 'مصدر بيانات الاسم المستعار',
 QUERY_SOURCE_TYPE_CONFIG_LABEL_DEFAULT_CRITERIA_LIST_COLUMN_NAME : 'اسم العمود',
-QUERY_SOURCE_TYPE_CONFIG_LABEL_DEFAULT_CRITERIA_LIST_COLUMN_ALIAS : 'العمود الاسم المستعار',
-QUERY_SOURCE_TYPE_CONFIG_LABEL_CATEGORY_COLUMN_ENTER_TO_CREATE_COLUMN : '(Enter لإنشاء فئة جديدة)',
-QUERY_SOURCE_TYPE_CONFIG_LABEL_FILTER_VALUE_ENTER_TO_CREATE_NEW_FILTER_VALUE : '(أدخل لخلق قيمة جديدة فلتر)',
+QUERY_SOURCE_TYPE_CONFIG_LABEL_DEFAULT_CRITERIA_LIST_COLUMN_ALIAS : 'الاسم المستعار للعمود',
+QUERY_SOURCE_TYPE_CONFIG_LABEL_CATEGORY_COLUMN_ENTER_TO_CREATE_COLUMN : '(أدخل لإنشاء فئة جديدة)',
+QUERY_SOURCE_TYPE_CONFIG_LABEL_FILTER_VALUE_ENTER_TO_CREATE_NEW_FILTER_VALUE : '(أدخل لإنشاء قيمة فلتر جديدة)',
 DATA_MODEL_CONSTANTS_TITLE_MENU_TABLE : 'الجداول',
 DATA_MODEL_CONSTANTS_TITLE_MENU_VIEW : 'الآراء',
 DATA_MODEL_CONSTANTS_TITLE_MENU_STORED_PROCEDURES : 'الإجراءات المخزنة',
@@ -618,37 +634,37 @@ DATA_MODEL_CONSTANTS_TITLE_MENU_FUNCTIONS : 'المهام',
 DATA_MODEL_CONSTANTS_TITLE_MENU_RELATIONSHIP : 'العلاقات',
 DATA_MODEL_CONSTANTS_TITLE_MENU_SCHEMA : 'مخطط',
 DATA_MODEL_CONSTANTS_NEW_DATA_SOURCE : 'مصدر بيانات جديد.',
-DATA_MODEL_CONSTANTS_DATA_SOURCE_CHANGES : 'التغييرات مصدر البيانات.',
-DATA_MODEL_CONSTANTS_DELETED_DATA_SOURCE : 'مصدر البيانات المحذوفة.',
+DATA_MODEL_CONSTANTS_DATA_SOURCE_CHANGES : 'تغييرات مصدر البيانات.',
+DATA_MODEL_CONSTANTS_DELETED_DATA_SOURCE : 'تم حذف مصدر البيانات.',
 DATA_MODEL_CONSTANTS_NEW_FIELD : 'حقل جديد.',
-DATA_MODEL_CONSTANTS_DATA_TYPE_CHANGES : 'نوع البيانات التغييرات.',
-DATA_MODEL_CONSTANTS_DELETED_FIELD : 'الحقل حذفه.',
+DATA_MODEL_CONSTANTS_DATA_TYPE_CHANGES : 'تغييرات نوع البيانات.',
+DATA_MODEL_CONSTANTS_DELETED_FIELD : 'تم حذف الحقل.',
 DATA_MODEL_CONSTANTS_CHANGED_INDICATOR : '2',
 DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_CATEGORY : 'الفئة',
 DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_DATABASE_NAME : 'اسم قاعدة البيانات',
-DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_SOURCE_NAME : 'قاعدة بيانات اسم المصدر',
-DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_FUNCTION_NAME : 'اسم وظيفة',
-DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_SOURCE_ALIAS : 'قاعدة بيانات المصدر اسم مستعار',
-DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_RETURNED_VALUE : 'القيمة عاد',
-DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_INPUT_PARAMS : 'إدخال بارامس',
-DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_FIELD_LEVEL : 'مستوى الميدان',
+DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_SOURCE_NAME : 'اسم مصدر قاعدة البيانات',
+DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_FUNCTION_NAME : 'اسم الوظيفة',
+DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_SOURCE_ALIAS : 'مصدر قاعدة بيانات الاسم المستعار',
+DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_RETURNED_VALUE : 'القيمة التي تم إرجاعها',
+DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_INPUT_PARAMS : 'مدخلات بارامز',
+DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_FIELD_LEVEL : 'المستوى الميداني',
 DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_EXPRESSION_LEVEL : 'مستوى التعبير',
 DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_DYNAMIC : 'ديناميكي',
 DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_DETAIL_COLUMN_NAME : 'اسم العمود',
-DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_DETAIL_COLUMN_ALIAS : 'العمود الاسم المستعار',
-DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_DETAIL_FILTER_VALUE : 'القيمة فلتر',
+DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_DETAIL_COLUMN_ALIAS : 'الاسم المستعار للعمود',
+DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_DETAIL_FILTER_VALUE : 'تصفية القيمة',
 DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_DETAIL_FILTERABLE : 'ترشيح',
-DATA_MODEL_CONSTANTS_RELATIONSHIP_JOIN_FIELD : 'تاريخ الميدان',
+DATA_MODEL_CONSTANTS_RELATIONSHIP_JOIN_FIELD : 'الانضمام إلى الحقل',
 DATA_MODEL_CONSTANTS_RELATIONSHIP_FIELD : 'حقل',
 CALCULATED_FIELD_CONSTANTS_FUNCTION_NAME_NONE : '[لا]',
 CALCULATED_FIELD_CONSTANTS_FUNCTION_NAME_EXPRESSION : '[التعبير]',
 CALCULATED_FIELD_CONSTANTS_FUNCTION_NAME_AVERAGE : 'معدل',
 CALCULATED_FIELD_CONSTANTS_FUNCTION_NAME_COUNT : 'عد',
-CALCULATED_FIELD_CONSTANTS_FUNCTION_NAME_COUNT_DISTINCT : 'عدد متميز',
+CALCULATED_FIELD_CONSTANTS_FUNCTION_NAME_COUNT_DISTINCT : 'عد متميزة',
 CALCULATED_FIELD_CONSTANTS_FUNCTION_NAME_MAXIMUM : 'أقصى',
 CALCULATED_FIELD_CONSTANTS_FUNCTION_NAME_MINIMUM : 'الحد الأدنى',
 CALCULATED_FIELD_CONSTANTS_FUNCTION_NAME_SUM : 'مجموع',
-CALCULATED_FIELD_CONSTANTS_FUNCTION_NAME_SUM_DISTINCT : 'خلاصة القول متميزة',
+CALCULATED_FIELD_CONSTANTS_FUNCTION_NAME_SUM_DISTINCT : 'مجموع متميزة',
 CALCULATED_FIELD_CONSTANTS_LABEL_DATA_TYPES_NUMERIC : 'رقمية',
 CALCULATED_FIELD_CONSTANTS_LABEL_DATA_TYPES_DATETIME : 'التاريخ والوقت',
 CALCULATED_FIELD_CONSTANTS_LABEL_DATA_TYPES_BOOLEAN : 'منطقية',
@@ -656,157 +672,165 @@ CALCULATED_FIELD_CONSTANTS_LABEL_DATA_TYPES_MONEY : 'مال',
 CALCULATED_FIELD_CONSTANTS_LABEL_DATA_TYPES_LOB : 'رفع الكرة',
 CALCULATED_FIELD_CONSTANTS_LABEL_DATA_TYPES_TEXT : 'نص',
 CALCULATED_FIELD_CONSTANTS_LABEL_DATA_TYPES_IMAGE : 'صورة',
-CALCULATED_FIELD_CONSTANTS_FUNCTION_TYPE_ADD_TITLE : 'إضافة حقل محتسب',
+CALCULATED_FIELD_CONSTANTS_FUNCTION_TYPE_ADD_TITLE : 'إضافة حقل محسوب',
 CALCULATED_FIELD_CONSTANTS_FUNCTION_TYPE_ADD_NAME : 'اسم العمود',
-CALCULATED_FIELD_CONSTANTS_FUNCTION_TYPE_EDIT_TITLE : 'تعديل حقل محتسب',
+CALCULATED_FIELD_CONSTANTS_FUNCTION_TYPE_EDIT_TITLE : 'عدل الحقل المحسوب',
 CALCULATED_FIELD_CONSTANTS_FUNCTION_TYPE_EDIT_NAME : 'اسم العمود',
-CALCULATED_FIELD_CONSTANTS_FUNCTION_TYPE_GRAND_TOTAL_TITLE : 'المجموع إعدادات',
-CALCULATED_FIELD_CONSTANTS_FUNCTION_TYPE_GRAND_TOTAL_NAME : 'المجموع الكلي تسمية',
-CALCULATED_FIELD_CONSTANTS_FUNCTION_TYPE_GRAND_TOTAL_FUNCTION_LABEL : 'المجموع الكلي وظيفة',
+CALCULATED_FIELD_CONSTANTS_FUNCTION_TYPE_GRAND_TOTAL_TITLE : 'إجمالي إعدادات الإجمالي',
+CALCULATED_FIELD_CONSTANTS_FUNCTION_TYPE_GRAND_TOTAL_NAME : 'غراند توتال لابيل',
+CALCULATED_FIELD_CONSTANTS_FUNCTION_TYPE_GRAND_TOTAL_FUNCTION_LABEL : 'جراند مجموع وظيفة',
 CALCULATED_FIELD_CONSTANTS_FUNCTION_TYPE_SUB_TOTAL_TITLE : 'إعدادات المجموع الفرعي',
-CALCULATED_FIELD_CONSTANTS_FUNCTION_TYPE_SUB_TOTAL_NAME : 'تسمية المجموع الفرعي',
-CALCULATED_FIELD_CONSTANTS_FUNCTION_TYPE_SUB_TOTAL_FUNCTION_LABEL : 'وظيفة المجموع الفرعي',
-CALCULATED_FIELD_CONSTANTS_MESSAGE_EXPRESSION_CONSTRAINT : 'مطلوب التعبير.',
+CALCULATED_FIELD_CONSTANTS_FUNCTION_TYPE_SUB_TOTAL_NAME : 'تصنيف المجموع الفرعي',
+CALCULATED_FIELD_CONSTANTS_FUNCTION_TYPE_SUB_TOTAL_FUNCTION_LABEL : 'المجموع الفرعي الدالة',
+CALCULATED_FIELD_CONSTANTS_MESSAGE_EXPRESSION_CONSTRAINT : 'التعبير مطلوب.',
 CALCULATED_FIELD_CONSTANTS_TITLE_EXPRESSION_SELECTION_TABS_FIELD_NAME : 'أسماء الحقول',
 CALCULATED_FIELD_CONSTANTS_TITLE_EXPRESSION_SELECTION_TABS_FUNCTION_OPERATOR : 'وظائف / مشغلي',
-CALCULATED_FIELD_CONSTANTS_FIELD_NAME_INSTRUCTION : 'حدد الحقل المضي قدما',
-CALCULATED_FIELD_CONSTANTS_FUNCTION_OPERATOR_INSTRUCTION : 'اختر وظيفة للشروع',
+CALCULATED_FIELD_CONSTANTS_FIELD_NAME_INSTRUCTION : 'حدد الحقل للمتابعة',
+CALCULATED_FIELD_CONSTANTS_FUNCTION_OPERATOR_INSTRUCTION : 'حدد وظيفة للمتابعة',
 CALCULATED_FIELD_CONSTANTS_TABLE_DEFINITION_FIELD_NAME_FIELD_NAME : 'اسم الحقل',
 CALCULATED_FIELD_CONSTANTS_TABLE_DEFINITION_FIELD_NAME_DESCRIPTION : 'وصف',
-CALCULATED_FIELD_CONSTANTS_TABLE_DEFINITION_FUNCTION_OPERATOR_NAME : 'اسم وظيفة',
+CALCULATED_FIELD_CONSTANTS_TABLE_DEFINITION_FUNCTION_OPERATOR_NAME : 'اسم الوظيفة',
 CALCULATED_FIELD_CONSTANTS_TABLE_DEFINITION_FUNCTION_OPERATOR_SYNTAX : 'بناء الجملة',
-CALCULATED_FIELD_CONSTANTS_MESSAGE_DELETE_CALCULATED_FIELD : 'هل أنت متأكد أنك تريد حذف حقل محسوب؟',
-CALCULATED_FIELD_CONSTANTS_MESSAGE_DELETE_CALCULATED_FIELD_REPORT_PART : 'فإن أي تقرير جزء إنشاؤها من حقل محسوب لا تكون للعرض عند حذف حقل محسوب. هل أنت متأكد أنك تريد حذف حقل محسوب؟',
-CALCULATED_FIELD_CONSTANTS_MESSAGE_RESULT_CANNOT_FORMATED : 'النتيجة لا يمكن أن يتم تنسيق مع نوع البيانات المحددة.',
+CALCULATED_FIELD_CONSTANTS_MESSAGE_DELETE_CALCULATED_FIELD : 'هل تريد بالتأكيد حذف الحقل المحسوب؟',
+CALCULATED_FIELD_CONSTANTS_MESSAGE_DELETE_CALCULATED_FIELD_REPORT_PART : 'لن يتم عرض جزء التقرير الذي تم إنشاؤه من الحقل المحسوب عند حذف الحقل المحسوب. هل تريد بالتأكيد حذف الحقل المحسوب؟',
+CALCULATED_FIELD_CONSTANTS_MESSAGE_RESULT_CANNOT_FORMATED : 'لا يمكن تنسيق النتيجة بنوع البيانات المحدد.',
 CALCULATED_FIELD_CONSTANTS_MESSAGE_DUPLICATE_NAME : 'اسم العمود {0} موجود بالفعل',
-CALCULATED_FIELD_MESSAGE_INVALID_NAME : 'لا يمكن أن يحتوي اسم الحقل أي الأحرف التالية: \'[\'، \']',
-CALCULATED_FIELD_MESSAGE_HAS_BEEN_USED : 'هذا الحقل المحسوب يمكن استخدامها في الأماكن التالية: حقول محسوبة أخرى، حاويات الحقل جزء التقرير، والمرشحات، المجموع الفرعي، المجموع الكلي. يرجى إعادة التحقق من وإزالته من هناك أولا.',
+CALCULATED_FIELD_MESSAGE_INVALID_NAME : 'لا يمكن أن يحتوي اسم الحقل على أي من الأحرف التالية: &#39;[&#39;، &#39;]&#39;',
+CALCULATED_FIELD_MESSAGE_HAS_BEEN_USED : 'ويمكن استخدام هذا الحقل المحسوب في الأماكن التالية: الحقول المحسوبة الأخرى، تقرير حاويات الحقل جزء، والفلاتر، المجموع الفرعي، المجموع الكلي. يرجى إعادة التحقق وإزالته من هناك أولا.',
 COPY_MANAGEMENT_WORK_SPACE_LIST_ADD_WORKSPACE : 'إضافة مساحة عمل',
-COPY_MANAGEMENT_WORK_SPACE_LIST_SHOW_ONLY_MY_WORKSPACES : 'تظهر فقط بلدي مساحات',
+COPY_MANAGEMENT_WORK_SPACE_LIST_SHOW_ONLY_MY_WORKSPACES : 'عرض مساحات العمل فقط',
 COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_DATA_MODEL : 'نموذج البيانات',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ADVANCED_DATA_SETTING : 'إعدادات البيانات المتقدم',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_TENANT_PERMISSIONS : 'ضوابط المستأجر',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ADVANCED_DATA_SETTING : 'إعدادات البيانات المتقدمة',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_TENANT_PERMISSIONS : 'المستأجر الأذونات',
 COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ROLES : 'الأدوار',
 COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ROLE_PERMISSIONS : 'الأدوار',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_SELECT_ROLES_TO_COPY : 'الرجاء تحديد الأدوار لنسخ',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_SET_DESCRIPTION : 'مجموعة الوصف',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_REVERT_DESCRIPTION : 'العودة الوصف',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_SELECT_ROLES_TO_COPY : 'الرجاء تحديد أدوار للنسخ',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_SET_DESCRIPTION : 'تعيين الوصف',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_REVERT_DESCRIPTION : 'عودة الوصف',
 COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_RENAME : 'إعادة تسمية',
 COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_LAST_MODIFIED : 'آخر تعديل',
 COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_SET_WORKSPACE_NAME : 'تعيين اسم مساحة العمل',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_REVERT_WORKSPACE_NAME : 'تعود اسم مساحة العمل',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_REVERT_WORKSPACE_NAME : 'عودة اسم مساحة العمل',
 COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ADD_MAPPING : 'إضافة تعيين',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_DATA_MODEL_OVERWRITE_CONFIRMATION : 'نموذج بيانات نسخة - تأكيد الكتابة فوق',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ADVANCED_DATA_SETTING_OVERWRITE_CONFIRMATION : 'نسخ إعدادات البيانات المتقدمة - الكتابة تأكيد',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_REPORT_OVERWRITE_CONFIRMATION : 'تقارير نسخة - تأكيد الكتابة فوق',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_TENANT_PERMISSIONS_OVERWRITE_CONFIRMATION : 'نسخة المستأجر ضوابط - تأكيد الكتابة فوق',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ROLE_PERMISSIONS_OVERWRITE_CONFIRMATION : 'نسخ ضوابط دور - تأكيد الكتابة فوق',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_DATA_MODEL_OVERWRITE_CONFIRMATION : 'نسخ نموذج البيانات - الكتابة فوق تأكيد',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ADVANCED_DATA_SETTING_OVERWRITE_CONFIRMATION : 'نسخ إعدادات البيانات المتقدمة - الكتابة فوق تأكيد',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_REPORT_OVERWRITE_CONFIRMATION : 'نسخ التقارير - الكتابة فوق تأكيد',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_TENANT_PERMISSIONS_OVERWRITE_CONFIRMATION : 'نسخ أذونات المستأجر - الكتابة تأكيد',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ROLE_PERMISSIONS_OVERWRITE_CONFIRMATION : 'نسخ أذونات دور - الكتابة فوق تأكيد',
 COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_SOURCE : 'مصدر',
 COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_DESTINATION : 'المكان المقصود',
 COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_DESTINATIONS : 'الأماكن)',
 COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ADD_WORKSPACE : 'إضافة مساحة عمل',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_MERGE_DUPLICATE_MAPPINGS : 'دمج تكرار تعيينات',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_DATA_MODEL_SETTING : 'إعداد نموذج بيانات',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ITEMS_TO_COPY : 'عناصر لنسخ:',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_MERGE_DUPLICATE_MAPPINGS : 'دمج تعيينات مكررة',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_DATA_MODEL_SETTING : 'إعداد نموذج البيانات',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ITEMS_TO_COPY : 'عناصر للنسخ:',
 COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ALL_TENANTS : 'جميع المستأجرين',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_DATA_MODEL_INFORMATION : 'أدناه سلاسل اتصال دينا نموذج بيانات الإعداد بالفعل.',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_DATA_MODEL_CONFIRMATION : 'يرجى تحديد أي سلسلة الاتصال الذي تريد الكتابة بعد نسخ؟',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_ADVANCED_SETTING_INFORMATION : 'أدناه المستأجرين الوجهة تحتوي على إعدادات متقدمة مختلفة.',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_ADVANCED_SETTING_CONFIRMATION : 'الرجاء تحديد الوجهة التي من المستأجرين كنت تريد الكتابة بعد نسخ؟',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_TENANT_PERMISSIONS_INFORMATION : 'أدناه المستأجرين الوجهة ديك إذن مختلفة مع المستأجر المصدر.',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_TENANT_PERMISSIONS_CONFIRMATION : 'الرجاء تحديد الوجهة التي من المستأجرين كنت تريد الكتابة بعد نسخ؟',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_ROLE_PERMISSIONS_INFORMATION : 'أدناه أدوار المستأجرين الوجهة لديك أذونات مختلفة مع أدوار المستأجر المصدر.',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_ROLE_PERMISSIONS_CONFIRMATION : 'الرجاء تحديد الأدوار التي في المستأجر الوجهة التي تريد الكتابة بعد نسخ؟',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_REPORT_INFORMATION : 'فيما يلي تقارير والموجودة حاليا في المستأجرين الوجهة',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_REPORT_CONFIRMATION : 'يرجى تحديد أي تقارير في المستأجرين الوجهة التي تريد الكتابة بعد نسخ؟',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_NO_RUN_COPY_INFO_MESSAGE : 'لا توجد بيانات لتشغيل نسخة.',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_TEMPLATE_OVERWRITE_CONFIRMATION : 'قوالب نسخة - تأكيد الكتابة فوق',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_TEMPLATE_INFORMATION : 'قوالب أدناه موجودون حاليا في المستأجرين الوجهة',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_TEMPLATE_CONFIRMATION : 'يرجى تحديد أي قوالب في المستأجرين الوجهة التي تريد الكتابة بعد نسخ؟',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_PLEASE_SELECT_DATASOURCE : 'الرجاء تحديد مصدر البيانات لنسخ',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_PLEASE_SELECT_DASHBOARD : 'الرجاء تحديد لوحات لنسخ',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_PLEASE_SELECT_REPORT : 'يرجى تحديد تقارير لنسخ',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_DESTINATION_GRID : 'الشبكة الوجهة',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_DASHBOARD_OVERWRITE_CONFIRMATION : 'لوحات المعلومات نسخة - تأكيد الكتابة فوق',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_DASHBOARD_INFORMATION : 'لوحات أدناه موجودون حاليا في المستأجرين الوجهة',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_DASHBOARD_CONFIRMATION : 'يرجى تحديد أي لوحات في المستأجرين الوجهة التي تريد الكتابة بعد نسخ؟',
-COPY_MANAGEMENT_LABEL_DATA_ADVANCED_OPTIONS : 'البيانات خيارات متقدمة:',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_DATA_MODEL_INFORMATION : 'تحت سلاسل الاتصال لديها نموذج بيانات الإعداد بالفعل.',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_DATA_MODEL_CONFIRMATION : 'الرجاء تحديد سلسلة الاتصال التي تريد الكتابة عليها بعد نسخها؟',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_ADVANCED_SETTING_INFORMATION : 'أقل من المستأجرين للوجهة لديهم إعدادات متقدمة مختلفة.',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_ADVANCED_SETTING_CONFIRMATION : 'يرجى تحديد المستأجرين الوجهة التي تريد الكتابة فوق بعد نسخها؟',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_TENANT_PERMISSIONS_INFORMATION : 'أقل من مستأجري الوجهة لديهم إذن مختلف مع المستأجر المصدر.',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_TENANT_PERMISSIONS_CONFIRMATION : 'يرجى تحديد المستأجرين الوجهة التي تريد الكتابة فوق بعد نسخها؟',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_ROLE_PERMISSIONS_INFORMATION : 'تحت أدوار مستأجري المقصد لديهم أذونات مختلفة مع أدوار المستأجر المصدر.',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_ROLE_PERMISSIONS_CONFIRMATION : 'الرجاء تحديد الأدوار في مستأجر الوجهة التي تريد استبدالها بعد نسخها؟',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_REPORT_INFORMATION : 'أدناه التقارير موجودة حاليا في المستأجرين الوجهة',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_REPORT_CONFIRMATION : 'يرجى تحديد التقارير التي ترغب في استبدالها في مستأجري المقصد بعد نسخها؟',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_NO_RUN_COPY_INFO_MESSAGE : 'لا توجد بيانات لتشغيل النسخة.',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_TEMPLATE_OVERWRITE_CONFIRMATION : 'نسخ قوالب - الكتابة فوق تأكيد',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_TEMPLATE_INFORMATION : 'أدناه النماذج موجودة حاليا في المستأجرين الوجهة',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_TEMPLATE_CONFIRMATION : 'الرجاء تحديد النماذج التي تريد استبدالها بعد نسخها من المستأجرين في الوجهة؟',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_PLEASE_SELECT_DATASOURCE : 'الرجاء تحديد مصدر البيانات لنسخه',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_PLEASE_SELECT_DASHBOARD : 'الرجاء تحديد لوحات التحكم للنسخ',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_PLEASE_SELECT_REPORT : 'الرجاء تحديد التقارير المراد نسخها',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_DESTINATION_GRID : 'شبكة الوجهة',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_DASHBOARD_OVERWRITE_CONFIRMATION : 'نسخ لوحات التحكم - الكتابة فوق تأكيد',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_DASHBOARD_INFORMATION : 'توجد لوحات التحكم الموجودة حاليا في مستأجري الوجهة',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_DASHBOARD_CONFIRMATION : 'الرجاء تحديد لوحات التحكم الموجودة في مستأجري الوجهة التي تريد استبدالها بعد نسخها؟',
+COPY_MANAGEMENT_LABEL_DATA_ADVANCED_OPTIONS : 'خيارات البيانات المتقدمة:',
 COPY_MANAGEMENT_LABEL_DEFAULT_WORKSPACE_NAME : 'مساحة العمل',
 COPY_MANAGEMENT_LABEL_UNKNOWN_STATUS : 'غير معروف',
 COPY_MANAGEMENT_MESSAGE_WORKSPACE_NAME_CONSTRAINT_PRESENCE : 'مطلوب اسم مساحة العمل.',
-COPY_MANAGEMENT_MESSAGE_WORKSPACE_NAME_CONSTRAINT_LENGTH : 'يمكن أن تحتوي على مساحة الاسم في معظم الأحرف 150 فقط.',
-COPY_MANAGEMENT_MESSAGE_DESTINATION_CONSTRAINT : 'مطلوب الوجهة (ق).',
-COPY_MANAGEMENT_MESSAGE_CONFIRM_DELETE_WORKSPACE : 'هل أنت متأكد أنك تريد حذف مساحة العمل؟',
-COPY_MANAGEMENT_MESSAGE_CONFIRM_DELETE_TENANT : 'هل أنت متأكد أنك تريد حذف المستأجر {0}؟',
-COPY_MANAGEMENT_MESSAGE_STATUS_DEST_NEED_VALIDATION : 'يحتاج التحقق من صحة',
-COPY_MANAGEMENT_MESSAGE_STATUS_DEST_READY_TO_COPY : 'على استعداد لنسخ',
-COPY_MANAGEMENT_MESSAGE_STATUS_DEST_MISSING_AUTHEN : 'المصادقة مفقود',
+COPY_MANAGEMENT_MESSAGE_WORKSPACE_NAME_CONSTRAINT_LENGTH : 'يمكن أن يحتوي اسم مساحة العمل على 150 حرفا كحد أقصى.',
+COPY_MANAGEMENT_MESSAGE_DESTINATION_CONSTRAINT : 'الوجهة (الوجهات) مطلوبة.',
+COPY_MANAGEMENT_MESSAGE_CONFIRM_DELETE_WORKSPACE : 'هل تريد بالتأكيد حذف مساحة العمل هذه؟',
+COPY_MANAGEMENT_MESSAGE_CONFIRM_DELETE_TENANT : 'هل تريد بالتأكيد حذف المستأجر {0}؟',
+COPY_MANAGEMENT_MESSAGE_STATUS_DEST_NEED_VALIDATION : 'يحتاج التحقق من الصحة',
+COPY_MANAGEMENT_MESSAGE_STATUS_DEST_READY_TO_COPY : 'جاهز للنسخ',
+COPY_MANAGEMENT_MESSAGE_STATUS_DEST_MISSING_AUTHEN : 'المصادقة مفقودة',
 COPY_MANAGEMENT_MESSAGE_STATUS_DEST_VALIDATION_ERROR : 'خطئ في التحقق',
-COPY_MANAGEMENT_VALIDATION_ERROR_TOOLTIP : 'لم يتم العثور على واحد أو أكثر من الكائنات المحددة في النموذج المصدر باستخدام سلسلة الاتصال لهذا المستأجر. يرجى تصحيح هذه المسألة أو إزالة هذا المستأجر من اختيار الوجهة.',
+COPY_MANAGEMENT_VALIDATION_ERROR_TOOLTIP : 'لم يتم العثور على واحد أو أكثر من العناصر المحددة في نموذج المصدر باستخدام سلسلة الاتصال لهذا المستأجر. يرجى تصحيح هذه المشكلة أو إزالة هذا المستأجر من اختيار الوجهة.',
 COPY_MANAGEMENT_MESSAGE_SAVE_WORKSPACE_CONSTRAINTS_NAME : 'مطلوب اسم.',
-COPY_MANAGEMENT_MESSAGE_SAVE_WORKSPACE_CONSTRAINTS_OWNER : 'مطلوب المالك.',
-COPY_MANAGEMENT_MESSAGE_SAVE_WORKSPACE_CONSTRAINTS_WORKSPACE_NAME : 'مطلوب اسم مساحة العمل.',
+COPY_MANAGEMENT_MESSAGE_SAVE_WORKSPACE_CONSTRAINTS_OWNER : 'المالك مطلوب.',
+COPY_MANAGEMENT_MESSAGE_SAVE_WORKSPACE_CONSTRAINTS_WORKSPACE_NAME : 'اسم مساحة العمل مطلوب.',
 COPY_MANAGEMENT_LABEL_TABLE_DEF_GLOBAL_MAPPING_FROM_DB_NAME : 'اسم قاعدة البيانات',
 COPY_MANAGEMENT_LABEL_TABLE_DEF_GLOBAL_MAPPING_TO_DB_NAME : 'اسم قاعدة البيانات',
-COPY_MANAGEMENT_LABEL_MAPPING_HEADER_GLOBAL : 'كل تعيينات',
+COPY_MANAGEMENT_LABEL_MAPPING_HEADER_GLOBAL : 'جميع التعيينات',
 COPY_MANAGEMENT_LABEL_MAPPING_HEADER_TENANT : 'تعيينات',
 COPY_MANAGEMENT_LABEL_MAPPING_TYPE_SCHEMA : 'مخطط',
 COPY_MANAGEMENT_LABEL_MAPPING_TYPE_DATABASE : 'قاعدة البيانات',
-COPY_MANAGEMENT_MESSAGE_CONSISTENT_DATA_MODEL : 'ثابت نموذج البيانات',
-COPY_MANAGEMENT_MESSAGE_INCONSISTENT_DATA_MODEL : 'يتعارض نموذج البيانات',
-COPY_MANAGEMENT_MESSAGE_CHANGED_DATA_TYPE : 'يختلف نوع البيانات.',
-COPY_MANAGEMENT_MESSAGE_DELETED_DATA_SOURCE : 'مصدر البيانات المحذوفة.',
-COPY_MANAGEMENT_MESSAGE_OVERRIDE_CONFIRMATION_HAVING_SETUP : 'أدناه سلاسل اتصال دينا نموذج بيانات الإعداد بالفعل.',
-COPY_MANAGEMENT_MESSAGE_OVERRIDE_CONFIRMATION_SELECT_TO_OVERWRITTEN : 'يرجى تحديد أي سلسلة الاتصال الذي تريد الكتابة بعد نسخ؟',
-COPY_MANAGEMENT_MESSAGE_COPY_PROCESS_DONE : 'تم إجراء عملية النسخ',
-COPY_MANAGEMENT_LABEL_DATE_MODEL_COMPARISON : 'بيانات مقارنة النماذج',
+COPY_MANAGEMENT_MESSAGE_CONSISTENT_DATA_MODEL : 'نموذج بيانات متسقة',
+COPY_MANAGEMENT_MESSAGE_INCONSISTENT_DATA_MODEL : 'نموذج البيانات غير متناسقة',
+COPY_MANAGEMENT_MESSAGE_CHANGED_DATA_TYPE : 'نوع البيانات المختلفة.',
+COPY_MANAGEMENT_MESSAGE_DELETED_DATA_SOURCE : 'تم حذف مصدر البيانات.',
+COPY_MANAGEMENT_MESSAGE_OVERRIDE_CONFIRMATION_HAVING_SETUP : 'تحت سلاسل الاتصال لديها نموذج بيانات الإعداد بالفعل.',
+COPY_MANAGEMENT_MESSAGE_OVERRIDE_CONFIRMATION_SELECT_TO_OVERWRITTEN : 'الرجاء تحديد سلسلة الاتصال التي تريد الكتابة عليها بعد نسخها؟',
+COPY_MANAGEMENT_MESSAGE_COPY_PROCESS_DONE : 'تمت عملية النسخ',
+COPY_MANAGEMENT_LABEL_DATE_MODEL_COMPARISON : 'مقارنة نموذج البيانات',
 COPY_MANAGEMENT_LABEL_ADVANCED_SETTINGS : 'إعدادات متقدمة',
 COPY_MANAGEMENT_NO_RESULT_TEXT : 'لا نتيجة',
 COPY_MANAGEMENT_LABEL_REFRESH : 'تحديث',
 COPY_MANAGEMENT_LABEL_VALIDATE : 'التحقق من صحة',
 COPY_MANAGEMENT_LABEL_RUN_COPY : 'تشغيل نسخة',
-COPY_MANAGEMENT_LABEL_ADD_FIELD : 'إضافة حقل محتسب',
+COPY_MANAGEMENT_LABEL_ADD_FIELD : 'إضافة حقل محسوب',
 COPY_MANAGEMENT_LABEL_EXECUTE : 'نفذ - اعدم',
-COPY_MANAGEMENT_MERGE_DUPLICATE_TOOLTIP : 'يؤدي تحديد هذا المربع سماح للنظام لدمج تلقائيا أي رسم الخرائط مكررة وجدت أدناه. إذا تم تعيين مصدر واحد إلى وجهات متعددة، فإنه سيتم دمجها لرسم الخرائط واحد.',
-COPY_MANAGEMENT_ALL_MAPPING_TOOLTIP : 'يعرض هذا القسم كافة تعيينات بين المصدر وجميع الوجهات.',
-COPY_MANAGEMENT_OBJECT_TOOLTIP : 'المتغيرات المعتمدة:TenantIDTenantName المعطى:TenantID = IzendaTenantName = Izenda المتغيرات LLC يمكن استخدامها وحدها:TenantID -&gt; Izenda أو كجزء من التعبير: {Northwind_ @ TenantID} -&gt; Northwind_Izenda {NORTHWINDTenantName} - &gt; NORTHWIND Izenda LLC',
-COPY_MANAGEMENT_SPECIFIC_MAPPING_TOOLTIP : 'يعرض هذا القسم كافة تعيينات بين المصدر وهذه جهة معينة.',
-LICENSE_CHECKER_LABEL_DATA_SERVER_TYPE : 'نوع الخادم البيانات',
+COPY_MANAGEMENT_MERGE_DUPLICATE_TOOLTIP : 'سيؤدي تحديد هذا المربع إلى السماح للنظام بدمج أي تعيين مكرر تم العثور عليه أدناه تلقائيا. إذا تم تعيين مصدر واحد إلى وجهات متعددة، سيتم دمجها إلى تعيين واحد.',
+COPY_MANAGEMENT_ALL_MAPPING_TOOLTIP : 'يعرض هذا القسم جميع التعيينات بين المصدر وجميع الوجهات.',
+COPY_MANAGEMENT_OBJECT_TOOLTIP : 'المتغيرات المعتمدة:TenantIDTenantName نظرا:TenantID = إزينداTenantName = إزيندا ليك يمكن استخدام المتغيرات وحدها:TenantID -&gt; إزيندا أو كجزء من تعبير: {Northwind_ @ تينانتيد} -&gt; Northwind_Izenda {نورثويندTenantName} - &gt; نورثويند إزيندا ليك',
+COPY_MANAGEMENT_SPECIFIC_MAPPING_TOOLTIP : 'يعرض هذا القسم جميع التعيينات بين المصدر وهذه الوجهة المحددة.',
+DATABASE_MAPPING_BUTTON_ADD_MAPPING : 'إضافة تعيين',
+DATABASE_MAPPING_LABEL_MAPPING_DROPBOX : 'رسم الخرائط',
+DATABASE_MAPPING_CHECKBOX_MERGE_DUPLICATE_MAPPINGS : 'دمج تعيينات مكررة',
+DATABASE_MAPPING_LABEL_TABLE_DEF_GLOBAL_MAPPING_FROM_DB_NAME : 'اسم قاعدة البيانات',
+DATABASE_MAPPING_LABEL_TABLE_DEF_GLOBAL_MAPPING_TO_DB_NAME : 'اسم قاعدة البيانات',
+DATABASE_MAPPING_ALL_TENANTS : 'الكل',
+DATABASE_MAPPING_LABEL_TENANT_COLUMN : 'المستأجر (ق)',
+DATABASE_MAPPING_ALL_MAPPINGS : 'جميع التعيينات',
+LICENSE_CHECKER_LABEL_DATA_SERVER_TYPE : 'نوع خادم البيانات',
 LICENSE_CHECKER_LABEL_CONNECTION_STRING : 'سلسلة الاتصال',
-LICENSE_CHECKER_LABEL_CONNECTION_BUILDER : 'باني اتصال',
-LICENSE_CHECKER_MESSAGE_CONNECTION_STRING_INVALID : 'سلسلة الاتصال غير صالح. الرجاء إدخال واحد صالح.',
-LICENSE_CHECKER_MESSAGE_CONNECT_ERROR : 'حدث خطأ المتعلقة بالشبكة أو مثيل خاص أثناء تأسيس اتصال <Data Server Type> . لم يتم العثور على الملقم أو كان لا يمكن الوصول إليها. تحقق من أن اسم المثيل هو الصحيح، وأنه <Data Server Type> تم تكوينه للسماح بالاتصالات البعيدة.',
-LICENSE_CHECKER_MESSAGE_CANNOT_OPEN_DATABASE : 'لا يمكن فتح قاعدة بيانات &quot; <input database name> &quot;طلب تسجيل الدخول.',
+LICENSE_CHECKER_LABEL_CONNECTION_BUILDER : 'كونكتيون بيلدر',
+LICENSE_CHECKER_MESSAGE_CONNECTION_STRING_INVALID : 'سلسلة الاتصال غير صالحة. الرجاء إدخال عنوان صالح.',
+LICENSE_CHECKER_MESSAGE_CONNECT_ERROR : 'حدث خطأ متصل بالشبكة أو حدث خاص أثناء إنشاء اتصال ب <Data Server Type> . لم يتم العثور على الخادم أو تعذر الوصول إليه. تحقق من صحة اسم المثيل وأنه <Data Server Type> يتم تكوين للسماح الاتصالات عن بعد.',
+LICENSE_CHECKER_MESSAGE_CANNOT_OPEN_DATABASE : 'لا يمكن فتح قاعدة البيانات &quot; <input database name> &quot;طلب من قبل تسجيل الدخول.',
 LICENSE_CHECKER_MESSAGE_LOGIN_FAILED : 'فشل تسجيل الدخول للمستخدم &quot; <input username> &quot;',
-LICENSE_CHECKER_MESSAGE_CONFIRM_OVERRIDE_CONNECTION_STRING : 'بعد التحقق من الصحة، يتم تخزين الترخيص في قاعدة البيانات Izenda. يرجى إعادة تأكيد الترخيص عند تم تعديل سلسلة اتصال. هل أنت متأكد أنك تريد تجاوز سلسلة اتصال الحالية؟',
-LICENSE_CHECKER_MESSAGE_INVALID_CONNECTION_STRING : 'سلسلة اتصال غير صالحة. وسوف يستمر النظام لاستخدام سلسلة اتصال صالحة السابقة.',
-LICENSE_CHECKER_MESSAGE_CONNECTION_STRING_DESCRIPTION : 'أدخل سلسلة الاتصال لقاعدة البيانات لتكوين النظام',
+LICENSE_CHECKER_MESSAGE_CONFIRM_OVERRIDE_CONNECTION_STRING : 'بعد التحقق من صحة، يتم تخزين الترخيص في قاعدة بيانات إزيندا. يرجى إعادة التحقق من الترخيص عند تعديل سلسلة الاتصال. هل تريد بالتأكيد تجاوز سلسلة الاتصال الحالية؟',
+LICENSE_CHECKER_MESSAGE_INVALID_CONNECTION_STRING : 'سلسلة الاتصال غير صالحة. سيستمر النظام في استخدام سلسلة الاتصال الصالحة السابقة.',
+LICENSE_CHECKER_MESSAGE_CONNECTION_STRING_DESCRIPTION : 'أدخل سلسلة الاتصال لقاعدة بيانات تكوين النظام',
 LICENSE_CHECKER_MESSAGE_CONNECTION_STRING_CONSTRAINT : 'مطلوب سلسلة الاتصال.',
-LICENSE_CHECKER_MESSAGE_CONFIRM_CHANGE_TO_OFFLINE : 'كنت تقوم بتغيير وضع ترخيص من الإنترنت إلى جهازك، يرجى إدخال رمز حاليا. هل أنت متأكد أنك تريد تغيير وضع الترخيص؟',
-LICENSE_CHECKER_MESSAGE_CONFIRM_CHANGE_TO_ONLINE : 'كنت تقوم بتغيير وضع الترخيص من دون اتصال على الانترنت. هل أنت متأكد أنك تريد تغيير وضع الترخيص؟',
-LICENSE_CHECKER_MESSAGE_LICENSE_KEY_INVALID : 'مفتاح الترخيص غير صالح. الرجاء إدخال واحد صالح.',
-LICENSE_CHECKER_MESSAGE_TOKEN_INVALID : 'الرمز المميز غير صالح. الرجاء إدخال واحد صالح.',
-LICENSE_CHECKER_MESSAGE_DAYS_TILL_EXPIRED : '{0} يوم (s) حتى انتهت مدة صلاحية الترخيص',
-LICENSE_CHECKER_MESSAGE_DAYS_EXPIRED : 'صلاحية رخصة {0} عدد الأيام منذ',
-LICENSE_CHECKER_MESSAGE_EXPIRED : 'انتهت مدة صلاحية الترخيص. يرجى شرائه إذا كنت تستخدم النسخة التجريبية أو تجديده إذا كنت تستخدم النسخة المدفوعة.',
-LICENSE_CHECKER_MESSAGE_NEW_LICENSE_OR_TOKEN_INVALID : 'هذا الترخيص / رمز غير صالح. وسوف يستمر النظام لاستخدام رخصة سارية المفعول السابق ورمز صالح.',
-LICENSE_CHECKER_MESSAGE_VALIDATE_ON_OR_AFTER : 'مفتاح الترخيص ساري من {0} إلى {1}. يرجى التحقق من صحة أو بعد {0}.',
-LICENSE_CHECKER_MESSAGE_TOKEN_REQUIRED : '&quot;رمز&quot; هو مطلوب.',
-LICENSE_CHECKER_MESSAGE_LICENSE_KEY_REQUIRED : 'مطلوب &quot;مفتاح الترخيص&quot;.',
-LICENSE_CHECKER_MESSAGE_LICENSE_NO_LONGER_VALID : 'هذا الترخيص لم يعد صالحا. يرجى الاتصال بمدير حسابك للحصول على المساعدة.',
-LICENSE_CHECKER_MESSAGE_NEW_LICENSE_INVALID : 'هذا الترخيص غير صالح. وسوف يستمر النظام لاستخدام رخصة سارية المفعول السابق.',
-LICENSE_CHECKER_MESSAGE_LOST_CONNECTION_TO_LICENSE_SERVER : 'غير قادر على الاتصال بخادم التحقق من صحة الترخيص. وهذه الرخصة تنتهي في 96 ساعة إذا لم يتم إعادة تأسيس اتصال.',
-LICENSE_CHECKER_MESSAGE_ENTER_LICENSE_DESCRIPTION : 'أدخل الترخيص لقاعدة البيانات لتكوين النظام',
+LICENSE_CHECKER_MESSAGE_CONFIRM_CHANGE_TO_OFFLINE : 'أنت بصدد تغيير وضع الترخيص من أونلين إلى وضع عدم الاتصال، يرجى إدخال الرمز المميز بلا اتصال. هل تريد بالتأكيد تغيير وضع الترخيص؟',
+LICENSE_CHECKER_MESSAGE_CONFIRM_CHANGE_TO_ONLINE : 'أنت تقوم بتغيير وضع الترخيص من دون اتصال إلى أونلين. هل تريد بالتأكيد تغيير وضع الترخيص؟',
+LICENSE_CHECKER_MESSAGE_LICENSE_KEY_INVALID : 'مفتاح الترخيص غير صالح. الرجاء إدخال عنوان صالح.',
+LICENSE_CHECKER_MESSAGE_TOKEN_INVALID : 'الرمز المميز غير صالح. الرجاء إدخال عنوان صالح.',
+LICENSE_CHECKER_MESSAGE_DAYS_TILL_EXPIRED : '{0} يوم (أيام) حتى انتهاء صلاحية الترخيص',
+LICENSE_CHECKER_MESSAGE_DAYS_EXPIRED : 'انتهت صلاحية الترخيص قبل {0} أيام',
+LICENSE_CHECKER_MESSAGE_EXPIRED : 'انتهت صلاحية الترخيص. يرجى شرائه إذا كنت تستخدم الإصدار التجريبي أو تجديده إذا كنت تستخدم النسخة المدفوعة.',
+LICENSE_CHECKER_MESSAGE_NEW_LICENSE_OR_TOKEN_INVALID : 'هذا الترخيص / الرمز المميز غير صالح. سيستمر النظام في استخدام الترخيص الساري السابق والرمز المميز.',
+LICENSE_CHECKER_MESSAGE_VALIDATE_ON_OR_AFTER : 'مفتاح الترخيص صالح من {0} إلى {1}. يرجى التحقق من صحة أو بعد {0}.',
+LICENSE_CHECKER_MESSAGE_TOKEN_REQUIRED : '&quot;رمز&quot; مطلوب.',
+LICENSE_CHECKER_MESSAGE_LICENSE_KEY_REQUIRED : '&quot;مفتاح الترخيص&quot; مطلوب.',
+LICENSE_CHECKER_MESSAGE_LICENSE_NO_LONGER_VALID : 'هذا الترخيص لم يعد صالحا. يرجى الاتصال بمدير الحساب للحصول على المساعدة.',
+LICENSE_CHECKER_MESSAGE_NEW_LICENSE_INVALID : 'هذا الترخيص غير صالح. سيستمر النظام في استخدام الترخيص الساري السابق.',
+LICENSE_CHECKER_MESSAGE_LOST_CONNECTION_TO_LICENSE_SERVER : 'تعذر الاتصال بخادم التحقق من الترخيص. ستنتهي صلاحية هذا الترخيص خلال 96 ساعة إذا لم يتم إعادة تأسيس الاتصال.',
+LICENSE_CHECKER_MESSAGE_ENTER_LICENSE_DESCRIPTION : 'أدخل الترخيص لقاعدة بيانات تكوين النظام',
 LICENSE_CHECKER_MESSAGE_LICENSE_KEY_CONSTRAINT : 'مطلوب مفتاح الترخيص.',
-LICENSE_CHECKER_MESSAGE_TOKEN_CONSTRAINT : 'مطلوب رمزية.',
+LICENSE_CHECKER_MESSAGE_TOKEN_CONSTRAINT : 'الرمز المميز مطلوب.',
 LICENSE_CHECKER_LABEL_LICENSE_INFORMATION : 'معلومات الترخيص',
 LICENSE_CHECKER_LABEL_CURRENT_DURATION : 'المدة الحالية',
 LICENSE_CHECKER_LABEL_CURRENT_MODULE : 'الوحدة الحالية',
 LICENSE_CHECKER_LABEL_PREVIOUS_DURATION : 'المدة السابقة',
 LICENSE_CHECKER_LABEL_PREVIOUS_MODULE : 'الوحدة السابقة',
-LICENSE_CHECKER_LABEL_NEXT_DURATION : 'المدة المقبلة',
-LICENSE_CHECKER_LABEL_NEXT_MODULE : 'الوحدة القادمة',
-LICENSE_CHECKER_LABEL_READY_PURCHASE : 'على استعداد لشراء؟',
+LICENSE_CHECKER_LABEL_NEXT_DURATION : 'المدة التالية',
+LICENSE_CHECKER_LABEL_NEXT_MODULE : 'الوحدة التالية',
+LICENSE_CHECKER_LABEL_READY_PURCHASE : 'هل أنت مستعد للشراء؟',
 LICENSE_CHECKER_LABEL_RENEW_LICENSE : 'تجديد الترخيص؟',
 LICENSE_CHECKER_LABEL_IMPORT_MAP_DATA : 'استيراد بيانات الخريطة',
 LICENSE_CHECKER_LABEL_PROVISION_MAP_DATA : 'توفير بيانات الخريطة',
@@ -818,29 +842,29 @@ LICENSE_CHECKER_LABEL_TOKEN : 'رمز',
 LICENSE_CHECKER_LABEL_ALERTING : 'تنبيه',
 LICENSE_CHECKER_LABEL_FORM : 'شكل',
 LICENSE_CHECKER_LABEL_DASHBOARD : 'لوحة القيادة',
-LICENSE_CHECKER_LABEL_REPORTTEMPLATE : 'تقرير قالب / المكون',
+LICENSE_CHECKER_LABEL_REPORTTEMPLATE : 'نموذج التقرير / المكون',
 LICENSE_CHECKER_LABEL_SCHEDULING : 'جدولة',
 LICENSE_CHECKER_LABEL_EXPORTING : 'تصدير',
-LICENSE_CHECKER_LABEL_REPORTDESIGNER : 'تقرير مصمم',
+LICENSE_CHECKER_LABEL_REPORTDESIGNER : 'مصمم التقارير',
 LICENSE_CHECKER_LABEL_CHARTING : 'الرسوم البيانية',
 LICENSE_CHECKER_LABEL_MAPS : 'خرائط',
 LICENSE_CHECKER_SYSTEM_MODE_DESCRIPTION : 'حدد إعدادات وضع النظام',
-LICENSE_CHECKER_LABEL_SYSTEM_MODE : 'وضع نظام',
-LICENSE_CHECKER_LABEL_USER_ID_PROPERTIES : 'خصائص المستخدم ID',
-LICENSE_CHECKER_LABEL_SINGLE_TENANT : 'المستأجر واحد',
+LICENSE_CHECKER_LABEL_SYSTEM_MODE : 'وضع النظام',
+LICENSE_CHECKER_LABEL_USER_ID_PROPERTIES : 'خصائص وسر إد',
+LICENSE_CHECKER_LABEL_SINGLE_TENANT : 'مستأجر واحد',
 LICENSE_CHECKER_LABEL_MULTI_TENANT : 'متعددة المستأجر',
-LICENSE_CHECKER_LABEL_ALLOW_DUPLICATE_USER : 'السماح هوية المستخدم تكرار في نطاق المنظومة',
-LICENSE_CHECKER_MESSAGE_CONFIRM_SINGLE_TO_MULTI : 'هل أنت متأكد أنك تريد أن تتحول من واحدة المستأجر إلى وضع متعدد المستأجر؟ سوف تصبح جميع المستخدمين مستخدمي النظام في وضع متعدد المستأجر.',
-LICENSE_CHECKER_MESSAGE_CONFIRM_MULTI_TO_SINGLE : 'هل أنت متأكد أنك تريد أن تتحول من متعدد المستأجر إلى وضع المستأجر واحد؟',
-LICENSE_CHECKER_MESSAGE_CHANGE_CONNECTION : 'هل هناك حاجة للدخول لأداء المزيد من التكوين. الرجاء استخدام معلومات حساب النظام الافتراضي للدخول.',
+LICENSE_CHECKER_LABEL_ALLOW_DUPLICATE_USER : 'السماح بتكرار معرف المستخدم على مستوى النظام',
+LICENSE_CHECKER_MESSAGE_CONFIRM_SINGLE_TO_MULTI : 'هل أنت متأكد أنك تريد التبديل من المستأجر الواحد إلى وضع متعدد المستأجر؟ سيصبح جميع المستخدمين مستخدمي النظام في وضع متعدد المستأجر.',
+LICENSE_CHECKER_MESSAGE_CONFIRM_MULTI_TO_SINGLE : 'هل تريد بالتأكيد التبديل من وضع المستأجر المتعدد إلى المستأجر الواحد؟',
+LICENSE_CHECKER_MESSAGE_CHANGE_CONNECTION : 'يطلب منك تسجيل الدخول لإجراء المزيد من التكوين. الرجاء استخدام معلومات حساب النظام الافتراضي للدخول.',
 EMAIL_MESSAGE_CONSTRAINT : 'الحقل مطلوب.',
-EMAIL_MESSAGE_VALIDATION : 'البريد الإلكتروني التالي غير صحيح:',
-EMAIL_DEFAULT_CONTENT_REPORT : 'عزيزي، يرجى فتح التقرير من خلال النقر على الرابط التالي. {} reportLink التحيات، {currentUserName}',
-EMAIL_DEFAULT_CONTENT_REPORT_ATTACHMENT : 'عزيزي، يرجى الاطلاع على التقرير المرفق. التحيات، {currentUserName}',
-EMAIL_DEFAULT_CONTENT_REPORT_EMBEDDED_HTML : 'عزيزي، يرجى الاطلاع على التقرير التالي. {} embedReportHTML التحيات، {currentUserName}',
-EMAIL_DEFAULT_CONTENT_DASHBOARD : 'عزيزي، يرجى فتح لوحة القيادة من خلال النقر على الرابط التالي. {} dashboardLink التحيات، {currentUserName}',
-EMAIL_DEFAULT_CONTENT_DASHBOARD_ATTACHMENT : 'عزيزي، يرجى الاطلاع على لوحة أجهزة القياس في المرفق. التحيات، {currentUserName}',
-EMAIL_DEFAULT_CONTENT_DASHBOARD_EMBEDDED_HTML : 'عزيزي، يرجى الاطلاع على لوحة أجهزة القياس التالية. {} embedDashboardHTML التحيات، {currentUserName}',
+EMAIL_MESSAGE_VALIDATION : 'البريد الإلكتروني التالي غير صالح:',
+EMAIL_DEFAULT_CONTENT_REPORT : 'عزيزي، يرجى فتح التقرير عن طريق النقر على الرابط التالي. {ريبورتلينك} ريجاردز، {كيرنتوسرنام}',
+EMAIL_DEFAULT_CONTENT_REPORT_ATTACHMENT : 'عزيزي، يرجى الاطلاع على التقرير في المرفق. مع خالص التحيات، {كيرنتوسرنام}',
+EMAIL_DEFAULT_CONTENT_REPORT_EMBEDDED_HTML : 'عزيزي، يرجى الاطلاع على التقرير التالي. {إمبدريبورتفمل} التحيات، {كيرنتوسرنام}',
+EMAIL_DEFAULT_CONTENT_DASHBOARD : 'عزيزي، يرجى فتح لوحة التحكم عن طريق النقر على الرابط التالي. {داشبواردلينك} ريجاردز، {كيرنتوسرنام}',
+EMAIL_DEFAULT_CONTENT_DASHBOARD_ATTACHMENT : 'عزيزي، يرجى الاطلاع على لوحة التحكم في المرفق. مع خالص التحيات، {كيرنتوسرنام}',
+EMAIL_DEFAULT_CONTENT_DASHBOARD_EMBEDDED_HTML : 'عزيزي، يرجى الاطلاع على لوحة التحكم التالية. {إمبدداشبواردتمل} ريجاردز، {كيرنتوسرنام}',
 EMAIL_LABEL_TO : 'إلى',
 EMAIL_LABEL_CC : 'سم مكعب',
 EMAIL_LABEL_SUBJECT : 'موضوع البريد الإلكتروني',
@@ -849,133 +873,138 @@ EMAIL_LABEL_METHOD : 'طريقة التوصيل',
 EMAIL_TOOLTIP_COMPOSE_EMAIL : 'البريد الإلكتروني',
 EMAIL_LABEL_EMAIL_INFO : 'معلومات البريد الإلكتروني',
 EMAIL_LABEL_DISPLAY_NAME : 'اسم العرض',
-EMAIL_LABEL_EMAIL_FROM_ADDRESS : 'البريد الإلكتروني من عنوان',
-EMAIL_MESSAGE_SENT_SUCCESSFULLY : 'تم إرسال البريد الإلكتروني بنجاح. هل ترغب في الاستمرار في إرسال أكثر رسائل البريد الإلكتروني؟',
-EMAIL_MESSAGE_SENT_FAIL : 'حدث خطأ أثناء الإرسال، لم يتم إرسال البريد الإلكتروني. هل ترغب في الاستمرار في إرسال أكثر رسائل البريد الإلكتروني؟',
-SMTP_CONFIGURATION_LABEL_SMTP_CONFIGURATION : 'تكوين SMTP',
-SMTP_CONFIGURATION_LABEL_SMTP_SERVER : 'خادم SMTP',
-SMTP_CONFIGURATION_LABEL_SMTP_PORT : 'ميناء SMTP',
-SMTP_CONFIGURATION_LABEL_SMTP_SECURE_CONNECTION : 'SMTP اتصال آمن (SSL / TLS)',
-SMTP_CONFIGURATION_LABEL_SMTP_LOGIN : 'SMTP الدخول',
-SMTP_CONFIGURATION_LABEL_SMTP_PASSWORD : 'SMTP كلمة المرور',
-TENANT_CONSTANT_MESSAGE_CANCEL : 'هل أنت متأكد أنك تريد إلغاء التغييرات؟',
-TENANT_CONSTANT_MESSAGE_SAVE : 'هل أنت متأكد أنك تريد حفظ جميع التعديلات؟',
-TENANT_CONSTANT_MESSAGE_DELETE : 'حذف وهذا المستأجر حذف جميع البيانات التي تنتمي إلى المستأجر، ونموذج البيانات، المستخدمين، أدوار، تقارير، لوحة القيادة، حالات مجدولة، الخ هل أنت متأكد أنك تريد حذف هذا المستأجر؟',
-TENANT_CONSTANT_MESSAGE_DEACTIVATE : 'إلغاء تنشيط وهذا المستأجر جعل جميع مستخدمي هذا المستأجر لا يكون قادرا على تسجيل الدخول إلى النظام. هل أنت متأكد أنك تريد تعطيل هذا الدور؟',
-TENANT_CONSTANT_MESSAGE_TENANT_ID_CONSTRAINT : 'مطلوب ID المستأجر.',
-TENANT_CONSTANT_MESSAGE_TENANT_NAME_CONSTRAINT : 'مطلوب اسم المستأجر.',
+EMAIL_LABEL_EMAIL_FROM_ADDRESS : 'البريد الإلكتروني من العنوان',
+EMAIL_LABEL_SENDING : 'جار الإرسال ...',
+EMAIL_MESSAGE_SENT_SUCCESSFULLY : 'تم إرسال البريد الإلكتروني بنجاح. هل تريد متابعة إرسال المزيد من رسائل البريد الإلكتروني؟',
+EMAIL_MESSAGE_SENT_FAIL : 'حدث خطأ أثناء الإرسال، ولم يتم إرسال الرسالة الإلكترونية. هل تريد متابعة إرسال المزيد من رسائل البريد الإلكتروني؟',
+SMTP_CONFIGURATION_LABEL_SMTP_CONFIGURATION : 'تكوين سمتب',
+SMTP_CONFIGURATION_LABEL_SMTP_SERVER : 'خادم سمتب',
+SMTP_CONFIGURATION_LABEL_SMTP_PORT : 'منفذ سمتب',
+SMTP_CONFIGURATION_LABEL_SMTP_SECURE_CONNECTION : 'اتصال آمن ب سمتب (سل / تلس)',
+SMTP_CONFIGURATION_LABEL_SMTP_LOGIN : 'تسجيل الدخول عبر سمتب',
+SMTP_CONFIGURATION_LABEL_SMTP_PASSWORD : 'كلمة مرور سمتب',
+TENANT_CONSTANT_MESSAGE_CANCEL : 'هل تريد بالتأكيد إلغاء التغييرات؟',
+TENANT_CONSTANT_MESSAGE_SAVE : 'هل تريد بالتأكيد حفظ جميع التعديلات؟',
+TENANT_CONSTANT_MESSAGE_DELETE : 'حذف هذا المستأجر حذف جميع البيانات التي تنتمي إلى المستأجر، نموذج البيانات، المستخدمين، الأدوار، التقارير، لوحات التحكم، مثيلات المجدولة، الخ هل أنت متأكد من أنك تريد حذف هذا المستأجر؟',
+TENANT_CONSTANT_MESSAGE_DEACTIVATE : 'إلغاء تنشيط هذا المستأجر سيجعل جميع مستخدمي هذا المستأجر لا تكون قادرة على تسجيل الدخول إلى النظام. هل تريد بالتأكيد إلغاء تنشيط هذا الدور؟',
+TENANT_CONSTANT_MESSAGE_TENANT_ID_CONSTRAINT : 'مطلوب معرف المستأجر.',
+TENANT_CONSTANT_MESSAGE_TENANT_NAME_CONSTRAINT : 'اسم المستأجر مطلوب.',
 TENANT_CONSTANT_TENANT_PERMISSIONS_AVAILABLE_TREE_HEADER : 'الأدوار المتاحة / المستخدمين',
-TENANT_CONSTANT_TENANT_PERMISSIONS_SHARE_WITH_TREE_HEADER : 'يسمح الأدوار / المستخدمين للمشاركة مع',
+TENANT_CONSTANT_TENANT_PERMISSIONS_SHARE_WITH_TREE_HEADER : 'الأدوار / يسمح للمستخدمين للمشاركة مع',
 TENANT_CONSTANT_REPORT_AVAILABLE_TREE_HEADER : 'الفئات المتاحة',
 TENANT_CONSTANT_REPORT_VISIBLE_TREE_HEADER : 'الفئات المرئية',
-TENANT_CONSTANT_REPORT_SAVABLE_TREE_HEADER : 'الفئات المسموح به لتوفير تقارير',
+TENANT_CONSTANT_REPORT_SAVABLE_TREE_HEADER : 'الفئات المسموح بها لحفظ التقارير',
 TENANT_CONSTANT_DASHBOARD_AVAILABLE_TREE_HEADER : 'الفئات المتاحة',
 TENANT_CONSTANT_DASHBOARD_VISIBLE_TREE_HEADER : 'الفئات المرئية',
-TENANT_CONSTANT_DASHBOARD_SAVABLE_TREE_HEADER : 'فئات يسمح لإنقاذ لوحات',
+TENANT_CONSTANT_DASHBOARD_SAVABLE_TREE_HEADER : 'الفئات المسموح بها لحفظ لوحات التحكم',
 TENANT_SELECT_ALL : 'اختر الكل',
 TENANT_DETAIL_TAB_TENANT_NAME : 'اسم المستأجر',
 TENANT_DETAIL_MODULES_LABEL_MODULES : 'وحدات',
-PERMISSION_LABEL_TENANT_ACCESS : 'وصول المستأجر',
+PERMISSION_LABEL_TENANT_ACCESS : 'المستأجر الوصول',
 PERMISSION_LABEL_ACCESS_LIMITS : 'حدود الوصول',
-PERMISSION_LABEL_ACCESS_DEFAULT : 'الافتراضيات الوصول',
+PERMISSION_LABEL_ACCESS_DEFAULT : 'الوصول الافتراضي',
 PERMISSION_LABEL_CONFIGURE_SECURITY_OPTIONS : 'تكوين خيارات الأمان',
 PERMISSION_LABEL_DASHBOARDS : 'لوحات',
-PERMISSION_LABEL_CATEGORY_ACCESSIBILITY : 'فئة المعاقين',
+PERMISSION_LABEL_CATEGORY_ACCESSIBILITY : 'فئة الوصول',
 PERMISSION_LABEL_CONFIGURE_ACCESS_RIGHT : 'تكوين حقوق الوصول',
-PERMISSION_LABEL_OVERWRITE_EXISTING_DASHBOARD : 'الكتابة لوحة القائمة',
-PERMISSION_LABEL_CAN_CREATE_DASHBOARD : 'يمكن إنشاء لوحة القيادة الجديدة؟',
-PERMISSION_LABEL_DASHBOARD_CATEGORIES_SUBCATEGORIES : 'لوحة الفئات / الفئات الفرعية',
-PERMISSION_LABEL_CAN_CREATE_CATEGORY : 'يمكن إنشاء فئة جديدة؟',
+PERMISSION_LABEL_OVERWRITE_EXISTING_DASHBOARD : 'الكتابة فوق لوحة التحكم الحالية',
+PERMISSION_LABEL_CAN_CREATE_DASHBOARD : 'هل يمكن إنشاء لوحة تحكم جديدة؟',
+PERMISSION_LABEL_DASHBOARD_CATEGORIES_SUBCATEGORIES : 'لوحة المفاتيح الفئات / الفئات الفرعية',
+PERMISSION_LABEL_CAN_CREATE_CATEGORY : 'هل يمكن إنشاء فئة جديدة؟',
 PERMISSION_LABEL_ADVANCED_SETTING : 'إعدادات متقدمة',
-PERMISSION_LABEL_EXPORTING_FORMAT : 'تنسيق المصدرة لل',
+PERMISSION_LABEL_EXPORTING_FORMAT : 'تصدير التنسيق',
 PERMISSION_LABEL_QUERY_EXECUTION : 'تنفيذ الاستعلام',
 PERMISSION_LABEL_FILTER_LOGIC : 'تصفية المنطق',
+PERMISSION_LABEL_CROSS_FILTERING : 'تصفية الصليب',
 PERMISSION_LABEL_SUBREPORT : 'تقرير فرعي',
-PERMISSION_LABEL_REGISTER_TO_ALERTS : 'سجل لالتنبيهات',
-PERMISSION_LABEL_VIEW_REPORT_HISTORY : 'مشاهدة تاريخ تقرير',
-PERMISSION_LABEL_UNARCHIVE_REPORT_VERSIONS : 'إصدارات تقرير إلغاء الأرشفة',
-PERMISSION_LABEL_OVERWRITE_EXISTING_REPORT : 'الكتابة تقرير القائمة',
-PERMISSION_LABEL_CAN_CREATE_REPORT : 'يمكن إنشاء تقرير جديد؟',
+PERMISSION_LABEL_REGISTER_TO_ALERTS : 'تسجيل في التنبيهات',
+PERMISSION_LABEL_VIEW_REPORT_HISTORY : 'عرض سجل التقارير',
+PERMISSION_LABEL_UNARCHIVE_REPORT_VERSIONS : 'إلغاء حفظ إصدارات التقرير',
+PERMISSION_LABEL_OVERWRITE_EXISTING_REPORT : 'الكتابة فوق التقرير الحالي',
+PERMISSION_LABEL_CAN_CREATE_REPORT : 'هل يمكن إنشاء تقرير جديد؟',
 PERMISSION_LABEL_DATA_SOURCES : 'مصادر البيانات',
 PERMISSION_LABEL_SIMPLE_DATA_SOURCES : 'مصادر بيانات بسيطة',
-PERMISSION_LABEL_ADVANCED_DATA_SOURCES : 'مصادر البيانات المتقدم',
-PERMISSION_LABEL_REPORT_PART_TYPES : 'أنواع التقارير الجزء',
+PERMISSION_LABEL_ADVANCED_DATA_SOURCES : 'مصادر البيانات المتقدمة',
+PERMISSION_LABEL_REPORT_PART_TYPES : 'الإبلاغ عن أنواع الأجزاء',
 PERMISSION_LABEL_CHART : 'خريطة',
 PERMISSION_LABEL_FORM : 'شكل',
 PERMISSION_LABEL_GAUGE : 'مقياس',
 PERMISSION_LABEL_MAP : 'خريطة',
 PERMISSION_LABEL_REPORT_CATEGORIES_SUBCATEGORIES : 'تقرير الفئات / الفئات الفرعية',
-PERMISSION_LABEL_DATA_MODEL_ACCESS : 'وصول نموذج البيانات',
+PERMISSION_LABEL_DATA_MODEL_ACCESS : 'الوصول إلى نموذج البيانات',
 PERMISSION_LABEL_PERMISSIONS : 'أذونات',
-PERMISSION_LABEL_GRANT_ROLE_WITH_FULL_REPORT_AND_DASHBOARD_ACCESS : 'منح دور مع التقرير الكامل والوصول لوحة',
-PERMISSION_LABEL_SCHEDULING_LIMITS : 'حدود جدولة',
-PERMISSION_LABEL_SCHEDULING_SCOPE : 'جدولة نطاق',
-PERMISSION_LABEL_SYSTEM_USERS : 'المستخدمين النظام',
+PERMISSION_LABEL_GRANT_ROLE_WITH_FULL_REPORT_AND_DASHBOARD_ACCESS : 'دور المنحة مع تقرير كامل والوصول لوحة القيادة',
+PERMISSION_LABEL_SCHEDULING_LIMITS : 'حدود الجدولة',
+PERMISSION_LABEL_SCHEDULING_SCOPE : 'نطاق الجدولة',
+PERMISSION_LABEL_SYSTEM_USERS : 'مستخدمي النظام',
 PERMISSION_LABEL_EXTERNAL_USERS : 'مستخدمين خارجيين',
-PERMISSION_LABEL_FULLREPORTDASHBOARDACCESS : 'التقرير الكامل والوصول لوحة',
-PERMISSION_LABEL_SCHEDULED_INSTANCES : 'حالات المقرر',
-PERMISSION_LABEL_CAN_SEE_SYSTEM_MESSAGES : 'يمكن أن نرى رسائل النظام؟',
+PERMISSION_LABEL_FULLREPORTDASHBOARDACCESS : 'تقرير كامل والوصول لوحة القيادة',
+PERMISSION_LABEL_SCHEDULED_INSTANCES : 'الحالات المجدولة',
+PERMISSION_LABEL_CAN_SEE_SYSTEM_MESSAGES : 'هل يمكن رؤية رسائل النظام؟',
 PERMISSION_LABEL_USER_ROLE_ASSOCIATION : 'جمعية دور المستخدم',
 PERMISSION_LABEL_PASSWORD_OPTIONS : 'تكوين خيار كلمة المرور',
 ACCESS_CONSTANT_ACCESS_TABLE_DEF_SHARE_WITH : 'شارك مع',
 ACCESS_CONSTANT_ACCESS_TABLE_DEF_ACCESS_RIGHT : 'حقوق الوصول',
 ACCESS_CONSTANT_PERMISSION_ACCESS_TABLE_DEF_SHARE_WITH : 'شارك مع',
-ACCESS_CONSTANT_PERMISSION_ACCESS_TABLE_DEF_SHARING_SELECTION : 'اختيار تقاسم',
-ACCESS_CONSTANT_PERMISSION_ACCESS_TABLE_DEF_REPORT_ACCESS_RIGHT : 'حقوق الوصول تقرير',
-ACCESS_CONSTANT_PERMISSION_ACCESS_TABLE_DEF_DASHBOARD_ACCESS_RIGHT : 'حقوق الوصول لوحة القيادة',
+ACCESS_CONSTANT_PERMISSION_ACCESS_TABLE_DEF_SHARING_SELECTION : 'مشاركة التحديد',
+ACCESS_CONSTANT_PERMISSION_ACCESS_TABLE_DEF_REPORT_ACCESS_RIGHT : 'تقرير حقوق الوصول',
+ACCESS_CONSTANT_PERMISSION_ACCESS_TABLE_DEF_DASHBOARD_ACCESS_RIGHT : 'حقوق الوصول إلى لوحة التحكم',
 ACCESS_CONSTANT_LABEL_SEARCH_OPTION_SHARE_WITH : 'شارك مع',
 ACCESS_CONSTANT_LABEL_SEARCH_OPTION_ACCESS_RIGHT : 'حقوق الوصول',
 ACCESS_CONSTANT_LABEL_PERMISSION_SEARCH_OPTION_SHARE_WITH : 'شارك مع',
-ACCESS_CONSTANT_LABEL_PERMISSION_SEARCH_OPTION_REPORT_ACCESS_RIGHT : 'حقوق الوصول تقرير',
-ACCESS_CONSTANT_LABEL_PERMISSION_SEARCH_OPTION_DASHBOARD_ACCESS_RIGHT : 'حقوق الوصول لوحة القيادة',
+ACCESS_CONSTANT_LABEL_PERMISSION_SEARCH_OPTION_REPORT_ACCESS_RIGHT : 'تقرير حقوق الوصول',
+ACCESS_CONSTANT_LABEL_PERMISSION_SEARCH_OPTION_DASHBOARD_ACCESS_RIGHT : 'حقوق الوصول إلى لوحة التحكم',
 ACCESS_CONSTANT_LABEL_ASSIGNED_TYPE_EVERYONE : 'كل واحد',
 ACCESS_CONSTANT_LABEL_ASSIGNED_TYPE_USER : 'المستعمل',
-ACCESS_CONSTANT_CONSTRAINT_ACCESS_RIGHT : 'مطلوب الوصول اليمين',
+ACCESS_CONSTANT_CONSTRAINT_ACCESS_RIGHT : 'مطلوب حق الوصول',
 ACCESS_CONSTANT_CONSTRAINT_USER : 'مطلوب المستخدم',
 ACCESS_CONSTANT_CONSTRAINT_ROLE : 'مطلوب دور',
-ACCESS_CONSTANT_CONSTRAINT_REPORT_OWNER : 'في عداد المفقودين معلومات المالك. يرجى تحديد من سيكون صاحب هذا التقرير.',
-ACCESS_CONSTANT_CONSTRAINT_DASHBOARD_OWNER : 'في عداد المفقودين معلومات المالك. يرجى تحديد من سيكون صاحب لوحة أجهزة القياس.',
-ACCESS_CONSTANT_MESSAGE_CONFIRM_DELETE_SHARED_INSTANCE : 'هل أنت متأكد أنك تريد حذف المثال المشتركة؟',
-ACCESS_CONSTANT_MESSAGE_CONFIRM_DELETE_SELECTED_SHARED_INSTANCES : 'هل أنت متأكد أنك تريد حذف المثال المشتركة مختارة (ق)؟',
-ACCESS_CONSTANT_MESSAGE_CONFIRM_DELETE_DEFAULT_ACCESS_RIGHT : 'هل أنت متأكد أنك تريد حذف هذا الحق الوصول الافتراضية؟',
-ACCESS_CONSTANT_MESSAGE_CONFIRM_DELETE_SELECTED_DEFAULT_ACCESS_RIGHT : 'هل أنت متأكد أنك تريد حذف حقوق الوصول الافتراضية المحددة؟',
+ACCESS_CONSTANT_CONSTRAINT_REPORT_OWNER : 'معلومات المالك مفقودة. يرجى تحديد من سيكون مالك هذا التقرير.',
+ACCESS_CONSTANT_CONSTRAINT_DASHBOARD_OWNER : 'معلومات المالك مفقودة. يرجى تحديد من سيكون مالك لوحة التحكم هذه.',
+ACCESS_CONSTANT_MESSAGE_CONFIRM_DELETE_SHARED_INSTANCE : 'هل تريد بالتأكيد حذف المثيل المشترك؟',
+ACCESS_CONSTANT_MESSAGE_CONFIRM_DELETE_SELECTED_SHARED_INSTANCES : 'هل تريد بالتأكيد حذف المثيل المشترك المحدد (الأمثلة) المشتركة؟',
+ACCESS_CONSTANT_MESSAGE_CONFIRM_DELETE_DEFAULT_ACCESS_RIGHT : 'هل تريد بالتأكيد حذف حق الوصول الافتراضي هذا؟',
+ACCESS_CONSTANT_MESSAGE_CONFIRM_DELETE_SELECTED_DEFAULT_ACCESS_RIGHT : 'هل تريد بالتأكيد حذف حقوق الدخول الافتراضية المحددة؟',
 ACCESS_CONSTANT_LABEL_ADD_SHARING : 'إضافة مشاركة',
-ACCESS_CONSTANT_LABEL_ADD_DEFAULT_ACCESS : 'إضافة الوصول الافتراضية',
+ACCESS_CONSTANT_LABEL_ADD_DEFAULT_ACCESS : 'إضافة الوصول الافتراضي',
+DASHBOARD_CONSTANT_MESSAGE_REMOVE_USERS : 'أنت تحدد مربع الاختيار لوحة التحكم العالمية. ستتم إزالة أي مشاركة مع المستخدمين في صفحة أسيس وسيتم إزالة جميع الجداول الزمنية. هل تريد بالتأكيد تحديد مربع الاختيار هذا؟',
+DASHBOARD_CONSTANT_MESSAGE_REMOVE_ROLES : 'أنت غير محدد مربع الاختيار لوحة التحكم العالمية. سيتم إزالة أي أدوار غير موجودة في المستأجر ذات الصلة في مشاركة مع الأدوار في صفحة الوصول. هل تريد بالتأكيد إلغاء تحديد مربع الاختيار هذا؟',
 UI_CONSTANT_PIXEL : 'بكسل',
 UI_CONSTANT_PIXELS : 'بكسل',
 UI_CONSTANT_CHARACTERS : 'الشخصيات',
 FONT_SETTINGS_LABEL_FONT : 'الخط',
 FONT_SETTINGS_LABEL_ALIGNMENT : 'انتقام',
-ROLE_SETUP_CONSTANT_MESSAGE_DELETE : 'سوف حذف هذا الدور إزالة معلومات جمعية دور أولئك المستخدمين الذين ترتبط حاليا إلى هذا الدور. هذا قد يترك بعض المستخدمين دون دور المرتبطة إذا كان هذا هو الدور الوحيد. هل أنت متأكد أنك تريد حذف هذا الدور؟',
-ROLE_SETUP_CONSTANT_MESSAGE_DEACTIVE : 'سوف إلغاء تنشيط هذا الدور ترك أي من المستخدمين المرتبطة فقط هذا الدور غير قادر على الدخول إلى النظام. هل أنت متأكد أنك تريد أن تجعل هذا الدور إلغاء تنشيط هذا الدور؟',
+ROLE_SETUP_CONSTANT_MESSAGE_DELETE : 'سيؤدي حذف هذا الدور إلى إزالة معلومات ارتباط الدور لهؤلاء المستخدمين المقترنين حاليا بهذا الدور. قد يؤدي ذلك إلى ترك بعض المستخدمين بدون دور مرتبط إذا كان هذا هو دورهم الوحيد. هل تريد بالتأكيد حذف هذا الدور؟',
+ROLE_SETUP_CONSTANT_MESSAGE_DEACTIVE : 'سيؤدي إلغاء تنشيط هذا الدور إلى ترك أي مستخدم مرتبط فقط بهذا الدور غير قادر على تسجيل الدخول إلى النظام. هل تريد بالتأكيد جعل هذا الدور يؤدي إلى إلغاء تنشيط هذا الدور؟',
 ROLE_SETUP_CONSTANT_CONSTRAINTS_REQUIRE_VALUE : 'مطلوب قيمة محددة.',
-ROLE_SETUP_CONSTANT_ROLE_SETUP_USERS : 'حدد المستخدمين لتعيين هذا الدور',
+ROLE_SETUP_CONSTANT_ROLE_SETUP_USERS : 'حدد المستخدمين لتعيينهم لهذا الدور',
 ROLE_SETUP_CONSTANT_DATA_MODEL_ACCESS_AVAILABLE_TREE_HEADER : 'مصادر البيانات المتاحة',
 ROLE_SETUP_CONSTANT_DATA_MODEL_ACCESS_VISIBLE_TREE_HEADER : 'مصادر البيانات المرئية',
-ROLE_SETUP_PERMISSION_CATEGORIES_ERROR : 'و{0} (ق) المحفوظة في الفئات التالية / فئات فرعية قد لا يكون {1} بسبب هذه التغييرات في فئات / أذونات الفئات الفرعية. <br> {2} <br> يرجى تصحيح ذلك قبل المضي قدما.',
+ROLE_SETUP_PERMISSION_CATEGORIES_ERROR : 'قد لا يكون {0} (s) المحفوظة في الفئات / الفئات الفرعية التالية {1} بسبب هذه التغييرات في أذونات الفئات / الفئات الفرعية. <br> {2} <br> يرجى تصحيح هذا قبل المضي قدما.',
 ROLE_SETUP_PERMISSION_CATEGORIES_ERROR_EDITABLE : 'قابل للتعديل',
 ROLE_SETUP_PERMISSION_CATEGORIES_ERROR_ACCESSIBLE : 'يمكن الوصول',
+ROLE_SETUP_PERMISSION_NOT_ALLOW_TO_SAVE : 'لا يسمح بالدور لحفظ {0} في الفئات / الفئات الفرعية التالية. <br><br> {1}',
 ROLE_SETUP_ROLE_LIST_HEADER_ADD_ROLE : 'إضافة دور',
-ROLE_SETUP_DATA_MODEL_ACCESS : 'وصول نموذج البيانات',
-ROLE_SETUP_DATA_MODEL_HEADER : 'يمكنك تحديد العنصر أو مجموعة للتنقل بين المتاحة والمرئية مصادر البيانات',
+ROLE_SETUP_DATA_MODEL_ACCESS : 'الوصول إلى نموذج البيانات',
+ROLE_SETUP_DATA_MODEL_HEADER : 'يمكنك تحديد العنصر أو المجموعة للتنقل بين مصادر البيانات المتوفرة والمرئية',
 ROLE_SETUP_USERS : 'المستخدمين',
-ROLE_SETUP_PERMISSION_SUMMARY : 'ملخص إذن',
+ROLE_SETUP_PERMISSION_SUMMARY : 'ملخص الإذن',
 ROLE_SETUP_PERMISSION_SUMMARY_HEADER_NAME_ACCESS : 'التمكن من',
 ROLE_SETUP_PERMISSION_SUMMARY_ACCESS_LIMITS : 'حدود الوصول',
-ROLE_SETUP_PERMISSION_SUMMARY_ACCESS_DEFAULT : 'الافتراضيات الوصول',
-ROLE_SETUP_PERMISSION_SUMMARY_LABEL_CAN_CREATE_NEW_REPORTS : 'يمكن إنشاء تقارير جديدة؟',
-ROLE_SETUP_PERMISSION_SUMMARY_LABEL_DASHBOARD_CATEGORIES_SUBCATEGORIES : 'لوحة الفئات / الفئات الفرعية',
-ROLE_SETUP_PERMISSION_SUMMARY_LABEL_ACCESSIBILITY : 'فئة المعاقين',
+ROLE_SETUP_PERMISSION_SUMMARY_ACCESS_DEFAULT : 'الوصول الافتراضي',
+ROLE_SETUP_PERMISSION_SUMMARY_LABEL_CAN_CREATE_NEW_REPORTS : 'هل يمكن إنشاء تقارير جديدة؟',
+ROLE_SETUP_PERMISSION_SUMMARY_LABEL_DASHBOARD_CATEGORIES_SUBCATEGORIES : 'لوحة المفاتيح الفئات / الفئات الفرعية',
+ROLE_SETUP_PERMISSION_SUMMARY_LABEL_ACCESSIBILITY : 'فئة الوصول',
 ROLE_SETUP_PERMISSION_SUMMARY_LABEL_VISIBLE_CATEGORIES : 'الفئات المرئية',
-ROLE_SETUP_PERMISSION_SUMMARY_LABEL_CATEGORIES_ALLOWED_FOR_SAVING_DASHBOARD : 'فئات يسمح لإنقاذ لوحات',
-ROLE_SETUP_PERMISSION_SUMMARY_LABEL_CONFIGURE_ACCESS : 'تكوين الوصول',
-ROLE_SETUP_PERMISSION_SUMMARY_LABEL_OVERWRITE_EXISTING_DASHBOARD : 'الكتابة لوحة القيادة الحالية',
+ROLE_SETUP_PERMISSION_SUMMARY_LABEL_CATEGORIES_ALLOWED_FOR_SAVING_DASHBOARD : 'الفئات المسموح بها لحفظ لوحات التحكم',
+ROLE_SETUP_PERMISSION_SUMMARY_LABEL_CONFIGURE_ACCESS : 'تهيئة الوصول',
+ROLE_SETUP_PERMISSION_SUMMARY_LABEL_OVERWRITE_EXISTING_DASHBOARD : 'استبدال لوحة التحكم الحالية',
 ROLE_SETUP_PERMISSION_SUMMARY_LABEL_DATA_MODEL : 'نموذج البيانات',
 ROLE_SETUP_PERMISSION_SUMMARY_LABEL_ADVANCED_SETTING : 'إعدادات متقدمة',
 ROLE_SETUP_PERMISSION_SUMMARY_LABEL_CATEGORIES : 'الاقسام',
 ROLE_SETUP_PERMISSION_SUMMARY_LABEL_PERMISSION : 'أذونات',
 ROLE_SETUP_PERMISSION_SUMMARY_LABEL_ROLES : 'الأدوار',
-ROLE_SETUP_PERMISSION_SUMMARY_LABEL_FULL_REPORT_AND_DASHBOARD_ACCESS : 'التقرير الكامل والوصول لوحة',
+ROLE_SETUP_PERMISSION_SUMMARY_LABEL_FULL_REPORT_AND_DASHBOARD_ACCESS : 'تقرير كامل والوصول لوحة القيادة',
 ROLE_SETUP_PERMISSION_SUMMARY_LABEL_WORD : 'كلمة',
 ROLE_SETUP_PERMISSION_SUMMARY_LABEL_EXCEL : 'تفوق',
 ROLE_SETUP_PERMISSION_SUMMARY_LABEL_PDF : 'قوات الدفاع الشعبي',
@@ -983,338 +1012,357 @@ ROLE_SETUP_PERMISSION_SUMMARY_LABEL_CSV : 'CSV',
 ROLE_SETUP_PERMISSION_SUMMARY_LABEL_XML : 'أكس',
 ROLE_SETUP_PERMISSION_SUMMARY_LABEL_JSON : 'سلمان',
 ROLE_SETUP_PERMISSION_SUMMARY_LABEL_QUERY_EXECUTION : 'تنفيذ الاستعلام',
-ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_CAN_CREATE_NEW_REPORTS : 'يمكن إنشاء تقارير جديدة؟',
+ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_CAN_CREATE_NEW_REPORTS : 'هل يمكن إنشاء تقارير جديدة؟',
 ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_DATA_SOURCES : 'مصادر البيانات',
 ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_SIMPLE_DATA_SOURCE : 'مصادر بيانات بسيطة',
-ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_ADVANCED_DATA_SOURCE : 'مصادر البيانات المتقدم',
-ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_REPORT_PART_TYPES : 'أنواع التقارير الجزء',
+ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_ADVANCED_DATA_SOURCE : 'مصادر البيانات المتقدمة',
+ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_REPORT_PART_TYPES : 'الإبلاغ عن أنواع الأجزاء',
 ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_CHART : 'خريطة',
 ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_FORM : 'شكل',
 ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_GAUGE : 'مقياس',
 ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_MAP : 'خريطة',
 ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_REPORT_CATEGORIES_SUBCATEGORIES : 'تقرير الفئات / الفئات الفرعية',
-ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_CATEGORIES_ACCESSIBILITY : 'فئات المعاقين',
+ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_CATEGORIES_ACCESSIBILITY : 'الفئات إمكانية الوصول',
 ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_VISIBLE_CATEGORIES : 'الفئات المرئية',
-ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_CATEGORIES_ALLOWED_FOR_SAVING_REPORTS : 'الفئات المسموح به لتوفير تقارير',
-ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_FILTERS_PROPERTIES : 'خصائص المرشحات',
+ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_CATEGORIES_ALLOWED_FOR_SAVING_REPORTS : 'الفئات المسموح بها لحفظ التقارير',
+ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_FILTERS_PROPERTIES : 'خصائص الفلاتر',
 ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_FILTERS_LOGIC : 'مرشحات المنطق',
+ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_CROSS_FILTERING : 'تصفية الصليب',
 ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_FIELD_PROPERTIES : 'خصائص الحقل',
 ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_SUBREPORT : 'تقرير فرعي',
-ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_REGISTER_FOR_ALERTS : 'سجل للحصول على تنبيهات',
+ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_REGISTER_FOR_ALERTS : 'سجل للتنبيهات',
 ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_CONFIGURE_ACCESS_RIGHT : 'تكوين حقوق الوصول',
-ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_VIEW_REPORT_HISTORY : 'مشاهدة تاريخ تقرير',
-ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_UNARCHIVE_REPORT_VERSIONS : 'إصدارات تقرير إلغاء الأرشفة',
-ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_OVERWRITE_EXISTING_REPORT : 'الكتابة تقرير القائمة',
-ROLE_SETUP_PERMISSION_SUMMARY_ROLE_SETUP_LABEL_DATA_MODEL_ACCESS : 'بيانات نموذج رصا',
+ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_VIEW_REPORT_HISTORY : 'عرض سجل التقارير',
+ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_UNARCHIVE_REPORT_VERSIONS : 'إلغاء حفظ إصدارات التقرير',
+ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_OVERWRITE_EXISTING_REPORT : 'الكتابة فوق التقرير الحالي',
+ROLE_SETUP_PERMISSION_SUMMARY_ROLE_SETUP_LABEL_DATA_MODEL_ACCESS : 'نموذج البيانات أسيس',
 ROLE_SETUP_PERMISSION_SUMMARY_ROLE_SETUP_LABEL_PERMISSIONS : 'أذونات',
-ROLE_SETUP_PERMISSION_SUMMARY_ROLE_SETUP_LABEL_GRANT_ROLE_WITH_FULL_REPORT_AND_DASHBOARD_ACCESS : 'منح دور مع التقرير الكامل والوصول لوحة',
-ROLE_SETUP_PERMISSION_SUMMARY_SCHEDULING_LABEL_SCHEDULING_LIMITS : 'حدود جدولة',
-ROLE_SETUP_PERMISSION_SUMMARY_SCHEDULING_LABEL_SCHEDULING_SCOPE : 'جدولة نطاق',
-ROLE_SETUP_PERMISSION_SUMMARY_SCHEDULING_LABEL_SYSTEM_USERS : 'المستخدمين النظام',
+ROLE_SETUP_PERMISSION_SUMMARY_ROLE_SETUP_LABEL_GRANT_ROLE_WITH_FULL_REPORT_AND_DASHBOARD_ACCESS : 'دور المنحة مع تقرير كامل والوصول لوحة التحكم',
+ROLE_SETUP_PERMISSION_SUMMARY_SCHEDULING_LABEL_SCHEDULING_LIMITS : 'حدود الجدولة',
+ROLE_SETUP_PERMISSION_SUMMARY_SCHEDULING_LABEL_SCHEDULING_SCOPE : 'نطاق الجدولة',
+ROLE_SETUP_PERMISSION_SUMMARY_SCHEDULING_LABEL_SYSTEM_USERS : 'مستخدمي النظام',
 ROLE_SETUP_PERMISSION_SUMMARY_SCHEDULING_LABEL_EXTERNAL_USERS : 'مستخدمين خارجيين',
-ROLE_SETUP_PERMISSION_SUMMARY_SYSTEM_CONFIGURATION_LABEL_SCHEDULE_INSTANCES : 'حالات الجدول الزمني',
-ROLE_SETUP_PERMISSION_SUMMARY_SYSTEM_WIDE_LABEL_CAN_SEE_SYSTEM_MESSAGES : 'يمكن أن نرى رسائل النظام؟',
+ROLE_SETUP_PERMISSION_SUMMARY_SYSTEM_CONFIGURATION_LABEL_SCHEDULE_INSTANCES : 'الجدول الزمني مثيلات',
+ROLE_SETUP_PERMISSION_SUMMARY_SYSTEM_WIDE_LABEL_CAN_SEE_SYSTEM_MESSAGES : 'هل يمكن رؤية رسائل النظام؟',
 ROLE_SETUP_PERMISSION_SUMMARY_USER_SETUP_LABEL_CONFIGURE_SECURITY_OPTIONS : 'تكوين خيارات الأمان',
 ROLE_SETUP_PERMISSION_SUMMARY_USER_SETUP_LABEL_USER_ROLE_ASSOCIATION : 'جمعية دور المستخدم',
-ROLE_SETUP_PERMISSION_SUMMARY_ROLE_CATEGORY_SUBCATEGORY : 'يسمح هذا الدور لحفظ التقارير في الفئات / الفئات الفرعية التالية:',
-ROLE_SETUP_PERMISSION_SUMMARY_ROLE_CATEGORY_SUBCATEGORY_ACCESS_LIMIT : 'يسمح هذا الدور لتبادل التقارير / لوحات في الفئات / الفئات الفرعية التالية:',
-ROLE_SETUP_PERMISSION_SUMMARY_ROLE_CATEGORY_SUBCATEGORY_SCHEDULE_LIMIT : 'يسمح هذا الدور لجدولة التقارير / لوحات في الفئات / الفئات الفرعية التالية:',
-ROLE_SETUP_PERMISSION_SUMMARY_GLOBAL_CATEGORIES : 'التصنيفات العالمية',
+ROLE_SETUP_PERMISSION_SUMMARY_ROLE_CATEGORY_SUBCATEGORY_REPORT_VIEW : 'يسمح لهذا الدور بعرض التقارير في الفئات / الفئات الفرعية التالية:',
+ROLE_SETUP_PERMISSION_SUMMARY_ROLE_CATEGORY_SUBCATEGORY_REPORT_SAVE : 'يسمح لهذا الدور بحفظ التقارير في الفئات / الفئات الفرعية التالية:',
+ROLE_SETUP_PERMISSION_SUMMARY_ROLE_CATEGORY_SUBCATEGORY_DASHBOARD_VIEW : 'يسمح لهذا الدور بعرض لوحات التحكم في الفئات / الفئات الفرعية التالية:',
+ROLE_SETUP_PERMISSION_SUMMARY_ROLE_CATEGORY_SUBCATEGORY_DASHBOARD_SAVE : 'يسمح لهذا الدور بحفظ لوحات التحكم في الفئات / الفئات الفرعية التالية:',
+ROLE_SETUP_PERMISSION_SUMMARY_ROLE_CATEGORY_SUBCATEGORY_ACCESS_LIMIT : 'يسمح لهذا الدور بمشاركة التقارير / لوحات التحكم في الفئات / الفئات الفرعية التالية:',
+ROLE_SETUP_PERMISSION_SUMMARY_ROLE_CATEGORY_SUBCATEGORY_ACCESS_DEFAULT : 'في ما يلي حقوق المشاركة المحددة مسبقا لهذا الدور عند حفظ أي تقرير أو لوحة تحكم يمكن للمستخدم تغيير حقوق المشاركة هذه إذا كان لديه حق الوصول إلى تهيئة حقوق الدخول في التقارير ولوحات التحكم',
+ROLE_SETUP_PERMISSION_SUMMARY_ROLE_CATEGORY_SUBCATEGORY_SCHEDULE_LIMIT : 'يسمح لهذا الدور بجدولة التقارير / لوحات التحكم في الفئات / الفئات الفرعية التالية:',
+ROLE_SETUP_PERMISSION_SUMMARY_GLOBAL_CATEGORIES : 'الفئات العالمية',
 ROLE_SETUP_PERMISSION_SUMMARY_LOCAL_CATEGORIES : 'الفئات المحلية',
-ROLE_SETUP_PERMISSION_SUMMARY_VISIBLE_REPORT_CATEGORIES : 'مرئية تقرير الفئات',
-ROLE_SETUP_PERMISSION_SUMMARY_VISIBLE_DASHBOARD_CATEGORIES : 'مرئية لوحة الفئات',
-ROLE_SETUP_USERS_LABEL_AVAILABLE_USERS : 'المستخدمين متاح',
+ROLE_SETUP_PERMISSION_SUMMARY_VISIBLE_REPORT_CATEGORIES : 'فئات التقارير المرئية',
+ROLE_SETUP_PERMISSION_SUMMARY_VISIBLE_DASHBOARD_CATEGORIES : 'فئات لوحة التحكم المرئية',
+ROLE_SETUP_PERMISSION_SUMMARY_SAVING_REPORT_CATEGORIES : 'حفظ فئات التقرير',
+ROLE_SETUP_PERMISSION_SUMMARY_SAVING_DASHBOARD_CATEGORIES : 'حفظ فئات لوحة التحكم',
+ROLE_SETUP_PERMISSION_SUMMARY_MORE : 'أكثر من',
+ROLE_SETUP_USERS_LABEL_AVAILABLE_USERS : 'المستخدمون المتوفرون',
 ROLE_SETUP_USERS_LABEL_SEARCH : 'بحث...',
-ROLE_SETUP_USERS_LABEL_ASSIGN_USERS : 'المستخدمين تعيين',
+ROLE_SETUP_USERS_LABEL_ASSIGN_USERS : 'المستخدمون المعينون',
 ROLE_SETUP_ROLE_DETAIL_LABEL_ROLE_NAME : 'اسم الدور',
 SETTING_LEVEL_LABEL_SETTING_LEVEL : 'مستوى الإعداد',
-TENANT_DETAIL_TAB_TENANT_ID : 'ID المستأجر',
+TENANT_DETAIL_TAB_TENANT_ID : 'معرف المستأجر',
 TENANT_LIST_HEADER_ADD_TENANT : 'إضافة المستأجر',
-SYSTEM_CONFIGURATION_LABEL_REPORTING_TYPE : 'الإبلاغ عن نوع',
-SYSTEM_CONFIGURATION_PLACEHOLDER_REPORT_OR_DASHBOARD_NAME : 'تقرير / اسم لوحة',
+SYSTEM_CONFIGURATION_LABEL_REPORTING_TYPE : 'نوع التقارير',
+SYSTEM_CONFIGURATION_PLACEHOLDER_REPORT_OR_DASHBOARD_NAME : 'اسم التقرير / لوحة التحكم',
 SCHEDULING_SEARCH_CONSTANT_TOOLTIP_EXPAND : 'وسعت',
 SCHEDULING_SEARCH_CONSTANT_TOOLTIP_COLLAPSE : 'انهدام',
-SCHEDULING_SEARCH_CONSTANT_LABEL_INSTANCE_TYPE_SCHEDULE_REPORT : 'من المقرر التقارير البند',
-SCHEDULING_SEARCH_CONSTANT_LABEL_INSTANCE_TYPE_SCHEDULE_ALERT : 'تنبيه المقرر',
-SCHEDULING_SEARCH_CONSTANT_LABEL_INSTANCE_TYPE_SUBSCRIBE_REPORT : 'اشتركت التقارير البند',
-SCHEDULING_SEARCH_CONSTANT_LABEL_INSTANCE_TYPE_SUBSCRIBE_ALERT : 'المكتتب تنبيه',
-SCHEDULING_SEARCH_CONSTANT_LABEL_RECURRENCE_EVERY_HOURLY : 'كل كل ساعة',
-SCHEDULING_SEARCH_CONSTANT_LABEL_RECURRENCE_EVERY_DAILY : 'كل اليومية',
+SCHEDULING_SEARCH_CONSTANT_LABEL_INSTANCE_TYPE_SCHEDULE_REPORT : 'بند التقارير المجدولة',
+SCHEDULING_SEARCH_CONSTANT_LABEL_INSTANCE_TYPE_SCHEDULE_ALERT : 'تنبيه المجدولة',
+SCHEDULING_SEARCH_CONSTANT_LABEL_INSTANCE_TYPE_SUBSCRIBE_REPORT : 'بند التقارير المشترك',
+SCHEDULING_SEARCH_CONSTANT_LABEL_INSTANCE_TYPE_SUBSCRIBE_ALERT : 'تنبيه مشترك',
+SCHEDULING_SEARCH_CONSTANT_LABEL_RECURRENCE_EVERY_HOURLY : 'كل ساعة',
+SCHEDULING_SEARCH_CONSTANT_LABEL_RECURRENCE_EVERY_DAILY : 'كل يوم',
 SCHEDULING_SEARCH_CONSTANT_LABEL_RECURRENCE_CUSTOM : 'العادة',
 SCHEDULING_SEARCH_CONSTANT_LABEL_DELIVERY_TYPE_FILE_LOCATION : 'مكان الملف',
-SCHEDULING_SEARCH_CONSTANT_LABEL_DELIVERY_METHOD_SEND_TO_DISK : 'ارسل الى القرص',
+SCHEDULING_SEARCH_CONSTANT_LABEL_DELIVERY_METHOD_SEND_TO_DISK : 'إرسال إلى القرص',
 SCHEDULING_SEARCH_CONSTANT_LABEL_DATE : 'تاريخ',
 SCHEDULING_SEARCH_CONSTANT_LABEL_LAST_SUCCESS_RUN_CANNOT_BE_SEND : 'لا يمكن إرسال التقرير',
 SCHEDULING_SEARCH_CONSTANT_LABEL_LAST_SUCCESS_RUN_NOT_STARTED : 'لم يبدأ الجدول الزمني',
 SCHEDULING_SEARCH_CONSTANT_LABEL_NEXT_SCHEDULED_RUN_NO_RECURRENCE : 'لا تكرار',
-SCHEDULING_SEARCH_CONSTANT_LABEL_NEXT_SCHEDULED_RUN_ENDED : 'انتهت الجدول',
+SCHEDULING_SEARCH_CONSTANT_LABEL_NEXT_SCHEDULED_RUN_ENDED : 'لقد انتهى الجدول',
 SCHEDULING_SEARCH_CONSTANT_LABEL_REPORT_TYPE : 'نوع التقرير',
-SCHEDULING_SEARCH_CONSTANT_LABEL_REPORTING_NAME : 'الإبلاغ عن الاسم',
-SCHEDULING_SEARCH_CONSTANT_LABEL_INSTANCE_TYPE : 'المثال نوع',
+SCHEDULING_SEARCH_CONSTANT_LABEL_REPORTING_NAME : 'اسم التقارير',
+SCHEDULING_SEARCH_CONSTANT_LABEL_INSTANCE_TYPE : 'نوع المثيل',
 SCHEDULING_SEARCH_CONSTANT_LABEL_RECURRENCE : 'تكرار',
-SCHEDULING_SEARCH_CONSTANT_LABEL_EXPORT_FILE_TYPE : 'نوع ملف تصدير',
+SCHEDULING_SEARCH_CONSTANT_LABEL_EXPORT_FILE_TYPE : 'تصدير نوع الملف',
 SCHEDULING_SEARCH_CONSTANT_LABEL_RECIPENT : 'المتلقي (ق)',
-SCHEDULING_SEARCH_CONSTANT_LABEL_LAST_SUCCESS_RUN : 'الماضي بنجاح تشغيل',
-SCHEDULING_SEARCH_CONSTANT_LABEL_NEXT_SCHEDULED_RUN : 'القادم المجدولة تشغيل',
+SCHEDULING_SEARCH_CONSTANT_LABEL_LAST_SUCCESS_RUN : 'آخر تشغيل ناجح',
+SCHEDULING_SEARCH_CONSTANT_LABEL_NEXT_SCHEDULED_RUN : 'التشغيل المجدول التالي',
 SCHEDULING_SEARCH_CONSTANT_LABEL_CREATED_BY : 'صنع من قبل',
-SCHEDULING_SEARCH_CONSTANT_ACTION_EDIT_TEXT : 'تحرير جدولة مثيل',
-SCHEDULING_SEARCH_CONSTANT_ACTION_DELETE_TEXT : 'حذف جدولة مثيل',
-DASHBOARD_MESSAGE_CONFIRM_DELETE : 'هل أنت متأكد أنك تريد حذف &quot;{0}&quot; لوحة القيادة؟',
-DASHBOARD_MESSAGE_MOVE_SUCCESSFULLY : 'لوحة القيادة &quot;{0}&quot; تم نقله بنجاح إلى {1} {2}.',
-DASHBOARD_MESSAGE_COPY_SUCCESSFULLY : 'لوحة القيادة &quot;{0}&quot; تم نسخها بنجاح إلى {1} {2}.',
-DASHBOARD_MESSAGE_SPECIFY_DESTINATION : 'تحديد معلومات جهة إلى {0} لوحة القيادة.',
-DASHBOARD_MESSAGE_INVALID_IMAGE_URL : 'وURL صورة لا يمكن الوصول علنا ​​في شبكة الانترنت.',
-DASHBOARD_MESSAGE_MISSING_DESCRIPTION : 'تقديم وصف لوحة المعلومات هنا:',
-DASHBOARD_COMMON_FILTER_FIELDS : 'الحقول تصفية المشتركة',
-DASHBOARD_DEFAULT_NAME : 'اسم سبيل المثال لوحة',
-DASHBOARD_CONSTRAINTS_REQUIRED_NAME : 'مطلوب اسم لوحة أجهزة القياس.',
+SCHEDULING_SEARCH_CONSTANT_ACTION_EDIT_TEXT : 'تحرير مثيل الجدولة',
+SCHEDULING_SEARCH_CONSTANT_ACTION_DELETE_TEXT : 'حذف مثيل الجدولة',
+DASHBOARD_MESSAGE_CONFIRM_DELETE : 'هل تريد بالتأكيد حذف لوحة التحكم &quot;{0}&quot;؟',
+DASHBOARD_MESSAGE_MOVE_SUCCESSFULLY : 'تم نقل لوحة التحكم &quot;{0}&quot; بنجاح إلى {1} {2}.',
+DASHBOARD_MESSAGE_COPY_SUCCESSFULLY : 'تم نسخ لوحة التحكم &quot;{0}&quot; بنجاح إلى {1} {2}.',
+DASHBOARD_MESSAGE_SPECIFY_DESTINATION : 'حدد معلومات الوجهة إلى {0} لوحة التحكم.',
+DASHBOARD_MESSAGE_INVALID_IMAGE_URL : 'لا يمكن الدخول إلى عنوان ورل للصورة بشكل عام في الإنترنت.',
+DASHBOARD_MESSAGE_MISSING_DESCRIPTION : 'قدم وصفا للوحة التحكم هنا:',
+DASHBOARD_COMMON_FILTER_FIELDS : 'حقول تصفية مشتركة',
+DASHBOARD_DEFAULT_NAME : 'مثال على اسم لوحة التحكم',
+DASHBOARD_CONSTRAINTS_REQUIRED_NAME : 'مطلوب اسم لوحة التحكم.',
 DASHBOARD_LABEL_PRESENTATION : 'عرض',
 DASHBOARD_LABEL_ACCESS : 'التمكن من',
-DASHBOARD_LABEL_NAME : 'اسم لوحة أجهزة القياس',
-DASHBOARD_LABEL_ALL_DASHBOARD : 'ALL لوحات',
-DASHBOARD_LABEL_BODY_TEXT : 'النص الأساسي',
-DASHBOARD_LABEL_DASHBOARD_DESCRIPTION : 'لوحة الوصف',
+DASHBOARD_LABEL_NAME : 'اسم لوحة التحكم',
+DASHBOARD_LABEL_ALL_DASHBOARD : 'جميع داشبواردز',
+DASHBOARD_LABEL_BODY_TEXT : 'نص الجسم',
+DASHBOARD_LABEL_DASHBOARD_DESCRIPTION : 'وصف لوحة التحكم',
 DASHBOARD_LABEL_IMAGE_URL : 'رابط الصورة',
 DASHBOARD_LABEL_STRETCH_IMAGE : 'صورة تمتد؟',
-DASHBOARD_LABEL_BACKGROUND_IMAGE : 'إعدادات الخلفية صورة',
-DASHBOARD_MESSAGE_CREATE_DASHBOARD_TILE : 'لإنشاء البلاط لوحة القيادة',
-DASHBOARD_LABEL_SELECT_A_TYPE : 'اختر نوع:',
-DASHBOARD_TITLE_EDIT_REPORT_PART_NAME : 'اسم تحرير تقرير الجزء',
-DASHBOARD_TITLE_SET_NEW_DASHBOARD_PART_NAME : 'تعيين اسم جديد لوحة الباب',
-DASHBOARD_TITLE_REVERT_DASHBOARD_PART_NAME : 'تعود اسم لوحة الباب',
+DASHBOARD_LABEL_BACKGROUND_IMAGE : 'إعدادات صورة الخلفية',
+DASHBOARD_MESSAGE_CREATE_DASHBOARD_TILE : 'لإنشاء بلاط لوحة التحكم',
+DASHBOARD_LABEL_SELECT_A_TYPE : 'حدد نوع:',
+DASHBOARD_TITLE_EDIT_REPORT_PART_NAME : 'تحرير تقرير اسم الجزء',
+DASHBOARD_TITLE_SET_NEW_DASHBOARD_PART_NAME : 'تعيين لوحة اسم الجزء الجديد',
+DASHBOARD_TITLE_REVERT_DASHBOARD_PART_NAME : 'عودة اسم جزء لوحة التحكم',
 DASHBOARD_LABEL_NUMBER_OF_RECORDS : 'عدد السجلات',
-DASHBOARD_LABEL_FILTER_DESCRIPTIONS : 'تصفية الوصف:',
-DASHBOARD_LABEL_TITLE_SETTINGS : 'إعدادات عنوان',
-DASHBOARD_LABEL_DESCRIPTION_SETTINGS : 'وصف إعدادات',
-DASHBOARD_LABEL_REPORT_SELECTION : 'تقرير الاختيار',
-DASHBOARD_LABEL_REPORT_PART_SELECTION : 'تقرير الجزء اختيار',
+DASHBOARD_LABEL_FILTER_DESCRIPTIONS : 'وصف الفلتر:',
+DASHBOARD_LABEL_TITLE_SETTINGS : 'إعدادات العنوان',
+DASHBOARD_LABEL_DESCRIPTION_SETTINGS : 'إعدادات الوصف',
+DASHBOARD_LABEL_REPORT_SELECTION : 'اختيار التقرير',
+DASHBOARD_LABEL_REPORT_PART_SELECTION : 'تقرير اختيار الجزء',
 DASHBOARD_LABEL_CATEGORY : 'الفئة',
-DASHBOARD_LABEL_SUB_CATEGORY : 'التصنيف الفرعي',
+DASHBOARD_LABEL_SUB_CATEGORY : 'الفئة الفرعية',
 DASHBOARD_LABEL_SEARCHING : 'البحث ...',
-DASHBOARD_MESSAGE_SELECT_REPORT_THEN_SELECT_REPORT_PART : 'حدد التقرير ثم حدد تقرير الجزء الذي ترغب في عرضه على البلاط لوحة المعلومات',
-DASHBOARD_TITLE_EXIT_FULL_SCREEN_MODE : 'إنهاء وضع ملء الشاشة',
-DASHBOARD_LABEL_SHOW_NEXT_SLIDE_AFTER : 'تظهر الشريحة التالية بعد',
+DASHBOARD_MESSAGE_SELECT_REPORT_THEN_SELECT_REPORT_PART : 'حدد تقريرا ثم حدد جزء التقرير الذي ترغب في عرضه على بلاط لوحة التحكم',
+DASHBOARD_TITLE_EXIT_FULL_SCREEN_MODE : 'الخروج من وضع ملء الشاشة',
+DASHBOARD_LABEL_SHOW_NEXT_SLIDE_AFTER : 'عرض الشريحة التالية بعد',
 DASHBOARD_LABEL_FULLSCREEN_MODE : 'وضع ملء الشاشة',
-DASHBOARD_LABEL_EXIT_PRESENTATION_MODE : 'الخروج من وضع العرض',
-DASHBOARD_LABEL_PRESENTATION_MODE : 'وضع العرض',
-DASHBOARD_LABEL_SET_BACKGROUND_COLOR : 'مجموعة لون الخلفية',
+DASHBOARD_LABEL_EXIT_PRESENTATION_MODE : 'الخروج من وضع العرض التقديمي',
+DASHBOARD_LABEL_PRESENTATION_MODE : 'وضع العرض التقديمي',
+DASHBOARD_LABEL_SET_BACKGROUND_COLOR : 'تعيين لون الخلفية',
 DASHBOARD_LABEL_SET_BACKGROUND_IMAGE : 'تعيين صورة الخلفية',
-DASHBOARD_MESSAGE_FILTER_DESCIPTIONS_ON_TILE : 'الوصف تصفية على البلاط',
-DASHBOARD_LABEL_ADD_DASHBOARD_TILE : 'إضافة لوحة بلاطة',
+DASHBOARD_MESSAGE_FILTER_DESCIPTIONS_ON_TILE : 'وصف مرشح على البلاط',
+DASHBOARD_LABEL_ADD_DASHBOARD_TILE : 'إضافة لوحة التحكم',
 DASHBOARD_LABEL_UPDATE_RESULTS : 'تحديث النتائج',
 DASHBOARD_TITLE_FULL_SCREEN : 'تكبير الشاشة',
-DASHBOARD_TITLE_NORMAL_SCREEN : 'الشاشة العادية',
-DASHBOARD_LABEL_RECURRENCE_PATTERN : 'نمط التكرار',
-DASHBOARD_LABEL_RANGE_OF_RECURRENCE : 'مجموعة من تكرار',
-DASHBOARD_TOOLTIP_PREVIOUS_TILE : 'بلاط السابق',
-DASHBOARD_TOOLTIP_NEXT_TILE : 'بلاط المقبل',
-SECURITY_POLICIES_CONSTANT_ERROR_MIN_VALUE : 'يجب أن يكون الحد الأدنى لطول كلمة السر أكبر من أو يساوي مجموع كل القيم المحددة في مجالات: الحد الأدنى رقم أحرف خاصة، الأحرف دقيقة رقم الأحرف الكبيرة، أحرف دقيقة رقم حرف صغير، أحرف دقيقة رقم الرقمي.',
-SECURITY_POLICIES_CONSTANT_ERROR_MAX_VALUE : 'يجب أن يكون الحد الأقصى لطول كلمة السر أكبر من أو يساوي مجموع كل القيم المحددة في مجالات: ماكس رقم أحرف خاصة، أحرف ماكس رقم الأحرف الكبيرة، أحرف ماكس رقم حرف صغير، أحرف ماكس رقم الرقمي.',
-SECURITY_POLICIES_CONSTANT_MIN_PASSWORD_AGE : 'الحد الأدنى لعمر كلمة المرور',
-SECURITY_POLICIES_CONSTANT_MAX_PASSWORD_AGE : 'ماكس عمر كلمة المرور',
-SECURITY_POLICIES_CONSTANT_USER_PROFILE : 'أسئلة رقم الأمن في العضو',
-SECURITY_POLICIES_CONSTANT_RESET_PASSWORD : 'أسئلة رقم الأمن لإعادة تعيين كلمة المرور',
-SECURITY_POLICIES_CONSTANT_SECURITY_QUESTIONS : 'وتستخدم الأسئلة الأمنية للسماح للمستخدم بإعادة تعيين كلمة المرور الخاصة بهم. إذا لم يتم استخدام قضايا الأمن، لا يمكن للمستخدمين بإعادة تعيين كلمات المرور المنسية وسوف تحتاج إلى الاتصال بمسؤول النظام للحصول على وصلة جديدة لإعادة تعيين كلمة المرور.',
+DASHBOARD_TITLE_NORMAL_SCREEN : 'شاشة عادية',
+DASHBOARD_LABEL_RECURRENCE_PATTERN : 'نمط تكرار',
+DASHBOARD_LABEL_RANGE_OF_RECURRENCE : 'نطاق، بسبب، ريكورنس',
+DASHBOARD_TOOLTIP_PREVIOUS_TILE : 'البلاط السابق',
+DASHBOARD_TOOLTIP_NEXT_TILE : 'البلاط التالي',
+DASHBOARD_CONSTANTS_REPORT_MESSAGE_UNSELECTING_GLOBAL : 'أنت غير محدد مربع الاختيار تقرير لوحة التحكم. سيتم إزالة أي أدوار غير موجودة في المستأجر ذات الصلة في مشاركة مع الأدوار في صفحة الوصول. هل تريد بالتأكيد إلغاء تحديد مربع الاختيار هذا؟',
+DASHBOARD_CONSTANTS_REPORT_MESSAGE_SELECTING_GLOBAL : 'أنت تحدد مربع الاختيار لوحة التحكم العالمية. ستتم إزالة أي مشاركة مع المستخدمين في صفحة أسيس وسيتم إزالة جميع الجداول الزمنية. هل تريد بالتأكيد تحديد مربع الاختيار هذا؟',
+SECURITY_POLICIES_CONSTANT_ERROR_MIN_VALUE : 'يجب أن يكون طول كلمة مرور مين أكبر من أو يساوي مجموع جميع القيم المحددة في الحقول: الحد الأدنى لا الأحرف الخاصة، الحد الأدنى الأحرف الكبيرة، دقيقة لا أحرف صغيرة، دقيقة عدد الأحرف الرقمية.',
+SECURITY_POLICIES_CONSTANT_ERROR_MAX_VALUE : 'يجب أن يكون طول كلمة المرور الأقصى أكبر من أو يساوي مجموع كل القيم المحددة في الحقول: الحد الأقصى لعدد الأحرف الخاصة، العدد الأقصى الأحرف الكبيرة، الحد الأقصى لعدد الأحرف الصغيرة، الحد الأقصى لعدد الأحرف الرقمية.',
+SECURITY_POLICIES_CONSTANT_MIN_PASSWORD_AGE : 'مين كلمة المرور العمر',
+SECURITY_POLICIES_CONSTANT_MAX_PASSWORD_AGE : 'ماكس كلمة المرور العمر',
+SECURITY_POLICIES_CONSTANT_USER_PROFILE : 'لا أسئلة الأمان لكل ملف تعريف المستخدم',
+SECURITY_POLICIES_CONSTANT_RESET_PASSWORD : 'رقم الأسئلة الأمنية لإعادة تعيين كلمة المرور',
+SECURITY_POLICIES_CONSTANT_SECURITY_QUESTIONS : 'يتم استخدام الأسئلة الأمنية للسماح للمستخدم بإعادة تعيين كلمة المرور الخاصة بهم. إذا لم يتم استخدام أسئلة الأمان، لا يمكن للمستخدمين إعادة تعيين كلمات المرور المنسية وسوف تحتاج إلى الاتصال بمسؤول النظام لرابط جديد لإعادة تعيين كلمة المرور.',
 SECURITY_POLICIES_CONSTANT_MUST_BE_SMALLER_THAN : '{0} يجب أن يكون أصغر من {1}.',
-SECURITY_POLICIES_CONSTANT_MESSAGE_ERROR_SECURITY_QUESTION_RESET_PASSWORD : 'يجب أن يكون عدد من المسائل الأمنية لإعادة ضبط كلمة أقل من أو مساو لعدد من المسائل الأمنية في ملف المستخدم.',
+SECURITY_POLICIES_CONSTANT_MESSAGE_ERROR_SECURITY_QUESTION_RESET_PASSWORD : 'يجب أن يكون عدد الأسئلة الأمنية لإعادة تعيين كلمة المرور أصغر من أو يساوي عدد الأسئلة الأمنية لكل ملف تعريف مستخدم.',
 SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_ACCOUNT_LOCKOUT_POLICIES : 'سياسات تأمين الحساب',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_FAILED_LOGON_ATTEMPTS_ALLOWED : 'رقم فشل محاولات تسجيل الدخول سمحت',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_FAILED_SECURITY_QUESTION_ATTEMPTS_ALLOWED : 'رقم فشل محاولات سؤال الأمان سمحت',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_LOCKOUT_PERIOD : 'فترة تأمين',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_FAILED_LOGON_ATTEMPTS_ALLOWED : 'لا يسمح بمحاولات تسجيل الدخول الفاشلة',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_FAILED_SECURITY_QUESTION_ATTEMPTS_ALLOWED : 'لا يسمح بمحاولات الأسئلة الأمنية الفاشلة',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_LOCKOUT_PERIOD : 'فترة التأمين',
 SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_PASSWORD_COMPLEXITY : 'تعقيد كلمة المرور',
 SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MIN_PASSWORD_LENGTH : 'الحد الأدنى لطول كلمة المرور',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MAX_PASSWORD_LENGTH : 'ماكس كلمة المرور طول',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MAX_PASSWORD_LENGTH : 'أقصى طول كلمة المرور',
 SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_PASSWORD_LENGTH : 'طول كلمة المرور',
 SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_NO_OF_SPECIAL_CHARACTERS : 'رقم أحرف خاصة',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MIN_NO_OF_UPPERCASE_CHARACTERS : 'أحرف دقيقة رقم الأحرف الكبيرة',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MAX_NO_OF_UPPERCASE_CHARACTERS : 'أحرف ماكس رقم الأحرف الكبيرة',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_NO_OF_UPPERCASE_CHARACTERS : 'أحرف رقم الأحرف الكبيرة',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MIN_NO_OF_LOWERCASE_CHARACTERS : 'أحرف دقيقة رقم حرف صغير',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MAX_NO_OF_LOWERCASE_CHARACTERS : 'أحرف ماكس رقم حرف صغير',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_NO_OF_LOWERCASE_CHARACTERS : 'أحرف رقم حرف صغير',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MIN_NO_OF_NUMBERIC_CHARACTERS : 'أحرف دقيقة رقم الرقمي',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MAX_NO_OF_NUMBERIC_CHARACTERS : 'أحرف ماكس رقم الرقمي',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_NO_OF_NUMBERIC_CHARACTERS : 'أحرف رقمية رقم',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MAX_NO_OF_REPEAT_CHARACTERS : 'أحرف ماكس رقم متسلسل المتكررة',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MIN_PASSWORD_AGE : 'الحد الأدنى لعمر كلمة المرور',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_PASSWORD_EXPIRY_NOTIFICATION : 'كلمة إعلام انتهاء الصلاحية',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_NOTIFY_USER : 'إبلاغ المستخدم؟',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_NOTIFY_USE_DURING : 'إبلاغ المستخدم أثناء',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_DAYS_TO_PASSWORD_EXPIRY : 'يوما لانتهاء كلمة المرور',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_PASSWORD_HISTORY : 'كلمة التاريخ',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MIN_NO_OF_UPPERCASE_CHARACTERS : 'الحد الأدنى للأحرف الكبيرة',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MAX_NO_OF_UPPERCASE_CHARACTERS : 'ماكس نو أحرف كبيرة',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_NO_OF_UPPERCASE_CHARACTERS : 'نو الأحرف الكبيرة',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MIN_NO_OF_LOWERCASE_CHARACTERS : 'الحد الأدنى للأحرف الصغيرة',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MAX_NO_OF_LOWERCASE_CHARACTERS : 'الحد الأقصى لعدد الأحرف الصغيرة',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_NO_OF_LOWERCASE_CHARACTERS : 'لا أحرف صغيرة',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MIN_NO_OF_NUMBERIC_CHARACTERS : 'الحد الأدنى لعدد الأحرف الرقمية',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MAX_NO_OF_NUMBERIC_CHARACTERS : 'الحد الأقصى لعدد الأحرف الرقمية',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_NO_OF_NUMBERIC_CHARACTERS : 'رقم أحرف رقمية',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MAX_NO_OF_REPEAT_CHARACTERS : 'ماكس الرقم المتسلسل الأحرف المتكررة',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_MIN_PASSWORD_AGE : 'مين كلمة المرور العمر',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_PASSWORD_EXPIRY_NOTIFICATION : 'إشعار انتهاء صلاحية كلمة المرور',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_NOTIFY_USER : 'هل تريد إعلام المستخدم؟',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_NOTIFY_USE_DURING : 'إعلام المستخدم خلال',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_DAYS_TO_PASSWORD_EXPIRY : 'أيام لانتهاء صلاحية كلمة المرور',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_PASSWORD_HISTORY : 'سجل كلمة المرور',
 SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_ENFORCE_PASSWORD_HISTORY : 'فرض محفوظات كلمة المرور؟',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_NO_PASSWORD_TO_KEEP : 'السر رقم للحفاظ على',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_PASSWORD_LINK : 'كلمة لينك',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_PASSWORD_LINK_VALIDITY : 'كلمة صلاحية لينك',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_PASSWORD_POLICY : 'سياسة كلمة المرور',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_PASSWORD_VALIDITY : 'كلمة المرور الصلاحية',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_PASSWORD_AGE : 'عمر كلمة المرور',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_NO_PASSWORD_TO_KEEP : 'لا كلمات المرور للحفاظ على',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_PASSWORD_LINK : 'رابط كلمة المرور',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_PASSWORD_LINK_VALIDITY : 'صلاحية رابط كلمة المرور',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_PASSWORD_POLICY : 'سياسات كلمة المرور',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_PASSWORD_VALIDITY : 'صلاحية كلمة المرور',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_PASSWORD_AGE : 'كلمة المرور العمر',
 SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_SECURITY_QUESTION : 'اسئلةالأمان',
-SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_USE_SECURITY_QUESTION : 'استخدام بمسائل الأمن؟',
-SYSTEM_CONFIGURATION_REPORT_ALL_ARCHIVED_WILL_REMOVED : 'سيتم إزالة كافة الإصدارات أرشفة التقارير في التطبيق.',
-SYSTEM_CONFIGURATION_REPORT_CONFIRM_AFTER_SAVING_SETTING : 'بعد حفظ هذا الإعداد، قد تتم إزالة أقدم إصدارات مؤرشفة من بعض التقارير.',
-SYSTEM_CONFIGURATION_REPORT_SYSTEM_REMOVE_ALL_ARCHIVED : 'ونظام إزالة كافة إصدارات أرشفة التقارير.',
-SYSTEM_CONFIGURATION_REPORT_ENFORCE_VERSION_HISTORY : 'فرض محفوظات الإصدارات',
-SYSTEM_CONFIGURATION_REPORT_CLEAR_ARCHIVED_VERSIONS_NOW : 'إصدارات واضحة المحفوظ الآن',
+SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_USE_SECURITY_QUESTION : 'هل تستخدم أسئلة الأمان؟',
+SYSTEM_CONFIGURATION_REPORT_ALL_ARCHIVED_WILL_REMOVED : 'ستتم إزالة جميع النسخ المؤرشفة من التقارير في التطبيق.',
+SYSTEM_CONFIGURATION_REPORT_CONFIRM_AFTER_SAVING_SETTING : 'بعد حفظ هذا الإعداد، قد تتم إزالة أقدم الإصدارات المؤرشفة لبعض التقارير.',
+SYSTEM_CONFIGURATION_REPORT_SYSTEM_REMOVE_ALL_ARCHIVED : 'سيقوم النظام بإزالة جميع النسخ المؤرشفة من التقارير.',
+SYSTEM_CONFIGURATION_REPORT_ENFORCE_VERSION_HISTORY : 'فرض سجل الإصدارات',
+SYSTEM_CONFIGURATION_REPORT_CLEAR_ARCHIVED_VERSIONS_NOW : 'مسح الإصدارات المؤرشفة الآن',
 SYSTEM_CONFIGURATION_REPORT_REMOVE_ARCHIVED_VERSIONS : 'إزالة الإصدارات المؤرشفة',
 SYSTEM_CONFIGURATION_REPORT_LABEL_VERSION : 'الإصدار',
-SYSTEM_CONFIGURATION_REPORT_LABEL_VERSION_STORAGE : 'نسخة التخزين',
+SYSTEM_CONFIGURATION_REPORT_LABEL_VERSION_STORAGE : 'تخزين النسخة',
 SYSTEM_CONFIGURATION_REPORT_LABEL_VERSION_HISTORY : 'تاريخ النسخة',
-SYSTEM_CONFIGURATION_REPORT_ARCHIVE_VERSION_TO_KEEPS : 'رقم أرشفة الإصدارات للحفاظ على',
-SYSTEM_CONFIGURATION_REPORT_DEFAULT_HEADER_IMAGE : 'افتراضي رأس صورة',
-SYSTEM_CONFIGURATION_REPORT_RELATIVE_PATH_OR_URL : 'مسار نسبي أو URL',
-ACCOUNT_CONSTANTS_MESSAGE_INCORECT_CREDENTIALS : 'أوراق غير صحيحة، يرجى المحاولة مرة أخرى.',
-ACCOUNT_CONSTANTS_MESSAGE_RESET_PASSWORD_SUCCESSFULLY : 'تم إنشاء كلمة المرور الخاصة بك بنجاح / إعادة تعيين.',
-ACCOUNT_CONSTANTS_MESSAGE_PASSOWRD_EXPIRED : 'وقد انتهت كلمة المرور الخاصة بك.',
-ACCOUNT_CONSTANTS_MESSAGE_CONTACT_ADMIN : 'الرجاء الاتصال بمسؤول النظام للحصول على المساعدة.',
-ACCOUNT_CONSTANTS_MESSAGE_PASSWORD_LINK_EXPIRED : 'وقد انتهت رابط كلمة المرور الخاصة بك. الرجاء الاتصال بمسؤول النظام للحصول على المساعدة.',
-ACCOUNT_CONSTANTS_MESSAGE_USERID_REQUIRED : 'مطلوب هوية المستخدم.',
+SYSTEM_CONFIGURATION_REPORT_ARCHIVE_VERSION_TO_KEEPS : 'لا. أرشفة الإصدارات للحفاظ',
+SYSTEM_CONFIGURATION_REPORT_DEFAULT_HEADER_IMAGE : 'صورة الرأس الافتراضية',
+SYSTEM_CONFIGURATION_REPORT_GLOBAL_AND_LOCAL_NAMES : 'الأسماء العالمية والمحلية',
+SYSTEM_CONFIGURATION_REPORT_RELATIVE_PATH_OR_URL : 'المسار النسبي أو عنوان ورل',
+SYSTEM_CONFIGURATION_REPORT_GLOBAL_NAME : 'الاسم العالمي',
+SYSTEM_CONFIGURATION_REPORT_LOCAL_NAME : 'الاسم المحلي',
+SYSTEM_CONFIGURATION_REPORT_GLOBAL_NAME_REQUIRED : 'الاسم العالمي مطلوب.',
+SYSTEM_CONFIGURATION_REPORT_LOCAL_NAME_REQUIRED : 'الاسم المحلي مطلوب.',
+SYSTEM_CONFIGURATION_REPORT_DUPLICATE_GLOBAL_LOCAL_NAME : 'لا يسمح بالاسم العالمي والاسم المحلي للتكرار.',
+SYSTEM_CONFIGURATION_REPORT_DEFAULT_GLOBAL_NAME : 'الفئات العالمية',
+SYSTEM_CONFIGURATION_REPORT_DEFAULT_LOCAL_NAME : 'الفئات المحلية',
+ACCOUNT_CONSTANTS_MESSAGE_INCORECT_CREDENTIALS : 'بيانات الاعتماد غير صحيحة، يرجى إعادة المحاولة.',
+ACCOUNT_CONSTANTS_MESSAGE_RESET_PASSWORD_SUCCESSFULLY : 'تم إنشاء كلمة المرور بنجاح / إعادة تعيينها.',
+ACCOUNT_CONSTANTS_MESSAGE_PASSOWRD_EXPIRED : 'انتهت صلاحية كلمة المرور.',
+ACCOUNT_CONSTANTS_MESSAGE_CONTACT_ADMIN : 'يرجى الاتصال بمسؤول النظام للحصول على المساعدة.',
+ACCOUNT_CONSTANTS_MESSAGE_PASSWORD_LINK_EXPIRED : 'لقد انتهت صلاحية رابط كلمة المرور. يرجى الاتصال بمسؤول النظام للحصول على المساعدة.',
+ACCOUNT_CONSTANTS_MESSAGE_USERID_REQUIRED : 'مطلوب معرف المستخدم.',
 ACCOUNT_CONSTANTS_MESSAGE_FIRST_NAME_REQUIRED : 'الإسم الأول مطلوب.',
-ACCOUNT_CONSTANTS_MESSAGE_LAST_NAME_REQUIRED : 'مطلوب اسم العائلة.',
-ACCOUNT_CONSTANTS_MESSAGE_INVALID_EMAIL : 'يجب أن يكون البريد الإلكتروني البريد الإلكتروني الصحيح.',
-ACCOUNT_CONSTANTS_MESSAGE_NEW_PASSWORD_REQUIRED : 'مطلوب كلمة المرور الجديدة.',
-ACCOUNT_CONSTANTS_MESSAGE_NEW_PASSWORD_CONFIRM : 'تأكيد كلمة المرور الجديدة هو مطلوب.',
-ACCOUNT_CONSTANTS_MESSAGE_NEW_AND_CONFIRM_PASSOWRD_NOT_MATCHED : 'كلمات السر في كلمة المرور الجديدة وتأكيد كلمة المرور الجديدة لا تتم مطابقة. حاول مرة اخرى.',
-ACCOUNT_CONSTANTS_MESSAGE_SECURITY_QUESTION_IS_REQUIRED : 'مطلوب سؤال الأمن.',
-ACCOUNT_CONSTANTS_MESSAGE_SECURITY_ANSWER_IS_REQUIRED : 'مطلوب الإجابة الأمن.',
+ACCOUNT_CONSTANTS_MESSAGE_LAST_NAME_REQUIRED : 'اسم العائلة مطلوب.',
+ACCOUNT_CONSTANTS_MESSAGE_INVALID_EMAIL : 'يجب أن يكون البريد الإلكتروني بريدا إلكترونيا صالحا.',
+ACCOUNT_CONSTANTS_MESSAGE_NEW_PASSWORD_REQUIRED : 'مطلوب كلمة مرور جديدة.',
+ACCOUNT_CONSTANTS_MESSAGE_NEW_PASSWORD_CONFIRM : 'تأكيد كلمة المرور الجديدة مطلوبة.',
+ACCOUNT_CONSTANTS_MESSAGE_NEW_AND_CONFIRM_PASSOWRD_NOT_MATCHED : 'لا يتم مطابقة كلمات المرور في كلمة المرور الجديدة وتأكيد كلمة المرور الجديدة. حاول مرة اخرى.',
+ACCOUNT_CONSTANTS_MESSAGE_SECURITY_QUESTION_IS_REQUIRED : 'مطلوب سؤال الأمان.',
+ACCOUNT_CONSTANTS_MESSAGE_SECURITY_ANSWER_IS_REQUIRED : 'مطلوب الإجابة الأمنية.',
 ACCOUNT_CONSTANTS_MESSAGE_PASSWORD_IS_REQUIRED : 'كلمة المرور مطلوبة.',
-ACCOUNT_CONSTANTS_MESSAGE_CURRENT_PASSWORD_REQUIRED : 'مطلوب كلمة المرور الحالية.',
-ACCOUNT_CONSTANTS_MESSAGE_PASSWORD_EXPIRY : 'سيتم صلاحية كلمة المرور الخاصة بك في {0} يوما القادمة.',
+ACCOUNT_CONSTANTS_MESSAGE_CURRENT_PASSWORD_REQUIRED : 'كلمة المرور الحالية مطلوبة.',
+ACCOUNT_CONSTANTS_MESSAGE_PASSWORD_EXPIRY : 'ستنتهي صلاحية كلمة المرور في الأيام {0} التالية.',
 ADVANCED_SETTINGS_CONSTANTS_LABEL_MENU_PERFORMANCE : 'أداء',
 ADVANCED_SETTINGS_CONSTANTS_LABEL_MENU_SECURITY : 'الأمان',
 ADVANCED_SETTINGS_CONSTANTS_LABEL_MENU_CATEGORY : 'الفئة',
-DASHBOARD_GRID_CONSTANTS_DELETE_CONFIRM_MESSAGE : 'هل أنت متأكد أنك تريد حذف {0} جزء لوحة القيادة؟',
-DASHBOARD_GRID_CONSTANTS_DUPLICATE_MESSAGE : 'لوحة جزء الاسم موجود بالفعل',
-DASHBOARD_PRESET_CONSTANT_BLANK_DASHBOARD : 'لوحة فارغة',
-DASHBOARD_PRESET_CONSTANT_TWO_ROW_ONE_TITLE_PER_ROW : '2 الصفوف (1 بلاط لكل صف)',
-DASHBOARD_PRESET_CONSTANT_TWO_ROW_TWO_TITLES_ON_FIRST_ROW : '2 صفوف (2 البلاط على الصف الأول، 1 بلاط في الصف الثاني)',
-DASHBOARD_PRESET_CONSTANT_TWO_ROW_TWO_TITLES_PER_ROW : '2 صفوف (2 بلاط لكل صف)',
-DASHBOARD_PRESET_CONSTANT_TWO_ROW_THREE_TITLES_PER_ROW : '2 صفوف (3 البلاط لكل صف)',
-DASHBOARD_PRESET_CONSTANT_TWO_ROW_ONE_TITLE_FIRST_ROW : '2 الصفوف (1 البلاط في الصف الأول، 2 البلاط على الصف الثاني)',
+DASHBOARD_GRID_CONSTANTS_DELETE_CONFIRM_MESSAGE : 'هل تريد بالتأكيد حذف جزء لوحة التحكم {0}؟',
+DASHBOARD_GRID_CONSTANTS_DUPLICATE_MESSAGE : 'اسم جزء لوحة التحكم موجود بالفعل',
+DASHBOARD_PRESET_CONSTANT_BLANK_DASHBOARD : 'لوحة تحكم فارغة',
+DASHBOARD_PRESET_CONSTANT_TWO_ROW_ONE_TITLE_PER_ROW : 'صفان (بلاط واحد لكل صف)',
+DASHBOARD_PRESET_CONSTANT_TWO_ROW_TWO_TITLES_ON_FIRST_ROW : '2 صفوف (2 البلاط في الصف الأول، 1 البلاط على الصف الثاني)',
+DASHBOARD_PRESET_CONSTANT_TWO_ROW_TWO_TITLES_PER_ROW : 'صفان (صفان في كل صف)',
+DASHBOARD_PRESET_CONSTANT_TWO_ROW_THREE_TITLES_PER_ROW : 'صفين (3 مربعات لكل صف)',
+DASHBOARD_PRESET_CONSTANT_TWO_ROW_ONE_TITLE_FIRST_ROW : '2 الصفوف (1 البلاط على الصف الأول، 2 البلاط في الصف الثاني)',
 DASHBOARD_PRESET_CONSTANT_THREE_ROW_ONE_TITLE_PER_ROW : '3 صفوف (1 بلاط لكل صف)',
 DASHBOARD_PRESET_CONSTANT_THREE_ROW_TWO_TITLES_PER_ROW : '3 صفوف (2 بلاط لكل صف)',
-DASHBOARD_PRESET_CONSTANT_TWO_ROW_TWO_ON_FIRST_THREE_ON_SECOND : '2 صفوف (2 البلاط على الصف الأول، 3 البلاط على الصف الثاني)',
-DASHBOARD_PRESET_CONSTANT_THREE_ROW_ONE_TITLE_ON_FIRST_ROW_TWO_ON_SECOND_ONE_ON_THIRD : '3 صفوف (1 البلاط في الصف الأول، 2 البلاط على الصف الثاني، 1 البلاط في الصف الثالث)',
-DASHBOARD_PRESET_CONSTANT_THREE_ROW_ONE_TITLE_ON_FIRST_ROW_TWO_ON_SECOND_THREE_ON_THIRD : '3 صفوف (1 البلاط في الصف الأول، 2 البلاط على الصف الثاني، 3 البلاط على الصف الثالث)',
-DASHBOARD_PRESET_CONSTANT_THREE_ROW_ONE_TITLE_ON_FIRST_ROW_THREE_ON_SECOND_ONE_ON_THIRD : '3 صفوف (1 البلاط في الصف الأول، 3 البلاط على الصف الثاني، 1 البلاط في الصف الثالث)',
-DASHBOARD_PRESET_CONSTANT_POPUP_HEADER : 'لوحة مسبقا تخطيط',
-DASHBOARD_PRESET_CONSTANT_POPUP_TEXT : 'تحديد تخطيط مسبقا أن كنت تريد أن تبدأ لوحة القيادة الخاصة بك.',
-DASHBOARD_SCHEDULING_CONSTANTS_MESSAGE_DELETE_SCHEDULE_INSTANTCE : 'هل أنت متأكد أنك تريد حذف مثيل جدول؟',
-DASHBOARD_SCHEDULING_CONSTANTS_MESSAGE_DELETE_SELECTED_SCHEDULE_INSTANTCE : 'هل أنت متأكد أنك تريد حذف مثيل جدول المحدد (ق)؟',
+DASHBOARD_PRESET_CONSTANT_TWO_ROW_TWO_ON_FIRST_THREE_ON_SECOND : '2 الصفوف (2 البلاط على الصف الأول، 3 البلاط في الصف الثاني)',
+DASHBOARD_PRESET_CONSTANT_THREE_ROW_ONE_TITLE_ON_FIRST_ROW_TWO_ON_SECOND_ONE_ON_THIRD : '3 صفوف (1 البلاط على الصف الأول، 2 البلاط على الصف الثاني، 1 البلاط على الصف الثالث)',
+DASHBOARD_PRESET_CONSTANT_THREE_ROW_ONE_TITLE_ON_FIRST_ROW_TWO_ON_SECOND_THREE_ON_THIRD : '3 صفوف (1 البلاط على الصف الأول، 2 البلاط على الصف الثاني، 3 البلاط على الصف الثالث)',
+DASHBOARD_PRESET_CONSTANT_THREE_ROW_ONE_TITLE_ON_FIRST_ROW_THREE_ON_SECOND_ONE_ON_THIRD : '3 صفوف (1 البلاط على الصف الأول، 3 البلاط على الصف الثاني، 1 البلاط على الصف الثالث)',
+DASHBOARD_PRESET_CONSTANT_POPUP_HEADER : 'لوحة التحكم الإعداد المسبق',
+DASHBOARD_PRESET_CONSTANT_POPUP_TEXT : 'حدد التخطيط المسبق الذي تريد بدءه للوحة التحكم.',
+DASHBOARD_SCHEDULING_CONSTANTS_MESSAGE_DELETE_SCHEDULE_INSTANTCE : 'هل تريد بالتأكيد حذف نسخة الجدول الزمني؟',
+DASHBOARD_SCHEDULING_CONSTANTS_MESSAGE_DELETE_SELECTED_SCHEDULE_INSTANTCE : 'هل تريد بالتأكيد حذف نسخة أو مثيلات الجدول المحددة؟',
 DASHBOARD_SCHEDULING_CONSTANTS_TABLE_DEF_TITLE_RECIPIENTS : 'المتلقي (ق)',
-DASHBOARD_SCHEDULING_CONSTANTS_TABLE_DEF_TITLE_LAST_SUCCESS_RUN : 'الماضي بنجاح تشغيل',
-DASHBOARD_SCHEDULING_CONSTANTS_TABLE_DEF_TITLE_NEXT_SCHEDULED_RUN : 'القادم المجدولة تشغيل',
-DASHBOARD_SCHEDULING_CONSTANTS_PAGE_TEXT_ADD : 'إضافة الجدول',
-DASHBOARD_SCHEDULING_CONSTANTS_PAGE_TEXT_EDIT : 'تحرير الجدول',
-DASHBOARD_SCHEDULING_CONSTANTS_PAGE_TEXT_COPY : 'نسخة الجدول',
+DASHBOARD_SCHEDULING_CONSTANTS_TABLE_DEF_TITLE_LAST_SUCCESS_RUN : 'آخر تشغيل ناجح',
+DASHBOARD_SCHEDULING_CONSTANTS_TABLE_DEF_TITLE_NEXT_SCHEDULED_RUN : 'التشغيل المجدول التالي',
+DASHBOARD_SCHEDULING_CONSTANTS_PAGE_TEXT_ADD : 'إضافة جدول',
+DASHBOARD_SCHEDULING_CONSTANTS_PAGE_TEXT_EDIT : 'تحرير الجدول الزمني',
+DASHBOARD_SCHEDULING_CONSTANTS_PAGE_TEXT_COPY : 'نسخ الجدول',
 DASHBOARD_SCHEDULING_CONSTANTS_PAGE_TEXT_DELETE : 'حذف الجدول',
-DASHBOARD_SCHEDULING_CONSTANTS_SCHEDULE_TYPE_VALUES_SCHEDULE_REPORT : 'من المقرر التقارير البند',
-DASHBOARD_SCHEDULING_CONSTANTS_SCHEDULE_TYPE_VALUES_SCHEDULE_ALERT : 'تنبيه المقرر',
-DASHBOARD_SCHEDULING_CONSTANTS_SCHEDULE_TYPE_LABEL_REPORTING_ITEM : 'من المقرر التقارير البند',
-DASHBOARD_SCHEDULING_CONSTANTS_SCHEDULE_TYPE_LABEL_SCHEDULED_ALERT : 'تنبيه المقرر',
-DASHBOARD_SCHEDULING_CONSTANTS_CONTRAINTS_MESSAGE_RECIPIENTS_IS_REQUIRE : 'مطلوب المتلقي (ق).',
-DASHBOARD_SCHEDULING_CONSTANTS_SCHEDULE_REPORT : 'من المقرر التقارير البند',
-DASHBOARD_SCHEDULING_CONSTANTS_RECIPIENT_NO_EMAIL : '{0} لم يكن لديك عنوان بريد إلكتروني.',
+DASHBOARD_SCHEDULING_CONSTANTS_SCHEDULE_TYPE_VALUES_SCHEDULE_REPORT : 'بند التقارير المجدولة',
+DASHBOARD_SCHEDULING_CONSTANTS_SCHEDULE_TYPE_VALUES_SCHEDULE_ALERT : 'تنبيه المجدولة',
+DASHBOARD_SCHEDULING_CONSTANTS_SCHEDULE_TYPE_LABEL_REPORTING_ITEM : 'بند التقارير المجدولة',
+DASHBOARD_SCHEDULING_CONSTANTS_SCHEDULE_TYPE_LABEL_SCHEDULED_ALERT : 'تنبيه المجدولة',
+DASHBOARD_SCHEDULING_CONSTANTS_CONTRAINTS_MESSAGE_RECIPIENTS_IS_REQUIRE : 'المطلوب (المستلمين).',
+DASHBOARD_SCHEDULING_CONSTANTS_SCHEDULE_REPORT : 'بند التقارير المجدولة',
+DASHBOARD_SCHEDULING_CONSTANTS_RECIPIENT_NO_EMAIL : '{0} ليس له عنوان بريد إلكتروني.',
 DASHBOARD_SUBSCRIPTION_CONSTANTS_PAGE_TEXT_ADD : 'إضافة اشتراك',
-DASHBOARD_SUBSCRIPTION_CONSTANTS_PAGE_TEXT_EDIT : 'تحرير الاشتراك',
-DASHBOARD_SUBSCRIPTION_CONSTANTS_PAGE_TEXT_COPY : 'نسخة الاشتراك',
+DASHBOARD_SUBSCRIPTION_CONSTANTS_PAGE_TEXT_EDIT : 'تعديل الاشتراك',
+DASHBOARD_SUBSCRIPTION_CONSTANTS_PAGE_TEXT_COPY : 'نسخ الاشتراك',
 DASHBOARD_SUBSCRIPTION_CONSTANTS_PAGE_TEXT_DELETE : 'حذف الاشتراك',
-DASHBOARD_SUBSCRIPTION_CONSTANTS_MESSAGE_DELETE_SUBSCRIBED_INSTANCE : 'هل أنت متأكد أنك تريد حذف المثال مشترك؟',
-DASHBOARD_SUBSCRIPTION_CONSTANTS_MESSAGE_DELETE_SELECTED_SUBSCRIBED_INSTANCE : 'هل أنت متأكد أنك تريد حذف المثال اشتركت مختارة (ق)؟',
-DASHBOARD_SUBSCRIPTION_CONSTANTS_MESSAGE_RECURRENCE_END_DATE : 'تاريخ انتهاء تكرار لا يمكن أن يكون قبل تاريخ البدء المحدد حاليا.',
-DASHBOARD_SUBSCRIPTION_CONSTANTS_MESSAGE_START_DATE_CANNOT_AFTER_END_DATE : 'تاريخ بداية لا يمكن أن يكون بعد تاريخ انتهاء التكرار المحدد حاليا.',
-DASHBOARD_SUBSCRIPTION_CONSTANTS_MESSAGE_NAME_ALREADY_EXIST : 'الاسم موجود بالفعل.',
-DASHBOARD_SUBSCRIPTION_CONSTANTS_MESSAGE_OCCURRENCE_IS_REQUIRED : 'مطلوب حدوثها.',
+DASHBOARD_SUBSCRIPTION_CONSTANTS_MESSAGE_DELETE_SUBSCRIBED_INSTANCE : 'هل تريد بالتأكيد حذف المثال المكتتب؟',
+DASHBOARD_SUBSCRIPTION_CONSTANTS_MESSAGE_DELETE_SELECTED_SUBSCRIBED_INSTANCE : 'هل أنت متأكد من رغبتك في حذف المثال (الملفات) المشترك المكتتب؟',
+DASHBOARD_SUBSCRIPTION_CONSTANTS_MESSAGE_RECURRENCE_END_DATE : 'لا يمكن أن يكون تاريخ انتهاء التكرار قبل تاريخ البدء المحدد حاليا.',
+DASHBOARD_SUBSCRIPTION_CONSTANTS_MESSAGE_START_DATE_CANNOT_AFTER_END_DATE : 'لا يمكن أن يكون تاريخ البدء بعد تاريخ انتهاء التكرار المحدد حاليا.',
+DASHBOARD_SUBSCRIPTION_CONSTANTS_MESSAGE_NAME_ALREADY_EXIST : 'الاسم موجود من قبل.',
+DASHBOARD_SUBSCRIPTION_CONSTANTS_MESSAGE_OCCURRENCE_IS_REQUIRED : 'مطلوب حدوث.',
 DASHBOARD_TEXT_TITLE_TOOLBAR_CONSTANTS_INCREASE_INDENT : 'زيادة المسافة البادئة',
 DASHBOARD_TEXT_TITLE_TOOLBAR_CONSTANTS_DECREASE_INDENT : 'انخفاض المسافة البادئة',
-DATA_REFRESH_SETTING_CONSTANTS_UPDATE_INTERVAL_MESSAGE_UPDATE_INTERVAL_IS_REQUIRED : 'مطلوب تحديث الفاصل.',
-DATA_REFRESH_SETTING_CONSTANTS_UPDATE_INTERVAL_MESSAGE_UPDATE_INTERVAL_SHOULD_BE_NUMBER : 'يجب أن يكون الفاصل الزمني تحديث عددا كاملا.',
-DATA_REFRESH_SETTING_CONSTANTS_LASTEST_RECORD_MESSAGE_LASTEST_RECORDS_IS_REQUIRED : 'مطلوب فقط أحدث السجلات.',
-DATA_REFRESH_SETTING_CONSTANTS_LASTEST_RECORD_MESSAGE_LASTEST_RECORDS_SHOULD_BE_NUMBER : 'فقط يجب أن يكون أحدث سجلات عددا كاملا.',
+DATA_REFRESH_SETTING_CONSTANTS_UPDATE_INTERVAL_MESSAGE_UPDATE_INTERVAL_IS_REQUIRED : 'مطلوب تحديث الفاصل الزمني.',
+DATA_REFRESH_SETTING_CONSTANTS_UPDATE_INTERVAL_MESSAGE_UPDATE_INTERVAL_SHOULD_BE_NUMBER : 'يجب أن يكون الفاصل الزمني للتحديث رقما صحيحا.',
+DATA_REFRESH_SETTING_CONSTANTS_LASTEST_RECORD_MESSAGE_LASTEST_RECORDS_IS_REQUIRED : 'مطلوب فقط السجلات الأخيرة.',
+DATA_REFRESH_SETTING_CONSTANTS_LASTEST_RECORD_MESSAGE_LASTEST_RECORDS_SHOULD_BE_NUMBER : 'يجب أن تكون السجلات الأخيرة فقط رقما صحيحا.',
 FILTER_DETAIL_CONFIG_CONSTANTS_SINGLE_SELECTION : 'اختيار واحد',
-FILTER_DETAIL_CONFIG_CONSTANTS_MULTIPLE_SELECTION : 'اختيار من متعدد',
-FILTER_DETAIL_CONFIG_CONSTANTS_MESSAGE_FILTER_ALIAS_EXISTS : 'هذا الاسم المستعار فلتر موجود بالفعل.',
+FILTER_DETAIL_CONFIG_CONSTANTS_MULTIPLE_SELECTION : 'اختيار متعددة',
+FILTER_DETAIL_CONFIG_CONSTANTS_MESSAGE_FILTER_ALIAS_EXISTS : 'هذا الاسم المستعار للفلتر موجود بالفعل.',
 FILTER_DETAIL_CONFIG_CONSTANTS_LABEL_EQUALS : 'يساوي',
 FILTER_DETAIL_CONFIG_CONSTANTS_VALUE_LIST_TRUE : 'صحيح',
 FILTER_DETAIL_CONFIG_CONSTANTS_VALUE_LIST_FALSE : 'خاطئة',
 FILTER_DETAIL_CONFIG_CONSTANTS_LABEL_SINGLE : 'غير مرتبطة',
 FILTER_DETAIL_CONFIG_CONSTANTS_LABEL_MULTIPLE : 'مضاعف',
-PROPERTIES_BUILDER_CONSTANTS_CUSTOM_URL_CONTENT_DESCRIPTION : 'يسمح لك لتحديد رابط مخصص لإعادة توجيه إلى عند النقر فوق قيمة في هذه الخلية',
-PROPERTIES_BUILDER_CONSTANTS_CUSTOM_URL_CONSTRAINTS_MESSAGE_URL_IS_REQUIRED : 'مطلوب URL.',
+PROPERTIES_BUILDER_CONSTANTS_CUSTOM_URL_CONTENT_DESCRIPTION : 'يسمح لك بتعريف عنوان ورل مخصص لإعادة التوجيه إلى عند النقر على القيمة في هذه الخلية',
+PROPERTIES_BUILDER_CONSTANTS_CUSTOM_URL_CONSTRAINTS_MESSAGE_URL_IS_REQUIRED : 'عنوان ورل مطلوب.',
 PROPERTIES_BUILDER_CONSTANTS_CUSTOM_URL_OPTIONS_LINK_NEW_WINDOW : 'افتح الرابط في نافذة جديدة',
 PROPERTIES_BUILDER_CONSTANTS_CUSTOM_URL_OPTIONS_LINK_NEW_TAB : 'افتح الرابط في نافذة جديدة',
-PROPERTIES_BUILDER_CONSTANTS_CUSTOM_URL_OPTIONS_LINK_CURRENT_WINDOW : 'فتح الارتباط في الإطار الحالي',
-PROPERTIES_BUILDER_CONSTANTS_EMBEDDED_JAVASCRIPT_CONTENT_DESCRIPTION : 'يسمح لك للعمل جافا سكريبت جزءا لا يتجزأ من عند النقر فوق حقل',
-PROPERTIES_BUILDER_CONSTANTS_EMBEDDED_JAVASCRIPT_MESSAGE_JAVASCRIPT_IS_REQUIRED : 'مطلوب كود جافا سكريبت.',
-PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_SUBREPORT_FILTER_TEXT : 'مرشحات التقرير الفرعي ترث مرشحات من التقرير الحالي',
-PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_DUPLICATE_MAPPING : 'يتم تكرار هذا التعيين.',
-PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_ERRORS_MULTIPLE_VALUE : 'لها قيمة متعددة لحقول {0}.',
+PROPERTIES_BUILDER_CONSTANTS_CUSTOM_URL_OPTIONS_LINK_CURRENT_WINDOW : 'فتح الرابط في النافذة الحالية',
+PROPERTIES_BUILDER_CONSTANTS_EMBEDDED_JAVASCRIPT_CONTENT_DESCRIPTION : 'يسمح لك بتضمين إجراء جافاسكريبت عند النقر على حقل',
+PROPERTIES_BUILDER_CONSTANTS_EMBEDDED_JAVASCRIPT_MESSAGE_JAVASCRIPT_IS_REQUIRED : 'شفرة جافا سكريبت مطلوبة.',
+PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_SUBREPORT_FILTER_TEXT : 'ترث فلاتر التقرير الفرعي الفلاتر من التقرير الحالي',
+PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_DUPLICATE_MAPPING : 'تم تكرار هذا التعيين.',
+PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_ERRORS_MULTIPLE_VALUE : 'لديك قيمة متعددة للحقول {0}.',
 PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_ERRORS_CANT_RESOLVE_FIELD : 'لا يمكن حل البيانات للحقول {0}.',
-PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_ERRORS_NEED_UPDATE_RESOLVE : 'انقر نتيجة التحديث قبل تقرير فرعية مفتوحة.',
-PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_TABLE_DEF_FIELD_IN_CURRENT_REPORT : 'الميدان في تقرير الحالي',
-PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_TABLE_DEF_FIELD_IN_SUB_REPORT : 'الميدان في تقرير فرعي',
-PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_CONSTRAINTS_REPORTS_IS_REQUIRED : 'مطلوب التقارير.',
-PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_CONSTRAINTS_STYLE_IS_REQUIRED : 'مطلوب الاسلوب.',
-PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_CONSTRAINTS_REPORT_PART_USED_IS_REQUIRED : 'تقرير الجزء المستخدم هو مطلوب.',
-PROPERTIES_BUILDER_CONSTANTS_MESSAGE_COLUMN_GROUP_TOOLTIP : 'هذا يسمح لك تحديد تسمية لهذا المجال. وهذه التسمية عملت على حقول متعددة متتالية. وسيتم إدراج أي مجال تقاسم نفس التسمية في نفس المجموعة.',
-PROPERTIES_BUILDER_CONSTANTS_MESSAGE_DUPLICATE_VIEW_SETTING : 'رابط / تم تكوين هذا الرمز لتظهر في أماكن أخرى (تقرير الفرعي / URL مخصص / جزءا لا يتجزأ من جافا سكريبت). يرجى اختيار بعضها الآخر',
-PROPERTIES_BUILDER_CONSTANTS_MESSAGE_EMBEDDED_LINK_SUB_REPORT : 'تم تكوين رابط لإظهارها في جافا سكريبت URL مخصص / المضمنة. إذا كنت لا تزال ترغب في تحديد نمط جزءا لا يتجزأ من لتقرير من الباطن، سيتم تغيير رابط في جافا سكريبت URL مخصص / جزءا لا يتجزأ من تلقائيا إلى رمز.',
-REPORT_BODY_CONSTANTS_COLLAPSE_DEFAULT : 'طي التقصير الدولة',
+PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_ERRORS_NEED_UPDATE_RESOLVE : 'انقر فوق نتيجة التحديث قبل التقرير الفرعي المفتوح.',
+PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_TABLE_DEF_FIELD_IN_CURRENT_REPORT : 'الحقل في التقرير الحالي',
+PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_TABLE_DEF_FIELD_IN_SUB_REPORT : 'الحقل في التقرير الفرعي',
+PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_CONSTRAINTS_REPORTS_IS_REQUIRED : 'التقارير مطلوبة.',
+PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_CONSTRAINTS_STYLE_IS_REQUIRED : 'النمط مطلوب.',
+PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_CONSTRAINTS_REPORT_PART_USED_IS_REQUIRED : 'مطلوب جزء التقرير المستخدمة.',
+PROPERTIES_BUILDER_CONSTANTS_MESSAGE_COLUMN_GROUP_TOOLTIP : 'يسمح لك هذا بتحديد تصنيف لهذا الحقل. سيعمل هذا التصنيف على عدة حقول متتالية. سيتم تضمين أي حقل يشارك نفس التصنيف في نفس المجموعة.',
+PROPERTIES_BUILDER_CONSTANTS_MESSAGE_DUPLICATE_VIEW_SETTING : 'تم تكوين الرابط / هذا الرمز ليتم عرضه في الإعدادات الأخرى (تقرير فرعي / عنوان ورل مخصص / جافا سكريبت مضمن). يرجى تحديد غيرها',
+PROPERTIES_BUILDER_CONSTANTS_MESSAGE_EMBEDDED_LINK_SUB_REPORT : 'تم تكوين الرابط ليتم عرضه في عنوان ورل المخصص / جافا سكريبت المضمن. إذا كنت لا تزال تريد تحديد النمط المضمن للتقرير الفرعي، فسيتم تغيير الرابط في عنوان ورل المخصص / جافا سكريبت المضمن تلقائيا إلى الرمز.',
+OPEN_SUB_REPORT_WARNING_MESSAGE : 'لا يسمح لك بفتح التقرير الفرعي باستخدام نمط الرابط إذا لم يتم حفظ التقرير الحالي. يرجى حفظ التقرير الحالي أولا أو تغيير النمط ليكون مختلفا عن الرابط.',
+REPORT_BODY_CONSTANTS_COLLAPSE_DEFAULT : 'تصغير الحالة الافتراضية',
 REPORT_BODY_CONSTANTS_EXPAND_RIGHT : 'توسيع إلى اليمين',
 REPORT_BODY_CONSTANTS_EXPAND_LEFT : 'توسيع إلى اليسار',
-REPORT_BODY_CONSTANTS_MESSAGE_DELETE : 'هل أنت متأكد أنك تريد حذف {0} تقرير جزء؟',
-REPORT_BODY_CONSTANTS_MESSAGE_NAME_EXISTS : 'تقرير الجزء الاسم موجود بالفعل',
-REPORT_BODY_CONSTANTS_MESSAGE_NUMBER_OF_FIELDS_LIMITATION : 'يتجاوز عدد الحقول القيد.',
-REPORT_BODY_CONSTANTS_MESSAGE_HAS_DATA_TYPE_IMAGE_OR_LOB : 'الحقول التالية لها نوع البيانات والصور / لوب / XML / JSON: {0}',
-REPORT_BODY_CONSTANTS_MESSAGE_CHANGE_TO_AGGREGATED_FIELD_CONFIRM : 'يتم استخدام الحقل مجمعة كعامل تصفية. إذا تم تغيير وظيفة مجال مجمعة، فإنه يمكن أن تجعل من مرشح تكون غير صحيحة ويصبح التقرير تحطمت. هل أنت متأكد أنك تريد تغيير وظيفة الحقل مجمعة؟',
+REPORT_BODY_CONSTANTS_MESSAGE_DELETE : 'هل تريد بالتأكيد حذف جزء {0} من التقرير؟',
+REPORT_BODY_CONSTANTS_MESSAGE_NAME_EXISTS : 'اسم جزء التقرير موجود بالفعل',
+REPORT_BODY_CONSTANTS_MESSAGE_NUMBER_OF_FIELDS_LIMITATION : 'عدد الحقول يتجاوز الحد.',
+REPORT_BODY_CONSTANTS_MESSAGE_HAS_DATA_TYPE_IMAGE_OR_LOB : 'الحقول التالية لديها نوع البيانات كصورة / لوب / شمل / جسون: {0}',
+REPORT_BODY_CONSTANTS_MESSAGE_CHANGE_TO_AGGREGATED_FIELD_CONFIRM : 'يتم استخدام الحقل المجمع كمرشح. إذا تم تغيير وظيفة الحقل التجميعي، فقد يجعل الفلتر غير صحيح ويتحطم التقرير. هل تريد بالتأكيد تغيير وظيفة الحقل المجمع؟',
 REPORT_BODY_CONSTANTS_SWITCH_TO_PREVIEW : 'التبديل إلى وضع المعاينة',
-REPORT_BODY_CONSTANTS_SWITCH_TO_CONFIGURATION : 'التبديل إلى الوضع تكوين',
-REPORT_BODY_CONSTANTS_NUMBER_OF_RECORD_LIMIT_CONSTRAINT : 'عدد سجل يجب أن يكون عدد أقل من أو يساوي 2147483648.',
-REPORT_BODY_CONSTANTS_MESSAGE_REMOVE_BINARY_FIELD : 'الحقول التالية لها نوع البيانات والصور / لوب / XML / JSON: {0}. ميزة متميزة من علامة التبويب مصادر البيانات لا يمكن أن تستخدم مع الحقول الثنائية مثل صورة / لوب / XML / JSON. الرجاء إزالة الحقول الثنائية أو تعطيل متميزة',
-REPORT_BODY_CONSTANTS_MESSAGE_CANNOT_GROUPED_OR_SORTED : 'الحقول التالية لها نوع البيانات والصور / لوب / XML / JSON: {0} لن تضاف إلى الحاوية لأن صورة / لوب / XML / JSON نوع البيانات لا يمكن تصنيف أو فرز.',
-REPORT_BODY_CONSTANTS_MESSAGE_INVALID_COUNT_OPERATOR : 'الحقول التالية لها نوع البيانات والصور / لوب / XML / JSON: {0} لن تضاف إلى الحاوية لأن صورة / لوب / XML / JSON نوع البيانات غير صالح لتشغيل عدد.',
+REPORT_BODY_CONSTANTS_SWITCH_TO_CONFIGURATION : 'التبديل إلى وضع التكوين',
+REPORT_BODY_CONSTANTS_NUMBER_OF_RECORD_LIMIT_CONSTRAINT : 'يجب أن يكون رقم السجل أقل من أو يساوي 2147483648.',
+REPORT_BODY_CONSTANTS_MESSAGE_REMOVE_BINARY_FIELD : 'الحقول التالية لديها نوع البيانات كصورة / لوب / شمل / جسون: {0}. لا يمكن استخدام الميزة المميزة من علامة التبويب مصادر البيانات مع الحقول الثنائية مثل إيماج / لوب / شمل / جسون. يرجى إزالة الحقول الثنائية أو تعطيل ديستنكت',
+REPORT_BODY_CONSTANTS_MESSAGE_CANNOT_GROUPED_OR_SORTED : 'الحقول التالية لنوع البيانات كصورة / لوب / شمل / جسون: لن يتم إضافة {0} في الحاوية لأن نوع بيانات إيماج / لوب / شمل / جسون لا يمكن تجميعها أو فرزها.',
+REPORT_BODY_CONSTANTS_MESSAGE_INVALID_COUNT_OPERATOR : 'الحقول التالية لديها نوع البيانات كصورة / لوب / شمل / جسون: لن يتم إضافة {0} في الحاوية لأن نوع بيانات إيماج / لوب / شمل / جسون غير صالح لمشغل كونت.',
 REPORT_BODY_CONSTANTS_MESSAGE_RESOURCE_CANNOT_FOUND : 'لا يمكن إيجاد المصدر',
-REPORT_BODY_CONSTANTS_MESSAGE_FIELD_NOT_EXIST : 'مجال {0} لا موجودة في التقرير الحالي',
-REPORT_BODY_CONSTANTS_MESSAGE_COLUMN_NOT_EXIST : 'مجال {0} ليست موجودة في التقرير الفرعي',
-REPORT_BODY_CONSTANTS_MESSAGE_UNAVAILABLE_MAP_DATA : 'بيانات الخرائط غير متوفر. الرجاء الاتصال بمسؤول النظام للحصول على المساعدة.',
+REPORT_BODY_CONSTANTS_MESSAGE_FIELD_NOT_EXIST : 'الحقل {0} غير موجود في التقرير الحالي',
+REPORT_BODY_CONSTANTS_MESSAGE_COLUMN_NOT_EXIST : 'الحقل {0} غير موجود في التقرير الفرعي',
+REPORT_BODY_CONSTANTS_MESSAGE_UNAVAILABLE_MAP_DATA : 'بيانات الخريطة غير متاحة. يرجى الاتصال بمسؤول النظام للحصول على المساعدة.',
 REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_REPORT_HEADER : 'رأس التقرير',
 REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_REPORT_TITLE_DESCRIPTION : 'عنوان التقرير',
-REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_REPORT_FOOTER : 'تقرير تذييل',
+REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_REPORT_FOOTER : 'تقرير تذييل الصفحة',
 REPORT_DESIGNER_FORMAT_CONSTANTS_ITEMS_TYPE_HORIZONTAL_RULE : 'قاعدة افقية',
 REPORT_DESIGNER_FORMAT_CONSTANTS_ITEMS_TYPE_VERTICAL_RULE : 'القاعدة العمودية',
 REPORT_DESIGNER_FORMAT_CONSTANTS_ITEMS_TYPE_PAGE_NUMBER : 'رقم الصفحة',
-REPORT_DESIGNER_FORMAT_CONSTANTS_MESSAGES_ITEM_NAME_EXISTS : 'هذا اسم العنصر موجود بالفعل في {0}.',
-REPORT_DESIGNER_FORMAT_CONSTANTS_TITLE_REPORT_FORMATTING : 'تقرير تنسيق',
+REPORT_DESIGNER_FORMAT_CONSTANTS_MESSAGES_ITEM_NAME_EXISTS : 'اسم العنصر هذا موجود بالفعل في {0}.',
+REPORT_DESIGNER_FORMAT_CONSTANTS_TITLE_REPORT_FORMATTING : 'تنسيق التقرير',
 REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_LOGO_IMAGE : 'صورة الشعار',
-REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_UPPER_SEPARATOR_LINE : 'خط فاصل العليا',
-REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_REPORT_GENERATED : 'تقرير ولدت',
+REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_UPPER_SEPARATOR_LINE : 'خط الفصل العلوي',
+REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_REPORT_GENERATED : 'تم إنشاء التقرير',
 REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_USER : 'المستعمل',
-REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_CURRENT_DATE_TIME : 'التاريخ الوقت الحالي',
-REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_CURRENT_USER_NAME : 'اسم العضو الحالي',
-REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_LOWER_SEPARATOR_LINE : 'أقل فاصل الخط',
-REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_SEPARATOR_LINE : 'الخط الفاصل',
-REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_FOOTER_TEXT : 'نص تذييل',
+REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_CURRENT_DATE_TIME : 'التاريخ الحالي',
+REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_CURRENT_USER_NAME : 'اسم المستخدم الحالي',
+REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_LOWER_SEPARATOR_LINE : 'خط فاصل أقل',
+REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_SEPARATOR_LINE : 'فاصل الخط',
+REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_FOOTER_TEXT : 'نص تذييل الصفحة',
 REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_PAGE : 'صفحة',
 REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_PAGE_NUMBER : 'رقم الصفحة',
 REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_REPORT_HEADER_FOOTER : 'رأس التقرير',
 REPORT_HISTORY_CONSTANTS_CRITERIA_LIST_VERSION : 'الإصدار',
-REPORT_HISTORY_CONSTANTS_CRITERIA_LIST_EDITED_DATE : 'تاريخ تحريرها',
+REPORT_HISTORY_CONSTANTS_CRITERIA_LIST_EDITED_DATE : 'تاريخ التعديل',
 REPORT_HISTORY_CONSTANTS_CRITERIA_LIST_EDITED_BY : 'حررت بواسطة',
 REPORT_HISTORY_CONSTANTS_DESIGN : 'تقرير التصميم',
-REPORT_HISTORY_CONSTANTS_COPY : 'نسخة تقرير',
-REPORT_HISTORY_CONSTANTS_MOVE : 'نقل تقرير',
-REPORT_HISTORY_CONSTANTS_DELETE : 'حذف صفحة',
-REPORT_HISTORY_CONSTANTS_MESSAGE_DELETE_ARCHIVED : 'هل أنت متأكد أنك تريد حذف النسخة المؤرشفة؟',
-REPORT_HISTORY_CONSTANTS_MESSAGE_DELETE_ACTIVE : 'عن وسيتم حذف جميع النسخ عند حذف النسخة النشط. هل أنت متأكد أنك تريد حذف النسخة النشط؟',
-REPORT_HISTORY_CONSTANTS_VALUE_LABEL : 'تسميات قيمة',
+REPORT_HISTORY_CONSTANTS_COPY : 'نسخ التقرير',
+REPORT_HISTORY_CONSTANTS_MOVE : 'نقل التقرير',
+REPORT_HISTORY_CONSTANTS_DELETE : 'حذف الإصدار',
+REPORT_HISTORY_CONSTANTS_MESSAGE_DELETE_ARCHIVED : 'هل تريد بالتأكيد حذف النسخة المؤرشفة؟',
+REPORT_HISTORY_CONSTANTS_MESSAGE_DELETE_ACTIVE : 'سيتم حذف التقرير وجميع الإصدارات عند حذف النسخة النشطة. هل تريد بالتأكيد حذف الإصدار النشط؟',
+REPORT_HISTORY_CONSTANTS_VALUE_LABEL : 'علامات القيمة',
 REPORT_HISTORY_CONSTANTS_BUBBLE_SIZE : 'فقاعة الحجم',
 REPORT_HISTORY_CONSTANTS_Y_AXIS : 'Y-المحور',
-REPORT_HISTORY_CONSTANTS_CHART_TYPE : 'نوع الرسم البياني',
-REPORT_HISTORY_CONSTANTS_SHOW_TOTAL : 'عرض إجمالي',
-REPORT_HISTORY_CONSTANTS_X_AXIS_INTERVALS : 'فاصل من علامات التجزئة في وحدات محور س',
-REPORT_HISTORY_CONSTANTS_X_AXIS_STARTING_POINT : 'الحد الأدنى لقيمة المحور س. إذا تم احتساب اغية قيمة دقيقة تلقائيا',
-REPORT_HISTORY_CONSTANTS_Y_AXIS_INTERVALS : 'فاصل من علامات التجزئة في وحدات محور y',
-REPORT_HISTORY_CONSTANTS_Y_AXIS_STARTING_POINT : 'الحد الأدنى لقيمة المحور ص. إذا تم احتساب اغية قيمة دقيقة تلقائيا',
+REPORT_HISTORY_CONSTANTS_CHART_TYPE : 'نوع المخطط',
+REPORT_HISTORY_CONSTANTS_SHOW_TOTAL : 'إظهار المجموع',
+REPORT_HISTORY_CONSTANTS_X_AXIS_INTERVALS : 'الفاصل الزمني للعلامات القراد في وحدات المحور س',
+REPORT_HISTORY_CONSTANTS_X_AXIS_STARTING_POINT : 'الحد الأدنى لقيمة المحور س. إذا كانت القيمة الفارغة يتم حسابها تلقائيا',
+REPORT_HISTORY_CONSTANTS_Y_AXIS_INTERVALS : 'الفاصل الزمني للعلامات القراد في وحدات المحور ص',
+REPORT_HISTORY_CONSTANTS_Y_AXIS_STARTING_POINT : 'القيمة الدنيا للمحور ص. إذا كانت القيمة الفارغة يتم حسابها تلقائيا',
 REPORT_CHART_TYPE_LINE : 'خط',
 REPORT_CHART_TYPE_COLUMN : 'عمود',
 REPORT_CHART_TYPE_BAR : 'شريط',
@@ -1323,7 +1371,7 @@ REPORT_CHART_TYPE_PIE : 'فطيرة',
 REPORT_CHART_TYPE_FUNNEL : 'قمع',
 REPORT_CHART_TYPE_DONUT : 'تبرع',
 REPORT_CHART_TYPE_COMBINATION : 'مزيج',
-REPORT_CHART_TYPE_TREE_MAP : 'شجرة خريطة',
+REPORT_CHART_TYPE_TREE_MAP : 'شجرة الخريطة',
 REPORT_CHART_TYPE_HEAT_MAP : 'خريطة الحرارة',
 REPORT_CHART_TYPE_BUBBLE : 'فقاعة',
 REPORT_CHART_TYPE_SCATTER : 'تبعثر',
@@ -1335,47 +1383,48 @@ USER_LABEL_EMAIL_ADDRESS : 'عنوان البريد الإلكتروني',
 USER_LABEL_ROLE : 'وظيفة',
 USER_MESSAGE_FIELD_IS_REQUIRED : 'الحقل مطلوب.',
 USER_MESSAGE_SEND_PASSWORD : 'إرسال رابط كلمة المرور في البريد الإلكتروني',
-USER_MESSAGE_EMAIL : 'ارسل رسالة الى كلمة سر جديدة إلى المستلمين التالية',
+USER_MESSAGE_EMAIL : 'أرسل كلمة المرور الجديدة إلى المستلمين التاليين',
 USER_STATE_ACTIVATE : 'تفعيل',
 USER_STATE_DEACTIVATE : 'عطل',
-USER_MESSAGE_DEACTIVE : 'إلغاء سيتم تعطيل هذا المستخدم وعدم السماح لهم للدخول إلى النظام. هل أنت متأكد أنك تريد تعطيل هذا المستخدم؟',
-USER_MESSAGE_DELETE : 'حذف وهذا العضو حذف جميع البيانات العائدة للمستخدم، بما في ذلك: تقارير، لوحة القيادة، حالات مجدولة، حالات الاشتراك، الخ هل أنت متأكد أنك تريد حذف هذا العضو؟',
-USER_MESSAGE_DELETE_LAST_SYSTEM_ADMIN : 'يجب أن يكون هناك المستخدم المسؤول نظام واحد على الأقل في النظام. إذا كنت ترغب في حذف هذا المستخدم مسؤول النظام، يرجى إنشاء مستخدم آخر مسؤول النظام قبل المتابعة إلى حذف هذا المستخدم مسؤول النظام.',
+USER_MESSAGE_DEACTIVE : 'سيؤدي إلغاء التنشيط إلى تعطيل هذا المستخدم وعدم السماح لهم بتسجيل الدخول إلى النظام. هل تريد بالتأكيد إلغاء تنشيط هذا المستخدم؟',
+USER_MESSAGE_DELETE : 'سيؤدي حذف هذا المستخدم إلى حذف جميع البيانات التي ينتمي إليها المستخدم، بما في ذلك: التقارير، لوحات التحكم، المثيلات المجدولة، حالات الاشتراك، إلخ. هل أنت متأكد من رغبتك في حذف هذا المستخدم؟',
+USER_MESSAGE_DELETE_LAST_SYSTEM_ADMIN : 'يجب أن يكون هناك مستخدم واحد على الأقل مسؤول النظام في النظام. إذا كنت ترغب في حذف هذا المستخدم المسؤول عن النظام، فالرجاء إنشاء مستخدم مسؤول النظام آخر قبل الاستمرار في حذف هذا المستخدم المسؤول عن النظام.',
 USER_INACTIVE_REASON_ACTIVE : 'نشيط',
-USER_INACTIVE_REASON_INACTIVE_USER : 'تم إلغاء تنشيط المستخدم - نشط',
-USER_INACTIVE_REASON_INACTIVE_PASSWORD : 'غير نشط - لا مجموعة كلمة المرور',
-USER_INACTIVE_REASON_INACTIVE_LOGIN : 'غير نشطة - محاولات تسجيل الدخول الفاشلة',
-USER_MESSAGE_USER_ID_IS_REQUIRED : 'مطلوب هوية المستخدم.',
+USER_INACTIVE_REASON_INACTIVE_USER : 'غير نشط - تم إلغاء تنشيط المستخدم',
+USER_INACTIVE_REASON_INACTIVE_PASSWORD : 'غير نشط - لم يتم تعيين كلمة مرور',
+USER_INACTIVE_REASON_INACTIVE_LOGIN : 'غير نشط - فشل محاولات تسجيل الدخول',
+USER_INACTIVE_REASON_INTEGRATION : 'غير نشط',
+USER_MESSAGE_USER_ID_IS_REQUIRED : 'مطلوب معرف المستخدم.',
 USER_MESSAGE_FIRST_NAME_IS_REQUIRED : 'الإسم الأول مطلوب.',
-USER_MESSAGE_LAST_NAME_REQUIRED : 'مطلوب اسم العائلة.',
+USER_MESSAGE_LAST_NAME_REQUIRED : 'اسم العائلة مطلوب.',
 USER_MESSAGE_EMAIL_REQUIRED : 'البريد الالكتروني مطلوب.',
 USER_MESSAGE_ROLE_IS_REQUIRED : 'مطلوب دور.',
-USER_MESSAGE_RECIPIENT_IS_REQUIRED : 'مطلوب المتلقي (ق).',
+USER_MESSAGE_RECIPIENT_IS_REQUIRED : 'المطلوب (المستلمين).',
 USER_LABEL_ALL : 'الكل',
 USER_LABEL_SELECT_USER : 'اختر المستخدم',
-USER_MESSAGE_ENTER_TO_ADD_EMAIL : 'أدخل البريد الإلكتروني لإضافة',
+USER_MESSAGE_ENTER_TO_ADD_EMAIL : 'أدخل لإضافة بريد إلكتروني',
 USER_LABEL_ALL_USERS : 'جميع المستخدمين',
-USER_MESSAGE_CHANGE_LANGUAGE : 'وسوف يتم لغة جديدة تسجيل الدخول المقبل.',
+USER_MESSAGE_CHANGE_LANGUAGE : 'سيتم تطبيق اللغة الجديدة بعد تسجيل الدخول الخاص بك المقبل.',
 SUBSCRIPTION_LABEL_CUSTOMER_RECERRENCE : 'تكرار مخصص',
 SUBSCRIPTION_LABEL_EVERY : 'كل',
 SUBSCRIPTION_LABEL_DAYS : 'أيام)',
 SUBSCRIPTION_LABEL_EVERY_WEEKDAY : 'كل ايام الاسبوع',
-SUBSCRIPTION_LABEL_EXPORT_FILE_TYPE : 'نوع ملف تصدير',
-SUBSCRIPTION_LABEL_EXPORT_ATTACHMENT_TYPE : 'نوع التصدير مرفق',
+SUBSCRIPTION_LABEL_EXPORT_FILE_TYPE : 'تصدير نوع الملف',
+SUBSCRIPTION_LABEL_EXPORT_ATTACHMENT_TYPE : 'نوع مرفق التصدير',
 SUBSCRIPTION_LABEL_EMAIL_SUBJECT : 'موضوع البريد الإلكتروني',
 SUBSCRIPTION_LABEL_EMAIL_BODY : 'هيئة البريد الإلكتروني',
 SUBSCRIPTION_LABEL_DELIVERY_RECIPIENT : 'توصيل',
 SUBSCRIPTION_LABEL_DELIVERY_TYPE : 'نوع التوصيل',
-SUBSCRIPTION_LABEL_FILTER_VALUE_SELECTION : 'تصفية القيمة اختيار',
+SUBSCRIPTION_LABEL_FILTER_VALUE_SELECTION : 'تصفية تحديد القيمة',
 SUBSCRIPTION_LABEL_INSTANCE_NAME : 'اسم المثيل',
 SUBSCRIPTION_LABEL_DAY : 'يوم',
 SUBSCRIPTION_LABEL_OF_EVERY : 'كل',
 SUBSCRIPTION_LABEL_MONTHS : 'الشهور)',
 SUBSCRIPTION_LABEL_THE : 'ال',
-SUBSCRIPTION_LABEL_NO_END_DAY : 'لا تاريخ انتهاء',
-SUBSCRIPTION_LABEL_END_AFTER : 'نهاية بعد',
+SUBSCRIPTION_LABEL_NO_END_DAY : 'ليس هناك تاريخ انتهاء',
+SUBSCRIPTION_LABEL_END_AFTER : 'تنتهي بعد',
 SUBSCRIPTION_LABEL_OCCURRENCES : 'الحوادث',
-SUBSCRIPTION_LABEL_END_BY : 'الغاية',
+SUBSCRIPTION_LABEL_END_BY : 'انتهى بواسطة',
 SUBSCRIPTION_LABEL_RECIPIENTS : 'المتلقي (ق)',
 SUBSCRIPTION_LABEL_DAILY : 'اليومي',
 SUBSCRIPTION_LABEL_WEEKLY : 'أسبوعي',
@@ -1396,9 +1445,9 @@ SUBSCRIPTION_LABEL_YEARS : 'سنوات)',
 SUBSCRIPTION_LABEL_ON : 'على',
 SUBSCRIPTION_LABEL_ON_THE : 'على ال',
 SUBSCRIPTION_LABEL_OF : 'من',
-ACCESS_LABEL_DELETE_ACCESS : 'حذف الوصول',
-ACOUNT_MESSAGE_PROVIDE_INFO_TO_CREATE_RESET_PASSWORD : 'يرجى تقديم المعلومات التالية لإنشاء أو إعادة تعيين كلمة المرور الخاصة بك.',
-ACOUNT_MESSAGE_PROVIDE_NEW_PASSWORD_SECURITY_TO_FURTHER_PROCEED : 'يرجى تقديم كلمة المرور وخيارات أمنية جديدة على المضي قدما.',
+ACCESS_LABEL_DELETE_ACCESS : 'حذف الدخول',
+ACOUNT_MESSAGE_PROVIDE_INFO_TO_CREATE_RESET_PASSWORD : 'يرجى تقديم المعلومات التالية لإنشاء كلمة المرور أو إعادة تعيينها.',
+ACOUNT_MESSAGE_PROVIDE_NEW_PASSWORD_SECURITY_TO_FURTHER_PROCEED : 'يرجى تقديم كلمة المرور الجديدة وخيارات الأمان لمواصلة المتابعة.',
 ACOUNT_LABEL_USER_ID : 'معرف المستخدم',
 ACOUNT_LABEL_FIRST_NAME : 'الاسم الاول',
 ACOUNT_LABEL_LAST_NAME : 'الكنية',
@@ -1411,40 +1460,40 @@ ACOUNT_LABEL_BACK : 'الى الخلف',
 ACOUNT_LABEL_SUBMIT : 'عرض',
 ACOUNT_LABEL_NEW_PASSWORD : 'كلمة السر الجديدة',
 ACOUNT_LABEL_CONFIRM_NEW_PASSWORD : 'تأكيد كلمة المرور الجديدة',
-REPORT_PART_FIELD_PROP_SCHEMA_FIELD_NAME_ALIAS : 'حقل الاسم المستعار',
-REPORT_PART_FIELD_PROP_SCHEMA_FIELD_NAME_ALIAS_MESSAGE_REQUIRED : 'مطلوب حقل الاسم المستعار.',
+REPORT_PART_FIELD_PROP_SCHEMA_FIELD_NAME_ALIAS : 'اسم الحقل الاسم المستعار',
+REPORT_PART_FIELD_PROP_SCHEMA_FIELD_NAME_ALIAS_MESSAGE_REQUIRED : 'اسم الحقل الاسم المستعار مطلوب.',
 REPORT_PART_FIELD_PROP_SCHEMA_DATA_FORMATTING_HEADER : 'تنسيق البيانات',
 REPORT_PART_FIELD_PROP_SCHEMA_FORMAT : 'شكل',
 REPORT_PART_FIELD_PROP_SCHEMA_SORT : 'فرز',
 REPORT_PART_FIELD_PROP_SCHEMA_ALTERNATIVE_TEXT : 'نص بديل',
-REPORT_PART_FIELD_PROP_SCHEMA_ALTERNATIVE_TEXT_SETTINGS : 'إعدادات النص بديلة',
-REPORT_PART_FIELD_PROP_SCHEMA_CUSTOM_URL_SETTINGS : 'إعدادات URL مخصص',
-REPORT_PART_FIELD_PROP_SCHEMA_EMBEDDED_JAVASCRIPT_SETTINGS : 'إعدادات الإجراء جافا سكريبت جزءا لا يتجزأ من',
+REPORT_PART_FIELD_PROP_SCHEMA_ALTERNATIVE_TEXT_SETTINGS : 'إعدادات النص البديل',
+REPORT_PART_FIELD_PROP_SCHEMA_CUSTOM_URL_SETTINGS : 'إعدادات عنوان ورل المخصص',
+REPORT_PART_FIELD_PROP_SCHEMA_EMBEDDED_JAVASCRIPT_SETTINGS : 'إعدادات عمل جافا سكريبت المضمنة',
 REPORT_PART_FIELD_PROP_SCHEMA_SUBTOTAL : 'حاصل الجمع',
 REPORT_PART_FIELD_PROP_SCHEMA_SUBTOTAL_SETTINGS : 'إعدادات المجموع الفرعي',
-REPORT_PART_FIELD_PROP_SCHEMA_GRAND_TOTAL_SETTING : 'المجموع إعدادات',
-REPORT_PART_FIELD_PROP_SCHEMA_HEADER_FORMATING : 'رأس تنسيق',
+REPORT_PART_FIELD_PROP_SCHEMA_GRAND_TOTAL_SETTING : 'إجمالي إعدادات الإجمالي',
+REPORT_PART_FIELD_PROP_SCHEMA_HEADER_FORMATING : 'تنسيق الرأس',
 REPORT_PART_FIELD_PROP_SCHEMA_WORD_WRAP : 'كلمة التفاف',
-REPORT_PART_FIELD_PROP_SCHEMA_COLUMN_GROUP : 'العمود المجموعة',
-REPORT_PART_FIELD_PROP_SCHEMA_DRILL_DOWN : 'حفر أسفل',
-REPORT_PART_FIELD_PROP_SCHEMA_SUB_REPORT : 'الفرعي تقرير',
-REPORT_PART_FIELD_PROP_SCHEMA_SUB_REPORT_SETTING : 'إعدادات فرعي',
+REPORT_PART_FIELD_PROP_SCHEMA_COLUMN_GROUP : 'مجموعة الأعمدة',
+REPORT_PART_FIELD_PROP_SCHEMA_DRILL_DOWN : 'حفر لأسفل',
+REPORT_PART_FIELD_PROP_SCHEMA_SUB_REPORT : 'التقرير الفرعي',
+REPORT_PART_FIELD_PROP_SCHEMA_SUB_REPORT_SETTING : 'إعدادات التقرير الفرعي',
 REPORT_PART_FIELD_PROP_SCHEMA_ADD_FIELD_MAPPING : 'إضافة تعيين حقل',
-REPORT_PART_FORM_CONSTANTS_MESSAGE_FIELD_NOT_UNIQUE : 'مجال إدراج {0} ليست فريدة من نوعها.',
-REPORT_PART_FORM_CONSTANTS_MESSAGE_FIELD_NAME_ALIAS_NOT_UNIQUE : 'الاسم المستعار اسم الحقل {0} ليست فريدة من نوعها.',
-REPORT_PART_FORM_CONSTANTS_MESSAGE_FIELD_NOT_FOUND : 'مجال [{0}] لم يتم العثور على.',
-REPORT_PART_FORM_CONSTANTS_MESSAGE_REPORT_NOT_FOUND : 'تقرير [{0}] لم يتم العثور على',
-REPORT_PART_FORM_CONSTANTS_MESSAGE_REPORT_PART_NAME_NOT_UNIQUE : 'اسم التقرير جزءا المدرج ليست فريدة من نوعها',
-REPORT_PART_FORM_CONSTANTS_MESSAGE_REPORT_PART_NOT_FOUND : 'و[{0}] لم يتم العثور على التقرير جزء',
-REPORT_PART_FORM_CONSTANTS_MESSAGE_NO_SUBTOTAL_INFO_SET_UP : 'مجال [{0}] يستخدم في <subtotal> تم تعيين علامة ذكية ولكن لا توجد معلومات المجموع الفرعي ليصل اليها حتى الان.',
-REPORT_PART_FORM_CONSTANTS_MESSAGE_SUBTOTAL_INSIDE_REPEATER : 'حقل [{0}] الذي يستخدم العلامة الذكية المجموع الفرعي يجب أيضا أن توضع داخل مكرر.',
-REPORT_PART_FORM_CONSTANTS_MESSAGE_OPEN_NEW_FORM : 'النموذج الحالي يحتوي على بيانات. هل أنت متأكد أنك تريد فتح نموذج جديد الآن؟',
-REPORT_PART_FORM_CONSTANTS_MESSAGE_NO_GRAND_TOTOAL_INFO_SET_UP : 'مجال [{0}] يستخدم في <grand total> يتم تعيين علامة ذكية ولكن لا توجد معلومات المجموع الكلي ليصل اليها حتى الان.',
-REPORT_PART_FORM_CONSTANTS_MESSAGE_NOTHING_FOUND : 'العثور على شيء.',
+REPORT_PART_FORM_CONSTANTS_MESSAGE_FIELD_NOT_UNIQUE : 'الحقل المدرج {0} ليس فريدا.',
+REPORT_PART_FORM_CONSTANTS_MESSAGE_FIELD_NAME_ALIAS_NOT_UNIQUE : 'اسم الحقل المستعار {0} غير فريد.',
+REPORT_PART_FORM_CONSTANTS_MESSAGE_FIELD_NOT_FOUND : 'لم يتم ايجاد الحقل [{0}].',
+REPORT_PART_FORM_CONSTANTS_MESSAGE_REPORT_NOT_FOUND : 'لم يتم العثور على التقرير [{0}]',
+REPORT_PART_FORM_CONSTANTS_MESSAGE_REPORT_PART_NAME_NOT_UNIQUE : 'اسم جزء التقرير المدرج ليس فريدا',
+REPORT_PART_FORM_CONSTANTS_MESSAGE_REPORT_PART_NOT_FOUND : 'لم يتم العثور على جزء التقرير [{0}]',
+REPORT_PART_FORM_CONSTANTS_MESSAGE_NO_SUBTOTAL_INFO_SET_UP : 'يتم استخدام الحقل [{0}] في <subtotal> علامة الذكية ولكن لم يتم إعداد أي معلومات المجموع الفرعي حتى الآن.',
+REPORT_PART_FORM_CONSTANTS_MESSAGE_SUBTOTAL_INSIDE_REPEATER : 'الحقل [{0}] الذي يستخدم العلامة الذكية المجموع الفرعي يجب أيضا أن توضع داخل مكرر.',
+REPORT_PART_FORM_CONSTANTS_MESSAGE_OPEN_NEW_FORM : 'يحتوي النموذج الحالي على بيانات. هل تريد بالتأكيد فتح نموذج جديد الآن؟',
+REPORT_PART_FORM_CONSTANTS_MESSAGE_NO_GRAND_TOTOAL_INFO_SET_UP : 'يتم استخدام الحقل [{0}] في <grand total> علامة الذكية ولكن لم يتم تعيين أي المعلومات الإجمالية الكبرى حتى الآن.',
+REPORT_PART_FORM_CONSTANTS_MESSAGE_NOTHING_FOUND : 'لم يتم العثور على شيء.',
 REPORT_PART_FORM_CONSTANTS_MESSAGE_NOTHING_TO_REPLACE : 'لا شيء لاستبدال.',
-REPORT_PART_FORM_CONSTANTS_MESSAGE_INCORRECT_GRAND_TOTAL_SYNTAX : 'تركيب المجموع الكلي غير صحيحة',
-REPORT_PART_FORM_CONSTANTS_MESSAGE_INCORRECT_SUBTOTAL_SYNTAX : 'تركيب المجموع الفرعي غير صحيح',
-REPORT_PART_FORM_CONSTANTS_MESSAGE_NO_TEMPLATE_DEFINED : 'أي قالب المعرفة',
+REPORT_PART_FORM_CONSTANTS_MESSAGE_INCORRECT_GRAND_TOTAL_SYNTAX : 'جملة جملة كبيرة غير صحيحة',
+REPORT_PART_FORM_CONSTANTS_MESSAGE_INCORRECT_SUBTOTAL_SYNTAX : 'بنية جملة فرعية غير صحيحة',
+REPORT_PART_FORM_CONSTANTS_MESSAGE_NO_TEMPLATE_DEFINED : 'لم يتم تعريف أي قالب',
 REPORT_PART_FORM_CONSTANTS_LABEL_HEADING_1 : 'عنوان 1',
 REPORT_PART_FORM_CONSTANTS_LABEL_HEADING_2 : 'العنوان 2',
 REPORT_PART_FORM_CONSTANTS_LABEL_HEADING_3 : 'العنوان 3',
@@ -1457,41 +1506,41 @@ REPORT_PART_FORM_CONSTANTS_LABEL_DIV : 'شعبة',
 REPORT_PART_FORM_CONSTANTS_LABEL_PRE : 'قبل',
 REPORT_PART_FORM_CONSTANTS_LABEL_DEFAULT : 'افتراضي',
 REPORT_PART_FORM_CONSTANTS_LABEL_LOWER_ALPHA : 'ألفا السفلى',
-REPORT_PART_FORM_CONSTANTS_LABEL_LOWER_GREEK : 'انخفاض اليونانية',
-REPORT_PART_FORM_CONSTANTS_LABEL_LOWER_ROMAN : 'الروماني أقل',
+REPORT_PART_FORM_CONSTANTS_LABEL_LOWER_GREEK : 'أقل اليونانية',
+REPORT_PART_FORM_CONSTANTS_LABEL_LOWER_ROMAN : 'الرومانية السفلى',
 REPORT_PART_FORM_CONSTANTS_LABEL_UPPER_ALPHA : 'العلوي ألفا',
-REPORT_PART_FORM_CONSTANTS_LABEL_UPPER_ROMAN : 'العليا الرومانية',
+REPORT_PART_FORM_CONSTANTS_LABEL_UPPER_ROMAN : 'الرومانية العليا',
 REPORT_PART_FORM_CONSTANTS_LABEL_CIRCLE : 'دائرة',
 REPORT_PART_FORM_CONSTANTS_LABEL_DISC : 'القرص',
 REPORT_PART_FORM_CONSTANTS_LABEL_SQUARE : 'ميدان',
-REPORT_PART_GAUGE_CONSTANTS_MESSAGE_LOW_VALUE_MUST_LESS_THAN_HIGH_VALUE : 'يجب أن تكون قيمة منخفضة أقل من قيمة عالية',
-REPORT_PART_GAUGE_CONSTANTS_MESSAGE_THRESHOLDS_MUST_BE_WITHIN_SCALE_FORM_SCALE_TO : 'يجب أن تكون قيمة العتبات &quot;ضمن&quot; جدول من &quot;و&quot; مقياس ل&quot;قيمة',
-GAUGE_MESSAGE_THRESHOL_NUMBER : 'يجب أن تكون قيمة العتبات &quot;الرقمية',
+REPORT_PART_GAUGE_CONSTANTS_MESSAGE_LOW_VALUE_MUST_LESS_THAN_HIGH_VALUE : 'يجب أن تكون القيمة المنخفضة أقل من القيمة العالية',
+REPORT_PART_GAUGE_CONSTANTS_MESSAGE_THRESHOLDS_MUST_BE_WITHIN_SCALE_FORM_SCALE_TO : 'يجب أن تكون قيمة العتبات &quot;ضمن مقياس من&quot; و &quot;مقياس إلى&quot; القيمة',
+GAUGE_MESSAGE_THRESHOL_NUMBER : 'يجب أن تكون قيمة العتبات رقمية',
 GAUGE_MESSAGE_SCALE_RANGE : 'يجب أن يكون مقياس من أقل من مقياس ل',
-GAUGE_MESSAGE_THRESHOLD_MAX_VALUE : 'يجب أن يكون مقياس من أقل من قيمة البيانات الحد الأقصى التي تم إرجاعها. لا يمكن رسم مقياس',
-GAUGE_MESSAGE_THRESHOLD_MIN_VALUE : 'مقياس لويجب أن تكون أكبر من قيمة البيانات مين إرجاعها. لا يمكن رسم مقياس',
+GAUGE_MESSAGE_THRESHOLD_MAX_VALUE : 'يجب أن يكون المقياس من أقل من قيمة البيانات القصوى التي تم إرجاعها. لا يمكن رسم مقياس',
+GAUGE_MESSAGE_THRESHOLD_MIN_VALUE : 'المقياس يجب أن يكون أكبر من قيمة البيانات الحدية التي تم إرجاعها. لا يمكن رسم مقياس',
 REPORT_PART_GAUGE_CONSTANTS_LABEL_STATIC : 'ثابتة',
 REPORT_PART_GAUGE_CONSTANTS_LABEL_DYNAMIC : 'ديناميكي',
 REPORT_PART_GAUGE_CONSTANTS_LABEL_LESS_THAN : 'أقل من',
 REPORT_PART_GAUGE_CONSTANTS_LABEL_BETWEEN : 'ما بين',
 REPORT_PART_GAUGE_CONSTANTS_LABEL_GREATER_THAN : 'أكثر من',
 REPORT_PART_GAUGE_CONSTANTS_LABEL_TARGET : 'استهداف',
-REPORT_PART_GAUGE_CONSTANTS_LABEL_LINEAR_GAUGE : 'الخطي المقياس',
+REPORT_PART_GAUGE_CONSTANTS_LABEL_LINEAR_GAUGE : 'مقياس خطي',
 REPORT_PART_GAUGE_CONSTANTS_LABEL_SIMPLE_GAUGE : 'مقياس بسيط',
 REPORT_PART_GAUGE_CONSTANTS_LABEL_SOLID_GAUGE : 'مقياس الصلبة',
 REPORT_PART_GAUGE_PROPS_SCHEMA_LABEL_GENERAL_INFO : 'معلومات عامة',
-REPORT_PART_GAUGE_PROPS_SCHEMA_LABEL_GAUGE_TYPE : 'نوع مقياس',
+REPORT_PART_GAUGE_PROPS_SCHEMA_LABEL_GAUGE_TYPE : 'نوع المقياس',
 REPORT_PART_GAUGE_PROPS_SCHEMA_LABEL_BORDER : 'الحدود',
 REPORT_PART_GAUGE_PROPS_SCHEMA_LABEL_GAUGE_BORDER_SETTINGS : 'قياس إعدادات الحدود',
 REPORT_PART_GAUGE_PROPS_SCHEMA_LABEL_INTERVALS : 'فترات',
-REPORT_PART_GAUGE_PROPS_SCHEMA_LABEL_INTERVAL_OF_TICK : 'فاصل من علامات التجزئة في وحدات محور y',
+REPORT_PART_GAUGE_PROPS_SCHEMA_LABEL_INTERVAL_OF_TICK : 'الفاصل الزمني للعلامات القراد في وحدات المحور ص',
 REPORT_PART_GAUGE_PROPS_SCHEMA_LABEL_GROUPING : 'تجمع',
-REPORT_PART_GAUGE_PROPS_SCHEMA_LABEL_SHOW_LABEL : 'مشاهدة تسميات',
+REPORT_PART_GAUGE_PROPS_SCHEMA_LABEL_SHOW_LABEL : 'عرض التصنيفات',
 REPORT_PART_GAUGE_PROPS_SCHEMA_LABEL_INVERTED : 'مقتبس',
 REPORT_PART_GAUGE_PROPS_SCHEMA_LABEL_USE_PAGINATION : 'استخدام ترقيم الصفحات',
 REPORT_PART_GAUGE_PROPS_SCHEMA_LABEL_USE_PAGINATION_ITEM_PER_ROW : 'البند (ق) لكل صف',
 REPORT_PART_GAUGE_PROPS_SCHEMA_LABEL_PRINTING : 'طبع',
-REPORT_PART_GAUGE_PROPS_SCHEMA_PAGE_BREAK_AFTER_SEPARATOR : 'فاصل صفحات بعد فاصل',
+REPORT_PART_GAUGE_PROPS_SCHEMA_PAGE_BREAK_AFTER_SEPARATOR : 'كسر الصفحة بعد فاصل',
 REPORT_PART_GRID_CONSTANTS_LABEL_VERTICAL : 'عمودي',
 REPORT_PART_GRID_CONSTANTS_LABEL_HORIZONTAL : 'أفقي',
 REPORT_PART_GRID_CONSTANTS_LABEL_PIVOT : 'محور',
@@ -1500,70 +1549,72 @@ REPORT_PART_GRID_CONSTANTS_LABEL_COMMA : 'فاصلة',
 REPORT_PART_GRID_CONSTANTS_LABEL_COMMA_WITH_LABEL : 'فاصلة مع تسمية',
 REPORT_PART_GRID_CONSTANTS_LABEL_LINE : 'خط',
 REPORT_PART_GRID_CONSTANTS_LABEL_LINE_WITH_LABEL : 'خط مع تسمية',
-REPORT_PART_GRID_CONSTANTS_LABEL_MULTI_LEVEL : 'مستوى متعددة',
-REPORT_PART_GRID_CONSTANTS_LABEL_MULTI_LEVEL_WITH_LABEL : 'مستوى متعددة مع تسمية',
-REPORT_PART_GRID_CONSTANTS_MESSAGE_SEPARATOR_CONFIRM : 'سوف تكون مخفية الحاوية فاصل وسوف يتم إزالتها حقولها. هل أنت متأكد أنك تريد إخفاء ذلك؟',
-REPORT_PART_GRID_CONSTANTS_MESSAGE_FUNCTION_INCONSISTENT : 'إذا تم استخدام وظائف، ويجب أن يكون كل اختيار وظيفة',
-REPORT_PART_GRID_CONSTANTS_MESSAGE_CHANGE_FUNCTION_TYPE : 'نوع وظيفة يمكن تغييرها لتكون مناسبة مع نمط الشبكة الجديدة.',
-REPORT_PART_GRID_CONSTANTS_LABEL_TITTLE_SETTINGS_TOOLTIP : 'إعدادات عنوان',
-REPORT_PART_GRID_CONSTANTS_LABEL_DESCRIPTION_SETTING_TOOLTIP : 'وصف إعدادات',
-REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_TYPE : 'نوع الرسم البياني',
-REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_BORDER_SETTINGS : 'إعدادات الرسم البياني الحدود',
-REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_BACKGROUND_COLOR_SETTINGS : 'إعدادات لون الرسم البياني الخلفية',
+REPORT_PART_GRID_CONSTANTS_LABEL_MULTI_LEVEL : 'متعدد المستويات',
+REPORT_PART_GRID_CONSTANTS_LABEL_MULTI_LEVEL_WITH_LABEL : 'متعدد المستويات مع التسمية',
+REPORT_PART_GRID_CONSTANTS_MESSAGE_SEPARATOR_CONFIRM : 'سيتم إخفاء حاوية الفاصل وسيتم إزالة حقولها. هل تريد بالتأكيد إخفاءه؟',
+REPORT_PART_GRID_CONSTANTS_MESSAGE_FUNCTION_INCONSISTENT : 'إذا تم استخدام وظائف، يجب أن يكون كل اختيار وظيفة',
+REPORT_PART_GRID_CONSTANTS_MESSAGE_CHANGE_FUNCTION_TYPE : 'يمكن تغيير نوع الوظيفة لتكون مناسبة مع نمط الشبكة الجديدة.',
+REPORT_PART_GRID_CONSTANTS_LABEL_TITTLE_SETTINGS_TOOLTIP : 'إعدادات العنوان',
+REPORT_PART_GRID_CONSTANTS_LABEL_DESCRIPTION_SETTING_TOOLTIP : 'إعدادات الوصف',
+REPORT_PART_GRID_CONSTANTS_LABEL_EXPAND_ALL_TOOLTIP : 'توسيع الكل',
+REPORT_PART_GRID_CONSTANTS_LABEL_COLLAPSE_ALL_TOOLTIP : 'انهيار جميع',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_TYPE : 'نوع المخطط',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_BORDER_SETTINGS : 'إعدادات الحدود المخطط',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_BACKGROUND_COLOR_SETTINGS : 'مخطط إعدادات لون الخلفية',
 REPORT_PART_PROPS_CHART_SCHEMA_LABEL_XY_PLANE : 'XY الطائرة',
-REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_XY_PLANE_SETTINGS : 'إعدادات XY الطائرة الرسم البياني',
-REPORT_PART_PROPS_CHART_SCHEMA_LABEL_XY_PLANE_SETTINGS : 'إعدادات XY الطائرة',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_XY_PLANE_SETTINGS : 'الرسم البياني إعدادات X- الطائرة',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_XY_PLANE_SETTINGS : 'إعدادات X- الطائرة',
 REPORT_PART_PROPS_CHART_SCHEMA_LABEL_GRID_LINES : 'خطوط الشبكة',
-REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_GRID_LINES_SETTINGS : 'رسم خطوط الشبكة إعدادات',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_GRID_LINES_SETTINGS : 'رسم خطوط الشبكة الإعدادات',
 REPORT_PART_PROPS_CHART_SCHEMA_LABEL_GRID_LINES_SETTINGS : 'إعدادات خطوط الشبكة',
 REPORT_PART_PROPS_CHART_SCHEMA_LABEL_LABELS : 'تسميات',
 REPORT_PART_PROPS_CHART_SCHEMA_LABEL_DATA_LABELS : 'تسميات البيانات',
-REPORT_PART_PROPS_CHART_SCHEMA_LABEL_X_LABELS : 'تسميات X',
-REPORT_PART_PROPS_CHART_SCHEMA_LABEL_Y_LABELS : 'تسميات Y',
-REPORT_PART_PROPS_CHART_SCHEMA_LABEL_HOVER_LABELS : 'التسميات تحوم',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_X_LABELS : 'X التسميات',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_Y_LABELS : 'Y لابيلز',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_HOVER_LABELS : 'مرر التسميات',
 REPORT_PART_PROPS_CHART_SCHEMA_LABEL_LEGENDS : 'أساطير',
 REPORT_PART_PROPS_CHART_SCHEMA_LABEL_SETTINGS : 'إعدادات',
-REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_LEGEND_SETTINGS : 'إعدادات الرسم البياني ليجند',
-REPORT_PART_PROPS_CHART_SCHEMA_LABEL_LEGEND_SETTINGS : 'إعدادات أسطورة',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_LEGEND_SETTINGS : 'تخطيط إعدادات الأسطورة',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_LEGEND_SETTINGS : 'إعدادات الأسطورة',
 REPORT_PART_PROPS_CHART_SCHEMA_LABEL_STACKED : 'مرصوصة',
-REPORT_PART_PROPS_CHART_SCHEMA_LABEL_BOTTOM_PERCENT_GROUPED_TO_OTHER : 'أسفل X٪ مجمعة لأخرى',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_BOTTOM_PERCENT_GROUPED_TO_OTHER : 'أسفل X٪ مجمعة إلى أخرى',
 REPORT_PART_PROPS_CHART_SCHEMA_LABEL_DATA : 'البيانات',
-REPORT_PART_PROPS_CHART_SCHEMA_LABEL_SHOW_PERCENTAGE : 'مشاهدة النسبة المئوية',
-REPORT_PART_PROPS_CHART_SCHEMA_LABEL_SHOW_VALUE_LABELS : 'تسميات مشاهدة القيمة',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_SHOW_PERCENTAGE : 'إظهار النسبة المئوية',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_SHOW_VALUE_LABELS : 'عرض تصنيفات القيمة',
 REPORT_PART_PROPS_CHART_SCHEMA_SHOW_TOOLTIPS : 'عرض تلميحات',
-REPORT_PART_PROPS_CHART_SCHEMA_LABEL_SHOW_SLICE_LABELS : 'تسميات مشاهدة شريحة',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_SHOW_SLICE_LABELS : 'عرض شريحة التسميات',
 REPORT_PART_PROPS_CHART_SCHEMA_LABEL_RANGE : 'نطاق',
 REPORT_PART_PROPS_CHART_SCHEMA_LABEL_THRESHOLDS : 'الحدود القصوى',
-REPORT_PART_PROPS_CHART_SCHEMA_LABEL_THRESHOLDS_SETTINGS : 'إعدادات عتبات',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_THRESHOLDS_SETTINGS : 'عتبات الإعدادات',
 REPORT_PART_PROPS_CHART_SCHEMA_LABEL_STEP : 'خطوة',
 REPORT_PART_PROPS_CHART_SCHEMA_LABEL_SPLINE : 'خدد',
-REPORT_PART_PROPS_CHART_SCHEMA_LABEL_PIE_CHART_STYLE : 'فطيرة الرسم البياني ستايل',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_PIE_CHART_STYLE : 'الرسم البياني نمط الرسم البياني',
 REPORT_PART_PROPS_FORM_SCHEMA_FILE : 'ملف',
 REPORT_PART_PROPS_FORM_SCHEMA_NEW_DOCUMENT : 'مستند جديد',
-REPORT_PART_PROPS_FORM_SCHEMA_FORM_BORDER_SETTINGS : 'تشكيل إعدادات الحدود',
-REPORT_PART_PROPS_FORM_SCHEMA_BACKGROUND_COLOR_SETTINGS : 'إعدادات لون الخلفية',
+REPORT_PART_PROPS_FORM_SCHEMA_FORM_BORDER_SETTINGS : 'إعدادات الحدود النموذجية',
+REPORT_PART_PROPS_FORM_SCHEMA_BACKGROUND_COLOR_SETTINGS : 'إعدادات ألوان الخلفية',
 REPORT_PART_PROPS_FORM_SCHEMA_TOOL_BAR : 'شريط الأدوات',
-REPORT_PART_PROPS_FORM_SCHEMA_CUT : 'قص (السيطرة X)',
-REPORT_PART_PROPS_FORM_SCHEMA_COPY : 'نسخة (السيطرة C)',
-REPORT_PART_PROPS_FORM_SCHEMA_PASTE : 'لصق (السيطرة V)',
+REPORT_PART_PROPS_FORM_SCHEMA_CUT : 'قص (كترل X)',
+REPORT_PART_PROPS_FORM_SCHEMA_COPY : 'نسخ (كترل C)',
+REPORT_PART_PROPS_FORM_SCHEMA_PASTE : 'لصق (كترل V)',
 REPORT_PART_PROPS_FORM_SCHEMA_PASTE_AS_TEXT : 'لصق كنص',
-REPORT_PART_PROPS_FORM_SCHEMA_SELECT_ALL : 'تحديد الكل (السيطرة أ)',
-REPORT_PART_PROPS_FORM_SCHEMA_FIND_AND_REPLACE_SHORT_CUT : 'بحث واستبدال (السيطرة F)',
-REPORT_PART_PROPS_FORM_SCHEMA_FIND_AND_REPLACE : 'بحث واستبدال',
-REPORT_PART_PROPS_FORM_SCHEMA_UNDO : 'تراجع (Ctrl Z)',
-REPORT_PART_PROPS_FORM_SCHEMA_REDO : 'إعادة (السيطرة Y)',
+REPORT_PART_PROPS_FORM_SCHEMA_SELECT_ALL : 'تحديد الكل (كترل A)',
+REPORT_PART_PROPS_FORM_SCHEMA_FIND_AND_REPLACE_SHORT_CUT : 'البحث والاستبدال (كترل F)',
+REPORT_PART_PROPS_FORM_SCHEMA_FIND_AND_REPLACE : 'البحث والاستبدال',
+REPORT_PART_PROPS_FORM_SCHEMA_UNDO : 'تراجع (كترل Z)',
+REPORT_PART_PROPS_FORM_SCHEMA_REDO : 'إعادة (كترل Y)',
 REPORT_PART_PROPS_FORM_SCHEMA_ITEM : 'بند',
-REPORT_PART_PROPS_FORM_SCHEMA_INSERT_EDIT_LINK : 'إدراج / تحرير الارتباط (السيطرة K)',
-REPORT_PART_PROPS_FORM_SCHEMA_INSERT_EDIT_IMAGE : 'إدراج / تحرير صورة',
+REPORT_PART_PROPS_FORM_SCHEMA_INSERT_EDIT_LINK : 'رابط إدراج / تعديل (كترل K)',
+REPORT_PART_PROPS_FORM_SCHEMA_INSERT_EDIT_IMAGE : 'إدراج / تحرير الصورة',
 REPORT_PART_PROPS_FORM_SCHEMA_INSERT_EDIT_ANCHOR : 'إدراج / تحرير مرساة',
 REPORT_PART_PROPS_FORM_SCHEMA_INSERT_SPECIAL_CHARACTER : 'إدراج حرف خاص',
-REPORT_PART_PROPS_FORM_SCHEMA_INSERT_DATE_TIME_VALUE : 'إدراج تاريخ قيمة الوقت /',
+REPORT_PART_PROPS_FORM_SCHEMA_INSERT_DATE_TIME_VALUE : 'أدخل قيمة التاريخ / الوقت',
 REPORT_PART_PROPS_FORM_SCHEMA_HORIZONTAL_LINE : 'خط أفقي',
-REPORT_PART_PROPS_FORM_SCHEMA_INSERT_PAGE_BREAK : 'إدراج فواصل الصفحات',
-REPORT_PART_PROPS_FORM_SCHEMA_INSERT_TEMPLATE_BREAK : 'إدراج قالب استراحة',
+REPORT_PART_PROPS_FORM_SCHEMA_INSERT_PAGE_BREAK : 'إدراج استراحة صفحة',
+REPORT_PART_PROPS_FORM_SCHEMA_INSERT_TEMPLATE_BREAK : 'إدراج قالب كسر',
 REPORT_PART_PROPS_FORM_SCHEMA_ADD_FIELD : 'إضافة حقل',
-REPORT_PART_PROPS_FORM_SCHEMA_FIELD_SELECTION : 'اختيار الميدان',
-REPORT_PART_PROPS_FORM_SCHEMA_SMART_TAG : 'العلامات الذكية',
+REPORT_PART_PROPS_FORM_SCHEMA_FIELD_SELECTION : 'اختيار الحقل',
+REPORT_PART_PROPS_FORM_SCHEMA_SMART_TAG : 'العلامة الذكية',
 REPORT_PART_PROPS_FORM_SCHEMA_REPEATER : 'مكرر',
 REPORT_PART_PROPS_FORM_SCHEMA_INSERT_REPEATER : 'إدراج مكرر',
 REPORT_PART_PROPS_FORM_SCHEMA_BLOCKS : 'كتل',
@@ -1589,87 +1640,92 @@ REPORT_PART_PROPS_FORM_SCHEMA_INSERT_ROW_AFTER : 'إدراج صف بعد',
 REPORT_PART_PROPS_FORM_SCHEMA_INSERT_DELETE_ROW : 'احذف صف',
 REPORT_PART_PROPS_FORM_SCHEMA_ROW_PROPERTIES : 'خصائص الصف',
 REPORT_PART_PROPS_FORM_SCHEMA_CUT_ROW : 'قطع الصف',
-REPORT_PART_PROPS_FORM_SCHEMA_COPY_ROW : 'نسخة الصف',
-REPORT_PART_PROPS_FORM_SCHEMA_PASTE_ROW_BEFORE : 'لصق صف قبل',
-REPORT_PART_PROPS_FORM_SCHEMA_PASTE_ROW_AFTER : 'لصق صف بعد',
-REPORT_PART_PROPS_FORM_SCHEMA_INSERT_COLUMN_BEFORE : 'إدراج العمود قبل',
-REPORT_PART_PROPS_FORM_SCHEMA_INSERT_COLUMN_AFTER : 'إدراج العمود بعد',
-REPORT_PART_PROPS_FORM_SCHEMA_DELETE_COLUMN : 'حذف عمود',
+REPORT_PART_PROPS_FORM_SCHEMA_COPY_ROW : 'نسخ الصف',
+REPORT_PART_PROPS_FORM_SCHEMA_PASTE_ROW_BEFORE : 'الصق الصف قبل',
+REPORT_PART_PROPS_FORM_SCHEMA_PASTE_ROW_AFTER : 'لصق الصف بعد',
+REPORT_PART_PROPS_FORM_SCHEMA_INSERT_COLUMN_BEFORE : 'إدراج عمود قبل',
+REPORT_PART_PROPS_FORM_SCHEMA_INSERT_COLUMN_AFTER : 'إدراج عمود بعد',
+REPORT_PART_PROPS_FORM_SCHEMA_DELETE_COLUMN : 'حذف العمود',
 REPORT_PART_PROPS_FORM_SCHEMA_TOOL : 'أداة',
 REPORT_PART_PROPS_FORM_SCHEMA_DIRECTIONALITY : 'اتجاهية',
 REPORT_PART_PROPS_FORM_SCHEMA_RIGHT_TO_LEFT : 'من اليمين الى اليسار',
 REPORT_PART_PROPS_FORM_SCHEMA_LEFT_TO_RIGHT : 'من اليسار إلى اليمين',
 REPORT_PART_PROPS_FORM_SCHEMA_WRAP_TEXT : 'دوران النص',
-REPORT_PART_PROPS_FORM_SCHEMA_HIGHTLIGHT_CODE : 'تسليط الضوء على مدونة',
+REPORT_PART_PROPS_FORM_SCHEMA_HIGHTLIGHT_CODE : 'تسليط الضوء على التعليمات البرمجية',
 REPORT_PART_PROPS_FORM_SCHEMA_REFORMAT : 'إعادة',
-REPORT_PART_PROPS_FORM_SCHEMA_SHOW_INVISIBLE_CHARACTERS : 'تظهر الأحرف غير مرئية',
+REPORT_PART_PROPS_FORM_SCHEMA_SHOW_INVISIBLE_CHARACTERS : 'إظهار الأحرف غير المرئية',
 REPORT_PART_PROPS_FORM_SCHEMA_SHOW_VISUAL_AIDS : 'المعينات البصرية',
 REPORT_PART_PROPS_FORM_SCHEMA_FULLSCREEN : 'تكبير الشاشة',
 REPORT_PART_PROPS_FORM_SCHEMA_PRINTING : 'طبع',
-REPORT_PART_PROPS_FORM_SCHEMA_PAGE_BREAK_AFTER_EACH_ENTRY : 'فاصل صفحات بعد كل دخول',
-REPORT_PART_SELECTION_CONSTANTS_SUB_CATEGORY : 'التصنيف الفرعي',
-REPORT_PART_SELECTION_CONSTANTS_REPORT_PART_TITLE : 'تقرير الجزء عنوان',
-REPORT_PART_SELECTION_CONSTANTS_REPORT_PART_TYPE : 'تقرير جزئي نوع',
+REPORT_PART_PROPS_FORM_SCHEMA_PAGE_BREAK_AFTER_EACH_ENTRY : 'استراحة الصفحة بعد كل دخول',
+REPORT_PART_SELECTION_CONSTANTS_SUB_CATEGORY : 'الفئة الفرعية',
+REPORT_PART_SELECTION_CONSTANTS_REPORT_PART_TITLE : 'تقرير عنوان الجزء',
+REPORT_PART_SELECTION_CONSTANTS_REPORT_PART_TYPE : 'تقرير نوع الجزء',
 REPORT_PART_TILE_BACK_SIDE_FOOTER_CONFIG_OPEN : 'فتح',
 REPORT_PART_TILE_BACK_SIDE_FOOTER_CONFIG_EDIT : 'تصحيح',
 REPORT_PART_TILE_BACK_SIDE_FOOTER_CONFIG_QUICK_EDIT : 'تحرير سريع',
 REPORT_PART_TILE_BACK_SIDE_FOOTER_CONFIG_DESIGN : 'التصميم',
-REPORT_PART_TILE_BACK_SIDE_FOOTER_CONFIG_SELECT_REPORT_PART : 'حدد تقرير الجزء',
-REPORTS_CONSTANTS_REPORT_MESSAGE_DELETE_REPORT : 'هل أنت متأكد أنك تريد حذف &quot;{0}&quot; التقرير؟',
-REPORTS_CONSTANTS_REPORT_MESSAGE_DELETE_TEMPLATE : 'هل أنت متأكد أنك تريد حذف &quot;{0}&quot; القالب؟',
-REPORTS_CONSTANTS_REPORT_MESSAGE_SUCCESSFULLY_COPIED : 'و{0} {1} تم نسخها بنجاح إلى {2} {3}.',
-REPORTS_CONSTANTS_REPORT_MESSAGE_SUCCESSFULLY_MOVED : 'و{0} {1} تم نقله بنجاح إلى {2} {3}.',
-REPORTS_CONSTANTS_REPORT_MESSAGE_SAVE_REPORT : 'من هذه اللحظة، أي الحقل المحدد في تقرير جزء و / أو أي مرشح التي وضعت لتكون غير مرئية سوف تكون مخفية في عارض {0} في التقرير. هل أنت متأكد أنك تريد أن تجعل هذا البند (ق) تكون مخفية في {0} في عارض التقرير؟',
-REPORTS_CONSTANTS_REPORT_MESSAGE_SAVE_AS_REPORT : 'تقرير جديد / قالب سوف يتم إنشاؤها باستخدام حفظ باسم وظيفة. أي الحقل المحدد في الجزء التقرير و / أو أي مرشح التي وضعت لتكون غير مرئية سوف تكون مخفية في التقرير الجديد / القالب في عارض التقرير. هل أنت متأكد أنك تريد أن تجعل هذا البند (ق) تكون مخفية في التقرير الجديد / القالب في عارض التقرير؟',
-REPORTS_CONSTANTS_REPORT_MESSAGE_INVALID_REPORT : 'هذا التقرير لم يعد صالحا. الرجاء الاتصال بمسؤول النظام للحصول على المساعدة.',
-REPORTS_CONSTANTS_REPORT_MESSAGE_DIFFERENT_SCHEMA : 'مخطط عاد الإجراء المخزن (s) التالية يختلف مع المخطط الحالي بعد تنفيذه مع قيمة تصفية جديدة. ونظام ستعود قيمة تصفية جديدة إلى واحد صحيح السابق.',
-REPORTS_CONSTANTS_REPORT_MESSAGE_SELECT_FILTER_VALUE : 'الرجاء تحديد قيمة تصفية واحدة محددة للمرشح التالي (الصورة)، ثم انقر على زر &quot;تحديث نتائج&quot; للحصول على مخطط تحديث الإجراء المخزن اختيار المقابلة (ق).',
-REPORTS_CONSTANTS_REPORT_MESSAGE_SELECT_REQUIRE_AND_NOT_VISIBLE_FIELD : 'الرجاء تحديد قيمة فلتر (الصورة) للمرشح (s) التالية وهي مطلوبة وغير مرئية وانقر على &quot;تحديث نتائج&quot; لتحديث البيانات.',
-REPORTS_CONSTANTS_REPORT_MESSAGE_SELECT_REQUIRE_AND_VISIBLE_FIELD : 'الرجاء تحديد قيمة فلتر (الصورة) للمرشح (s) التالية التي تتطلب وضوحا وانقر على &quot;تحديث نتائج&quot; لتحديث البيانات.',
-REPORTS_CONSTANTS_REPORT_MESSAGE_CLICK_UPDATE_RESULT : 'الرجاء النقر على &quot;نتائج تحديث&quot; لتحديث البيانات في هذا التقرير.',
-REPORTS_CONSTANTS_REPORT_MESSAGE_TEXT_CREATE_CATEGORY : '(Enter لإنشاء فئة جديدة)',
-REPORTS_CONSTANTS_REPORT_MESSAGE_TEXT_CREATE_SUB_CATEGORY : '(أدخل إلى خلق فرص عمل جديدة الفئة الفرعية)',
-REPORTS_CONSTANTS_REPORT_LABEL_REPORT_PART_PROPERTIES : 'خصائص جزء تقرير',
-REPORTS_CONSTANTS_REPORT_LABEL_FORMAT_PROPERTIES : 'خصائص تنسيق',
+REPORT_PART_TILE_BACK_SIDE_FOOTER_CONFIG_SELECT_REPORT_PART : 'حدد جزء التقرير',
+REPORTS_CONSTANTS_REPORT_MESSAGE_DELETE_REPORT : 'هل تريد بالتأكيد حذف &quot;{0}&quot; التقرير؟',
+REPORTS_CONSTANTS_REPORT_MESSAGE_DELETE_TEMPLATE : 'هل تريد بالتأكيد حذف القالب &quot;{0}&quot;؟',
+REPORTS_CONSTANTS_REPORT_MESSAGE_SUCCESSFULLY_COPIED : 'تم نسخ {0} {1} بنجاح إلى {2} {3}.',
+REPORTS_CONSTANTS_REPORT_MESSAGE_SUCCESSFULLY_MOVED : 'تم نقل {0} {1} بنجاح إلى {2} {3}.',
+REPORTS_CONSTANTS_REPORT_MESSAGE_SAVE_REPORT : 'من هذه اللحظة، سيتم إخفاء أي حقل تم تحديده في جزء التقرير و / أو أي فلتر يتم وضع علامة على أنه غير مرئي في {0} في عارض التقارير. هل تريد بالتأكيد إخفاء العنصر (العناصر) في {0} في عارض التقارير؟',
+REPORTS_CONSTANTS_REPORT_MESSAGE_SAVE_AS_REPORT : 'سيتم إنشاء تقرير / قالب جديد باستخدام وظيفة حفظ باسم. سيتم إخفاء أي حقل تم تحديده في جزء التقرير و / أو أي فلتر تم وضع علامة على أنه غير مرئي في التقرير / النموذج الجديد في عارض التقارير. هل تريد بالتأكيد إخفاء العنصر (العناصر) في التقرير / النموذج الجديد في عارض التقارير؟',
+REPORTS_CONSTANTS_REPORT_MESSAGE_INVALID_REPORT : 'لم يعد هذا التقرير صالحا. يرجى الاتصال بمسؤول النظام للحصول على المساعدة.',
+REPORTS_CONSTANTS_REPORT_MESSAGE_DIFFERENT_SCHEMA : 'المخطط الذي تم إرجاعه من الإجراءات المخزنة التالية (s) يختلف مع المخطط الحالي بعد تنفيذه مع قيمة عامل تصفية جديد. سيعود النظام إلى قيمة الفلتر الجديدة إلى القيمة الصالحة السابقة.',
+REPORTS_CONSTANTS_REPORT_MESSAGE_SELECT_FILTER_VALUE : 'يرجى تحديد قيمة فلتر محددة واحدة للفلتر (الفلاتر) التالية، ثم النقر على زر &quot;تحديث النتائج&quot; للحصول على المخطط المحدث للإجراءات المخزنة المحددة المطابقة.',
+REPORTS_CONSTANTS_REPORT_MESSAGE_SELECT_REQUIRE_AND_NOT_VISIBLE_FIELD : 'يرجى تحديد قيمة (قيم) الفلتر للفلتر (الفلاتر) التالية المطلوبة وغير المرئية والنقر على &quot;تحديث النتائج&quot; لتحديث البيانات.',
+REPORTS_CONSTANTS_REPORT_MESSAGE_SELECT_REQUIRE_AND_VISIBLE_FIELD : 'يرجى تحديد قيمة (قيم) الفلتر للفلتر (الفلاتر) التالية المطلوبة والظاهرة وانقر على &quot;تحديث النتائج&quot; لتحديث البيانات.',
+REPORTS_CONSTANTS_REPORT_MESSAGE_REQUIRED_FILTER_EXPORT : 'يرجى تحديد قيمة (قيم) الفلتر للمرشح (الفلتر) المطلوب والمرئي ومحاولة التصدير مرة أخرى.',
+REPORTS_CONSTANTS_REPORT_MESSAGE_REQUIRED_FILTER_PRINT : 'يرجى تحديد قيمة (قيم) الفلتر للمرشح (الفلتر) المطلوب والمرئي ومحاولة الطباعة مرة أخرى.',
+REPORTS_CONSTANTS_REPORT_MESSAGE_REQUIRED_FILTER_EMAIL : 'يرجى تحديد قيمة (قيم) الفلتر للمرشح (الفلتر) المطلوب والمرئي ومحاولة إعادة إرساله مرة أخرى.',
+REPORTS_CONSTANTS_REPORT_MESSAGE_CLICK_UPDATE_RESULT : 'يرجى النقر على &quot;تحديث النتائج&quot; لتحديث البيانات في هذا التقرير.',
+REPORTS_CONSTANTS_REPORT_MESSAGE_TEXT_CREATE_CATEGORY : '(أدخل لإنشاء فئة جديدة)',
+REPORTS_CONSTANTS_REPORT_MESSAGE_TEXT_CREATE_SUB_CATEGORY : '(أدخل لإنشاء فئة فرعية جديدة)',
+REPORTS_CONSTANTS_REPORT_LABEL_REPORT_PART_PROPERTIES : 'تقرير خصائص الجزء',
+REPORTS_CONSTANTS_REPORT_LABEL_FORMAT_PROPERTIES : 'خصائص التنسيق',
 REPORTS_CONSTANTS_REPORT_LABEL_FREEZE_BTN_LABEL : 'تجمد',
 REPORTS_CONSTANTS_REPORT_LABEL_UNFREEZE_BTN_LABEL : 'تسيح',
 REPORTS_CONSTANTS_REPORT_LABEL_SUBREPORT : 'تقرير فرعي',
 REPORTS_CONSTANTS_REPORT_LABEL_MOVE : 'نقل',
 REPORTS_CONSTANTS_REPORT_LABEL_COPY : 'نسخ',
 REPORTS_CONSTANTS_LABEL_ALL_REPORTS : 'جميع التقارير',
-REPORTS_CONSTANTS_LABEL_ALL_TEMPLATES : 'جميع القوالب',
-REPORTS_CONSTANTS_REPORT_MESSAGE_INVALID_REPORTPART : 'تقرير جزء (ق) يحتوي على حقل غير صالح (ق). يرجى مراجعة على كل جزء تقرير للحصول على التفاصيل.',
-REPORT_SUBCRIPTION_CONSTANT_SUBSCRIPTION_REPORT : 'الاشتراك التقارير البند',
-REPORT_SUBCRIPTION_CONSTANT_MESSAGE_DELETE_INSTANCE : 'هل أنت متأكد أنك تريد حذف المثال مشترك؟',
-REPORT_SUBCRIPTION_CONSTANT_MESSAGE_DELETE_SELECTED_INSTANTCES : 'هل أنت متأكد أنك تريد حذف المثال اشتركت مختارة (ق)؟',
-REPORT_SUBCRIPTION_CONSTANT_MESSAGE_END_DATE_CANNOT_PRIOR_CURRENT_DATE : 'تاريخ انتهاء تكرار لا يمكن أن يكون قبل تاريخ البدء المحدد حاليا.',
-REPORT_SUBCRIPTION_CONSTANT_MESSAGE_START_DATE_CANNOT_AFTER_END_DATE : 'تاريخ بداية لا يمكن أن يكون بعد تاريخ انتهاء التكرار المحدد حاليا.',
-REPORT_SUBCRIPTION_CONSTANT_MESSAGE_NAME_EXIST : 'هذا اسم المثيل موجود بالفعل.',
-REPORT_SUBCRIPTION_CONSTANT_MESSAGE_ADJUSTED_ACCORDINGLY : 'بسبب تكوين الجدول الزمني الخاص بك تاريخ بدء الاشتراك يجب السيارات تعديلها وفقا لذلك. يمكنك مراجعة تاريخ بداية المعدل قبل المضي قدما.',
-REPORT_SUBCRIPTION_CONSTANT_MESSAGE_REQUIRED_OCCURRENCE : 'مطلوب حدوثها.',
-REPORT_SUBCRIPTION_CONSTANT_MESSAGE_CANNOT_BE_SUBSCRIBE : 'لا يمكن اكتتب تقرير لأنك لم يكن لديك عنوان بريد إلكتروني أقيمت في النظام. الرجاء الاتصال بمسؤول النظام للحصول على المساعدة.',
+REPORTS_CONSTANTS_LABEL_ALL_TEMPLATES : 'جميع النماذج',
+REPORTS_CONSTANTS_REPORT_MESSAGE_INVALID_REPORTPART : 'يحتوي الجزء (الأجزاء) على حقل غير صالح. يرجى مراجعة كل جزء من التقارير للحصول على التفاصيل.',
+REPORTS_CONSTANTS_REPORT_MESSAGE_UNSELECTING_GLOBAL : 'أنت غير تحديد مربع الاختيار التقرير العالمي. سيتم إزالة أي أدوار غير موجودة في المستأجر ذات الصلة في مشاركة مع الأدوار في صفحة الوصول. هل تريد بالتأكيد إلغاء تحديد مربع الاختيار هذا؟',
+REPORTS_CONSTANTS_REPORT_MESSAGE_SELECTING_GLOBAL : 'أنت تحدد مربع الاختيار التقرير العالمي. ستتم إزالة أي مشاركة مع المستخدمين في صفحة أسيس وسيتم إزالة جميع الجداول الزمنية. هل تريد بالتأكيد تحديد مربع الاختيار هذا؟',
+REPORT_SUBCRIPTION_CONSTANT_SUBSCRIPTION_REPORT : 'عنصر الإبلاغ عن الاشتراكات',
+REPORT_SUBCRIPTION_CONSTANT_MESSAGE_DELETE_INSTANCE : 'هل تريد بالتأكيد حذف المثال المكتتب؟',
+REPORT_SUBCRIPTION_CONSTANT_MESSAGE_DELETE_SELECTED_INSTANTCES : 'هل أنت متأكد من رغبتك في حذف المثال (الملفات) المشترك المكتتب؟',
+REPORT_SUBCRIPTION_CONSTANT_MESSAGE_END_DATE_CANNOT_PRIOR_CURRENT_DATE : 'لا يمكن أن يكون تاريخ انتهاء التكرار قبل تاريخ البدء المحدد حاليا.',
+REPORT_SUBCRIPTION_CONSTANT_MESSAGE_START_DATE_CANNOT_AFTER_END_DATE : 'لا يمكن أن يكون تاريخ البدء بعد تاريخ انتهاء التكرار المحدد حاليا.',
+REPORT_SUBCRIPTION_CONSTANT_MESSAGE_NAME_EXIST : 'اسم المثيل موجود بالفعل.',
+REPORT_SUBCRIPTION_CONSTANT_MESSAGE_ADJUSTED_ACCORDINGLY : 'نظرا لتكوين الجدول الزمني الخاص بك يجب أن يكون تاريخ بدء الاشتراك تعديل السيارات وفقا لذلك. يمكنك مراجعة تاريخ البدء المعدل قبل المضي قدما.',
+REPORT_SUBCRIPTION_CONSTANT_MESSAGE_REQUIRED_OCCURRENCE : 'مطلوب حدوث.',
+REPORT_SUBCRIPTION_CONSTANT_MESSAGE_CANNOT_BE_SUBSCRIBE : 'لا يمكن الاشتراك في التقرير لأنه ليس لديك عنوان بريد إلكتروني تم إعداده في النظام. يرجى الاتصال بمسؤول النظام للحصول على المساعدة.',
 REPORT_SUBCRIPTION_CONSTANT_ADD : 'إضافة اشتراك',
-REPORT_SUBCRIPTION_CONSTANT_EDIT : 'تحرير الاشتراك',
-REPORT_SUBCRIPTION_CONSTANT_COPY : 'نسخة الاشتراك',
+REPORT_SUBCRIPTION_CONSTANT_EDIT : 'تعديل الاشتراك',
+REPORT_SUBCRIPTION_CONSTANT_COPY : 'نسخ الاشتراك',
 REPORT_SUBCRIPTION_CONSTANT_DELETE : 'حذف الاشتراك',
-REPORT_SUBCRIPTION_CONSTANT_SUBSCRIPTION_TYPE_REPORTING_ITEM : 'اشتركت التقارير البند',
-REPORT_SUBCRIPTION_CONSTANT_SUBSCRIPTION_TYPE_ALERT : 'المكتتب تنبيه',
+REPORT_SUBCRIPTION_CONSTANT_SUBSCRIPTION_TYPE_REPORTING_ITEM : 'بند التقارير المشترك',
+REPORT_SUBCRIPTION_CONSTANT_SUBSCRIPTION_TYPE_ALERT : 'تنبيه مشترك',
 REPORT_SUBCRIPTION_CONSTANT_FILE_LOCATION : 'مكان الملف',
 REPORT_SUBCRIPTION_CONSTANT_SEND_TO_DISK : 'إرسال إلى القرص',
 REPORT_SUBCRIPTION_CONSTANT_INSTANCE_NAME_REQUIRED : 'مطلوب اسم مثيل.',
 REPORT_SUBCRIPTION_CONSTANT_START_DATE_REQUIED : 'تاريخ البدء مطلوب.',
-REPORT_SUBCRIPTION_CONSTANT_START_TIME_REQUIED : 'مطلوب بداية الوقت.',
+REPORT_SUBCRIPTION_CONSTANT_START_TIME_REQUIED : 'وقت البدء مطلوب.',
 REPORT_SUBCRIPTION_CONSTANT_SYSTEM_VARIABLES_TITLE : 'متغيرات النظام',
-REPORT_SUBCRIPTION_CONSTANT_SYSTEM_VARIABLES_INSTRUCTION : 'حدد متغير النظام على المضي قدما',
+REPORT_SUBCRIPTION_CONSTANT_SYSTEM_VARIABLES_INSTRUCTION : 'حدد متغير النظام للمتابعة',
 REPORT_LABEL_QUICK_EDIT : 'تحرير سريع',
 REPORT_LABEL_DESIGN : 'التصميم',
-REPORT_LABEL_VIEW_HISTORY : 'مشاهدة تاريخ',
+REPORT_LABEL_VIEW_HISTORY : 'عرض السجل',
 REPORT_LABEL_NUMBER_OF_SUBSCRIPTION : '{0} الاشتراك',
 REPORT_LABEL_VIEW_MODE : 'اسلوب العرض',
 REPORT_LABEL_VERSION : 'الإصدار:',
 REPORT_LABEL_REPORT_OWNER : 'تقرير المالك',
-REPORT_LABEL_REPORT_HISTORY : 'سجل تقرير',
-REPORT_LABEL_REPORT_FILTER_INFO : 'تقرير تصفية معلومات:',
+REPORT_LABEL_REPORT_HISTORY : 'تاريخ التقرير',
+REPORT_LABEL_REPORT_FILTER_INFO : 'تقرير تصفية المعلومات:',
 REPORT_LABEL_FILTERS : 'مرشحات',
 SCHEDULE_CONSTANTS_RECURRENCE_PATTERN_DAILY : 'اليومي',
 SCHEDULE_CONSTANTS_RECURRENCE_PATTERN_WEEKLY : 'أسبوعي',
@@ -1695,17 +1751,17 @@ SCHEDULE_CONSTANTS_MONTHNAME_LIST_SEPTEMBER : 'سبتمبر',
 SCHEDULE_CONSTANTS_MONTHNAME_LIST_OCTOBER : 'شهر اكتوبر',
 SCHEDULE_CONSTANTS_MONTHNAME_LIST_NOVEMBER : 'شهر نوفمبر',
 SCHEDULE_CONSTANTS_MONTHNAME_LIST_DECEMBER : 'ديسمبر',
-REPORT_PART_MAP_CONSTANTS_MAP_TYPE : 'نوع خريطة',
+REPORT_PART_MAP_CONSTANTS_MAP_TYPE : 'نوع الخريطة',
 REPORT_PART_MAP_CONSTANTS_CONTINENT : 'قارة',
 REPORT_PART_MAP_CONSTANTS_COUNTRY : 'بلد',
 REPORT_PART_MAP_CONSTANTS_STATE : 'حالة',
-REPORT_PART_MAP_CONSTANTS_MAP_BORDER_SETTINGS : 'تعيين إعدادات الحدود',
-REPORT_PART_MAP_CONSTANTS_MAP_BACKGROUND_COLOR_SETTINGS : 'إعدادات الألوان خريطة الخلفية',
-REPORT_PART_MAP_CONSTANTS_SHOW_MAP_LABELS : 'تسميات اعرض الخارطة',
-REPORT_PART_MAP_CONSTANTS_MAP_LEGEND_SETTINGS : 'إعدادات المجموعات خريطة',
+REPORT_PART_MAP_CONSTANTS_MAP_BORDER_SETTINGS : 'إعدادات الحدود الخريطة',
+REPORT_PART_MAP_CONSTANTS_MAP_BACKGROUND_COLOR_SETTINGS : 'إعدادات إعدادات خلفية الخريطة',
+REPORT_PART_MAP_CONSTANTS_SHOW_MAP_LABELS : 'عرض تسميات الخريطة',
+REPORT_PART_MAP_CONSTANTS_MAP_LEGEND_SETTINGS : 'خريطة إعدادات أسطورة',
 REPORT_PART_MAP_CONSTANTS_VIEW : 'رأي',
 REPORT_PART_MAP_CONSTANTS_ZOOM : 'تكبير',
-REPORT_PART_MAP_CONSTANTS_ZOOM_SETTINGS : 'إعدادات التكبير',
+REPORT_PART_MAP_CONSTANTS_ZOOM_SETTINGS : 'إعدادات التكبير / التصغير',
 REPORT_PART_MAP_POINT_country : 'بلد',
 REPORT_PART_MAP_POINT_state : 'الدولة / مقاطعة',
 REPORT_PART_MAP_POINT_county : 'مقاطعة',
@@ -1717,79 +1773,80 @@ REPORT_PART_MAP_POINT_latitude_longtitude : 'خطوط العرض والطول',
 THRESHOLD_GRID_CONSTANT_LABEL : 'ضع الكلمة المناسبة',
 THRESHOLD_GRID_CONSTANT_DASHSTYLE : 'dashstyle',
 THRESHOLD_GRID_CONSTANT_THICKNESS : 'سماكة',
-THRESHOLD_GRID_CONSTANT_MESSAGE_THRESHOLD_EXIST : 'خط {0} عتبة موجود بالفعل.',
-THRESHOLD_GRID_CONSTANT_MESSAGE_THRESHOLD_VALUE_EXIST : 'خط عتبة قيمتها = {0} موجود بالفعل.',
-THRESHOLD_GRID_CONSTANT_MESSAGE_THRESHOLD_REQUIED : 'مطلوب عتبة {0}.',
+THRESHOLD_GRID_CONSTANT_MESSAGE_THRESHOLD_EXIST : 'خط العتبة {0} موجود بالفعل.',
+THRESHOLD_GRID_CONSTANT_MESSAGE_THRESHOLD_VALUE_EXIST : 'خط العتبة الذي قيمته = {0} موجود بالفعل.',
+THRESHOLD_GRID_CONSTANT_MESSAGE_THRESHOLD_REQUIED : 'العتبة {0} مطلوبة.',
 XY_PLANE_TITLE_OPTION_xAxis_izLow : 'اليسار',
 XY_PLANE_TITLE_OPTION_xAxis_izMiddle : 'مركز',
 XY_PLANE_TITLE_OPTION_xAxis_izHigh : 'حق',
 XY_PLANE_TITLE_OPTION_yAxis_izLow : 'منخفض',
 XY_PLANE_TITLE_OPTION_yAxis_izMiddle : 'وسط',
 XY_PLANE_TITLE_OPTION_yAxis_izHigh : 'متوسط',
-XY_PLANE_LABEL_XAXIS_TYPE : 'xAxis نوع',
+XY_PLANE_LABEL_XAXIS_TYPE : 'نوع زاكسيس',
 XY_PLANE_LABEL_LINEAR : 'خطي',
-XY_PLANE_LABEL_LINEAR_TOOLTIP : 'الأرقام على طول المحور هي من مقياس خطي. وبالتالي، قد يتم عرض قيمة البيانات التي تم إرجاعها من الاستعلام على محور',
+XY_PLANE_LABEL_LINEAR_TOOLTIP : 'الأرقام على طول المحور هي من مقياس خطي. وبالتالي، قد لا تظهر قيمة البيانات التي تم إرجاعها من الاستعلام على المحور',
 XY_PLANE_LABEL_VALUE : 'القيمة',
-XY_PLANE_LABEL_VALUE_TOOLTIP : 'وسيتم عرض قيمة البيانات التي تم إرجاعها من الاستعلام على محور',
-XY_PLANE_LABEL_APPLY_ALL : 'طلب للحصول على كافة المجالات الساعة الرقمية / التاريخ',
-SETTINGS_CONTEXT_MENU_MESSAGE_CONFIRM_MESSAGE_CHANGE_TENANT : 'لا يحتوي على مستوى النظام / المستأجر تحديد أي سلسلة الاتصال.',
-SETTINGS_MESSAGE_NAME_HAS_BEEN_DEFINED : 'وقد عرف اسم بالفعل لهذه القيمة',
-SETTINGS_MESSAGE_COLOR_HAS_BEEN_DEFINED : 'تم تعريف اللون أصلا لهذه القيمة.',
-SETTINGS_MESSAGE_RANGE_COLOR_HAS_BEEN_DEFINED : 'تم تعريف اللون بالفعل لهذا النطاق قيمة.',
-SETTINGS_MESSAGE_PERCENT_COLOR_HAS_BEEN_DEFINED : 'تم تعريف اللون بالفعل لهذا النطاق مئوية.',
+XY_PLANE_LABEL_VALUE_TOOLTIP : 'سيتم عرض قيمة البيانات التي تم إرجاعها من الاستعلام على المحور',
+XY_PLANE_LABEL_APPLY_ALL : 'تطبيق لجميع الحقول الوقت / التاريخ',
+SETTINGS_CONTEXT_MENU_MESSAGE_CONFIRM_MESSAGE_CHANGE_TENANT : 'مستوى النظام / المستأجر المحدد لا يحتوي على أي سلسلة اتصال.',
+SETTINGS_MESSAGE_NAME_HAS_BEEN_DEFINED : 'تم تعريف الاسم بالفعل لهذه القيمة',
+SETTINGS_MESSAGE_COLOR_HAS_BEEN_DEFINED : 'تم تعريف اللون بالفعل لهذه القيمة.',
+SETTINGS_MESSAGE_RANGE_COLOR_HAS_BEEN_DEFINED : 'تم تعريف اللون بالفعل لنطاق القيمة هذا.',
+SETTINGS_MESSAGE_PERCENT_COLOR_HAS_BEEN_DEFINED : 'تم تعريف اللون بالفعل لهذا النطاق المئوي.',
 SETTINGS_MESSAGE_INVALID_RANGE : 'نطاق غير صالح',
-SETTINGS_MESSAGE_ALTERNATIVE_TEXT_HAS_BEEN_DEFINED : 'وقد عرف النص البديل بالفعل لهذه القيمة.',
-SETTINGS_MESSAGE_RANGE_ALTERNATIVE_TEXT_HAS_BEEN_DEFINED : 'وقد عرف النص البديل بالفعل لهذا النطاق قيمة.',
-SETTINGS_MESSAGE_PERCENT_ALTERNATIVE_TEXT_HAS_BEEN_DEFINED : 'وقد عرف النص البديل بالفعل لهذا النطاق مئوية.',
+SETTINGS_MESSAGE_ALTERNATIVE_TEXT_HAS_BEEN_DEFINED : 'وقد تم بالفعل تحديد نص بديل لهذه القيمة.',
+SETTINGS_MESSAGE_RANGE_ALTERNATIVE_TEXT_HAS_BEEN_DEFINED : 'تم تحديد نص بديل بالفعل لنطاق القيمة هذا.',
+SETTINGS_MESSAGE_PERCENT_ALTERNATIVE_TEXT_HAS_BEEN_DEFINED : 'وقد تم بالفعل تحديد نص بديل لهذا النطاق المئوي.',
 SETTINGS_LABEL_NONE : 'لا شيء',
 SETTINGS_LABEL_VALUE : 'القيمة',
 SETTINGS_LABEL_VALUE_RANGE : 'مدى القيمة',
-SETTINGS_LABEL_PERCENTAGE_RANGE : 'النسبة المئوية المدى',
-SETTINGS_LABEL_FILTER_VALUE : 'القيمة فلتر',
-SETTINGS_LABEL_USER_DEFINE : 'معرف المستخدم قيمة تصفية',
-SETTINGS_LABEL_FILTER_LOOKUP : 'تصفية بحث مفتاح - القيمة',
-SETTINGS_LABEL_LOOKUP_KEY : 'بحث مفتاح',
-SETTINGS_LABEL_DISPLAY_VALUE : 'عرض القيمة',
+SETTINGS_LABEL_PERCENTAGE_RANGE : 'النسبة المئوية',
+SETTINGS_LABEL_FILTER_VALUE : 'تصفية القيمة',
+SETTINGS_LABEL_USER_DEFINE : 'قيمة التصفية المحددة من قبل المستخدم',
+SETTINGS_LABEL_FILTER_LOOKUP : 'مفتاح البحث عن الفلتر - القيمة',
+SETTINGS_LABEL_LOOKUP_KEY : 'مفتاح البحث',
+SETTINGS_LABEL_DISPLAY_VALUE : 'قيمة العرض',
 USER_SETUP_LABEL_PASSWORD_OPTIONS : 'تكوين خيار كلمة المرور',
-USER_SETUP_LABEL_GENERATE_PASSWORD_LINK : 'توليد كلمة السر لينك',
-USER_SETUP_LABEL_COPY_PASSWORD_LINK : 'نسخة كلمة المرور لينك',
-USER_SETUP_LABEL_COPY_PASTE : 'لنسخ، الرجاء استخدام Ctrl C، لصق، الرجاء استخدام Ctrl V',
+USER_SETUP_LABEL_GENERATE_PASSWORD_LINK : 'إنشاء رابط كلمة المرور',
+USER_SETUP_LABEL_COPY_PASSWORD_LINK : 'نسخ رابط كلمة المرور',
+USER_SETUP_LABEL_COPY_PASTE : 'للنسخ، يرجى استخدام كترل C، للصق، يرجى استخدام كترل V',
 USER_SETUP_LABEL_ADD_USER : 'إضافة مستخدم',
 USER_SETUP_LABEL_USER_ID : 'معرف المستخدم',
 USER_SETUP_LABEL_SYSTEM_ADMIN : 'مسؤول النظام',
 USER_SETUP_LABEL_FIRST_NAME : 'الاسم الاول',
 USER_SETUP_LABEL_LAST_NAME : 'الكنية',
 USER_SETUP_LABEL_TIME_ZONE : 'وحدة زمنية',
-USER_SETUP_LABEL_DATA_OFFSET : 'البيانات أوفست',
-USER_SETUP_LABEL_TIMESTAMP_OFFSET : 'الطابع الزمني أوفست',
-USER_SETUP_ERROR_ROLE_ASSOCIATION_MESSAGE : 'يرجى تصحيح ذلك قبل المضي قدما.',
-USER_SETUP_ERROR_ROLE_REPORT_ASSOCIATION_EDITABLE : 'تقرير (ق) المحفوظة في الفئات التالية / فئات فرعية قد لا تكون قابلة للتعديل من قبل هذا المستخدم بسبب تغيير في جمعية أدوارهم.',
-USER_SETUP_ERROR_ROLE_REPORT_ASSOCIATION_ACCESSIBLE : 'تقرير (ق) المحفوظة في الفئات التالية / فئات فرعية قد لا تتمكن من الوصول إلى هذا المستخدم بسبب تغيير في جمعية أدوارهم.',
-USER_SETUP_ERROR_ROLE_DASHBOARD_ASSOCIATION_EDITABLE : 'لوحة القيادة (ق) المحفوظة في الفئات التالية / فئات فرعية قد لا تكون قابلة للتعديل من قبل هذا المستخدم بسبب تغيير في جمعية أدوارهم.',
-USER_SETUP_ERROR_ROLE_DASHBOARD_ASSOCIATION_ACCESSIBLE : 'لوحة القيادة (ق) المحفوظة في الفئات التالية / فئات فرعية قد لا تتمكن من الوصول إلى هذا المستخدم بسبب تغيير في جمعية أدوارهم.',
-COMPONENT_CONTROL_LABEL_ADD_METRIC : 'إضافة متري',
-REPORT_PART_PROPS_GRID_SCHEMA_LABEL_GRID_STYLE : 'شبكة نمط',
-REPORT_PART_PROPS_GRID_SCHEMA_LABEL_SEPARATOR_STYLE : 'فاصل نمط',
-REPORT_PART_PROPS_GRID_SCHEMA_LABEL_GRID_BORDER_SETTINGS : 'إعدادات الشبكة الحدود',
+USER_SETUP_LABEL_DATA_OFFSET : 'إزاحة البيانات',
+USER_SETUP_LABEL_TIMESTAMP_OFFSET : 'الطابع الزمني إزاحة',
+USER_SETUP_ERROR_ROLE_ASSOCIATION_MESSAGE : 'يرجى تصحيح هذا قبل المضي قدما.',
+USER_SETUP_ERROR_ROLE_REPORT_ASSOCIATION_EDITABLE : 'قد لا يكون هذا التقرير (التقارير) الذي تم حفظه في الفئات / الفئات الفرعية التالية قابلا للتحرير من قبل هذا المستخدم بسبب التغيير في ارتباط أدواره.',
+USER_SETUP_ERROR_ROLE_REPORT_ASSOCIATION_ACCESSIBLE : 'قد لا يتمكن هذا المستخدم من الوصول إلى التقرير (التقارير) المحفوظ في الفئات / الفئات الفرعية التالية بسبب التغيير في ارتباط أدواره.',
+USER_SETUP_ERROR_ROLE_DASHBOARD_ASSOCIATION_EDITABLE : 'قد لا تعد لوحة التحكم (المجموعات) المحفوظة في الفئات / الفئات الفرعية قابلة للتحرير من قبل هذا المستخدم بسبب التغيير في ارتباط أدوارها.',
+USER_SETUP_ERROR_ROLE_DASHBOARD_ASSOCIATION_ACCESSIBLE : 'قد لا يمكن الوصول إلى لوحة (لوحات) لوحة التحكم المحفوظة في الفئات / الفئات الفرعية التالية من قبل هذا المستخدم بسبب التغيير في ارتباط أدوارهم.',
+COMPONENT_CONTROL_LABEL_ADD_METRIC : 'إضافة مقياس',
+REPORT_PART_PROPS_GRID_SCHEMA_LABEL_GRID_STYLE : 'نمط الشبكة',
+REPORT_PART_PROPS_GRID_SCHEMA_LABEL_SEPARATOR_STYLE : 'فاصل ستايل',
+REPORT_PART_PROPS_GRID_SCHEMA_LABEL_GRID_BORDER_SETTINGS : 'إعدادات الحدود الشبكة',
 REPORT_PART_PROPS_GRID_SCHEMA_LABEL_BORDER_SETTINGS : 'إعدادات الحدود',
 REPORT_PART_PROPS_GRID_SCHEMA_LABEL_COLUMNS : 'أعمدة',
 REPORT_PART_PROPS_GRID_SCHEMA_LABEL_WIDTH : 'عرض',
-REPORT_PART_PROPS_GRID_SCHEMA_LABEL_ALTERNATING_BACKGROUND_COLOR : 'اللون بالتناوب الخلفية',
+REPORT_PART_PROPS_GRID_SCHEMA_LABEL_ALTERNATING_BACKGROUND_COLOR : 'بالتناوب لون الخلفية',
 REPORT_PART_PROPS_GRID_SCHEMA_LABEL_ROW : 'الصفوف',
 REPORT_PART_PROPS_GRID_SCHEMA_LABEL_HEIGHT : 'ارتفاع',
 REPORT_PART_PROPS_GRID_SCHEMA_LABEL_HEADERS : 'رؤوس',
 REPORT_PART_PROPS_GRID_SCHEMA_LABEL_WORD_WRAP : 'كلمة التفاف',
 REPORT_PART_PROPS_GRID_SCHEMA_LABEL_REMOVE_HEADER_FOR_EXPORT : 'إزالة رأس للتصدير',
-REPORT_PART_PROPS_GRID_SCHEMA_LABEL_DATA_REFRESH_INTERVAL : 'تحديث البيانات الفاصل',
-REPORT_PART_PROPS_GRID_SCHEMA_LABEL_EXPORT_COLUMNS_PER_PAGE : 'عدد الأعمدة لكل صفحة المصدرة',
-REPORT_PART_PROPS_GRID_SCHEMA_LABEL_PAGE_BREAK_AFTER_SEPARATOR : 'فاصل صفحات بعد فاصل',
-CALCULATED_FIELD_PROPERTIES_SCHEMA_LABEL_FIELD_PROPERTIES : 'خصائص الحقل',
-CALCULATED_FIELD_PROPERTIES_SCHEMA_MESSAGE_FIELD_NAME : 'مطلوب اسم المجال.',
-FIELD_PROPERTIES_SCHEMA_LABEL_FIELD_PROPERTIES : 'خصائص الحقل',
+REPORT_PART_PROPS_GRID_SCHEMA_LABEL_DATA_REFRESH_INTERVAL : 'فترة تحديث البيانات',
+REPORT_PART_PROPS_GRID_SCHEMA_LABEL_EXPORT_COLUMNS_PER_PAGE : 'عدد الأعمدة لكل صفحة مصدرة',
+REPORT_PART_PROPS_GRID_SCHEMA_LABEL_PAGE_BREAK_AFTER_SEPARATOR : 'كسر الصفحة بعد فاصل',
+REPORT_PART_PROPS_GRID_SCHEMA_LABEL_COLLAPSE_DRILLDOWN_BY_DEFAULT : 'تصغير التراجع حسب الافتراضي',
+CALCULATED_FIELD_PROPERTIES_SCHEMA_LABEL_FIELD_PROPERTIES : 'خصائص ميدانية',
+CALCULATED_FIELD_PROPERTIES_SCHEMA_MESSAGE_FIELD_NAME : 'اسم الحقل مطلوب.',
+FIELD_PROPERTIES_SCHEMA_LABEL_FIELD_PROPERTIES : 'خصائص ميدانية',
 PROPERTIES_EDITOR_MORE_STATE : 'أكثر من',
 PROPERTIES_EDITOR_LESS_STATE : 'أقل',
 PROPERTIES_EDITOR_REMOVE_SETTING : 'إزالة وضع',
-REPORT_PART_PROPERTIES_CONTAINER_REPORT_PART_PROPERTIES : 'PROPERTIES PART REPORT',
+REPORT_PART_PROPERTIES_CONTAINER_REPORT_PART_PROPERTIES : 'تقرير خصائص الجزء',
 CHART_DEFAULT_CONFIG_LABEL_CENTER : 'مركز',
 CHART_DEFAULT_CONFIG_LABEL_LEFT : 'اليسار',
 CHART_DEFAULT_CONFIG_LABEL_RIGHT : 'حق',
@@ -1798,22 +1855,22 @@ CHART_DEFAULT_CONFIG_LABEL_MIDDLE : 'وسط',
 CHART_DEFAULT_CONFIG_LABEL_BOTTOM : 'الأسفل',
 CHART_DEFAULT_CONFIG_LABEL_NORMAL : 'عادي',
 CHART_DEFAULT_CONFIG_LABEL_PERCENTAGE : 'النسبة المئوية',
-FILTER_PROPERTIES_SCHEMA_LABEL_FILTER_NAME : 'اسم المرشح',
-FILTER_PROPERTIES_SCHEMA_LABEL_FILTER_SETTINGS : 'إعدادات تصفية',
+FILTER_PROPERTIES_SCHEMA_LABEL_FILTER_NAME : 'اسم الفلتر',
+FILTER_PROPERTIES_SCHEMA_LABEL_FILTER_SETTINGS : 'إعدادات التصفية',
 FILTER_PROPERTIES_SCHEMA_LABEL_FILTER_ALIAS : 'تصفية الاسم المستعار',
-FILTER_PROPERTIES_MESSAGE_FILTER_ALIAS_VALUE_REQUIRED : 'مطلوب فلتر الاسم المستعار.',
+FILTER_PROPERTIES_MESSAGE_FILTER_ALIAS_VALUE_REQUIRED : 'مطلوب تصفية الاسم المستعار.',
 FILTER_PROPERTIES_SCHEMA_LABEL_CASCADING : 'المتتالية',
 FILTER_PROPERTIES_SCHEMA_LABEL_SORT : 'فرز',
-FILTER_PROPERTIES_SCHEMA_LABEL_FILTER_OPERATOR : 'مشغل تصفية',
-FILTER_PROPERTIES_SCHEMA_LABEL_FILTER_FORMATTING : 'تصفية تنسيق',
+FILTER_PROPERTIES_SCHEMA_LABEL_FILTER_OPERATOR : 'عامل التصفية',
+FILTER_PROPERTIES_SCHEMA_LABEL_FILTER_FORMATTING : 'تنسيق الفلتر',
 FORMAT_PROPERTIES_LABEL_ITEM_TYPE : 'نوع العنصر',
 FORMAT_PROPERTIES_LABEL_ITEM_NAME : 'اسم العنصر',
 FORMAT_PROPERTIES_LABEL_ITEM_VALUE : 'قيمة البند',
-FORMAT_PROPERTIES_MESSAGE_ITEM_VALUE_REQUIRED : 'مطلوب قيمة البند.',
+FORMAT_PROPERTIES_MESSAGE_ITEM_VALUE_REQUIRED : 'قيمة العنصر مطلوبة.',
 FORMAT_PROPERTIES_LABEL_IMAGE_URL : 'رابط الصورة',
-FORMAT_PROPERTIES_MESSAGE_IMAGE_URL_REQUIRED : 'مطلوب رابط الصورة.',
-FORMAT_PROPERTIES_LABEL_ITEM_FORMATTING : 'تنسيق البند',
-FORMAT_PROPERTIES_LABEL_DEFAULT_IMAGE_BUTTON : 'استخدام الافتراضي صورة',
+FORMAT_PROPERTIES_MESSAGE_IMAGE_URL_REQUIRED : 'عنوان ورل مطلوب.',
+FORMAT_PROPERTIES_LABEL_ITEM_FORMATTING : 'تنسيق العنصر',
+FORMAT_PROPERTIES_LABEL_DEFAULT_IMAGE_BUTTON : 'استخدام الصورة الافتراضية',
 EXPORT_CONSTANTS_LABEL_MARGIN_TOP : 'أعلى',
 EXPORT_CONSTANTS_LABEL_MARGIN_LEFT : 'اليسار',
 EXPORT_CONSTANTS_LABEL_MARGIN_BOTTOM : 'الأسفل',
@@ -1822,10 +1879,10 @@ EXPORT_CONSTANTS_LABEL_MARGIN_RIGHT : 'حق',
 EXPORT_CONSTANTS_LABEL_MARGIN_FOOTER : 'تذييل',
 EXPORT_CONSTANTS_LABEL_ORIENTATION : 'اتجاه',
 EXPORT_CONSTANTS_LABEL_MARGIN : 'هوامش',
-EXPORT_CONSTANTS_LABEL_CENTER_ON_PAGE : 'مركز على صفحة',
+EXPORT_CONSTANTS_LABEL_CENTER_ON_PAGE : 'مركز على الصفحة',
 EXPORT_CONSTANTS_LABEL_HORIZONTALLY : 'أفقيا',
 EXPORT_CONSTANTS_LABEL_VERTICALLY : 'عموديا',
-EXPORT_CONSTANTS_LABEL_PAGE_BREAK : 'فاصل صفحات بعد تقرير الجزء',
+EXPORT_CONSTANTS_LABEL_PAGE_BREAK : 'استراحة الصفحة بعد الجزء التقرير',
 EXPORT_CONSTANTS_LABEL_NORMAL : 'عادي',
 EXPORT_CONSTANTS_LABEL_NARROW : 'ضيق',
 EXPORT_CONSTANTS_LABEL_WIDE : 'واسع',
@@ -1834,16 +1891,18 @@ EXPORT_CONSTANTS_LABEL_PORTRAINT : 'صورة',
 EXPORT_CONSTANTS_LABEL_LANDSCAPE : 'المناظر الطبيعيه',
 COLOR_DIALOG_LABEL_NEW : 'الجديد',
 COLOR_DIALOG_LABEL_CURRENT : 'تيار',
-COLOR_DIALOG_LABEL_TITLE : 'اللون المنتقى',
+COLOR_DIALOG_LABEL_TITLE : 'منتقي الألوان',
 COMPARISION_IS_NULL : 'باطل',
 COMPARISION_IS_NOT_NULL : 'هو ليس لاشيء',
+COMPARISION_IS_BLANK : 'إس بلانك',
+COMPARISION_IS_NOT_BLANK : 'ليست فارغة',
 COMPARISION_FIELD : 'حقل',
 COMPARISION_DATE_AND_TIME : 'تاريخ',
 COMPARISION_DATE : 'تاريخ',
 COMPARISION_TIME : 'زمن',
-COMPARISION_FIELD_COMPRARISION : 'مقارنة الميدان',
-COMPARISION_VALUE_COMPRARISION : 'قيمة مقارنة',
+COMPARISION_FIELD_COMPRARISION : 'مقارنة المجال',
+COMPARISION_VALUE_COMPRARISION : 'مقارنة القيمة',
 COMPARISION_BOOLEAN : 'منطقية',
-NOTIFICATION_PROVISION_MAP_DATA_IMPORTING : 'النظام هو استيراد بيانات الخرائط إلى قاعدة بيانات التكوين. يرجى الانتظار لعملية لإكمال قبل استخدام الخرائط.',
-NOTIFICATION_PROVISION_MAP_DATA_IMPORT_FAILED : 'وفشلت عملية بيانات الخرائط التقديم. وهكذا، فإن خريطة لا يمكن استخلاصها في هذا الوقت. يرجى إعادة تقديم مرة أخرى.'
+NOTIFICATION_PROVISION_MAP_DATA_IMPORTING : 'يقوم النظام باستيراد بيانات الخريطة في قاعدة بيانات التكوين. الرجاء الانتظار حتى تكتمل العملية قبل استخدام الخرائط.',
+NOTIFICATION_PROVISION_MAP_DATA_IMPORT_FAILED : 'فشلت عملية تقديم بيانات الخريطة. وبالتالي، لا يمكن رسم الخريطة في هذا الوقت. يرجى إعادة توفيرها.'
 }, 'ar');
