@@ -202,3 +202,9 @@ INSERT INTO IzendaLanguage (Id, CultureName, Language, Deleted)
 SELECT '04c7a0d4-21aa-4eb1-8e24-c14715466474', 'pt-BR', 'Português (Brazil)', 0
 FROM dual 
 WHERE NOT EXISTS (SELECT * FROM IzendaLanguage WHERE CultureName = 'pt-BR');
+
+/* Spanish (es) */
+INSERT INTO IzendaLanguage (Id, CultureName, Language, Deleted)
+SELECT '7b3dade8-5b0a-4f49-a5ae-187eaf9df280', 'es', 'Spanish', 0
+FROM dual 
+WHERE NOT EXISTS (SELECT * FROM IzendaLanguage WHERE CultureName = 'es');

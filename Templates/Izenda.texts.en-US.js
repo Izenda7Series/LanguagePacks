@@ -1,6 +1,7 @@
 ﻿
 IzendaSynergy.Localizer.registerLanguage({
-    //MODEL
+ 
+  //MODEL
     MODEL_LABEL_TABLE: 'Table',
     MODEL_LABEL_VIEW: 'View',
     MODEL_LABEL_PROCEDURE: 'Stored Procedure',
@@ -14,6 +15,7 @@ IzendaSynergy.Localizer.registerLanguage({
     CONTEXT_MENU_LABEL_DATA_MODEL: 'Data Model',
     CONTEXT_MENU_LABEL_ADVANCED_SETTINGS: 'Advanced Settings',
     CONTEXT_MENU_LABEL_COPY_MANAGEMENT: 'Copy Management',
+    CONTEXT_MENU_LABEL_DATABASE_MAPPING: 'Database Mapping',
     CONTEXT_MENU_LABEL_ROLE_SETUP: 'Role Setup',
     CONTEXT_MENU_LABEL_USER_SETUP: 'User Setup',
     CONTEXT_MENU_LABEL_SYSTEM_CONFIGURATION: 'System Configuration',
@@ -71,6 +73,7 @@ IzendaSynergy.Localizer.registerLanguage({
     COMMON_LABEL_ATTACHMENT_TYPE: 'Attachment Type',
     COMMON_LABEL_CANCEL: 'Cancel',
     COMMON_LABEL_CATEGORY: 'Category',
+    COMMON_LABEL_SAVEINTO: 'Save into',
     COMMON_LABEL_CONFIGURATION: 'Configuration',
     COMMON_LABEL_CONNECT: 'Connect',
     COMMON_LABEL_COPY: 'Copy',
@@ -117,6 +120,7 @@ IzendaSynergy.Localizer.registerLanguage({
     COMMON_LABEL_ROLE_SETUP: 'Role Setup',
     COMMON_LABEL_SAVE: 'Save',
     COMMON_LABEL_SAVE_AS: 'Save As',
+    COMMON_LABEL_SAVE_INTO: 'Save Into',
     COMMON_LABEL_SCHEDULE: 'Schedule',
     COMMON_LABEL_SCHEDULING: 'Scheduling',
     COMMON_LABEL_SEARCH: 'Search',
@@ -243,6 +247,8 @@ IzendaSynergy.Localizer.registerLanguage({
     COMMON_LABEL_COPY_SETTINGS: 'Copy Settings',
     COMMON_LABEL_HELP_SYSTEM: 'Help System',
     COMMON_LABEL_BACK: 'Back',
+    COMMON_LABEL_GLOBAL_REPORT: 'Global Report',
+    COMMON_LABEL_GLOBAL_DASHBOARD: 'Global Dashboard',
 
     //COMMON_DATA_TYPE
     COMMON_DATA_TYPE_IMAGE: 'Image',
@@ -363,7 +369,7 @@ IzendaSynergy.Localizer.registerLanguage({
     PERFORMANCE_QUERY_LIMIT_REQUIRED: 'Query Limit is required.',
     PERFORMANCE_QUERY_LIMIT_NUMBERICALITY: 'Query Limit should be a whole number.',
     PERFORMANCE_QUERY_LIMIT_GREATER_THAN_0: 'Query Limit must be a number greater than or equal to 0.',
-    PERFORMANCE_QUERY_LIMIT_LESS_THAN_MAX_INT: 'Query Limit must be a number smaller than or equal to 2147483648.',
+    PERFORMANCE_QUERY_LIMIT_LESS_THAN_MAX_INT: 'Query Limit must be a number smaller than or equal to 2147483647.',
     PERFORMANCE_PIVOT_COLUMN_LIMIT_REQUIRED: 'Pivot Column Limit is required.',
     PERFORMANCE_PIVOT_COLUMN_LIMIT_NUMBERICALITY: 'Pivot Column Limit should be a whole number.',
     PERFORMANCE_PIVOT_COLUMN_LIMIT_GREATER_THAN_0: 'Pivot Column Limit must be a number greater than or equal to 0.',
@@ -431,6 +437,10 @@ IzendaSynergy.Localizer.registerLanguage({
     OTHER_SETTINGS_SAMEFIELD_SAMEDBSCHEMA: "Same field of the same data object from the same DB schema",
     OTHER_SETTINGS_SAMEFIELD_SAMEDBSCHEMA_OR_CONNECTIONSTRING: "Same field name regardless of DB schema or connection string",
     OTHER_SETTINGS_SAMEALIAS: "Same alias name regardless of DB schema or connection string",
+    OTHER_SETTING_LABEL_MULTIPLE_SORT_ON_GRID_HEADER: "Allow Multiple Sorts on Grid Header",
+    OTHER_SETTING_MULTIPLE_SORT_ON_GRID_HEADER: "If this flag is turned on, system allows multiple column sorting in Grid Header. If this flag is turned off, system allows single column sorting in Grid Header",
+    OTHER_SETTING_LABEL_SHOW_PREVIEW_HEADER: "Show Preview section in Configuration Mode",
+    OTHER_SETTING_LABEL_SHOW_PREVIEW_TOOLTIP: "Configure to show or hide the Preview section in the report part’s backside.",
 
     //RELATIONSHIP
     RELATIONSHIP_MESSAGE_CONFIRM_DELETE_RELATIONSHIP_HAS_USED: 'Any report part built from this relationship will be impacted. Are you sure you want to delete this relationship?',
@@ -578,8 +588,8 @@ IzendaSynergy.Localizer.registerLanguage({
     REPORTDESIGNER_LABEL_Y_AXIS_VALUES: 'Values (Y-axis)',
     REPORTDESIGNER_LABEL_TOTAL_LABEL: 'Total Label',
     REPORTDESIGNER_LABEL_SEPARATORS: 'Separators',
-    REPORTDESIGNER_PLACEHOLDER_CHART_GOES_HERE: '\<Chart Goes here\>',
-    REPORTDESIGNER_PLACEHOLDER_GAUGE_GOES_HERE: '\<Gauge Goes here\>',
+    REPORTDESIGNER_PLACEHOLDER_CHART_GOES_HERE: '<Chart Goes here>',
+    REPORTDESIGNER_PLACEHOLDER_GAUGE_GOES_HERE: '<Gauge Goes here>',
     REPORTDESIGNER_PLACEHOLDER_ERROR: '<h1>error</h1>',
     REPORTDESIGNER_LABEL_SHOW_TOTAL: 'Show Total',
     REPORTDESIGNER_LABEL_SETTINGS: 'Settings',
@@ -623,6 +633,15 @@ IzendaSynergy.Localizer.registerLanguage({
     REPORTDESIGNER_LOGGING_MODE: 'Get Data Report Part Content in Report Designer',
     REPORTDESIGNER_LOGGING_EMBEDDED_REPORT_PART: 'Get Data for Report Part Container (embedded)',
     REPORTDESIGNER_LABEL_REPORT_BODY_SNAP_MODE_CHECKBOX: 'Snap to Grid',
+
+    // CROSS FILTERING
+    CROSSFILTERING_OPTION_LABEL: 'Cross Filtering',
+    CROSSFILTERING_OPTION_TOOLTIP: 'Cross Filtering Settings',
+    CROSSFILTERING_PREVIOUS_TOOLTIP: 'Scroll to Left',
+    CROSSFILTERING_NEXT_TOOLTIP: 'Scroll to Right',
+    CROSSFILTERING_REMOVE_TOOLTIP: 'Remove this cross filter',
+    CROSSFILTERING_REMOVE_ALL_TOOLTIP: 'Remove all cross filters',
+    CROSSFILTERING_REMOVE_ALL_CONFIRM: 'Are you sure you want to remove all cross filters?',
 
     // SCHEMA
     SCHEMA_ZOOM: 'Zoom',
@@ -852,6 +871,17 @@ IzendaSynergy.Localizer.registerLanguage({
     COPY_MANAGEMENT_ALL_MAPPING_TOOLTIP: 'This section shows all mappings between source and all destinations.',
     COPY_MANAGEMENT_OBJECT_TOOLTIP: 'Supported Variables:\n @TenantID \n @TenantName \nGiven: \n @TenantID = Izenda \n @TenantName = Izenda LLC \nVariables can be used alone: \n @TenantID -> Izenda \nOr as part of an expression: \n {Northwind_@TenantID} -> Northwind_Izenda \n {Northwind @TenantName} -> Northwind Izenda LLC',
     COPY_MANAGEMENT_SPECIFIC_MAPPING_TOOLTIP: 'This section shows all mappings between source and this specific destination.',
+
+    // DATABASE MAPPING
+    DATABASE_MAPPING_BUTTON_ADD_MAPPING: 'Add Mapping',
+    DATABASE_MAPPING_LABEL_MAPPING_DROPBOX: 'Mapping',
+    DATABASE_MAPPING_CHECKBOX_MERGE_DUPLICATE_MAPPINGS: 'Merge Duplicate Mappings',
+    DATABASE_MAPPING_LABEL_TABLE_DEF_GLOBAL_MAPPING_FROM_DB_NAME: 'Database Name',
+    DATABASE_MAPPING_LABEL_TABLE_DEF_GLOBAL_MAPPING_TO_DB_NAME: 'Database Name',
+    DATABASE_MAPPING_ALL_TENANTS: 'All',
+    DATABASE_MAPPING_LABEL_TENANT_COLUMN: 'Tenant(s)',
+    DATABASE_MAPPING_ALL_MAPPINGS: 'All Mappings',
+
     //LICENSE CHECKER
     LICENSE_CHECKER_LABEL_DATA_SERVER_TYPE: 'Data Server Type',
     LICENSE_CHECKER_LABEL_CONNECTION_STRING: 'Connection String',
@@ -870,7 +900,7 @@ IzendaSynergy.Localizer.registerLanguage({
     LICENSE_CHECKER_MESSAGE_LICENSE_KEY_INVALID: 'The license key is invalid. Please input a valid one.',
     LICENSE_CHECKER_MESSAGE_TOKEN_INVALID: 'The token is invalid. Please input a valid one.',
     LICENSE_CHECKER_MESSAGE_DAYS_TILL_EXPIRED: '{0} day(s) until the license is expired',
-    LICENSE_CHECKER_MESSAGE_DAYS_EXPIRED: 'The license expired {0} number of days ago',
+    LICENSE_CHECKER_MESSAGE_DAYS_EXPIRED: 'The license expired {0} days ago',
     LICENSE_CHECKER_MESSAGE_EXPIRED: 'The license is expired. Please purchase it if you are using trial version or renew it if you are using paid version.',
     LICENSE_CHECKER_MESSAGE_NEW_LICENSE_OR_TOKEN_INVALID: 'This license/token is invalid. The system will continue to use the previous valid license and valid token.',
     LICENSE_CHECKER_MESSAGE_VALIDATE_ON_OR_AFTER: 'License Key is valid from {0} to {1}. Please validate on or after {0}.',
@@ -938,6 +968,7 @@ IzendaSynergy.Localizer.registerLanguage({
     EMAIL_LABEL_EMAIL_INFO: 'Email Info',
     EMAIL_LABEL_DISPLAY_NAME: 'Display Name',
     EMAIL_LABEL_EMAIL_FROM_ADDRESS: 'Email From Address',
+    EMAIL_LABEL_SENDING: 'Sending ...',
     EMAIL_MESSAGE_SENT_SUCCESSFULLY: 'Email was sent successfully. Do you want to continue sending more emails?',
     EMAIL_MESSAGE_SENT_FAIL: 'An error occurred while sending, the email was not sent. Do you want to continue sending more emails?',
 
@@ -995,6 +1026,7 @@ IzendaSynergy.Localizer.registerLanguage({
     PERMISSION_LABEL_QUERY_EXECUTION: 'Query Execution',
     //PERMISSION REPORT FOOTER
     PERMISSION_LABEL_FILTER_LOGIC: 'Filter Logic',
+    PERMISSION_LABEL_CROSS_FILTERING: 'Cross Filtering',
     PERMISSION_LABEL_SUBREPORT: 'Subreport',
     PERMISSION_LABEL_REGISTER_TO_ALERTS: 'Register to alerts',
     PERMISSION_LABEL_VIEW_REPORT_HISTORY: 'View Report History',
@@ -1055,6 +1087,8 @@ IzendaSynergy.Localizer.registerLanguage({
     ACCESS_CONSTANT_LABEL_ADD_SHARING: 'Add Sharing',
     ACCESS_CONSTANT_LABEL_ADD_DEFAULT_ACCESS: 'Add Access Default',
 
+    DASHBOARD_CONSTANT_MESSAGE_REMOVE_USERS: 'You are selecting the Global Dashboard checkbox. Any sharing with users will be removed in Access page and all schedules will be removed. Are you sure you want to select this checkbox?',
+    DASHBOARD_CONSTANT_MESSAGE_REMOVE_ROLES: 'You are unselecting the Global Dashboard checkbox. Any roles which do not exist in the related tenant will be removed in Sharing With Roles in Access page. Are you sure you want to unselect this checkbox?',
     // UI Constants
     UI_CONSTANT_PIXEL: 'Pixel',
     UI_CONSTANT_PIXELS: 'Pixels',
@@ -1076,6 +1110,7 @@ IzendaSynergy.Localizer.registerLanguage({
     ROLE_SETUP_PERMISSION_CATEGORIES_ERROR: 'The {0}(s) saved in the following categories/subcategories may no longer be {1} due to these changes in categories/subcategories permissions.<br>{2}<br>Please correct this before moving forward.',
     ROLE_SETUP_PERMISSION_CATEGORIES_ERROR_EDITABLE: 'editable',
     ROLE_SETUP_PERMISSION_CATEGORIES_ERROR_ACCESSIBLE: 'accessible',
+    ROLE_SETUP_PERMISSION_NOT_ALLOW_TO_SAVE: 'The role is not allowed to save {0} into the following global categories/subcategories.<br><br>{1}',
 
     //ROLE_SETUP_ROLE_LIST_HEADER
     ROLE_SETUP_ROLE_LIST_HEADER_ADD_ROLE: 'Add Role',
@@ -1123,6 +1158,7 @@ IzendaSynergy.Localizer.registerLanguage({
     ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_CATEGORIES_ALLOWED_FOR_SAVING_REPORTS: 'Categories allowed for saving reports',
     ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_FILTERS_PROPERTIES: 'Filters Properties',
     ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_FILTERS_LOGIC: 'Filters Logic',
+    ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_CROSS_FILTERING: 'Cross Filtering',
     ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_FIELD_PROPERTIES: 'Field Properties',
     ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_SUBREPORT: 'Subreport',
     ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_REGISTER_FOR_ALERTS: 'Register for Alerts',
@@ -1141,13 +1177,20 @@ IzendaSynergy.Localizer.registerLanguage({
     ROLE_SETUP_PERMISSION_SUMMARY_SYSTEM_WIDE_LABEL_CAN_SEE_SYSTEM_MESSAGES: 'Can see system messages?',
     ROLE_SETUP_PERMISSION_SUMMARY_USER_SETUP_LABEL_CONFIGURE_SECURITY_OPTIONS: 'Configure Security Options',
     ROLE_SETUP_PERMISSION_SUMMARY_USER_SETUP_LABEL_USER_ROLE_ASSOCIATION: 'User Role Association',
-    ROLE_SETUP_PERMISSION_SUMMARY_ROLE_CATEGORY_SUBCATEGORY: 'This role is allowed to save reports into the following categories/subcategories:',
+    ROLE_SETUP_PERMISSION_SUMMARY_ROLE_CATEGORY_SUBCATEGORY_REPORT_VIEW: 'This role is allowed to view reports into the following categories/subcategories:',
+    ROLE_SETUP_PERMISSION_SUMMARY_ROLE_CATEGORY_SUBCATEGORY_REPORT_SAVE: 'This role is allowed to save reports into the following categories/subcategories:',
+    ROLE_SETUP_PERMISSION_SUMMARY_ROLE_CATEGORY_SUBCATEGORY_DASHBOARD_VIEW: 'This role is allowed to view dashboards into the following categories/subcategories:',
+    ROLE_SETUP_PERMISSION_SUMMARY_ROLE_CATEGORY_SUBCATEGORY_DASHBOARD_SAVE: 'This role is allowed to save dashboards into the following categories/subcategories:',
     ROLE_SETUP_PERMISSION_SUMMARY_ROLE_CATEGORY_SUBCATEGORY_ACCESS_LIMIT: 'This role is allowed to share reports/dashboards into the following categories/subcategories:',
+    ROLE_SETUP_PERMISSION_SUMMARY_ROLE_CATEGORY_SUBCATEGORY_ACCESS_DEFAULT: 'Below are the predefined sharing rights for this role when save any report or dashboard\nThese sharing rights can be changed by the user if they have access to configure access rights in reports and dashboards',
     ROLE_SETUP_PERMISSION_SUMMARY_ROLE_CATEGORY_SUBCATEGORY_SCHEDULE_LIMIT: 'This role is allowed to schedule reports/dashboards into the following categories/subcategories:',
     ROLE_SETUP_PERMISSION_SUMMARY_GLOBAL_CATEGORIES: 'Global Categories',
     ROLE_SETUP_PERMISSION_SUMMARY_LOCAL_CATEGORIES: 'Local Categories',
     ROLE_SETUP_PERMISSION_SUMMARY_VISIBLE_REPORT_CATEGORIES: 'Visible Report Categories',
     ROLE_SETUP_PERMISSION_SUMMARY_VISIBLE_DASHBOARD_CATEGORIES: 'Visible Dashboard Categories',
+    ROLE_SETUP_PERMISSION_SUMMARY_SAVING_REPORT_CATEGORIES: 'Saving Report Categories',
+    ROLE_SETUP_PERMISSION_SUMMARY_SAVING_DASHBOARD_CATEGORIES: 'Saving Dashboard Categories',
+    ROLE_SETUP_PERMISSION_SUMMARY_MORE: 'More',
 
     //ROLE_SETUP_USERS
     ROLE_SETUP_USERS_LABEL_AVAILABLE_USERS: 'Available Users',
@@ -1249,6 +1292,8 @@ IzendaSynergy.Localizer.registerLanguage({
     DASHBOARD_LABEL_RANGE_OF_RECURRENCE: 'Range of Recurrence',
     DASHBOARD_TOOLTIP_PREVIOUS_TILE: 'Previous Tile',
     DASHBOARD_TOOLTIP_NEXT_TILE: 'Next Tile',
+    DASHBOARD_CONSTANTS_REPORT_MESSAGE_UNSELECTING_GLOBAL: 'You are unselecting the Dashboard Report checkbox. Any roles which do not exist in the related tenant will be removed in Sharing With Roles in Access page. Are you sure you want to unselect this checkbox?',
+    DASHBOARD_CONSTANTS_REPORT_MESSAGE_SELECTING_GLOBAL: "You are selecting the Global Dashboard checkbox. Any sharing with users will be removed in Access page and all schedules will be removed. Are you sure you want to select this checkbox?",
 
     //SECURITY_POLICIES_CONSTANT
     SECURITY_POLICIES_CONSTANT_ERROR_MIN_VALUE: 'Min password length must be greater than or equal to the sum of all values specified in the fields: Min No. Special Characters, Min No. Uppercase Characters, Min No. Lowercase Characters, Min No. Numeric Characters.',
@@ -1310,7 +1355,15 @@ IzendaSynergy.Localizer.registerLanguage({
     SYSTEM_CONFIGURATION_REPORT_LABEL_VERSION_HISTORY: 'Version History',
     SYSTEM_CONFIGURATION_REPORT_ARCHIVE_VERSION_TO_KEEPS: 'No. archived versions to keep',
     SYSTEM_CONFIGURATION_REPORT_DEFAULT_HEADER_IMAGE: 'Default Header Image',
+    SYSTEM_CONFIGURATION_REPORT_GLOBAL_AND_LOCAL_NAMES: 'Global and Local Names',
     SYSTEM_CONFIGURATION_REPORT_RELATIVE_PATH_OR_URL: 'Relative Path or URL',
+    SYSTEM_CONFIGURATION_REPORT_GLOBAL_NAME: 'Global Name',
+    SYSTEM_CONFIGURATION_REPORT_LOCAL_NAME: 'Local Name',
+    SYSTEM_CONFIGURATION_REPORT_GLOBAL_NAME_REQUIRED: 'Global Name is required.',
+    SYSTEM_CONFIGURATION_REPORT_LOCAL_NAME_REQUIRED: 'Local Name is required.',
+    SYSTEM_CONFIGURATION_REPORT_DUPLICATE_GLOBAL_LOCAL_NAME: 'Global Name and Local Name are not allowed to duplicate.',
+    SYSTEM_CONFIGURATION_REPORT_DEFAULT_GLOBAL_NAME: 'Global Categories',
+    SYSTEM_CONFIGURATION_REPORT_DEFAULT_LOCAL_NAME: 'Local Categories',
 
     //ACCOUNT_CONSTANTS
     ACCOUNT_CONSTANTS_MESSAGE_INCORECT_CREDENTIALS: 'Incorrect credentials, please try again.',
@@ -1428,6 +1481,8 @@ IzendaSynergy.Localizer.registerLanguage({
     PROPERTIES_BUILDER_CONSTANTS_MESSAGE_DUPLICATE_VIEW_SETTING: 'Link/this icon was configured to show in other settings (Sub-report/Custom URL/ Embedded Javascript). Please select the other ones',
     PROPERTIES_BUILDER_CONSTANTS_MESSAGE_EMBEDDED_LINK_SUB_REPORT: 'Link was configured to show in Custom URL/ Embedded Javascript. If you still want to select Embedded style for sub-report, the link in Custom URL/ Embedded Javascript will be automatically changed to icon.',
 
+    OPEN_SUB_REPORT_WARNING_MESSAGE: 'You are not allowed to open the subreport with Link style if not saving the current report. Please save the current report first or change the style to be different with Link.',
+
     //REPORT_BODY_CONSTANTS
     REPORT_BODY_CONSTANTS_COLLAPSE_DEFAULT: 'Collapse to default state',
     REPORT_BODY_CONSTANTS_EXPAND_RIGHT: 'Expand to the right',
@@ -1525,6 +1580,7 @@ IzendaSynergy.Localizer.registerLanguage({
     USER_INACTIVE_REASON_INACTIVE_USER: 'Inactive - User was deactivated',
     USER_INACTIVE_REASON_INACTIVE_PASSWORD: 'Inactive - No password set',
     USER_INACTIVE_REASON_INACTIVE_LOGIN: 'Inactive - Failed login attempts',
+    USER_INACTIVE_REASON_INTEGRATION: 'Inactive',
     USER_MESSAGE_USER_ID_IS_REQUIRED: 'User ID is required.',
     USER_MESSAGE_FIRST_NAME_IS_REQUIRED: 'First Name is required.',
     USER_MESSAGE_LAST_NAME_REQUIRED: 'Last Name is required.',
@@ -1535,7 +1591,7 @@ IzendaSynergy.Localizer.registerLanguage({
     USER_LABEL_SELECT_USER: 'Select User',
     USER_MESSAGE_ENTER_TO_ADD_EMAIL: 'Enter to add email',
     USER_LABEL_ALL_USERS: 'All Users',
-    USER_MESSAGE_CHANGE_LANGUAGE: 'New language will be effected next login.',
+    USER_MESSAGE_CHANGE_LANGUAGE: 'The new language will be applied after your next login.',
 
     //SUBSCRIPTION
     SUBSCRIPTION_LABEL_CUSTOMER_RECERRENCE: 'Custom Recurrence',
@@ -1703,6 +1759,8 @@ IzendaSynergy.Localizer.registerLanguage({
     REPORT_PART_GRID_CONSTANTS_MESSAGE_CHANGE_FUNCTION_TYPE: 'The function type can be changed to be suitable with the new grid style.',
     REPORT_PART_GRID_CONSTANTS_LABEL_TITTLE_SETTINGS_TOOLTIP: 'Title Settings',
     REPORT_PART_GRID_CONSTANTS_LABEL_DESCRIPTION_SETTING_TOOLTIP: 'Description Settings',
+    REPORT_PART_GRID_CONSTANTS_LABEL_EXPAND_ALL_TOOLTIP: 'Expand All',
+    REPORT_PART_GRID_CONSTANTS_LABEL_COLLAPSE_ALL_TOOLTIP: 'Collapse All',
 
     //REPORT_PART_PROPS_CHART_SCHEMA
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_TYPE: 'Chart Type',
@@ -1832,6 +1890,9 @@ IzendaSynergy.Localizer.registerLanguage({
     REPORTS_CONSTANTS_REPORT_MESSAGE_SELECT_FILTER_VALUE: 'Please select one specific filter value for the following filter(s) and then click "Update Results" button to get the updated schema for the corresponding selected stored procedure(s).',
     REPORTS_CONSTANTS_REPORT_MESSAGE_SELECT_REQUIRE_AND_NOT_VISIBLE_FIELD: 'Please select filter value(s) for the following filter(s) which are required and not visible and click "Update Results" to refresh data.',
     REPORTS_CONSTANTS_REPORT_MESSAGE_SELECT_REQUIRE_AND_VISIBLE_FIELD: 'Please select filter value(s) for the following filter(s) which are required and visible and click "Update Results" to refresh data.',
+    REPORTS_CONSTANTS_REPORT_MESSAGE_REQUIRED_FILTER_EXPORT: 'Please select filter value(s) for the filter(s) which are required and visible and try to export again.',
+    REPORTS_CONSTANTS_REPORT_MESSAGE_REQUIRED_FILTER_PRINT: 'Please select filter value(s) for the filter(s) which are required and visible and try to print again.',
+    REPORTS_CONSTANTS_REPORT_MESSAGE_REQUIRED_FILTER_EMAIL: 'Please select filter value(s) for the filter(s) which are required and visible and try to email again.',
     REPORTS_CONSTANTS_REPORT_MESSAGE_CLICK_UPDATE_RESULT: 'Please click on "Update Results" to refresh the data in this report.',
     REPORTS_CONSTANTS_REPORT_MESSAGE_TEXT_CREATE_CATEGORY: '(Enter to create new Category)',
     REPORTS_CONSTANTS_REPORT_MESSAGE_TEXT_CREATE_SUB_CATEGORY: '(Enter to create new Sub-Category)',
@@ -1845,6 +1906,8 @@ IzendaSynergy.Localizer.registerLanguage({
     REPORTS_CONSTANTS_LABEL_ALL_REPORTS: 'ALL REPORTS',
     REPORTS_CONSTANTS_LABEL_ALL_TEMPLATES: 'ALL TEMPLATES',
     REPORTS_CONSTANTS_REPORT_MESSAGE_INVALID_REPORTPART: 'Report part(s) contain invalid field(s). Please check on each report part for details.',
+    REPORTS_CONSTANTS_REPORT_MESSAGE_UNSELECTING_GLOBAL: 'You are unselecting the Global Report checkbox. Any roles which do not exist in the related tenant will be removed in Sharing With Roles in Access page. Are you sure you want to unselect this checkbox?',
+    REPORTS_CONSTANTS_REPORT_MESSAGE_SELECTING_GLOBAL: 'You are selecting the Global Report checkbox. Any sharing with users will be removed in Access page and all schedules will be removed. Are you sure you want to select this checkbox?',
 
     //REPORT_SUBCRIPTION_CONSTANT
     REPORT_SUBCRIPTION_CONSTANT_SUBSCRIPTION_REPORT: 'Subscription Reporting Item',
@@ -2009,6 +2072,7 @@ IzendaSynergy.Localizer.registerLanguage({
     REPORT_PART_PROPS_GRID_SCHEMA_LABEL_DATA_REFRESH_INTERVAL: 'Data Refresh Interval',
     REPORT_PART_PROPS_GRID_SCHEMA_LABEL_EXPORT_COLUMNS_PER_PAGE: 'No. of Columns Per Exported Page',
     REPORT_PART_PROPS_GRID_SCHEMA_LABEL_PAGE_BREAK_AFTER_SEPARATOR: 'Page Break After Separator',
+    REPORT_PART_PROPS_GRID_SCHEMA_LABEL_COLLAPSE_DRILLDOWN_BY_DEFAULT: 'Collapse Drilldown by Default',
 
     //CALCULATED_FIELD_PROPERTIES_SCHEMA
     CALCULATED_FIELD_PROPERTIES_SCHEMA_LABEL_FIELD_PROPERTIES: 'FIELD PROPERTIES',
@@ -2081,6 +2145,8 @@ IzendaSynergy.Localizer.registerLanguage({
     // DATA SOURCE - COMPARISION OPTIONS
     COMPARISION_IS_NULL: 'IS NULL',
     COMPARISION_IS_NOT_NULL: 'IS NOT NULL',
+    COMPARISION_IS_BLANK: 'IS BLANK',
+    COMPARISION_IS_NOT_BLANK: 'IS NOT BLANK',
     COMPARISION_FIELD: 'Field',
     COMPARISION_DATE_AND_TIME: 'Date & Time',
     COMPARISION_DATE: 'Date',
@@ -2091,6 +2157,6 @@ IzendaSynergy.Localizer.registerLanguage({
 
     // NOTIFICATION MESSAGES
     NOTIFICATION_PROVISION_MAP_DATA_IMPORTING: 'The system is importing Map data into the configuration database. Please wait for the process to complete before using Maps.',
-    NOTIFICATION_PROVISION_MAP_DATA_IMPORT_FAILED: 'The provisioning map data process is failed. Thus, the map cannot be drawn at this time. Please re-provision it again.'
+    NOTIFICATION_PROVISION_MAP_DATA_IMPORT_FAILED: 'The provisioning map data process is failed. Thus, the map cannot be drawn at this time. Please re-provision it.'
 
   }, 'en-US');
