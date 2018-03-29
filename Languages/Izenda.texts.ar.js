@@ -1,6 +1,4 @@
 IzendaSynergy.Localizer.registerLanguage({
-IzendaSynergy.Localizer.registerLanguage({
-IzendaSynergy.Localizer.registerLanguage({
 MODEL_LABEL_TABLE : 'الطاولة',
 MODEL_LABEL_VIEW : 'رأي',
 MODEL_LABEL_PROCEDURE : 'الإجراء المخزن',
