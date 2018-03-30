@@ -2202,6 +2202,24 @@ IzendaSynergy.Localizer.registerLanguage({
 
       // NOTIFICATION MESSAGES
       NOTIFICATION_PROVISION_MAP_DATA_IMPORTING: 'The system is importing Map data into the configuration database. Please wait for the process to complete before using Maps.',
-      NOTIFICATION_PROVISION_MAP_DATA_IMPORT_FAILED: 'The provisioning map data process is failed. Thus, the map cannot be drawn at this time. Please re-provision it.'  
-
+      NOTIFICATION_PROVISION_MAP_DATA_IMPORT_FAILED: 'The provisioning map data process is failed. Thus, the map cannot be drawn at this time. Please re-provision it.',
+      COMMON_LABEL_SHOW_REPORT_HEADER_FOOTER: 'Show Header & Footer',
+      COMMON_LABEL_HIDE_REPORT_HEADER_FOOTER: 'Hide Header & Footer',
+      COMMON_TOOLTIP_DATA_SOURCE: 'Select the data sources containing the fields you would like to use to design your report',
+      COMMON_TOOLTIP_EXPORTING: 'Preview your report and make changes to the report layout for exporting',
+      EMAIL_LABEL_EMAIL_BODY: 'Email Body',
+      OTHER_SETTING_LABEL_HIDE_HEADER_FOOTER_IN_REPORT: 'Hide report header and footer by default',
+      OTHER_SETTING_LABEL_HIDE_HEADER_FOOTER_IN_REPORT_TOOLTIP: 'Configure to hide or show the header and footer section in Report Viewer and Report Designer by default.',
+      PERMISSION_LABEL_DEFINITION: 'Definition',
+      REPORTDESIGNER_DATASOURCE_OVERLAY_LABEL: 'Please select a data source from the middle panel to begin creating your report',
+      REPORTDESIGNER_LABEL_MENU_DEF_DESIGN: 'Design',
+      REPORTDESIGNER_TOOLTIP_MENU_DEF_ACCESS: 'Set access rights to control who can see your report and what level of access they are allowed',
+      REPORTDESIGNER_TOOLTIP_MENU_DEF_DESIGN: 'Create report parts and filters, and use the fields to create your report body',
+      REPORTDESIGNER_TOOLTIP_MENU_DEF_FORMAT: 'Customize your report with a header, footer, report title, and report description.',
+      REPORTDESIGNER_TOOLTIP_MENU_DEF_SCHEDULE: 'Create scheduled instances and alerts for your report and share via email',
+      ROLE_SETUP_ALL_ROLES: 'All Roles',
+      ROLE_SETUP_LABEL_ROLES: 'Roles',
+      SMTP_CONFIGURATION_LABEL_USE_SYSTEM_CONFIGURATION: 'Use System Configuration',
+      SMTP_CONFIGURATION_LABEL_USE_CUSTOM_CONFIGURATION: 'Use Custom Configuration',
+      TENANT_TOOLTIP_DEFINITION_TYPE: 'Report and Dashboard definitions'
 }, 'en-US');
