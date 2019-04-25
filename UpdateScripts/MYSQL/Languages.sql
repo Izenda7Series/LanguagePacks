@@ -229,17 +229,3 @@ SELECT 'ab9aabad-736f-446a-8975-f81eee5578a0', 'uk', 'Ukrainian', 0 FROM IzendaL
 WHERE NOT EXISTS(SELECT* FROM IzendaLanguage
       WHERE CultureName= 'uk')
 LIMIT 1; 
-
-/* Português (Brazil) (pt-BR) */
-INSERT INTO IzendaLanguage(Id, CultureName, Language, Deleted)
-SELECT '04c7a0d4-21aa-4eb1-8e24-c14715466474', 'pt-BR', 'Português (Brazil)', 0 FROM IzendaLanguage
-WHERE NOT EXISTS(SELECT* FROM IzendaLanguage
-      WHERE CultureName= 'pt-BR')
-LIMIT 1; 
-
-/* Spanish (es) */
-INSERT INTO IzendaLanguage(Id, CultureName, Language, Deleted)
-SELECT '7b3dade8-5b0a-4f49-a5ae-187eaf9df280', 'es', 'Spanish', 0 FROM IzendaLanguage
-WHERE NOT EXISTS(SELECT* FROM IzendaLanguage
-      WHERE CultureName= 'es')
-LIMIT 1; 
