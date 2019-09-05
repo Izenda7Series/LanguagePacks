@@ -262,3 +262,19 @@ BEGIN
         INSERT INTO IzendaLanguage (Id, CultureName, Language, Deleted) VALUES('ab9aabad-736f-446a-8975-f81eee5578a0', 'uk', 'Ukrainian', 0);
     END
 END
+
+/* Spanish (es) */
+BEGIN
+    IF NOT EXISTS(SELECT * FROM[IzendaLanguage] WHERE[CultureName] = 'es')
+    BEGIN
+        INSERT INTO IzendaLanguage (Id, CultureName, Language, Deleted) VALUES('e91a5329-258e-44bb-9ac4-b35f9ddec5a0', 'es', 'Spanish', 0);
+    END
+END
+
+/* PortuguêsBrazil (pt-BR) */
+BEGIN
+    IF NOT EXISTS(SELECT * FROM[IzendaLanguage] WHERE[CultureName] = 'pt-BR')
+    BEGIN
+        INSERT INTO IzendaLanguage (Id, CultureName, Language, Deleted) VALUES('73aa5101-540d-4c5b-bb6e-7e8c814a68a4', 'pt-BR', 'PortuguêsBrazil', 0);
+    END
+END

@@ -196,3 +196,15 @@ INSERT INTO IzendaLanguage (Id, CultureName, Language, Deleted)
 SELECT 'ab9aabad-736f-446a-8975-f81eee5578a0', 'uk', 'Ukrainian', 0
 FROM dual 
 WHERE NOT EXISTS (SELECT * FROM IzendaLanguage WHERE CultureName = 'uk');
+
+/* Spanish (es) */
+INSERT INTO IzendaLanguage (Id, CultureName, Language, Deleted)
+SELECT 'e91a5329-258e-44bb-9ac4-b35f9ddec5a0', 'es', 'Spanish', 0
+FROM dual 
+WHERE NOT EXISTS (SELECT * FROM IzendaLanguage WHERE CultureName = 'es');
+
+/* PortuguêsBrazil (pt-BR) */
+INSERT INTO IzendaLanguage (Id, CultureName, Language, Deleted)
+SELECT '73aa5101-540d-4c5b-bb6e-7e8c814a68a4', 'pt-BR', 'PortuguêsBrazil', 0
+FROM dual 
+WHERE NOT EXISTS (SELECT * FROM IzendaLanguage WHERE CultureName = 'pt-BR');
