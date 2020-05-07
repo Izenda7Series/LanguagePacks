@@ -1,5 +1,42 @@
-IzendaSynergy.Localizer.registerLanguage({
+/* eslint-disable max-len */
+// ----------------------------------------------------------------------
+// <copyright file="Izenda.texts.en-US.js" company="Izenda">
+//  Copyright (c) 2015 Izenda, Inc.
+//  ALL RIGHTS RESERVED
+//
+//  The entire contents of this file is protected by U.S. and
+//  International Copyright Laws. Unauthorized reproduction,
+//  reverse-engineering, and distribution of all or any portion of
+//  the code contained in this file is strictly prohibited and may
+//  result in severe civil and criminal penalties and will be
+//  prosecuted to the maximum extent possible under the law.
+//
+//  RESTRICTIONS
+//
+//  THIS SOURCE CODE AND ALL RESULTING INTERMEDIATE FILES
+//  ARE CONFIDENTIAL AND PROPRIETARY TRADE
+//  SECRETS OF IZENDA INC. THE REGISTERED DEVELOPER IS
+//  LICENSED TO DISTRIBUTE THE PRODUCT AND ALL ACCOMPANYING .NET
+//  CONTROLS AS PART OF AN EXECUTABLE PROGRAM ONLY.
+//
+//  THE SOURCE CODE CONTAINED WITHIN THIS FILE AND ALL RELATED
+//  FILES OR ANY PORTION OF ITS CONTENTS SHALL AT NO TIME BE
+//  COPIED, TRANSFERRED, SOLD, DISTRIBUTED, OR OTHERWISE MADE
+//  AVAILABLE TO OTHER INDIVIDUALS WITHOUT EXPRESS WRITTEN CONSENT
+//  AND PERMISSION FROM IZENDA INC.
+//
+//  CONSULT THE END USER LICENSE AGREEMENT(EULA FOR INFORMATION ON
+//  ADDITIONAL RESTRICTIONS.
+//  </copyright>
+// ----------------------------------------------------------------------
+/**
+ * English localization data
+ */
 
+import localizer from 'share/localization/Izenda.Localizer';
+
+localizer.registerLanguage(
+  {
     // MODEL
     MODEL_LABEL_TABLE: 'Table',
     MODEL_LABEL_VIEW: 'View',
@@ -23,6 +60,7 @@ IzendaSynergy.Localizer.registerLanguage({
     CONTEXT_MENU_LABEL_DASHBOARD: 'Dashboard',
     CONTEXT_MENU_LABEL_SECURITY_POLICIES: 'Security Policies',
     CONTEXT_MENU_LABEL_MACHINE_LEARNING: 'Machine Learning',
+    CONTEXT_MENU_LABEL_NLQ_CONFIG: 'NLQ',
     CONTEXT_MENU_LABEL_EMAIL: 'Email',
     CONTEXT_MENU_LABEL_REPORT: 'Report',
     CONTEXT_MENU_LABEL_REPORT_DESIGN: 'Report Design',
@@ -34,7 +72,17 @@ IzendaSynergy.Localizer.registerLanguage({
     TOP_MENU_REPORTS: 'Reports',
     TOP_MENU_DASHBOARDS: 'Dashboards',
     TOP_MENU_SETTINGS: 'Settings',
+    TOP_MENU_EXPLORE: 'Explore',
+    TOP_MENU_NEW_REPORTS: 'Create Reports',
+    TOP_MENU_NEW_DASHBOARDS: 'Create Dashboards',
 
+    //RECORD
+
+    TOTAL: 'Total',
+    RECORDS: 'Records',
+    COLUMNS: 'Columns',
+    RECORD: 'Record',
+    COLUMN: 'Column',
     // MESSAGES
     COMMON_MESSAGES_ANOTHER_USER_MODIFIED:
       'Another user recently modified this data. Up-to-date data has been reloaded. You can now review and continue your work.',
@@ -42,7 +90,7 @@ IzendaSynergy.Localizer.registerLanguage({
     COMMON_MESSAGES_CONFIRM_CHANGES_LOST: 'Are you sure? All your changes will be lost.',
     COMMON_MESSAGES_CONFIRM_SAVE: 'Are you sure you want to save all of the modifications?',
     COMMON_MESSAGES_DETAILS_WERE_SAVED: 'Details were saved.',
-    COMMON_MESSAGES_FORMAT_DATE: 'Please enter a valid value in \'MM/dd/yyyy hh:mm\' format.',
+    COMMON_MESSAGES_FORMAT_DATE: "Please enter a valid value in 'MM/dd/yyyy hh:mm' format.",
     COMMON_MESSAGES_FORMAT_TIME: 'Please enter valid Numeric characters.',
     COMMON_MESSAGES_FORMAT_NUMBER: 'Please enter a value in Numeric format.',
     COMMON_MESSAGES_INVALID_KEY_JOIN: 'This foreign data object is invalid when the key join is dropped here.',
@@ -229,6 +277,7 @@ IzendaSynergy.Localizer.registerLanguage({
     COMMON_LABEL_USE_SEPARATOR: 'Use Separator',
     COMMON_LABEL_INVERTED: 'Inverted',
     COMMON_LABEL_DATA_REFRESH_INTERVAL_SETTING: 'Data Refresh',
+    COMMON_LABEL_CONDITIONAL_FORMATTING_SETTING: 'Conditional Formatting',
     COMMON_LABEL_USE_PAGINATION: 'Use Pagination',
     COMMON_LABEL_ITEM_PER_ROW: 'Item(s) Per Row',
     COMMON_LABEL_EMBEDDED_REPORT_SETTINGS: 'Embedded Report Settings',
@@ -285,6 +334,7 @@ IzendaSynergy.Localizer.registerLanguage({
     COMMON_LABEL_NO: 'No',
     COMMON_LABEL_OFF: 'OFF',
     COMMON_LABEL_ON: 'ON',
+    COMMON_LABEL_DASHBOARD_NAME: 'Add Report Part to Dashboard',
 
     // COMMON_DATA_TYPE
     COMMON_DATA_TYPE_IMAGE: 'Image',
@@ -360,6 +410,7 @@ IzendaSynergy.Localizer.registerLanguage({
     NO_PERMISSION_TEXT:
       'Your account has no permission to access to this page. Please contact your System Administrator for assistance.',
     NOT_FOUND_PAGE: 'Oops! This page is not found.',
+    NO_SEARCH_RESULT: 'Incorrect search query, Please follow guided search guidelines.',
 
     // ORIENTATION SETTING
     ORIENTATION_SETTING_NORMAL: 'Normal',
@@ -444,8 +495,10 @@ IzendaSynergy.Localizer.registerLanguage({
     SECURITY_LABEL_TENANT_FIELD: 'Tenant Field',
     SECURITY_LABEL_ADDITIVE_FIELDS_AUTO_VISIBLE: 'Set Additive Field Auto Visible',
     SECURITY_LABEL_ADDITIVE_FIELDS_AUTO_FILTERABLE: 'Set Additive Field Auto Filterable',
+    SECURITY_RENDER_HTML_EXPORT: 'Render HTML in Printing/Exporting',
+    SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER: 'Render HTML in Report Viewer',
     SECURITY_TENANT_TOOLTIP:
-      'The name of the database fields that store Tenant information for users. The user\'s TenantIDs are used as the values that will be matched within the field\'s data.',
+      "The name of the database fields that store Tenant information for users. The user's TenantIDs are used as the values that will be matched within the field's data.",
     SECURITY_SHOW_TENANT_TOOLTIP:
       'When false, this hides the field identified in the Tenant Field property from being selected or viewed by users. Any filters based on the Tenant Field will still affect the results.',
     SECURITY_VISIBLE_FIELD_TOOLTIP:
@@ -455,10 +508,13 @@ IzendaSynergy.Localizer.registerLanguage({
     SECURITY_TENANT_FIELD_NO_RESULT_TEXT: 'Enter to add tenant field',
     SECURITY_RESET_TENANT_FIELD_TOOLTIP: 'Back to default value.',
     SECURITY_LABEL_SYSTEM_TENANT_FIELD: 'System Tenant Field: ',
+    SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP:
+      'If this is checked then the HTML content from the fields will be rendered in the report viewer',
 
     // OTHER_SETTINGS
     OTHER_SETTINGS_LABEL_SORT_COLUMN_NAME: 'Sort Column Name',
-    OTHER_SETTINGS_SORT_COLUMN_NAME: 'If true then sort by position in the database. If false then sort in alphabetical order.',
+    OTHER_SETTINGS_SORT_COLUMN_NAME:
+      'If true then sort by position in the database. If false then sort in alphabetical order.',
     OTHER_SETTINGS_LABEL_TRIM_TIME_IN_JOINS: 'Trim Time In Joins',
     OTHER_SETTINGS_TRIM_TIME_IN_JOINS:
       'Sets whether joins using DateTime fields will use the time portion of the field.',
@@ -471,6 +527,9 @@ IzendaSynergy.Localizer.registerLanguage({
     OTHER_SETTINGS_LABEL_CONVERT_NULL_TO_EMPTY_STRING: 'Convert Null to Empty String',
     OTHER_SETTINGS_CONVERT_NULL_TO_EMPTY_STRING:
       'If this flag is turned on, system will show blank for any field containing NULL and blank for any field containing blank.',
+    OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL: 'Encode variables in Custom URL',
+    OTHER_SETTINGS_ENCODE_VARIABLES_IN_CUSTOM_URL:
+      'If this flag is turned on, system will encode variables in Custom URL.',
     OTHER_SETTINGS_LABEL_SHOW_SCHEMA_NAME: 'Show Schema Name',
     OTHER_SETTINGS_SHOW_SCHEMA_NAME: 'Set if schema name is shown together with data source name',
     OTHER_SETTINGS_LABEL_SHOW_INTRODUCTION_NAME: 'Show Introduction Text',
@@ -495,14 +554,17 @@ IzendaSynergy.Localizer.registerLanguage({
     OTHER_SETTINGS_TOOLTIP_DETERMINE_INHERIT_FILTER:
       'Configure how the system should consider whether different filters are to filter the “same” field or not so that their values are eligible for inheritance in subreport.',
     OTHER_SETTINGS_IHS_FIELD_ID: 'Same field of the same data object from the same DB schema',
-    OTHER_SETTINGS_IHS_FIELD_NAME:
-      'Same field name regardless of DB schema or data object',
+    OTHER_SETTINGS_IHS_FIELD_NAME: 'Same field name regardless of DB schema or data object',
     OTHER_SETTINGS_MAXIMUM_SUBREPORT_LEVEL: 'Maximum embedded subreport nesting level for exporting ({0} - {1})',
-    OTHER_SETTINGS_TOOLTIP_MAXIMUM_SUBREPORT_LEVEL: 'Configure how the system should show embedded subreports for exporting. If the nesting level is higher than the specified one, then embedded subreports will be displayed as links. Note: Increasing the maximum nested subreport for export beyond "1" may severely impact performance of exporting.',
+    OTHER_SETTINGS_TOOLTIP_MAXIMUM_SUBREPORT_LEVEL:
+      'Configure how the system should show embedded subreports for exporting. If the nesting level is higher than the specified one, then embedded subreports will be displayed as links. Note: Increasing the maximum nested subreport for export beyond "1" may severely impact performance of exporting.',
     OTHER_SETTINGS_MAXIMUM_SUBREPORT_LEVEL_REQUIRED: 'Maximum embedded subreport nesting level is required.',
-    OTHER_SETTINGS_MAXIMUM_SUBREPORT_LEVEL_NUMBERICALITY: 'Maximum embedded subreport nesting level should be a whole number.',
-    OTHER_SETTINGS_MAXIMUM_SUBREPORT_LEVEL_GREATER_THAN: 'Maximum embedded subreport nesting level must be a number greater than or equal to {0}.',
-    OTHER_SETTINGS_MAXIMUM_SUBREPORT_LEVEL_LESS_THAN: 'Maximum embedded subreport nesting level must be a number smaller than or equal to {0}.',
+    OTHER_SETTINGS_MAXIMUM_SUBREPORT_LEVEL_NUMBERICALITY:
+      'Maximum embedded subreport nesting level should be a whole number.',
+    OTHER_SETTINGS_MAXIMUM_SUBREPORT_LEVEL_GREATER_THAN:
+      'Maximum embedded subreport nesting level must be a number greater than or equal to {0}.',
+    OTHER_SETTINGS_MAXIMUM_SUBREPORT_LEVEL_LESS_THAN:
+      'Maximum embedded subreport nesting level must be a number smaller than or equal to {0}.',
     OTHER_SETTING_LABEL_MULTIPLE_SORT_ON_GRID_HEADER: 'Allow Multiple Sorts on Grid Header',
     OTHER_SETTING_MULTIPLE_SORT_ON_GRID_HEADER:
       'If this flag is turned on, system allows multiple column sorting in Grid Header. If this flag is turned off, system allows single column sorting in Grid Header',
@@ -513,13 +575,48 @@ IzendaSynergy.Localizer.registerLanguage({
     OTHER_SETTING_LABEL_HIDE_HEADER_FOOTER_IN_REPORT_TOOLTIP:
       'Configure to hide or show the header and footer section in Report Viewer and Report Designer by default.',
 
+    // EXPLORE
+    EXPLORE_CTAS: {
+      DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Expose new data to our Natural Language Query service to build more intricate reports.',
+        LABEL: 'Add new data source'
+      },
+      DASHBOARD: {
+        DESCRIPTION: 'Design a new dashboard to enhance your insights from multiple reports.',
+        LABEL: 'Create Dashboard'
+      },
+      REPORT: {
+        DESCRIPTION: 'Build a new report to showcase your business progress.',
+        LABEL: 'Create Report'
+      }
+    },
+    EXPLORE_NAV: {
+      ask: {
+        order: 1,
+        title: 'Ask your query'
+      },
+      results: {
+        order: 2,
+        title: 'Query results'
+      },
+      vis: {
+        order: 3,
+        title: 'Visualization'
+      }
+    },
+    EXPLORE_SEARCH_PLACEHOLDER: 'Type your query here, for example: "Average sales between June 2019 and December 2020"',
+
     // RELATIONSHIP
     RELATIONSHIP_MESSAGE_CONFIRM_DELETE_RELATIONSHIP_HAS_USED:
       'Any report part built from this relationship will be impacted. Are you sure you want to delete this relationship?',
     RELATIONSHIP_MESSAGE_CONFIRM_DELETE_RELATIONSHIP: 'Are you sure you want to delete the relationship?',
-    RELATIONSHIP_MESSAGES_CONFIRM_SAVE_WITH_POSITION_ID: 'There are some relationships which have positionID set. Thus, in report query, these relationships will be placed in order above all non-prioritized joins, regardless of the join type.',
-    RELATIONSHIP_MESSAGES_CONFIRM_SAVE_WITHOUT_POSITION_ID: 'Do you want to save all the relationships without priority setting?',
-    RELATIONSHIP_MESSAGES_INVALID_MESSAGE: 'There are some errors in the following relationships due to relationship duplication, PositionID duplication, and inconsistency in join fields data type. Please correct them before saving.',
+    RELATIONSHIP_MESSAGES_CONFIRM_SAVE_WITH_POSITION_ID:
+      'There are some relationships which have positionID set. Thus, in report query, these relationships will be placed in order above all non-prioritized joins, regardless of the join type.',
+    RELATIONSHIP_MESSAGES_CONFIRM_SAVE_WITHOUT_POSITION_ID:
+      'Do you want to save all the relationships without priority setting?',
+    RELATIONSHIP_MESSAGES_INVALID_MESSAGE:
+      'There are some errors in the following relationships due to relationship duplication, PositionID duplication, and inconsistency in join fields data type. Please correct them before saving.',
     RELATIONSHIP_LABEL_RELATIONSHIP: 'Relationships',
     RELATIONSHIP_LABEL_VIEW_EXISTING: 'View existing relationships',
     RELATIONSHIP_LABEL_EXISTING_RELATIONSHIPS: 'Existing relationships',
@@ -568,8 +665,7 @@ IzendaSynergy.Localizer.registerLanguage({
       'The data source limitation has been configured to be less than the current number of selected data objects. Please adjust the number of selected data objects.',
     REPORTDESIGNER_MESSAGE_DATA_SOURCES_EXCEEDED_LIMITATION:
       'The number of selected data sources are exceeded the limitation',
-    REPORTDESIGNER_FEATURE_NOT_AVAILABLE:
-    'This feature is not yet available with this software version',  
+    REPORTDESIGNER_FEATURE_NOT_AVAILABLE: 'This feature is not yet available with this software version',
     REPORTDESIGNER_MESSAGE_FIELDS_IN_REPORT_PART_EXCEEDED_LIMITATION:
       'The number of fields which are added in this report part exceeds the limitation',
     REPORTDESIGNER_MESSAGE_SIMPLE_UNSELECT:
@@ -641,9 +737,9 @@ IzendaSynergy.Localizer.registerLanguage({
     REPORTDESIGNER_LABEL_CANNOT_DELETE_PARAM_SP:
       'This filter is to provide input for one of the selected stored procedures and it cannot be deleted.',
     REPORTDESIGNER_LABEL_APPLY_FILTER: 'Apply Filter',
+    REPORTDESIGNER_LABEL_CLEAR_FILTER: 'Clear Filter',
     REPORTDESIGNER_LABEL_REFRESH_DATA: 'Refresh',
     REPORTDESIGNER_LABEL_PREVIEW_RECORDS: 'Preview Records',
-    RELATIONSHIP_LABEL_VIEW_EXISTING: 'View existing relationships',
     REPORTDESIGNER_LABEL_ADD_RELATIONSHIP: 'Add Relationship',
     REPORTDESIGNER_LABEL_DISTINCT: 'Distinct',
     REPORTDESIGNER_LABEL_ALLOW_NULLS: 'Allow nulls',
@@ -727,6 +823,7 @@ IzendaSynergy.Localizer.registerLanguage({
     REPORTDESIGNER_LABEL_GRAND_TOTAL: 'Grand Total',
     REPORTDESIGNER_LABEL_PRIMARY_KPI: 'Primary KPI',
     REPORTDESIGNER_LABEL_UNIT_LABEL: 'Unit Label',
+    REPORTDESIGNER_LABEL_SCALE: 'Scale',
     REPORTDESIGNER_LABEL_SUPPLEMENTARY_KPI: 'Supplementary KPI',
     REPORTDESIGNER_LABEL_THRESHOLD_SETTINGS: 'Threshold Settings',
     REPORTDESIGNER_LABEL_ROWS: 'Rows',
@@ -765,11 +862,13 @@ IzendaSynergy.Localizer.registerLanguage({
     REPORTDESIGNER_ADD_FILTER_TOOLTIP: 'Add new filter',
     REPORTDESIGNER_DATASOURCE_OVERLAY_LABEL:
       'Please select a data source from the middle panel to begin creating your report',
-    REPORTDESIGNER_UPDATE_RESULT: 'Please press "Apply Filter" button after adjusting filter configurations to avoid data inconsistency.',
-    REPORTDESIGNER_DRILL_OTHERS_POPUP_LABEL: 'Others\' items',
+    REPORTDESIGNER_UPDATE_RESULT:
+      'Please press "Apply Filter" button after adjusting filter configurations to avoid data inconsistency.',
+    REPORTDESIGNER_DRILL_OTHERS_POPUP_LABEL: "Others' items",
     NO_VALUE_FOUND: 'No value found',
     REPORTDESIGNER_LABEL_DELIMITER_VALUE: 'Delimiter Values',
-    REPORTDESIGNER_NEWLINE_DELIMITER_PLACEHOLDER: 'Please paste your data with new line delimiter and press enter for apply that delimiter.',
+    REPORTDESIGNER_NEWLINE_DELIMITER_PLACEHOLDER:
+      'Please paste your data with new line delimiter and press enter for apply that delimiter.',
 
     // CROSS FILTERING
     CROSSFILTERING_OPTION_LABEL: 'Cross Filtering',
@@ -787,6 +886,7 @@ IzendaSynergy.Localizer.registerLanguage({
     CONNECTION_LABEL_ADD_CONNECTION: 'Add Connector',
     CONNECTION_DELETE_MESSAGE:
       'All data items available in the current data model associated with this connection will be removed. Are you sure you want to delete this connection?',
+    CONNECTION_OVERRIDE_EXCEL_MESSAGE: 'Do you want to replace the data source with new file?',
     CONNECTION_INVISIBLE_MESSAGE:
       'The current data items associated with this connection will be made visible in the data model. Are you sure you want to make all data associated visible?',
     CONNECTION_VISIBLE_MESSAGE:
@@ -815,7 +915,7 @@ IzendaSynergy.Localizer.registerLanguage({
     CONNECTION_VALID_STATUS: 'Valid',
     CONNECTION_INVALID_STATUS: 'Invalid',
     CONNECTION_DETECT_CHANGE_ICON_TOOLTIP: 'Data source changes',
-    CONNECTION_LABEL_DATABASE_NAME: 'Database Name',
+    CONNECTION_LABEL_DATABASE_NAME: 'Connector Name',
     CONNECTION_LABEL_DATA_SERVER_TYPE: 'Data Server Type',
     CONNECTION_LABEL_CONNECTION_STRING: 'Connection String',
     CONNECTION_LABEL_CONNECTION_BUILDER: 'Connection Builder',
@@ -897,12 +997,18 @@ IzendaSynergy.Localizer.registerLanguage({
     DATA_MODEL_CONSTANTS_DELETED_FUNCTION: 'Deleted function.',
     DATA_MODEL_CONSTANTS_FUNCTION_CHANGE: 'Function changes.',
     DATA_MODEL_CONSTANTS_FUNCTION_ADD: 'Function add',
-    DATA_MODEL_TOOLTIP_INVALID_FILTER_LOOKUP_CONNECTION: 'The current field(s) {0} could not be found because the database is not currently visible. Please check your Connection String page.',
-    DATA_MODEL_TOOLTIP_INVALID_FILTER_LOOKUP_QUERY_SOURCE: 'The current field(s) {0} could not be found because the object is not currently visible in the connection. Please check your Connection String page.',
-    DATA_MODEL_TOOLTIP_INVALID_FILTER_INVISIBLE_BOTH_FIELD: 'The current field(s) {0} could not be found because it is not currently visible in the Data Model. Please check your Data Model Setting page.',
-    DATA_MODEL_TOOLTIP_INVALID_FILTER_INVISIBLE_FIELD: 'The current field {0} could not be found because it is not currently visible in the Data Model. Please check your Data Model Setting page.',
-    DATA_MODEL_TOOLTIP_INVALID_FILTER_TENANT_BOTH_FIELD: 'The current field(s) {0} could not be found because it is set as Tenant Field in Advanced Settings. Please check your Advanced Settings - Security page.',
-    DATA_MODEL_TOOLTIP_INVALID_FILTER_TENANT_FIELD: 'The current field {0} could not be found because it is set as Tenant Field in Advanced Settings. Please check your Advanced Settings - Security page.',
+    DATA_MODEL_TOOLTIP_INVALID_FILTER_LOOKUP_CONNECTION:
+      'The current field(s) {0} could not be found because the database is not currently visible. Please check your Connection String page.',
+    DATA_MODEL_TOOLTIP_INVALID_FILTER_LOOKUP_QUERY_SOURCE:
+      'The current field(s) {0} could not be found because the object is not currently visible in the connection. Please check your Connection String page.',
+    DATA_MODEL_TOOLTIP_INVALID_FILTER_INVISIBLE_BOTH_FIELD:
+      'The current field(s) {0} could not be found because it is not currently visible in the Data Model. Please check your Data Model Setting page.',
+    DATA_MODEL_TOOLTIP_INVALID_FILTER_INVISIBLE_FIELD:
+      'The current field {0} could not be found because it is not currently visible in the Data Model. Please check your Data Model Setting page.',
+    DATA_MODEL_TOOLTIP_INVALID_FILTER_TENANT_BOTH_FIELD:
+      'The current field(s) {0} could not be found because it is set as Tenant Field in Advanced Settings. Please check your Advanced Settings - Security page.',
+    DATA_MODEL_TOOLTIP_INVALID_FILTER_TENANT_FIELD:
+      'The current field {0} could not be found because it is set as Tenant Field in Advanced Settings. Please check your Advanced Settings - Security page.',
 
     // CALCULATED_FIELD_CONSTANTS
     CALCULATED_FIELD_CONSTANTS_FUNCTION_NAME_NONE: '[None]',
@@ -947,23 +1053,22 @@ IzendaSynergy.Localizer.registerLanguage({
     CALCULATED_FIELD_CONSTANTS_MESSAGE_RESULT_CANNOT_FORMATED:
       'Result cannot be formatted with the selected data type.',
     CALCULATED_FIELD_CONSTANTS_MESSAGE_DUPLICATE_NAME: 'The column name {0} already exists',
-    CALCULATED_FIELD_MESSAGE_INVALID_NAME: 'A field name can\'t contain any of the following characters: \'[\', \']\'',
+    CALCULATED_FIELD_MESSAGE_INVALID_NAME: "A field name can't contain any of the following characters: '[', ']'",
     CALCULATED_FIELD_MESSAGE_HAS_BEEN_USED:
       'This calculated field is in used in one or more of the following places: other calculated fields, report part field containers, filters, subtotal, grand total, dynamic threholds. Please remove these instances first.',
     CALCULATED_FIELD_MESSAGE_MISSING_DATA_TYPE: 'Missing data type',
     CALCULATED_FIELD_DEFAULT_SORT_MESSAGE: 'has been sorted in ascending order.',
 
-   //PREDICTED FIELD CONSTANTS
-   PREDICTED_FIELD_CONSTANTS_FUNCTION_TYPE_ADD_TITLE: 'Add Predicted Field',
-   PREDICTED_FIELD_CONSTANTS_FUNCTION_TYPE_EDIT_TITLE: 'Edit Predicted Field',
-   PREDICTED_CLASSIFICATION : 'CLASSIFICATION',
-   PREDICTED_PREDICTION : 'PREDICTION ',
-   PREDICTED_FIELD_DELETE_COLUMN: 'Do you want to delete this predicted field ?',
-   PREDICTED_FIELD_CONSTANTS_MESSAGE_DELETE_PREDICTED_FIELD_REPORT_PART:
-   'Any report part created from the predicted field will not be viewable when the predicted field is deleted. Are you sure you want to delete the predicted field?',
-   PREDICTED_FIELD_EMPTY:
-   'This Field is required',
-   PREDICTED_FIELD_CONSTANTS_MESSAGE_DUPLICATE_NAME: 'The column name {0} already exists',
+    //PREDICTED FIELD CONSTANTS
+    PREDICTED_FIELD_CONSTANTS_FUNCTION_TYPE_ADD_TITLE: 'Add Predicted Field',
+    PREDICTED_FIELD_CONSTANTS_FUNCTION_TYPE_EDIT_TITLE: 'Edit Predicted Field',
+    PREDICTED_CLASSIFICATION: 'CLASSIFICATION',
+    PREDICTED_PREDICTION: 'PREDICTION ',
+    PREDICTED_FIELD_DELETE_COLUMN: 'Do you want to delete this predicted field ?',
+    PREDICTED_FIELD_CONSTANTS_MESSAGE_DELETE_PREDICTED_FIELD_REPORT_PART:
+      'Any report part created from the predicted field will not be viewable when the predicted field is deleted. Are you sure you want to delete the predicted field?',
+    PREDICTED_FIELD_EMPTY: 'This Field is required',
+    PREDICTED_FIELD_CONSTANTS_MESSAGE_DUPLICATE_NAME: 'The column name {0} already exists',
     // COPY_MANAGEMENT_WORK_SPACE_LIST
     COPY_MANAGEMENT_WORK_SPACE_LIST_ADD_WORKSPACE: 'Add Workspace',
     COPY_MANAGEMENT_WORK_SPACE_LIST_SHOW_ONLY_MY_WORKSPACES: 'Show only my workspaces',
@@ -1004,36 +1109,36 @@ IzendaSynergy.Localizer.registerLanguage({
     COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_DATA_MODEL_CONFIRMATION:
       'Please select which connection string you want to overwritten after copied?',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_ADVANCED_SETTING_INFORMATION:
-      'Below destination\'s tenants have different advanced settings.',
+      "Below destination's tenants have different advanced settings.",
     COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_ADVANCED_SETTING_CONFIRMATION:
-      'Please select which destination\'s tenants you want to overwrite after copied?',
+      "Please select which destination's tenants you want to overwrite after copied?",
     COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_TENANT_PERMISSIONS_INFORMATION:
-      'Below destination\'s tenants have different permission with source\'s tenant.',
+      "Below destination's tenants have different permission with source's tenant.",
     COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_TENANT_PERMISSIONS_CONFIRMATION:
-      'Please select which destination\'s tenants you want to overwrite after copied?',
+      "Please select which destination's tenants you want to overwrite after copied?",
     COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_ROLE_PERMISSIONS_INFORMATION:
-      'Below roles of destination\'s tenants have different permissions with roles of source\'s tenant.',
+      "Below roles of destination's tenants have different permissions with roles of source's tenant.",
     COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_ROLE_PERMISSIONS_CONFIRMATION:
-      'Please select which roles in destination\'s tenant you want to overwrite after copied?',
+      "Please select which roles in destination's tenant you want to overwrite after copied?",
     COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_REPORT_INFORMATION:
-      'Below reports are currently existing in destination\'s tenants',
+      "Below reports are currently existing in destination's tenants",
     COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_REPORT_CONFIRMATION:
-      'Please select which reports in destination\'s tenants you want to overwrite after copied?',
+      "Please select which reports in destination's tenants you want to overwrite after copied?",
     COPY_MANAGEMENT_WORKSPACE_DETAIL_NO_RUN_COPY_INFO_MESSAGE: 'There are no data for running copy.',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_TEMPLATE_OVERWRITE_CONFIRMATION: 'Copy Templates - Overwrite Confirmation',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_TEMPLATE_INFORMATION:
-      'Below templates are currently existing in destination\'s tenants',
+      "Below templates are currently existing in destination's tenants",
     COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_TEMPLATE_CONFIRMATION:
-      'Please select which templates in destination\'s tenants you want to overwrite after copied?',
+      "Please select which templates in destination's tenants you want to overwrite after copied?",
     COPY_MANAGEMENT_WORKSPACE_DETAIL_PLEASE_SELECT_DATASOURCE: 'Please select data source to copy',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_PLEASE_SELECT_DASHBOARD: 'Please select dashboards to copy',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_PLEASE_SELECT_REPORT: 'Please select reports to copy',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_DESTINATION_GRID: 'Destination Grid',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_DASHBOARD_OVERWRITE_CONFIRMATION: 'Copy Dashboards - Overwrite Confirmation',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_DASHBOARD_INFORMATION:
-      'Below dashboards are currently existing in destination\'s tenants',
+      "Below dashboards are currently existing in destination's tenants",
     COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_DASHBOARD_CONFIRMATION:
-      'Please select which dashboards in destination\'s tenants you want to overwrite after copied?',
+      "Please select which dashboards in destination's tenants you want to overwrite after copied?",
 
     // COPY MANAGEMENT
     COPY_MANAGEMENT_LABEL_DATA_ADVANCED_OPTIONS: 'Data Advanced Options:',
@@ -1068,7 +1173,8 @@ IzendaSynergy.Localizer.registerLanguage({
     COPY_MANAGEMENT_MESSAGE_OVERRIDE_CONFIRMATION_SELECT_TO_OVERWRITTEN:
       'Please select which connection string you want overwritten after copied?',
     COPY_MANAGEMENT_MESSAGE_COPY_PROCESS_DONE: 'The copy process is complete',
-    COPY_MANAGEMENT_MESSAGE_COPY_FILTER_LOOKUP: 'We didn\'t validate but copy the filter value settings for some fields in data model. Please check yourself the validity of those settings in your Data Model page.',
+    COPY_MANAGEMENT_MESSAGE_COPY_FILTER_LOOKUP:
+      "We didn't validate but copy the filter value settings for some fields in data model. Please check yourself the validity of those settings in your Data Model page.",
     COPY_MANAGEMENT_LABEL_DATE_MODEL_COMPARISON: 'Data Model Comparison',
     COPY_MANAGEMENT_LABEL_ADVANCED_SETTINGS: 'Advanced Settings',
     COPY_MANAGEMENT_NO_RESULT_TEXT: 'No result',
@@ -1122,8 +1228,7 @@ IzendaSynergy.Localizer.registerLanguage({
     LICENSE_CHECKER_MESSAGE_TOKEN_INVALID: 'The token is invalid. Please input a valid one.',
     LICENSE_CHECKER_MESSAGE_DAYS_TILL_EXPIRED: '{0} day(s) until the license is expired',
     LICENSE_CHECKER_MESSAGE_DAYS_EXPIRED: 'The license expired {0} days ago',
-    LICENSE_CHECKER_MESSAGE_EXPIRED:
-      'The license is expired. Please enter a valid license.',
+    LICENSE_CHECKER_MESSAGE_EXPIRED: 'The license is expired. Please enter a valid license.',
     LICENSE_CHECKER_MESSAGE_NEW_LICENSE_OR_TOKEN_INVALID:
       'This license/token is invalid. The system will continue to use the previous valid license and valid token.',
     LICENSE_CHECKER_MESSAGE_VALIDATE_ON_OR_AFTER:
@@ -1151,7 +1256,8 @@ IzendaSynergy.Localizer.registerLanguage({
     // LICENSE_CHECKER - IMPORT DATA MAP
     LICENSE_CHECKER_LABEL_IMPORT_MAP_DATA: 'Import Map Data',
     LICENSE_CHECKER_LABEL_PROVISION_MAP_DATA: 'Provision Map Data',
-    LICENSE_CHECKER_LABEL_PROVISION_MAP_DATA_TOOLTIP: 'Run "Provision Map Data" to upgrade map data in the configuration database.',
+    LICENSE_CHECKER_LABEL_PROVISION_MAP_DATA_TOOLTIP:
+      'Run "Provision Map Data" to upgrade map data in the configuration database.',
     // LICENSE_CHECKER - LICENSE VALIDATION INPUT
     LICENSE_CHECKER_LABEL_LICENSE_MODE: 'License Mode',
     LICENSE_CHECKER_LABEL_OFFLINE: 'Offline',
@@ -1229,6 +1335,7 @@ IzendaSynergy.Localizer.registerLanguage({
     TENANT_CONSTANT_DASHBOARD_SAVABLE_TREE_HEADER: 'Categories allowed for saving dashboards',
     TENANT_SELECT_ALL: 'Select All',
     TENANT_TOOLTIP_DEFINITION_TYPE: 'Report and Dashboard definitions',
+    TENANT_TOOLTIP_IFRAME: 'I-Frame',
 
     // TENANT_DETAIL_TAB
     TENANT_DETAIL_TAB_TENANT_NAME: 'Tenant Name',
@@ -1237,9 +1344,21 @@ IzendaSynergy.Localizer.registerLanguage({
     TENANT_DETAIL_MODULES_LABEL_MODULES: 'Modules',
 
     //PREDICTION SETTINGS MODULE
-    PREDICTION_SETTINGS_LABEL_TITLE: 'Prediction Server Configuration',
+    PREDICTION_SETTINGS_LABEL_TITLE: 'ML Service Configuration',
+    NLQ_PREDICTION_SETTINGS_LABEL_TITLE: 'NLQ Service Configuration',
     PREDICTION_SETTINGS_LABEL_PREDICTION_SERVICE: 'Prediction Service IP Address',
     PREDICTION_SETTINGS_LABEL_PREDICTION_DB_CONNECTION_STRING: 'Database Connection String',
+
+    //MACHINE_LEARNING SETTINGS MODULE
+    MACHINE_LEARNING_SETTINGS_LABEL_TITLE: 'ML Service Configuration',
+    MACHINE_LEARNING_SETTINGS_LABEL_PREDICTION_SERVICE: 'ML Service IP Address',
+    MACHINE_LEARNING_SETTINGS_LABEL_PREDICTION_DB_CONNECTION_STRING: 'Database Connection String',
+
+    //NLQ CONFIGURATION SETTINGS MODULE
+    NLQ_CONFIGURATION_SETTINGS_LABEL_TITLE: 'NLQ Configuration',
+    NLQ_SETTINGS_LABEL_PREDICTION_SERVICE: 'NLQ Service IP Address',
+    NLQ_CONFIGURATION_SETTINGS_DATACONNECTORS: 'Data connectors',
+    NLQ_CONFIGURE_ERROR_MESSAGE: 'Please Configure NLQ',
 
     // PERMISSION
     PERMISSION_LABEL_TENANT_ACCESS: 'Tenant Access',
@@ -1264,6 +1383,7 @@ IzendaSynergy.Localizer.registerLanguage({
     PERMISSION_LABEL_EXPORTING_FORMAT: 'Exporting Format',
     PERMISSION_LABEL_QUERY_EXECUTION: 'Query Execution',
     PERMISSION_LABEL_DEFINITION: 'Definition',
+    PERMISSION_LABEL_IFRAME: 'I-Frame',
 
     // PERMISSION REPORT FOOTER
     PERMISSION_LABEL_FILTER_LOGIC: 'Filter Logic',
@@ -1466,6 +1586,7 @@ IzendaSynergy.Localizer.registerLanguage({
 
     // ROLE_SETUP_ROLE_DETAIL
     ROLE_SETUP_ROLE_DETAIL_LABEL_ROLE_NAME: 'Role Name',
+    ROLE_SETUP_ROLE_DETAIL_LABEL_ROLE_TYPE: 'Role Type',
 
     // SETTING LEVEL
     SETTING_LEVEL_LABEL_SETTING_LEVEL: 'Setting Level',
@@ -1512,7 +1633,8 @@ IzendaSynergy.Localizer.registerLanguage({
     DATA_CACHING_CONFIGURATION_LABEL: 'Data Cache Configuration',
     DATA_CACHING_ENABLE_DATA_CACHE: 'Enable Data Cache',
     DATA_CACHING_TTL: 'Time To Live',
-    DATA_CACHING_TTL_TOOLTIP: 'Define the lifespan in seconds for each cache. If any cache has expired, it will be removed from the storage.',
+    DATA_CACHING_TTL_TOOLTIP:
+      'Define the lifespan in seconds for each cache. If any cache has expired, it will be removed from the storage.',
     DATA_CACHING_EVICTION_INTERVAL: 'Eviction Interval',
     DATA_CACHING_EVICTION_INTERVAL_TOOLTIP: 'Define the interval to remove expired caches.',
     DATA_CACHING_REFRESH_INTERVAL: 'Refresh Interval',
@@ -1521,8 +1643,10 @@ IzendaSynergy.Localizer.registerLanguage({
     DATA_CACHING_REFRESH_DURATION_TOOLTIP: 'Limit the time to run refresh data cache job.',
     CACHING_TIME_UNIT: '(s)',
     SYSTEM_CACHING_CONFIGURATION_LABEL: 'System Cache Configuration',
+    SYSTEM_CACHING_ENABLE_SYSTEM_CACHE: 'Enable System Cache',
     SYSTEM_CACHING_TTL: 'Time To Live',
-    SYSTEM_CACHING_TTL_TOOLTIP: 'Define the lifespan in seconds for each cache. If any cache has expired, it will be removed from the storage.',
+    SYSTEM_CACHING_TTL_TOOLTIP:
+      'Define the lifespan in seconds for each cache. If any cache has expired, it will be removed from the storage.',
     SYSTEM_CACHING_EVICTION_INTERVAL: 'Eviction Interval',
     SYSTEM_CACHING_EVICTION_INTERVAL_TOOLTIP: 'Define the interval to remove expired caches.',
     // GOOGLE MAP
@@ -1530,10 +1654,11 @@ IzendaSynergy.Localizer.registerLanguage({
     GOOGLE_MAP_USE_CUSTOM_CONFIGURATION: 'Use Custom Configuration',
     GOOGLE_MAP_API_KEY: 'Google API Key',
     SYSTEM_CONFIGURATION_GOOGLE_MAP_ADDRESS: 'Google Address',
-    SYSTEM_CONFIGURATION_GOOGLE_MAP_ADDRESS_TOOLTIP: 'Enables/Disables the use of the Google API key for Geocoding services.',
+    SYSTEM_CONFIGURATION_GOOGLE_MAP_ADDRESS_TOOLTIP:
+      'Enables/Disables the use of the Google API key for Geocoding services.',
     // DASHBOARD
-    DASHBOARD_TOOLTIP_REQUIRED_FILTER:		
-    'This filter is required in at least one report. Please input a filter value to make sure all tile(s) can be loaded successfully.',
+    DASHBOARD_TOOLTIP_REQUIRED_FILTER:
+      'This filter is required in at least one report. Please input a filter value to make sure all tile(s) can be loaded successfully.',
     DASHBOARD_MESSAGE_CONFIRM_DELETE: 'Are you sure you want to delete "{0}" dashboard?',
     DASHBOARD_MESSAGE_MOVE_SUCCESSFULLY: 'The dashboard "{0}" was successfully moved to {1}{2}.',
     DASHBOARD_MESSAGE_COPY_SUCCESSFULLY: 'The dashboard "{0}" was successfully copied to {1}{2}.',
@@ -1589,9 +1714,10 @@ IzendaSynergy.Localizer.registerLanguage({
       'You are selecting the Global Dashboard checkbox. Any sharing with users will be removed in Access page and all schedules will be removed. Are you sure you want to select this checkbox?',
     INVALID_DASHBOARD_NAME: 'The dashboard name is invalid when contains ["/", "<", ">", "&"] characters.',
     DASHBOARD_CONSTANTS_REPORT_DRILL_DOWN_STATE_MAINTAIN: 'How would you like to export this dashboard?',
-    DASHBOARD_CONSTANT_DRILL_DOWN_EXPORT_WITH_PREVIEW_STATE: 'Export report with only those records as shown in preview?',
+    DASHBOARD_CONSTANT_DRILL_DOWN_EXPORT_WITH_PREVIEW_STATE:
+      'Export report with only those records as shown in preview?',
     DASHBOARD_CONSTANT_DRILL_DOWN_EXPORT_WITHOUT_PREVIEW_STATE: 'Export with all expanded records',
-    
+
     // SECURITY_POLICIES_CONSTANT
     SECURITY_POLICIES_CONSTANT_ERROR_MIN_VALUE:
       'Min password length must be greater than or equal to the sum of all values specified in the fields: Min No. Special Characters, Min No. Uppercase Characters, Min No. Lowercase Characters, Min No. Numeric Characters.',
@@ -1644,6 +1770,9 @@ IzendaSynergy.Localizer.registerLanguage({
     SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_PASSWORD_AGE: 'Password Age',
     SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_SECURITY_QUESTION: 'Security Questions',
     SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_USE_SECURITY_QUESTION: 'Use Security Questions?',
+    SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_USER_POLICIES: 'User Policies',
+    SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_USER_HIDE_ID: 'Hide User Id in Profile',
+    SYSTEM_CONFIGURATION_SECURITY_POLICIES_LABEL_USER_HIDE_PROFILE: 'Hide User Profile',
 
     // SYSTEM_CONFIGURATION_REPORT
     SYSTEM_CONFIGURATION_REPORT_ALL_ARCHIVED_WILL_REMOVED:
@@ -1669,7 +1798,8 @@ IzendaSynergy.Localizer.registerLanguage({
     SYSTEM_CONFIGURATION_REPORT_DEFAULT_GLOBAL_NAME: 'Global Categories',
     SYSTEM_CONFIGURATION_REPORT_DEFAULT_LOCAL_NAME: 'Local Categories',
     SYSTEM_CONFIGURATION_REPORT_DEFAULT_COLOR_THEME_HEADER: 'Default Color Theme for Chart, Gauge, and Map',
-    SYSTEM_CONFIGURATION_REPORT_DEFAULT_COLOR_THEME_INFO: 'This setting changes the color palette of all charts, gauges, and maps for newly created reports.\nThe user can select a different theme to overwrite the set default.',
+    SYSTEM_CONFIGURATION_REPORT_DEFAULT_COLOR_THEME_INFO:
+      'This setting changes the color palette of all charts, gauges, and maps for newly created reports.\nThe user can select a different theme to overwrite the set default.',
 
     // ACCOUNT_CONSTANTS
     ACCOUNT_CONSTANTS_MESSAGE_INCORECT_CREDENTIALS: 'Incorrect credentials, please try again.',
@@ -1794,10 +1924,10 @@ IzendaSynergy.Localizer.registerLanguage({
       'Allows you to embedded javascript action when a field is clicked',
     PROPERTIES_BUILDER_CONSTANTS_EMBEDDED_JAVASCRIPT_MESSAGE_JAVASCRIPT_IS_REQUIRED: 'Javascript code is required.',
     PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_SUBREPORT_FILTER_TEXT:
-      'Subreport\'s filters inherit filters from current report',
+      "Subreport's filters inherit filters from current report",
     PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_DUPLICATE_MAPPING: 'This mapping is duplicated.',
     PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_ERRORS_MULTIPLE_VALUE: 'Have multiple value for fields {0}.',
-    PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_ERRORS_CANT_RESOLVE_FIELD: 'Can\'t resolve data for fields {0}.',
+    PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_ERRORS_CANT_RESOLVE_FIELD: "Can't resolve data for fields {0}.",
     PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_ERRORS_NEED_UPDATE_RESOLVE: 'Click "Apply Filter" before open sub report.',
     PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_TABLE_DEF_FIELD_IN_CURRENT_REPORT: 'Field in Current Report',
     PROPERTIES_BUILDER_CONSTANTS_SUB_REPORT_TABLE_DEF_FIELD_IN_SUB_REPORT: 'Field in Subreport',
@@ -1840,11 +1970,12 @@ IzendaSynergy.Localizer.registerLanguage({
     REPORT_BODY_CONSTANTS_MESSAGE_COLUMN_NOT_EXIST: 'The field {0} is not existing in the subreport',
     REPORT_BODY_CONSTANTS_MESSAGE_UNAVAILABLE_MAP_DATA:
       'Map data is unavailable. Please contact your System Administrator for assistance.',
-    REPORT_CANNOT_ADD_RUNNING_FILTER: 'The field which contains RUNNING function can\'t be added in Filters section',
+    REPORT_CANNOT_ADD_RUNNING_FILTER: "The field which contains RUNNING function can't be added in Filters section",
     REPORT_CANNOT_ADD_RUNNING_FIELD: 'The {0} contains the RUNNING function',
-    REPORT_CONFIRM_DISABLE_MULTI_COLOR: 'Multi-Color option is only available for single metric for all charts except Pie/Donut/Funnel/Tree Map. Please confirm you would like to keep this metric and remove the Multi-Color option.',
+    REPORT_CONFIRM_DISABLE_MULTI_COLOR:
+      'Multi-Color option is only available for single metric for all charts except Pie/Donut/Funnel/Tree Map. Please confirm you would like to keep this metric and remove the Multi-Color option.',
     FORM_CANNOT_ADD_REPEATER_RUNNING_FIELD: 'RUNNING fields can be added in the inner most repeater only',
-    UNSPECIFIED_FILTER_WILL_BE_IGNORED: 'Filters that aren\'t used in filter logic will be ignored',
+    UNSPECIFIED_FILTER_WILL_BE_IGNORED: "Filters that aren't used in filter logic will be ignored",
     INVALID_REPORT_NAME: 'The report name is invalid when contains ["/", "<", ">", "&"] characters.',
     INVALID_TEMPLATE_NAME: 'The report template name is invalid when contains ["/", "<", ">", "&"] characters.',
     // REPORT_DESIGNER_FORMAT_CONSTANTS
@@ -1914,6 +2045,12 @@ IzendaSynergy.Localizer.registerLanguage({
 
     // REPORT_PART_FIELD_CONSTANTS
     REPORT_PART_FIELD_CONSTANTS_MESSAGES_NOT_ACCEPT_EMPTY_FUNCTION: 'This field {0} does not accept "empty" function',
+
+    // REPORT_EXPORT_IFRAME_CONSTANTS_POPUP
+    REPORTS_CONSTANTS_IFRAME_EXPORT_POPUP_LABEL: 'I-Frame embed tag',
+    REPORTS_CONSTANTS_IFRAME_EXPORT_POPUP_LABEL_COPY_PASSWORD_LINK: 'Copy I-Frame tag',
+    REPORTS_CONSTANTS_IFRAME_EXPORT_POPUP_LABEL_COPY_PASTE:
+      'To copy, please use Ctrl + C, to paste, please use Ctrl + V',
 
     // USER_ACCOUNT
     USER_LABEL_USER_NAME: 'User Name',
@@ -2028,6 +2165,8 @@ IzendaSynergy.Localizer.registerLanguage({
     REPORT_PART_FIELD_PROP_SCHEMA_HEADER_FORMATING: 'Header Formatting',
     REPORT_PART_FIELD_PROP_SCHEMA_WORD_WRAP: 'Word Wrap',
     REPORT_PART_FIELD_PROP_SCHEMA_COLUMN_GROUP: 'Column Group',
+    REPORT_PART_FIELD_PROP_SCHEMA_VERTICAL_HEADER: 'Vertical Header',
+    REPORT_PART_FIELD_PROP_SCHEMA_HEADER_HEIGHT: 'Height',
     REPORT_PART_FIELD_PROP_SCHEMA_DRILL_DOWN: 'Drill Down',
     REPORT_PART_FIELD_PROP_SCHEMA_SUB_REPORT: 'Sub Report',
     REPORT_PART_FIELD_PROP_SCHEMA_SUB_REPORT_SETTING: 'Subreport Settings',
@@ -2038,10 +2177,12 @@ IzendaSynergy.Localizer.registerLanguage({
     REPORT_PART_FORM_CONSTANTS_MESSAGE_FIELD_NAME_ALIAS_NOT_UNIQUE: 'The field name alias {0} is not unique.',
     REPORT_PART_FORM_CONSTANTS_MESSAGE_FIELD_NOT_FOUND: 'The field [{0}] is not found.',
     REPORT_PART_FORM_CONSTANTS_MESSAGE_REPORT_NOT_FOUND: 'The report [{0}] is not found',
-    REPORT_PART_FORM_CONSTANTS_MESSAGE_REPORT_PART_NAME_NOT_UNIQUE: 'The inserted report part\'s name is not unique',
+    REPORT_PART_FORM_CONSTANTS_MESSAGE_REPORT_PART_NAME_NOT_UNIQUE: "The inserted report part's name is not unique",
     REPORT_PART_FORM_CONSTANTS_MESSAGE_REPORT_PART_NOT_FOUND: 'The report part [{0}] is not found',
-    REPORT_PART_FORM_CONSTANTS_MESSAGE_DOES_NOT_ALLOW_SUBTOTAL_IN_PARALLEL: 'Subtotals are not supported in parallel repeaters, please structure as nested repeaters.',
-    REPORT_PART_FORM_CONSTANTS_MESSAGE_SUBTOTAL_IN_CHILD_LEVEL: 'System does not allow to put the subtotal smart tag at level which is lower than the selected field.',
+    REPORT_PART_FORM_CONSTANTS_MESSAGE_DOES_NOT_ALLOW_SUBTOTAL_IN_PARALLEL:
+      'Subtotals are not supported in parallel repeaters, please structure as nested repeaters.',
+    REPORT_PART_FORM_CONSTANTS_MESSAGE_SUBTOTAL_IN_CHILD_LEVEL:
+      'System does not allow to put the subtotal smart tag at level which is lower than the selected field.',
     REPORT_PART_FORM_CONSTANTS_MESSAGE_NO_SUBTOTAL_INFO_SET_UP:
       'The field [{0}] is used in subtotal smart tag but no subtotal info was set up for it yet.',
     REPORT_PART_FORM_CONSTANTS_MESSAGE_SUBTOTAL_INSIDE_REPEATER:
@@ -2080,7 +2221,7 @@ IzendaSynergy.Localizer.registerLanguage({
       'The low value must be less than the high value',
     REPORT_PART_GAUGE_CONSTANTS_MESSAGE_THRESHOLDS_MUST_BE_WITHIN_SCALE_FORM_SCALE_TO:
       'The thresholds\' value must be within "Scale From" and "Scale To" value',
-    GAUGE_MESSAGE_THRESHOL_NUMBER: 'Thresholds\' value must be numeric',
+    GAUGE_MESSAGE_THRESHOL_NUMBER: "Thresholds' value must be numeric",
     GAUGE_MESSAGE_SCALE_RANGE: 'The Scale From must be lower than Scale To',
     GAUGE_MESSAGE_THRESHOLD_MAX_VALUE:
       'The Scale From must be lower than the max data value returned. Cannot draw the gauge',
@@ -2122,6 +2263,7 @@ IzendaSynergy.Localizer.registerLanguage({
     REPORT_PART_GRID_CONSTANTS_LABEL_LINE_WITH_LABEL: 'Line With Label',
     REPORT_PART_GRID_CONSTANTS_LABEL_MULTI_LEVEL: 'Multi Level',
     REPORT_PART_GRID_CONSTANTS_LABEL_MULTI_LEVEL_WITH_LABEL: 'Multi Level With Label',
+    REPORT_PART_GRID_CONSTANTS_LABEL_LOGICAL: 'Logical',
     REPORT_PART_GRID_CONSTANTS_MESSAGE_SEPARATOR_CONFIRM:
       'The Separator container will be hidden and its fields will be removed. Are you sure you want to hide it?',
     REPORT_PART_GRID_CONSTANTS_MESSAGE_FUNCTION_INCONSISTENT:
@@ -2138,6 +2280,7 @@ IzendaSynergy.Localizer.registerLanguage({
 
     // REPORT_PART_PROPS_CHART_SCHEMA
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_TYPE: 'Chart Type',
+    REPORT_PART_PROPS_CHART_SCHEMA_LABEL_LIBRARY: 'Library',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_BORDER_SETTINGS: 'Chart Border Settings',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_BACKGROUND_COLOR_SETTINGS: 'Chart Background Color Settings',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_XY_PLANE: 'XY-Plane',
@@ -2148,10 +2291,11 @@ IzendaSynergy.Localizer.registerLanguage({
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_GRID_LINES_SETTINGS: 'Grid Lines Settings',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_MULTI_COLOR_SETTINGS: 'Multi-Color Setting',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_MULTI_COLOR: 'Multi-Color',
-    REPORT_PART_PROPS_CHART_SCHEMA_LABEL_MULTI_COLOR_INFO: 'This option sets each value in a single metric chart to a new color, this is only available for single metric charts.',
-    REPORT_PART_PROPS_CHART_SCHEMA_LABEL_MULTI_LEVEL_SETTINGS: 'Multi-Level Setting',		
-    REPORT_PART_PROPS_CHART_SCHEMA_LABEL_MULTI_LEVEL: 'Multi-Level',		
-    REPORT_PART_PROPS_CHART_SCHEMA_LABEL_MULTI_LEVEL_INFO:		
+    REPORT_PART_PROPS_CHART_SCHEMA_LABEL_MULTI_COLOR_INFO:
+      'This option sets each value in a single metric chart to a new color, this is only available for single metric charts.',
+    REPORT_PART_PROPS_CHART_SCHEMA_LABEL_MULTI_LEVEL_SETTINGS: 'Multi-Level Setting',
+    REPORT_PART_PROPS_CHART_SCHEMA_LABEL_MULTI_LEVEL: 'Multi-Level',
+    REPORT_PART_PROPS_CHART_SCHEMA_LABEL_MULTI_LEVEL_INFO:
       'This option illustrates the hierarchy property of the Treemap data inside only one chart.',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_LABELS: 'Labels',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_DATA_LABELS: 'Data Labels',
@@ -2303,8 +2447,6 @@ IzendaSynergy.Localizer.registerLanguage({
     REPORTS_CONSTANTS_REPORT_MESSAGE_TEXT_CREATE_SUB_CATEGORY: '(Enter to create new Sub-Category)',
     REPORTS_CONSTANTS_REPORT_LABEL_REPORT_PART_PROPERTIES: 'Report Part Properties',
     REPORTS_CONSTANTS_REPORT_LABEL_FORMAT_PROPERTIES: 'Format Properties',
-    REPORTS_CONSTANTS_REPORT_LABEL_FREEZE_BTN_LABEL: 'Freeze',
-    REPORTS_CONSTANTS_REPORT_LABEL_UNFREEZE_BTN_LABEL: 'Unfreeze',
     REPORTS_CONSTANTS_REPORT_LABEL_SUBREPORT: 'Subreport',
     REPORTS_CONSTANTS_REPORT_LABEL_MOVE: 'Move ',
     REPORTS_CONSTANTS_REPORT_LABEL_COPY: 'Copy ',
@@ -2414,8 +2556,8 @@ IzendaSynergy.Localizer.registerLanguage({
     REPORT_PART_MAP_POINT_latitude: 'Latitude',
     REPORT_PART_MAP_POINT_longtitude: 'Longitude',
     REPORT_PART_MAP_POINT_latitude_longtitude: 'Latitude/Longitude',
-    REPORT_PART_MAP_GOOGLE_MAP_ERROR : 'Cannot draw Google map. Please contact System Administrator for assistance.',
-    
+    REPORT_PART_MAP_GOOGLE_MAP_ERROR: 'Cannot draw Google map. Please contact System Administrator for assistance.',
+
     // THRESHOLD_GRID_CONSTANT
     THRESHOLD_GRID_CONSTANT_LABEL: 'Label',
     THRESHOLD_GRID_CONSTANT_DASHSTYLE: 'DashStyle',
@@ -2446,20 +2588,25 @@ IzendaSynergy.Localizer.registerLanguage({
     REGRESSION_LINE_OPTION_LOGARITHMIC: 'Logarithmic',
     REGRESSION_LINE_OPTION_EXPONENTIAL: 'Exponential',
     REGRESSION_LINE_FIELD_SELECT: 'Select a field',
-    REGRESSION_LINE_FIELD_SELECT_TOOLTIP: 'The regression line settings persist for each selected field. Please click "Ok" button to apply the settings to the chart.',
-    REGRESSION_LINE_NAME_TOOLTIP: 'The name as it appears in the legend and tooltip. Use the following replacements:\n%r: Value of correlation coefficient\n%r2: Value of coefficient of determination\n%eq: Regression equation\n%se: Standard error\nDefault: Equation: %eq',
+    REGRESSION_LINE_FIELD_SELECT_TOOLTIP:
+      'The regression line settings persist for each selected field. Please click "Ok" button to apply the settings to the chart.',
+    REGRESSION_LINE_NAME_TOOLTIP:
+      'The name as it appears in the legend and tooltip. Use the following replacements:\n%r: Value of correlation coefficient\n%r2: Value of coefficient of determination\n%eq: Regression equation\n%se: Standard error\nDefault: Equation: %eq',
     REGRESSION_LINE_HIDE_IN_LEGEND: 'Hide in legend',
     REGRESSION_LINE_TYPE: 'Regression Type',
     REGRESSION_LINE_ORDER: 'Order',
     REGRESSION_LINE_DECIMAL_PLACES: 'Decimal Places',
     REGRESSION_LINE_EXTRAPOLATE: 'Extrapolate',
     REGRESSION_LINE_EXTRAPOLATE_TOOLTIP: 'The resulting curve will be extended beyond the end of the known data.',
-    REGRESSION_LINE_DECIMAL_PLACES_TOOLTIP: 'Set the number of decimal places for r, r2, se, and coordinate. Default: 2',
+    REGRESSION_LINE_DECIMAL_PLACES_TOOLTIP:
+      'Set the number of decimal places for r, r2, se, and coordinate. Default: 2',
     REGRESSION_POLYNOMIAL_ORDER_TWO: 'Polynomial forms a quadratic expression (parabolic curve)',
     REGRESSION_POLYNOMIAL_ORDER_THREE: 'Polynomial forms a cubic expression',
     REGRESSION_POLYNOMIAL_ORDER_FOUR: 'Polynomial forms a quartic expression',
-    REGRESSION_LINE_POPUP_WARNING: 'Regression line doesn’t work with Separator fields. Do you want to remove the Separator fields and apply the regression line?',
-    REGRESSION_LINE_REMOVE_WARNING: 'Regression line is not supported with Separator fields. Do you want to remove the regression line settings and apply the Separators?',
+    REGRESSION_LINE_POPUP_WARNING:
+      'Regression line doesn’t work with Separator fields. Do you want to remove the Separator fields and apply the regression line?',
+    REGRESSION_LINE_REMOVE_WARNING:
+      'Regression line is not supported with Separator fields. Do you want to remove the regression line settings and apply the Separators?',
 
     // SETTINGS_CONTEXT_MENU
     SETTINGS_CONTEXT_MENU_MESSAGE_CONFIRM_MESSAGE_CHANGE_TENANT:
@@ -2535,7 +2682,8 @@ IzendaSynergy.Localizer.registerLanguage({
     REPORT_PART_PROPS_GRID_SCHEMA_LABEL_DATA_REFRESH_INTERVAL: 'Data Refresh Interval',
     REPORT_PART_PROPS_GRID_SCHEMA_LABEL_EXPORT_COLUMNS_PER_PAGE: 'No. of Columns Per Exported Page',
     REPORT_PART_PROPS_GRID_SCHEMA_LABEL_PAGE_BREAK_AFTER_SEPARATOR: 'Page Break After Separator',
-    REPORT_PART_PROPS_GRID_SCHEMA_LABEL_COLLAPSE_DRILLDOWN_BY_DEFAULT: 'Collapse Drilldown by Default',
+    REPORT_PART_PROPS_GRID_SCHEMA_LABEL_COLLAPSE_DRILLDOWN_BY_DEFAULT: 'Collapse Expanders by Default',
+    REPORT_PART_PROPS_GRID_SCHEMA_LABEL_EXPANDER_ROW_SPACING: 'Expander Row Spacing',
 
     // CALCULATED_FIELD_PROPERTIES_SCHEMA
     CALCULATED_FIELD_PROPERTIES_SCHEMA_LABEL_FIELD_PROPERTIES: 'FIELD PROPERTIES',
@@ -2581,6 +2729,10 @@ IzendaSynergy.Localizer.registerLanguage({
     FORMAT_PROPERTIES_LABEL_ITEM_FORMATTING: 'Item Formatting',
     FORMAT_PROPERTIES_LABEL_DEFAULT_IMAGE_BUTTON: 'Use Default Image',
 
+    //IMAGE_DIMENSIONS
+    FORMAT_PROPERTIES_LABEL_IMAGE_DIMENSIONS: 'Dimensions',
+    FORMAT_PROPERTIES_LABEL_IS_CONSTRIN_PROPORTIONS: 'Constrain Proportions',
+
     // EXPORT_CONSTANTS
     EXPORT_CONSTANTS_LABEL_MARGIN_TOP: 'Top',
     EXPORT_CONSTANTS_LABEL_MARGIN_LEFT: 'Left',
@@ -2612,11 +2764,13 @@ IzendaSynergy.Localizer.registerLanguage({
     COMPARISION_IS_BLANK: 'IS BLANK',
     COMPARISION_IS_NOT_BLANK: 'IS NOT BLANK',
     COMPARISION_FIELD: 'Field',
+    COMPARISION_FILTER: 'Filter',
     COMPARISION_DATE_AND_TIME: 'Date & Time',
     COMPARISION_DATE: 'Date',
     COMPARISION_TIME: 'Time',
-    COMPARISION_FIELD_COMPRARISION: 'Field Comparison',
-    COMPARISION_VALUE_COMPRARISION: 'Value Comparison',
+    COMPARISION_FILTER_COMPARISON: 'Filter Comparison',
+    COMPARISION_FIELD_COMPARISON: 'Field Comparison',
+    COMPARISION_VALUE_COMPARISON: 'Value Comparison',
     COMPARISION_BOOLEAN: 'Boolean',
 
     // NOTIFICATION MESSAGES
@@ -2625,25 +2779,42 @@ IzendaSynergy.Localizer.registerLanguage({
     NOTIFICATION_PROVISION_MAP_DATA_IMPORT_FAILED:
       'The map data provisioning process has failed. The map cannot be drawn at this time. Please re-provision it.',
 
+    // NOTIFICATION MESSAGES FOR NLQ Configuration
+    NLQ_MODULE_CONFIGURED: 'NLQ Module Configured Successfully',
+    NLQ_MODULE_CONFIGURATION_FAILED: 'NLQ Module configuration has been failed',
+
+   //NOTIFICATION NLQ SAVE REPORT
+    NOTIFICATION_NLQ_SAVE_REPORT:
+       'saved successfully',
+    NOTIFICATION_NLQ_SAVE_REPORT_FAILED:
+       'saving failed ',
+    // NOTIFICATION MESSAGES FOR NLQ RESET
+    NLQ_RESET_SUCCESS: 'NLQ configuration reset successfully',
+    NLQ_RESET_FAILED: 'NLQ configuration reset failed',
     // IMPORT
     IMPORT_BROWSE: 'Browse Files',
     IMPORT_THE_SOURCE_ACCESS_RIGHT: 'Import the source access rights',
     IMPORT_THE_SOURCE_CATEGORY_SUBCATEGORY: 'Import the source category/subcategory',
     IMPORT_THE_FILTER_VALUES: 'Import the filter values',
-    INSTRUCTION_BROWSE_FILES: 'Click "Browse Files" to import your .birt (Report Definition) or .bidb (Dashboard Definition) files.',
+    INSTRUCTION_BROWSE_FILES:
+      'Click "Browse Files" to import your .birt (Report Definition) or .bidb (Dashboard Definition) files.',
 
-    IMPORT_ERROR_MESSAGE: 'The system cannot import any definition files that are from a newer version than {0}, or any files with an invalid structure. These items will not be loaded into the grid.',
+    IMPORT_ERROR_MESSAGE:
+      'The system cannot import any definition files that are from a newer version than {0}, or any files with an invalid structure. These items will not be loaded into the grid.',
     IMPORT_LABEL_DRAG_AND_DROP_FILES: 'Drag and drop files here to upload',
-    IMPORT_LABEL_VALIDATION_ERRORS_FILES: 'Validation Errors - These files will not be available in the import session:',
+    IMPORT_LABEL_VALIDATION_ERRORS_FILES: 'Validation Errors - These files will not be available:',
     IMPORT_LABEL_INVALID_FILE_FORMAT: 'Invalid File Format',
 
     IMPORT_DELETE_MESSAGE: 'Are you sure you want to delete {0} file?',
     IMPORT_DELETE_SELECTED_MESSAGE: 'Are you sure you want to delete selected files?',
 
     // IMPORT TOOLTIP DEFINITIONS
-    TOOLTIP_IMPORT_THE_SOURCE_ACCESS_RIGHT: 'When enabled, any sharing rights for "Everyone" and roles which exist in this location will be imported. If not, the selected access rights will not import and if you are importing a report again, the current access rights will not be altered.',
-    TOOLTIP_IMPORT_THE_FILTER_VALUES: 'If this option is checked, any filter values will be imported. If not selected, the filter values will not be imported, and if you are importing a report again, the current filter values will not be altered',
-    TOOLTIP_IMPORT_THE_SOURCE_CATEGORY_SUBCATEGORY: 'If this option is checked, the system uses the same category/subcategory name that the report was exported from.',
+    TOOLTIP_IMPORT_THE_SOURCE_ACCESS_RIGHT:
+      'When enabled, any sharing rights for "Everyone" and roles which exist in this location will be imported. If not, the selected access rights will not import and if you are importing a report again, the current access rights will not be altered.',
+    TOOLTIP_IMPORT_THE_FILTER_VALUES:
+      'If this option is checked, any filter values will be imported. If not selected, the filter values will not be imported, and if you are importing a report again, the current filter values will not be altered',
+    TOOLTIP_IMPORT_THE_SOURCE_CATEGORY_SUBCATEGORY:
+      'If this option is checked, the system uses the same category/subcategory name that the report was exported from.',
 
     // IMPORT SOURCE TYPE
     IMPORT_CONSTANTS_SOURCE_TYPE_FILENAME: 'File Name',
@@ -2662,18 +2833,22 @@ IzendaSynergy.Localizer.registerLanguage({
 
     // MAPPING ERROR POPUP
     IMPORT_MAPPING_ERROR_POPUP_TITLE: 'Mapping Error',
-    IMPORT_MAPPING_ERROR_INCONSISTENT_DATA: 'Below reports/dashboards have inconsistent data between source and destination.',
+    IMPORT_MAPPING_ERROR_INCONSISTENT_DATA:
+      'Below reports/dashboards have inconsistent data between source and destination.',
     IMPORT_MAPPING_ERROR_GUIDES: 'Please correct the database mappings or remove the inconsistent reports/dashboards.',
-    IMPORT_CONFORM_REMOVE_ALL_FILE: 'Are you sure you want to leave this page? Any files uploaded from this page will be deleted.',
+    IMPORT_CONFORM_REMOVE_ALL_FILE:
+      'Are you sure you want to leave this page? Any files uploaded from this page will be deleted.',
     IMPORT_MAPPING_ERROR_OBJECT_LOCATION: 'in the file',
-    
+
     // IMPORT POPUP
     REPORT_DETAILS_AND_MAPPINGS: 'Report Details and Mappings',
 
     // IMPORT OVERWRITE CONFIRMATION POPUP:
     IMPORT_OVERWRITE_CONFIMATION_POPUP_TITLE: 'Import Reports/Dashboards - Overwrite Confirmation',
-    IMPORT_OVERWRITE_CONFIMATION_POPUP_TOOLTIP: 'The reports inside the dashboard are not listed here as they will be overwritten if they exist in the destination when you select the dashboard to overwrite',
-    IMPORT_OVERWRITE_CONFIMATION_POPUP_DESCRIPTION: 'Below reports/dashboards are currently existing in destination.\nPlease select the reports/dashboards you want to overwrite in destination.',
+    IMPORT_OVERWRITE_CONFIMATION_POPUP_TOOLTIP:
+      'The reports inside the dashboard are not listed here as they will be overwritten if they exist in the destination when you select the dashboard to overwrite',
+    IMPORT_OVERWRITE_CONFIMATION_POPUP_DESCRIPTION:
+      'Below reports/dashboards are currently existing in destination.\nPlease select the reports/dashboards you want to overwrite in destination.',
 
     // IMPORT PROGRESS POPUP
     IMPORT_PROGRESS_POPUP_TITLE: 'Import Progress...',
@@ -2722,7 +2897,49 @@ IzendaSynergy.Localizer.registerLanguage({
     // THRESHOLD SETTINGS
     THREHOSLD_X_LABEL: 'Apply static threshold on X-Axis',
     THREHOSLD_Y_LABEL: 'Apply threshold on Y-Axis',
-    THRESHOLDS_TITLE_POPUP_CHANGE_FIELD: 'Change field or alter function'
+    THRESHOLDS_TITLE_POPUP_CHANGE_FIELD: 'Change field or alter function',
+
+    //CONDITIONAL FORMATTING SETTINGS
+    CONDITIONAL_FORMATTING_LABEL_EDIT_CONDITION: 'Edit Condition',
+    CONDITIONAL_FORMATTING_LABEL_EDIT_FORMAT: 'Edit Format',
+    CONDITIONAL_FORMATTING_LABEL_EDIT_FIELDS: 'Edit Fields',
+    CONDITIONAL_FORMATTING_LABEL_ADD_RULE: 'Add Rule',
+    CONDITIONAL_FORMATTING_LABEL_CLONE_RULE: 'Clone Rule',
+    CONDITIONAL_FORMATTING_LABEL_DELETE_RULE: 'Delete Rule',
+    CONDITIONAL_FORMATTING_LABEL_CONDITION_FIELD: 'Field',
+    CONDITIONAL_FORMATTING_LABEL_CONDITION_TYPE: 'Type',
+    CONDITIONAL_FORMATTING_LABEL_CONDITION_VALUE: 'Value',
+    CONDITIONAL_FORMATTING_LABEL_FORMAT_TYPE: 'Type',
+    CONDITIONAL_FORMATTING_LABEL_FORMAT_VALUE: 'Value',
+    CONDITIONAL_FORMATTING_LABEL_SELECT_ALL_FIELDS: 'Select All',
+    CONDITIONAL_FORMATTING_LABEL_RESET_ALL_FIELDS: 'Reset All',
+    CONDITIONAL_FORMATTING_LABEL_NOT_SELECTED: 'Not selected',
+    CONDITIONAL_FORMATTING_LABEL_MORE: 'More',
+    CONDITIONAL_FORMATTING_TABEL_CONDITION_COL: 'Condition',
+    CONDITIONAL_FORMATTING_TABEL_FIELDS_COL: 'Apply to Fields',
+    CONDITIONAL_FORMATTING_TABEL_FORMAT_COL: 'Format',
+    CONDITIONAL_FORMATTING_CONDITION_POPUP_TITLE: 'Condition',
+    CONDITIONAL_FORMATTING_FIELDS_POPUP_TITLE: 'Selected Fields',
+    CONDITIONAL_FORMATTING_FORMAT_POPUP_TITLE: 'Format',
+    CONDITIONAL_FORMATTING_ADDITIONAL_CONDITIONS_POPUP_TITLE: 'Additional Conditions',
+
+    //NLQ SAVE POPUP
+    NLQ_SAVE_POPUP_CHOOSE_LABEL: 'Choose how you want to save your data',
+    NLQ_SAVE_POPUP_ADD_TITLE: 'Add a title',
+    NLQ_SAVE_POPUP_REPORT_TITLE: 'Report title',
+    NLQ_SAVE_POPUP_DASHBOARD_TITLE: 'Dashboard title',
+    NLQ_SAVE_POPUP_SAVE_TO: 'Save to',
+    NLQ_SAVE_POPUP_ADD_NEW_CATEGORY: 'Add New Category',
+    NLQ_SAVE_POPUP_CREATE_NEW_REPORT: ' Create New Report ',
+    NLQ_SAVE_POPUP_CREATE_NEW_DASHBOARD: ' Create New DashBoard ',
+    NLQ_MODAL_REPORT_ALREADY_CREATED_MSG: 'You have already saved your report',
+    NLQ_SAVE_POPUP_DUPLICATE_REPORT_MSG: 'Report name already available',
+    NLQ_MODAL_REPORT_NAME_MANDATORY: 'Report Name is required.',
+    NLQ_MODAL_DASHBOARD_NAME_MANDATORY: 'Dashboard Name is required.',
+    NLQ_MODAL_DASHBOARD_DUPLICATE_NAME_MSG: 'Dashboard Name is already available.',
+    NLQ_MODAL_DASHBOARD_ALREADY_CREATED_MSG: 'You have already saved your dashboard',
+    NLQ_SAVE_POPUP_BLANK_CATEGORY_MSG: 'Category name can not be blank',
+    NLQ_SAVE_POPUP_DUPLICATE_CATEGORY_MSG: 'Category name already available'
   },
   'en-US'
 );
