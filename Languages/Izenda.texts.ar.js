@@ -253,7 +253,6 @@ COMMON_LABEL_YOUR_ANSWER : 'اجابتك',
 COMMON_LABEL_YOUR_ANSWER_IS_REQUIRED : 'إجابتك مطلوبة',
 COMMON_LABEL_UNDEFINED_VALUE : 'قيمة غير محددة',
 COMMON_LABEL_COPY_SETTINGS : 'نسخ الإعدادات',
-COMMON_LABEL_COPY_RELATIONSHIP_POSITION_ID : 'نسخ العلاقة PositionID',
 COMMON_LABEL_HELP_SYSTEM : 'نظام المساعدة',
 COMMON_LABEL_BACK : 'الى الخلف',
 COMMON_LABEL_GLOBAL_REPORT : 'تقرير عالمي',
@@ -385,48 +384,22 @@ SECURITY_TENANT_FIELD_NO_RESULT_TEXT : 'أدخل لإضافة حقل المست�
 SECURITY_RESET_TENANT_FIELD_TOOLTIP : 'العودة إلى القيمة الافتراضية.',
 SECURITY_LABEL_SYSTEM_TENANT_FIELD : 'حقل المستأجر النظام:',
 OTHER_SETTINGS_LABEL_SORT_COLUMN_NAME : 'فرز اسم العمود',
-OTHER_SETTINGS_SORT_COLUMN_NAME : 'إذا كان ذلك صحيحًا ، ففرز حسب الموضع في قاعدة البيانات. إذا كان خطأ ، فقم بالترتيب الأبجدي.',
 OTHER_SETTINGS_LABEL_TRIM_TIME_IN_JOINS : 'تقليم الوقت في المفاصل',
-OTHER_SETTINGS_TRIM_TIME_IN_JOINS : 'يعين ما إذا كانت الصلات باستخدام حقول DateTime ستستخدم الجزء الزمني من الحقل.',
 OTHER_SETTINGS_LABEL_TIMEZONE_FOR_DATA_OFFSET : 'المنطقة الزمنية لإزاحة البيانات',
-OTHER_SETTINGS_TIMEZONE_FOR_DATA_ZONE : 'يضبط القيمة التي تشير إلى إزاحة المنطقة الزمنية لبيانات قاعدة البيانات في مصمم التقرير / العارض / لوحة القيادة في ساعات.',
 OTHER_SETTINGS_LABEL_TIMEZONE_FOR_TIMESTAMP_OFFSET : 'المنطقة الزمنية لإزاحة الطابع الزمني',
-OTHER_SETTINGS_TIMEZONE_FOR_TIMESTAMP_ZONE : 'يضبط القيمة التي تشير إلى إزاحة المنطقة الزمنية للطوابع الزمنية المستخدمة في النظام بالساعات.',
 OTHER_SETTINGS_LABEL_CONVERT_NULL_TO_EMPTY_STRING : 'تحويل خالية إلى سلسلة فارغة',
-OTHER_SETTINGS_CONVERT_NULL_TO_EMPTY_STRING : 'إذا تم تشغيل هذه العلامة ، فسيظهر النظام فارغًا لأي حقل يحتوي على NULL وفارغًا لأي حقل يحتوي على فارغ.',
 OTHER_SETTINGS_LABEL_SHOW_SCHEMA_NAME : 'إظهار اسم المخطط',
-OTHER_SETTINGS_SHOW_SCHEMA_NAME : 'قم بتعيين إذا تم عرض اسم المخطط مع اسم مصدر البيانات',
 OTHER_SETTINGS_LABEL_SHOW_INTRODUCTION_NAME : 'عرض نص المقدمة',
-OTHER_SETTINGS_SHOW_INTRODUCTION_NAME : 'قم بتعيين إذا تم عرض نص المقدمة في علامة تبويب مصدر بيانات مصمم التقارير',
 OTHER_SETTINGS_LABEL_INTRODUCTION_TEXT : 'مقدمة النص',
-OTHER_SETTINGS_INTRODUCTION_TEXT : 'قم بتعيين نص التعليمات لتوجيه المستخدمين النهائيين لإنشاء التقارير',
 OTHER_SETTINGS_LABEL_SEND_TO_DISK_PATH : 'إرسال إلى مسار القرص',
-OTHER_SETTINGS_SEND_TO_DISK_PATH : 'يضبط المسار حيث سيتم حفظ الملفات لأي مثيلات مجدولة مع تحديد موقع إرسال إلى القرص',
 OTHER_SETTINGS_LABEL_EXCEL_DATA_FILES_PATH : 'اكسل مسار ملفات البيانات',
-OTHER_SETTINGS_EXCEL_DATA_FILES_PATH : 'يضبط المسار حيث سيتم تحميل ملفات مصدر البيانات excel',
-OTHER_SETTINGS_RESET_TO_DEFAULT : 'العودة إلى القيمة الافتراضية.',
-OTHER_SETTINGS_INTRODUCTION_TEXT_REQUIRED : 'نص المقدمة مطلوب.',
 OTHER_SETTINGS_LABEL_DETERMINE_COMMON_FILTER : 'تحديد مرشح مشترك لنفس الحقل على أساس',
 OTHER_SETTINGS_TOOLTIP_DETERMINE_COMMON_FILTER : 'قم بتكوين الكيفية التي ينبغي للنظام مراعاتها فيما إذا كانت المرشحات المختلفة ستقوم بترشيح حقل &quot;الاسم&quot; أم لا بحيث تكون مؤهلة للتفكير كمرشح شائع في لوحة المعلومات.',
-OTHER_SETTINGS_SAMEFIELD_SAMEDBSCHEMA : 'نفس حقل كائن البيانات نفسه من نفس مخطط قاعدة البيانات',
-OTHER_SETTINGS_SAMEFIELD_SAMEDBSCHEMA_OR_CONNECTIONSTRING : 'نفس اسم الحقل بغض النظر عن مخطط قاعدة البيانات أو سلسلة الاتصال',
-OTHER_SETTINGS_SAMEALIAS : 'الاسم المستعار نفسه بغض النظر عن مخطط قاعدة البيانات أو سلسلة الاتصال',
 OTHER_SETTINGS_LABEL_DETERMINE_INHERIT_FILTER : 'تحديد مرشح وراثي لنفس الحقل على أساس',
 OTHER_SETTINGS_TOOLTIP_DETERMINE_INHERIT_FILTER : 'قم بتكوين الطريقة التي ينبغي للنظام مراعاتها فيما إذا كانت المرشحات المختلفة ستقوم بتصفية حقل &quot;الاسم&quot; أم لا بحيث تكون قيمها مؤهلة للتوريث في التقرير الفرعي.',
-OTHER_SETTINGS_IHS_FIELD_ID : 'نفس حقل كائن البيانات نفسه من نفس مخطط قاعدة البيانات',
-OTHER_SETTINGS_IHS_FIELD_NAME : 'نفس اسم الحقل بغض النظر عن مخطط قاعدة البيانات أو كائن البيانات',
-OTHER_SETTINGS_MAXIMUM_SUBREPORT_LEVEL : 'الحد الأقصى لمستوى تداخل التقرير الفرعي المدمج للتصدير ({0} - {1})',
 OTHER_SETTINGS_TOOLTIP_MAXIMUM_SUBREPORT_LEVEL : 'قم بتكوين كيفية عرض النظام للتقارير الفرعية المدمجة للتصدير. إذا كان مستوى التعشيش أعلى من المستوى المحدد ، فسيتم عرض التقارير الفرعية المدمجة كروابط. ملاحظة: زيادة الحد الأقصى للتقرير الفرعي المتداخل للتصدير بما يتجاوز &quot;1&quot; قد يؤثر بشدة على أداء التصدير.',
-OTHER_SETTINGS_MAXIMUM_SUBREPORT_LEVEL_REQUIRED : 'مطلوب الحد الأقصى لمستوى تداخل التقرير الفرعي المدمج.',
-OTHER_SETTINGS_MAXIMUM_SUBREPORT_LEVEL_NUMBERICALITY : 'يجب أن يكون الحد الأقصى لمستوى تداخل التقرير الفرعي المضمن هو رقم صحيح.',
-OTHER_SETTINGS_MAXIMUM_SUBREPORT_LEVEL_GREATER_THAN : 'يجب أن يكون الحد الأقصى لمستوى تداخل التقرير الفرعي المدمج أكبر من أو يساوي {0}.',
-OTHER_SETTINGS_MAXIMUM_SUBREPORT_LEVEL_LESS_THAN : 'يجب أن يكون الحد الأقصى لمستوى تداخل التقرير الفرعي المدمج أصغر من أو يساوي {0}.',
 OTHER_SETTING_LABEL_MULTIPLE_SORT_ON_GRID_HEADER : 'السماح لأنواع متعددة على رأس الشبكة',
-OTHER_SETTING_MULTIPLE_SORT_ON_GRID_HEADER : 'في حالة تشغيل هذه العلامة ، يسمح النظام بفرز أعمدة متعددة في رأس الشبكة. في حالة إيقاف تشغيل هذه العلامة ، يسمح النظام بفرز عمود واحد في رأس الشبكة',
-OTHER_SETTING_LABEL_SHOW_PREVIEW_HEADER : 'إظهار قسم المعاينة في وضع التكوين',
-OTHER_SETTING_LABEL_SHOW_PREVIEW_TOOLTIP : 'تكوين لإظهار أو إخفاء قسم المعاينة في الجزء الخلفي من التقرير.',
 OTHER_SETTING_LABEL_HIDE_HEADER_FOOTER_IN_REPORT : 'إخفاء رأس التقرير وتذييله بشكل افتراضي',
-OTHER_SETTING_LABEL_HIDE_HEADER_FOOTER_IN_REPORT_TOOLTIP : 'تكوين لإخفاء أو إظهار قسم رأس وتذييل الصفحة في &quot;عارض التقرير&quot; و &quot;مصمم تقرير&quot; بشكل افتراضي.',
 RELATIONSHIP_MESSAGE_CONFIRM_DELETE_RELATIONSHIP_HAS_USED : 'سيتأثر أي جزء تقرير مبني من هذه العلاقة. هل أنت متأكد أنك تريد حذف هذه العلاقة؟',
 RELATIONSHIP_MESSAGE_CONFIRM_DELETE_RELATIONSHIP : 'هل أنت متأكد أنك تريد حذف العلاقة؟',
 RELATIONSHIP_MESSAGES_CONFIRM_SAVE_WITH_POSITION_ID : 'هناك بعض العلاقات التي لها مجموعة موضع. وبالتالي ، في استعلام التقرير ، سيتم وضع هذه العلاقات بالترتيب فوق جميع الصلات غير ذات الأولوية ، بغض النظر عن نوع الصلة.',
@@ -811,7 +784,6 @@ COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_DATA_MODEL : 'نموذج البيانات
 COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ADVANCED_DATA_SETTING : 'إعدادات البيانات المتقدمة',
 COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_TENANT_PERMISSIONS : 'أذونات المستأجر',
 COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ROLES : 'الأدوار',
-COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ROLE_PERMISSIONS : 'الأدوار',
 COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_SELECT_ROLES_TO_COPY : 'يرجى تحديد الأدوار لنسخها',
 COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_SET_DESCRIPTION : 'تعيين الوصف',
 COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_REVERT_DESCRIPTION : 'العودة الوصف',
@@ -2212,7 +2184,6 @@ SECURITY_RENDER_HTML_EXPORT : 'تقديم HTML في الطباعة / التصد�
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'تقديم HTML في عارض التقارير',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'إذا تم تحديد ذلك ، فسيتم عرض محتوى HTML من الحقول في عارض التقارير',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'ترميز المتغيرات في عنوان URL المخصص',
-OTHER_SETTINGS_ENCODE_VARIABLES_IN_CUSTOM_URL : 'في حالة تشغيل هذه العلامة ، سيقوم النظام بترميز المتغيرات في عنوان URL المخصص.',
 EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;، &quot;DESCRIPTION&quot;: &quot;فضح بيانات جديدة لخدمة استعلام اللغة الطبيعية لدينا لإنشاء تقارير أكثر تعقيدًا.&quot;، &quot;LABEL&quot; : &quot;إضافة مصدر بيانات جديد&quot;} ، &quot;DASHBOARD&quot;: {&quot;DESCRIPTION&quot;: &quot;تصميم لوحة تحكم جديدة لتحسين رؤيتك من تقارير متعددة.&quot;، &quot;LABEL&quot;: &quot;Create Dashboard&quot;}، &quot;REPORT&quot;: {&quot;DESCRIPTION &quot;:&quot; أنشئ تقريرًا جديدًا لعرض تقدم عملك. &quot;،&quot; LABEL &quot;:&quot; إنشاء تقرير &quot;}}',
 EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1، &quot;title&quot;: &quot;Ask your query&quot;}، &quot;results&quot;: {&quot;order&quot;: 2، &quot;title&quot;: &quot;Query results&quot;}، &quot;vis&quot;: {&quot; الطلب &quot;: 3،&quot; title &quot;:&quot; Visualization &quot;}}',
 EXPLORE_SEARCH_PLACEHOLDER : 'اكتب استعلامك هنا ، على سبيل المثال: &quot;متوسط المبيعات بين يونيو 2019 وديسمبر 2020&quot;',
@@ -2291,5 +2262,151 @@ NLQ_MODAL_DASHBOARD_NAME_MANDATORY : 'اسم لوحة المعلومات مطل�
 NLQ_MODAL_DASHBOARD_DUPLICATE_NAME_MSG : 'اسم لوحة التحكم متاح بالفعل.',
 NLQ_MODAL_DASHBOARD_ALREADY_CREATED_MSG : 'لقد قمت بالفعل بحفظ لوحة التحكم الخاصة بك',
 NLQ_SAVE_POPUP_BLANK_CATEGORY_MSG : 'لا يمكن أن يكون اسم الفئة فارغًا',
-NLQ_SAVE_POPUP_DUPLICATE_CATEGORY_MSG : 'اسم الفئة متاح بالفعل'
+NLQ_SAVE_POPUP_DUPLICATE_CATEGORY_MSG : 'اسم الفئة متاح بالفعل',
+CONTEXT_MENU_LABEL_EXPORTING : 'تصدير',
+COMMON_MESSAGES_UNKNOWN_ERROR : 'خطأ غير معروف',
+COMMON_LABEL_NEXT : 'التالى',
+COMMON_LABEL_PREVIOUS : 'السابق',
+COMMON_LABEL_SAVE_CONFIRMATION : 'التأكيد',
+COMMON_LABEL_SAVE_REPORT_BEFORE_DASHBOARD_CONFIRMATION : 'يرجى حفظ التقرير قبل إضافته إلى لوحة التحكم',
+COMMON_LABEL_SAVE_REPORT_BEFORE_EXPORT_CONFIRMATION : 'يرجى حفظ التقرير قبل التصدير',
+COMMON_LABEL_DATA_CONNECTORS : 'موصلات البيانات',
+COMMON_DATA_TYPE_JSON : 'جسون',
+COMMON_DATA_TYPE_XML : 'xml',
+USER_MENU_EXPORT_MANAGER : 'مدير التصدير',
+OTHER_SETTINGS_TOOLTIP_RESET_TO_DEFAULT : 'العودة إلى القيمة الافتراضية.',
+OTHER_SETTINGS_TOOLTIP_SORT_COLUMN_NAME : 'إذا كان صحيحًا ، فقم بالفرز حسب الموضع في قاعدة البيانات. إذا كانت خاطئة ، فقم بالفرز حسب الترتيب الأبجدي.',
+OTHER_SETTINGS_TOOLTIP_TRIM_TIME_IN_JOINS : 'تعيين ما إذا كانت عمليات الانضمام باستخدام حقول التاريخ والوقت ستستخدم جزء الوقت من الحقل.',
+OTHER_SETTINGS_TOOLTIP_TIMEZONE_FOR_DATA_OFFSET : 'يضبط القيمة التي تشير إلى إزاحة المنطقة الزمنية لبيانات قاعدة البيانات في مصمم التقارير / العارض / لوحة المعلومات بالساعات.',
+OTHER_SETTINGS_TOOLTIP_TIMEZONE_FOR_TIMESTAMP_OFFSET : 'يضبط القيمة التي تشير إلى إزاحة المنطقة الزمنية للطوابع الزمنية المستخدمة في النظام بالساعات.',
+OTHER_SETTINGS_TOOLTIP_CONVERT_NULL_TO_EMPTY_STRING : 'إذا تم تشغيل هذه العلامة ، فسيظهر النظام فارغًا لأي حقل يحتوي على NULL وفارغ لأي حقل يحتوي على فارغ.',
+OTHER_SETTINGS_TOOLTIP_ENCODE_VARIABLES_IN_CUSTOM_URL : 'إذا تم تشغيل هذه العلامة ، فسيقوم النظام بتشفير المتغيرات في عنوان URL المخصص.',
+OTHER_SETTINGS_TOOLTIP_SHOW_SCHEMA_NAME : 'حدد ما إذا كان اسم المخطط يظهر مع اسم مصدر البيانات.',
+OTHER_SETTINGS_TOOLTIP_SHOW_INTRODUCTION_NAME : 'حدد ما إذا كان نص المقدمة يظهر في علامة تبويب مصدر بيانات مصمم التقرير.',
+OTHER_SETTINGS_TOOLTIP_INTRODUCTION_TEXT : 'قم بتعيين نص المساعدة لإرشاد المستخدمين النهائيين لإنشاء التقارير.',
+OTHER_SETTINGS_MESSAGE_INTRODUCTION_TEXT_REQUIRED : 'نص المقدمة مطلوب.',
+OTHER_SETTINGS_TOOLTIP_SEND_TO_DISK_PATH : 'يعيّن المسار الذي سيتم فيه حفظ الملفات لأي حالات مجدولة مع تحديد موقع الإرسال إلى القرص.',
+OTHER_SETTINGS_TOOLTIP_EXCEL_DATA_FILES_PATH : 'يعيّن المسار الذي سيتم فيه تحميل ملفات مصدر بيانات Excel.',
+OTHER_SETTINGS_LABEL_SAMEFIELD_SAMEDBSCHEMA : 'نفس الحقل لنفس كائن البيانات من نفس مخطط قاعدة البيانات',
+OTHER_SETTINGS_LABEL_SAMEFIELD_SAMEDBSCHEMA_OR_CONNECTIONSTRING : 'نفس اسم الحقل بغض النظر عن مخطط قاعدة البيانات أو سلسلة الاتصال',
+OTHER_SETTINGS_LABEL_SAMEALIAS : 'نفس الاسم المستعار بغض النظر عن مخطط قاعدة البيانات أو سلسلة الاتصال',
+OTHER_SETTINGS_LABEL_IHS_FIELD_ID : 'نفس الحقل لنفس كائن البيانات من نفس مخطط قاعدة البيانات',
+OTHER_SETTINGS_LABEL_IHS_FIELD_NAME : 'نفس اسم الحقل بغض النظر عن مخطط قاعدة البيانات أو كائن البيانات',
+OTHER_SETTING_TOOLTIP_MULTIPLE_SORT_ON_GRID_HEADER : 'إذا تم تشغيل هذه العلامة ، يسمح النظام بفرز أعمدة متعددة في رأس الشبكة. إذا تم إيقاف تشغيل هذه العلامة ، فإن النظام يسمح بفرز عمود واحد في رأس الشبكة.',
+OTHER_SETTING_LABEL_SHOW_PREVIEW : 'إظهار قسم المعاينة في وضع التكوين',
+OTHER_SETTING_TOOLTIP_SHOW_PREVIEW : 'تكوين لإظهار أو إخفاء قسم المعاينة في الجزء الخلفي لجزء التقرير.',
+OTHER_SETTING_TOOLTIP_HIDE_HEADER_FOOTER_IN_REPORT : 'تكوين لإخفاء أو إظهار مقطع الرأس والتذييل في عارض التقارير ومصمم التقارير بشكل افتراضي.',
+OTHER_SETTING_LABEL_REPEAT_TABLE_HEADER : 'كرر رأس الجدول في النماذج (لملف PDF فقط)',
+OTHER_SETTING_TOOLTIP_REPEAT_TABLE_HEADER : 'تكوين لتكرار رأس الجدول في النماذج الموجودة في كل صفحة PDF.',
+OTHER_SETTINGS_LABEL_MAXIMUM_SUBREPORT_LEVEL : 'الحد الأقصى لمستوى تداخل التقرير الفرعي المضمن للتصدير ({0} - {1})',
+OTHER_SETTINGS_MESSAGE_MAXIMUM_SUBREPORT_LEVEL_REQUIRED : 'الحد الأقصى من مستوى تداخل التقرير الفرعي المضمن مطلوب.',
+OTHER_SETTINGS_MESSAGE_MAXIMUM_SUBREPORT_LEVEL_ONLYINTEGER : 'يجب أن يكون الحد الأقصى لمستوى تداخل التقرير الفرعي المضمن عددًا صحيحًا.',
+OTHER_SETTINGS_MESSAGE_MAXIMUM_SUBREPORT_LEVEL_GREATER_THAN : 'يجب أن يكون الحد الأقصى لمستوى تداخل التقرير الفرعي المضمن أكبر من أو يساوي {0}.',
+OTHER_SETTINGS_MESSAGE_MAXIMUM_SUBREPORT_LEVEL_LESS_THAN : 'يجب أن يكون الحد الأقصى لمستوى تداخل التقرير الفرعي المضمن أقل من أو يساوي {0}.',
+EXPLORE_SEARCH_NLQ_NOT_CONFIGURED : 'لم يتم تكوين NLQ',
+NOTIFICATION_DOWNLOAD_COMPLETE : 'تم التحميل',
+RELATIONSHIP_MESSAGE_CONFIRM_DISABLE_RELATIONSHIP_HAS_USED : 'سيتأثر أي جزء تقرير تم إنشاؤه من هذه العلاقة. هل أنت متأكد أنك تريد تعطيل هذه العلاقة؟',
+RELATIONSHIP_MESSAGE_CONFIRM_DISABLE_RELATIONSHIP : 'هل أنت متأكد أنك تريد تعطيل العلاقة؟',
+REPORTDESIGNER_DASHBOARD_MESSAGE_HINT_CATEGORY : '(أدخل لإنشاء لوحة تحكم جديدة)',
+REPORTDESIGNER_LABEL_Y_AXIS_UPPER : 'المحور ص',
+REPORTDESIGNER_TOOLTIP_USE_EXISTING_Y_AXIS : 'استخدم المحور ص لمقياس موجود',
+REPORTDESIGNER_LABEL_POSITION : 'موضع',
+CONNECTION_IS_DUPLICATED : 'سلسلة الاتصال موجودة بالفعل في اتصال آخر.',
+CONNECTION_EMPTY_NAME_LABEL : '<empty>',
+CONNECTION_ADVANCED_OPTIONS : 'خيارات متقدمة',
+CONNECTION_ADVANCED_OPTIONS_SHOW_LESS : 'عرض أقل',
+CONNECTION_MASTER_POPUP_TITLE : 'اختر نوع خادم البيانات',
+CONNECTION_MASTER_POPUP_TITLE2 : 'إعداد الاتصال',
+CONNECTION_STRING_BUILDER_REST_TITLE : 'REST Adapter Connection String Builder',
+CONNECTION_STRING_BUILDER_REST_ENDPOINT_NAME : 'اسم نقطة النهاية',
+CONNECTION_STRING_BUILDER_REST_ENDPOINT_NAME_HINT : 'اسم نقطة النهاية الحالية',
+CONNECTION_STRING_BUILDER_REST_LABEL_ADDRESS : 'عنوان',
+CONNECTION_STRING_BUILDER_REST_LABEL_ADDRESS_HINT : 'بقية عنوان خادم API ، على سبيل المثال &quot;http: //someserver.aa: 12345&quot;',
+CONNECTION_STRING_BUILDER_REST_LABEL_SCHEMEPATH : 'مسار المخطط',
+CONNECTION_STRING_BUILDER_REST_LABEL_SCHEMEPATH_HINT : '(اختياري) بقية مسار API الذي يُرجع قائمة الجداول. قد يكون في تنسيقات: - مسار واجهة برمجة التطبيقات ، على سبيل المثال &quot;/ مسار / إلى / مخطط&quot; - قائمة أسماء الجداول ، على سبيل المثال &quot;[جدول 1 ، جدول 2 ، .... ، جدول N]&quot; - فارغ. في هذه الحالة ، سيتم تجاهل معلمة اسم الجدول وستحتوي نقطة النهاية على جدول واحد فقط مع بيانات من مسار البيانات.',
+CONNECTION_STRING_BUILDER_REST_LABEL_DATAPATH : 'مسار البيانات',
+CONNECTION_STRING_BUILDER_REST_LABEL_DATAPATH_HINT : 'بقية مسار واجهة برمجة التطبيقات الذي يعرض بيانات الجداول ، على سبيل المثال &quot;/ path / to / data / {0}&quot;. المعلمة الاختيارية المعتمدة: - {0} - اسم الجدول',
+CONNECTION_STRING_BUILDER_REST_LABEL_FLATTENARRAYS : 'تتسطح الصفائف',
+CONNECTION_STRING_BUILDER_REST_LABEL_FLATTENOBJECTS : 'تسطيح الكائنات',
+CONNECTION_STRING_BUILDER_REST_LABEL_DBNAME : 'اسم قاعدة البيانات',
+CONNECTION_STRING_BUILDER_REST_LABEL_FLATTENDEPTH : 'تسطيح العمق',
+CONNECTION_STRING_BUILDER_REST_LABEL_SCHEMENAME : 'اسم النظام',
+CONNECTION_STRING_BUILDER_REST_LABEL_SEPARATOR : 'فاصل العمود الفرعي',
+CONNECTION_STRING_BUILDER_REST_LABEL_CACHE_SETTINGS : 'إعدادات ذاكرة التخزين المؤقت',
+CONNECTION_STRING_BUILDER_REST_LABEL_CACHE_ENABLED : 'طلب تمكين ذاكرة التخزين المؤقت',
+CONNECTION_STRING_BUILDER_REST_LABEL_CACHE_TTL : 'طلب ذاكرة التخزين المؤقت TTL',
+CONNECTION_STRING_BUILDER_ADD_ENDPOINT : 'أضف نقطة نهاية جديدة',
+CONNECTION_STRING_BUILDER_REST_VALIDATION1 : 'بعض القيم المطلوبة فارغة',
+CONNECTION_STRING_BUILDER_REST_VALIDATION2 : 'يجب أن يكون اسم نقطة النهاية فريدًا',
+CONNECTION_STRING_BUILDER_REST_LOAD_PRESET : 'تحميل مسبق',
+REQUEST_BUILDER_HEADERS_TITLE : 'رؤوس طلب',
+REQUEST_BUILDER_BODY_TITLE : 'طلب الهيئة',
+REQUEST_BUILDER_TABLE_HEADER_KEY : 'مفتاح',
+REQUEST_BUILDER_TABLE_HEADER_VALUE : 'القيمة',
+REQUEST_BUILDER_HEADERS_PRESETS : 'الإعدادات المسبقة',
+DATA_MODEL_CONSTANTS_RELATIONSHIP_DISABLED : 'معاق',
+DATA_MODEL_LABEL_EXPORT : 'تصدير',
+DATA_MODEL_MESSAGE_PLEASE_SELECT_DATASOURCE : 'الرجاء تحديد مصادر البيانات للتصدير',
+DATA_MODEL_TOOLTIP_RELATIONSHIP_DISABLED : 'سيؤدي التحقق من ذلك إلى منع تحميل هذه العلاقة تلقائيًا في مصمم التقارير.',
+DATA_MODEL_UNAVAILABLE_DATA_SOURCE : 'التقرير غير صالح لأنه لا يمكن العثور على مصدر (مصادر) / حقل (حقول) البيانات أو أن حقل (حقول) عامل التصفية غير قابل للتصفية. الرجاء التبديل إلى علامة التبويب &quot;مصدر البيانات&quot; لتعديلها أو الاتصال بمسؤول النظام للحصول على المساعدة.',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_COPY_ONLY_SETTINGS : 'فقط الإعدادات',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_DATA_CONNECTOR : 'موصلات البيانات',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_SYSTEM_CONFIGURATION : 'أعدادات النظام',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_SELECT_SYSYEM_CONFIGURATION_TO_COPY : 'الرجاء تحديد العناصر لنسخها',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_COPY_RELATIONSHIP_POSITION_ID : 'نسخ العلاقة PositionID',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_COPY_ROLE_PERMISSIONS : 'نسخ أذونات الدور',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_PLEASE_SELECT_DATA_CONNECTOR : 'الرجاء تحديد موصلات البيانات المراد نسخها',
+COPY_MANAGEMENT_TITLE_POPUP_CONFIGURE_SCHEDULE : 'تكوين جدول',
+SYSTEM_CONFIGURATION_EXPORTING_TITLE_ASYNC_EXPORT_SERVICE : 'خدمة التصدير',
+SYSTEM_CONFIGURATION_EXPORTING_TITLE_ROUTINE_FILE_PROCESS : 'معالجة الملفات الروتينية',
+SYSTEM_CONFIGURATION_EXPORTING_LABEL_EXPORT_SERVICE : 'خدمة التصدير',
+SYSTEM_CONFIGURATION_EXPORTING_LABEL_ASYNC_EXPORTING_INTERVAL : 'فاصل تصدير غير متزامن',
+SYSTEM_CONFIGURATION_EXPORTING_LABEL_EXPORT_STORAGE_OPTION : 'تصدير خيار التخزين',
+SYSTEM_CONFIGURATION_EXPORTING_LABEL_AZURE_FILES_CONNECTION_STRING : 'سلسلة اتصال خدمة ملفات Azure',
+SYSTEM_CONFIGURATION_EXPORTING_LABEL_FILE_REPOSITORY : 'مستودع الملفات',
+SYSTEM_CONFIGURATION_EXPORTING_LABEL_AWS_BUCKET_NAME : 'اسم حاوية AWS',
+SYSTEM_CONFIGURATION_EXPORTING_LABEL_AWS_ACCESS_KEY : 'مفتاح الوصول إلى AWS',
+SYSTEM_CONFIGURATION_EXPORTING_LABEL_AWS_SECRET_KEY : 'مفتاح AWS السري',
+SYSTEM_CONFIGURATION_EXPORTING_LABEL_S3_BUCKET_REGION : 'منطقة دلو S3',
+SYSTEM_CONFIGURATION_EXPORTING_LABEL_SMART_EXPORTING : 'تمكين التصدير الذكي',
+SYSTEM_CONFIGURATION_EXPORTING_LABEL_ENCRYPTION : 'تمكين التشفير',
+SYSTEM_CONFIGURATION_EXPORTING_LABEL_FILE_REFRESH : 'تحديث ملف التصدير',
+SYSTEM_CONFIGURATION_EXPORTING_LABEL_FILE_REFRESH_INTERVAL : 'الفاصل الزمني لمهمة تحديث ملف التصدير',
+SYSTEM_CONFIGURATION_EXPORTING_CONSTRAINT_MESSAGE_TIME_INTERVAL : 'لا يمكن أن يكون الفاصل الزمني صفراً',
+SYSTEM_CONFIGURATION_EXPORTING_TIME_UNIT : '(م)',
+EXPORT_MANAGER_TITLE_MY_EXPORTS : 'صادراتي',
+EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_ID : 'هوية شخصية',
+EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_NAME : 'اسم',
+EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_FILE_TYPE : 'نوع الملف',
+EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_EXPORTED_DATE : 'تاريخ التصدير',
+EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_DOWNLOAD_FILE : 'تحميل الملف',
+EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_STATUS : 'الحالة',
+EXPORT_MANAGER_STATUS_PENDING : 'قيد الانتظار',
+EXPORT_MANAGER_STATUS_COMPLETED : 'منجز',
+EXPORT_MANAGER_STATUS_FAILED : 'فشل',
+REPORT_CONSTANT_ASYNC_EXPORT_IN_PROGRESS : 'تصدير {0} &quot;{1}&quot; {2} قيد التقدم. يمكنك تنزيل {2} الذي تم تصديره من &quot;مدير التصدير&quot; عندما يكون متاحًا.',
+NOTIFICATION_POPUP_TITLE : 'إشعارات',
+NOTIFICATION_POPUP_NO_NOTIFICATIONS_MESSAGE : 'لا يوجد إشعارات',
+NOTIFICATION_POPUP_EXPORT_TYPE_TITLE : 'إشعار التصدير',
+NOTIFICATION_POPUP_EXPORT_SUCCESS_MESSAGE_TEMPLATE : 'تم إكمال تصدير {0} لـ {1}.',
+NOTIFICATION_POPUP_EXPORT_READY_MESSAGE_TEMPLATE : 'تصدير {0} لـ {1} جاهز.',
+NOTIFICATION_POPUP_EXPORT_FAILED_MESSAGE_TEMPLATE : 'فشل تصدير {0} لـ {1}.',
+NOTIFICATION_POPUP_MAP_TYPE_TITLE : 'إشعار خريطة التزويد',
+NOTIFICATION_POPUP_MAP_STARTED_MESSAGE_TEMPLATE : 'بدأ توفير الخرائط.',
+NOTIFICATION_POPUP_MAP_SUCCESS_MESSAGE_TEMPLATE : 'تم الانتهاء من توفير الخريطة. يجب أن تكون قادرًا على تصميم تقارير الخرائط الخاصة بك.',
+NOTIFICATION_POPUP_MAP_ERROR_MESSAGE_TEMPLATE : 'فشل توفير الخريطة. يرجى التحقق من السجلات عن الخطأ.',
+IMPORT_DATAMODEL_MESSAGE_IMPORT_PROCESS_DONE : 'اكتملت عملية الاستيراد',
+IMPORT_DATAMODEL_MESSAGE_STATUS_READY_TO_IMPORT : 'جاهز للاستيراد',
+IMPORT_DATAMODEL_LABEL_SELECTED_FILE : 'ملف نموذج البيانات:',
+IMPORT_DATAMODEL_LABEL_ADVANCED_OPTIONS : 'الخيارات المتقدمة لاستيراد نموذج البيانات:',
+IMPORT_DATAMODEL_LABEL_TABLE_CONNECTION : 'الإتصال',
+IMPORT_DATAMODEL_LABEL_TABLE_SCHEMA : 'مخطط',
+IMPORT_DATAMODEL_LABEL_OVERWRITE_NOTIFICATION : 'استيراد نموذج البيانات - الكتابة فوق الإخطار',
+IMPORT_DATAMODEL_MESSAGE_OVERWRITE_NOTIFICATION : 'سيتم الكتابة فوق مصادر البيانات التالية. هل تريد بالفعل استيراد نموذج البيانات؟',
+CONDITIONAL_FORMATTING_ADDITIONAL_CONDITIONS_APPLY_TO_SIDE_TOTAL : 'تنطبق على الجانب الإجمالي',
+NLQ_SAVE_POPUP_ADD_REPORT_NAME : 'أضف اسم التقرير',
+NLQ_SAVE_POPUP_ADD_TEMPLATE_NAME : 'أضف اسم القالب',
+NLQ_SAVE_POPUP_ADD_REPORT_TITLE : 'أضف عنوان التقرير',
+NLQ_SAVE_ADVANCED_OPTIONS : 'خيارات متقدمة',
+NLQ_SAVE_SELECT_SUBCATEGORY : 'اختر الفئة'
 }, 'ar');
