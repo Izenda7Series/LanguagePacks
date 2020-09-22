@@ -67,6 +67,7 @@ localizer.registerLanguage(
     CONTEXT_MENU_LABEL_SCHEDULING: 'Scheduling',
     CONTEXT_MENU_LABEL_CACHE: 'Cache',
     CONTEXT_MENU_LABEL_GOOGLE_MAP: 'Google Map',
+    CONTEXT_MENU_LABEL_EXPORTING: 'Exporting',
 
     // TOP MENU
     TOP_MENU_REPORTS: 'Reports',
@@ -105,6 +106,7 @@ localizer.registerLanguage(
     COMMON_MESSAGES_EMAIL_CONFIGURATION:
       'The Email Settings for your system/tenant have not been configured. Please contact your System Administrator for assistance',
     COMMON_MESSAGES_ERROR: 'Error',
+    COMMON_MESSAGES_UNKNOWN_ERROR: 'Unknown Error',
     COMMON_MESSAGES_NOPERMISSION_VIEWREPORT: 'You do not have permission to view this report.',
     COMMON_MESSAGES_GENERAL_ERROR: 'Errors have occurred, please correct them before continuing.',
     COMMON_MESSAGES_GENERIC_ERROR:
@@ -133,6 +135,8 @@ localizer.registerLanguage(
     COMMON_LABEL_BROWSE: 'Browse',
     COMMON_LABEL_IMPORT: 'Import',
     COMMON_LABEL_CANCEL: 'Cancel',
+    COMMON_LABEL_NEXT: 'Next',
+    COMMON_LABEL_PREVIOUS: 'Previous',
     COMMON_LABEL_CATEGORY: 'Category',
     COMMON_LABEL_SAVEINTO: 'Save into',
     COMMON_LABEL_CONFIGURATION: 'Configuration',
@@ -186,6 +190,9 @@ localizer.registerLanguage(
     COMMON_LABEL_ROLE_SETUP: 'Role Setup',
     COMMON_LABEL_SAVE: 'Save',
     COMMON_LABEL_SAVE_AS: 'Save As',
+    COMMON_LABEL_SAVE_CONFIRMATION: 'Confirmation',
+    COMMON_LABEL_SAVE_REPORT_BEFORE_DASHBOARD_CONFIRMATION: 'Please save the Report before adding this to a Dashboard',
+    COMMON_LABEL_SAVE_REPORT_BEFORE_EXPORT_CONFIRMATION: 'Please save the Report before exporting',
     COMMON_LABEL_SAVE_INTO: 'Save Into',
     COMMON_LABEL_SCHEDULE: 'Schedule',
     COMMON_LABEL_SCHEDULING: 'Scheduling',
@@ -213,6 +220,7 @@ localizer.registerLanguage(
     COMMON_LABEL_VALUE: 'Value',
     COMMON_LABEL_HIGH: 'High',
     COMMON_LABEL_LOW: 'Low',
+    COMMON_LABEL_DATA_CONNECTORS: 'Data Connectors',
     COMMON_LABEL_DASHBOARDS: 'Dashboards',
     COMMON_LABEL_DATABASE_NAME: 'Database Name',
     COMMON_LABEL_DATA_OBJECT: 'Data Object',
@@ -319,7 +327,6 @@ localizer.registerLanguage(
     COMMON_LABEL_YOUR_ANSWER_IS_REQUIRED: 'Your answer is required',
     COMMON_LABEL_UNDEFINED_VALUE: 'UNDEFINED VALUE',
     COMMON_LABEL_COPY_SETTINGS: 'Copy Settings',
-    COMMON_LABEL_COPY_RELATIONSHIP_POSITION_ID: 'Copy Relationship PositionID',
     COMMON_LABEL_HELP_SYSTEM: 'Help System',
     COMMON_LABEL_BACK: 'Back',
     COMMON_LABEL_GLOBAL_REPORT: 'Global Report',
@@ -339,6 +346,8 @@ localizer.registerLanguage(
     // COMMON_DATA_TYPE
     COMMON_DATA_TYPE_IMAGE: 'Image',
     COMMON_DATA_TYPE_TEXT: 'Text',
+    COMMON_DATA_TYPE_JSON: 'JSON',
+    COMMON_DATA_TYPE_XML: 'XML',
 
     // COMMON TOOLTIP
     COMMON_TOOLTIP_CANCEL_CHANGE: 'Cancel change',
@@ -410,7 +419,7 @@ localizer.registerLanguage(
     NO_PERMISSION_TEXT:
       'Your account has no permission to access to this page. Please contact your System Administrator for assistance.',
     NOT_FOUND_PAGE: 'Oops! This page is not found.',
-    NO_SEARCH_RESULT: 'Incorrect search query, Please follow guided search guidelines.',
+    NO_SEARCH_RESULT: 'Incorrect search query. Please try again and select from the suggested queries.',
 
     // ORIENTATION SETTING
     ORIENTATION_SETTING_NORMAL: 'Normal',
@@ -431,6 +440,7 @@ localizer.registerLanguage(
 
     // USER MENU
     USER_MENU_MY_PROFILE: 'My Profile',
+    USER_MENU_EXPORT_MANAGER: 'Export Manager',
     USER_MENU_SIGN_OUT: 'Sign Out',
 
     // PERFORMANCE
@@ -512,68 +522,71 @@ localizer.registerLanguage(
       'If this is checked then the HTML content from the fields will be rendered in the report viewer',
 
     // OTHER_SETTINGS
+    OTHER_SETTINGS_TOOLTIP_RESET_TO_DEFAULT: 'Back to default value.',
     OTHER_SETTINGS_LABEL_SORT_COLUMN_NAME: 'Sort Column Name',
-    OTHER_SETTINGS_SORT_COLUMN_NAME:
+    OTHER_SETTINGS_TOOLTIP_SORT_COLUMN_NAME:
       'If true then sort by position in the database. If false then sort in alphabetical order.',
     OTHER_SETTINGS_LABEL_TRIM_TIME_IN_JOINS: 'Trim Time In Joins',
-    OTHER_SETTINGS_TRIM_TIME_IN_JOINS:
+    OTHER_SETTINGS_TOOLTIP_TRIM_TIME_IN_JOINS:
       'Sets whether joins using DateTime fields will use the time portion of the field.',
     OTHER_SETTINGS_LABEL_TIMEZONE_FOR_DATA_OFFSET: 'Timezone for Data Offset',
-    OTHER_SETTINGS_TIMEZONE_FOR_DATA_ZONE:
-      'Sets the value indicating the time zone offset for database data in report designer/viewer/dashboard in Hours.',
+    OTHER_SETTINGS_TOOLTIP_TIMEZONE_FOR_DATA_OFFSET:
+      'Sets the value indicating the time zone offset for database data in report designer/viewer/dashboard in hours.',
     OTHER_SETTINGS_LABEL_TIMEZONE_FOR_TIMESTAMP_OFFSET: 'Timezone for Timestamp Offset',
-    OTHER_SETTINGS_TIMEZONE_FOR_TIMESTAMP_ZONE:
+    OTHER_SETTINGS_TOOLTIP_TIMEZONE_FOR_TIMESTAMP_OFFSET:
       'Sets the value indicating the time zone offset for timestamps used in the system in hours.',
     OTHER_SETTINGS_LABEL_CONVERT_NULL_TO_EMPTY_STRING: 'Convert Null to Empty String',
-    OTHER_SETTINGS_CONVERT_NULL_TO_EMPTY_STRING:
+    OTHER_SETTINGS_TOOLTIP_CONVERT_NULL_TO_EMPTY_STRING:
       'If this flag is turned on, system will show blank for any field containing NULL and blank for any field containing blank.',
     OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL: 'Encode variables in Custom URL',
-    OTHER_SETTINGS_ENCODE_VARIABLES_IN_CUSTOM_URL:
+    OTHER_SETTINGS_TOOLTIP_ENCODE_VARIABLES_IN_CUSTOM_URL:
       'If this flag is turned on, system will encode variables in Custom URL.',
     OTHER_SETTINGS_LABEL_SHOW_SCHEMA_NAME: 'Show Schema Name',
-    OTHER_SETTINGS_SHOW_SCHEMA_NAME: 'Set if schema name is shown together with data source name',
+    OTHER_SETTINGS_TOOLTIP_SHOW_SCHEMA_NAME: 'Set if schema name is shown together with data source name.',
     OTHER_SETTINGS_LABEL_SHOW_INTRODUCTION_NAME: 'Show Introduction Text',
-    OTHER_SETTINGS_SHOW_INTRODUCTION_NAME: 'Set if introduction text is shown in the report designer datasource tab',
+    OTHER_SETTINGS_TOOLTIP_SHOW_INTRODUCTION_NAME: 'Set if introduction text is shown in the report designer datasource tab.',
     OTHER_SETTINGS_LABEL_INTRODUCTION_TEXT: 'Introduction Text',
-    OTHER_SETTINGS_INTRODUCTION_TEXT: 'Set the help text to guide the end users for creating reports',
+    OTHER_SETTINGS_TOOLTIP_INTRODUCTION_TEXT: 'Set the help text to guide the end users for creating reports.',
+    OTHER_SETTINGS_MESSAGE_INTRODUCTION_TEXT_REQUIRED: 'Introduction Text is required.',
     OTHER_SETTINGS_LABEL_SEND_TO_DISK_PATH: 'Send to Disk Path',
-    OTHER_SETTINGS_SEND_TO_DISK_PATH:
-      'Sets the path where files will be saved for any scheduled instances with a Send to Disk location specified',
+    OTHER_SETTINGS_TOOLTIP_SEND_TO_DISK_PATH:
+      'Sets the path where files will be saved for any scheduled instances with a Send to Disk location specified.',
     OTHER_SETTINGS_LABEL_EXCEL_DATA_FILES_PATH: 'Excel Data Files Path',
-    OTHER_SETTINGS_EXCEL_DATA_FILES_PATH: 'Sets the path where excel data source files will be uploaded',
-    OTHER_SETTINGS_RESET_TO_DEFAULT: 'Back to default value.',
-    OTHER_SETTINGS_INTRODUCTION_TEXT_REQUIRED: 'Introduction Text is required.',
+    OTHER_SETTINGS_TOOLTIP_EXCEL_DATA_FILES_PATH: 'Sets the path where excel data source files will be uploaded.',
     OTHER_SETTINGS_LABEL_DETERMINE_COMMON_FILTER: 'Determine common filter for the same field based on',
     OTHER_SETTINGS_TOOLTIP_DETERMINE_COMMON_FILTER:
       'Configure how the system should consider whether different filters are to filter the “same” field or not so that they are eligible for considering as common filter in Dashboard.',
-    OTHER_SETTINGS_SAMEFIELD_SAMEDBSCHEMA: 'Same field of the same data object from the same DB schema',
-    OTHER_SETTINGS_SAMEFIELD_SAMEDBSCHEMA_OR_CONNECTIONSTRING:
+    OTHER_SETTINGS_LABEL_SAMEFIELD_SAMEDBSCHEMA: 'Same field of the same data object from the same DB schema',
+    OTHER_SETTINGS_LABEL_SAMEFIELD_SAMEDBSCHEMA_OR_CONNECTIONSTRING:
       'Same field name regardless of DB schema or connection string',
-    OTHER_SETTINGS_SAMEALIAS: 'Same alias name regardless of DB schema or connection string',
+    OTHER_SETTINGS_LABEL_SAMEALIAS: 'Same alias name regardless of DB schema or connection string',
     OTHER_SETTINGS_LABEL_DETERMINE_INHERIT_FILTER: 'Determine inheritable filter for the same field based on',
     OTHER_SETTINGS_TOOLTIP_DETERMINE_INHERIT_FILTER:
       'Configure how the system should consider whether different filters are to filter the “same” field or not so that their values are eligible for inheritance in subreport.',
-    OTHER_SETTINGS_IHS_FIELD_ID: 'Same field of the same data object from the same DB schema',
-    OTHER_SETTINGS_IHS_FIELD_NAME: 'Same field name regardless of DB schema or data object',
-    OTHER_SETTINGS_MAXIMUM_SUBREPORT_LEVEL: 'Maximum embedded subreport nesting level for exporting ({0} - {1})',
-    OTHER_SETTINGS_TOOLTIP_MAXIMUM_SUBREPORT_LEVEL:
-      'Configure how the system should show embedded subreports for exporting. If the nesting level is higher than the specified one, then embedded subreports will be displayed as links. Note: Increasing the maximum nested subreport for export beyond "1" may severely impact performance of exporting.',
-    OTHER_SETTINGS_MAXIMUM_SUBREPORT_LEVEL_REQUIRED: 'Maximum embedded subreport nesting level is required.',
-    OTHER_SETTINGS_MAXIMUM_SUBREPORT_LEVEL_NUMBERICALITY:
-      'Maximum embedded subreport nesting level should be a whole number.',
-    OTHER_SETTINGS_MAXIMUM_SUBREPORT_LEVEL_GREATER_THAN:
-      'Maximum embedded subreport nesting level must be a number greater than or equal to {0}.',
-    OTHER_SETTINGS_MAXIMUM_SUBREPORT_LEVEL_LESS_THAN:
-      'Maximum embedded subreport nesting level must be a number smaller than or equal to {0}.',
+    OTHER_SETTINGS_LABEL_IHS_FIELD_ID: 'Same field of the same data object from the same DB schema',
+    OTHER_SETTINGS_LABEL_IHS_FIELD_NAME: 'Same field name regardless of DB schema or data object',
     OTHER_SETTING_LABEL_MULTIPLE_SORT_ON_GRID_HEADER: 'Allow Multiple Sorts on Grid Header',
-    OTHER_SETTING_MULTIPLE_SORT_ON_GRID_HEADER:
-      'If this flag is turned on, system allows multiple column sorting in Grid Header. If this flag is turned off, system allows single column sorting in Grid Header',
-    OTHER_SETTING_LABEL_SHOW_PREVIEW_HEADER: 'Show Preview section in Configuration Mode',
-    OTHER_SETTING_LABEL_SHOW_PREVIEW_TOOLTIP:
+    OTHER_SETTING_TOOLTIP_MULTIPLE_SORT_ON_GRID_HEADER:
+      'If this flag is turned on, system allows multiple column sorting in Grid Header. If this flag is turned off, system allows single column sorting in Grid Header.',
+    OTHER_SETTING_LABEL_SHOW_PREVIEW: 'Show Preview section in Configuration Mode',
+    OTHER_SETTING_TOOLTIP_SHOW_PREVIEW:
       'Configure to show or hide the Preview section in the report part’s backside.',
     OTHER_SETTING_LABEL_HIDE_HEADER_FOOTER_IN_REPORT: 'Hide report header and footer by default',
-    OTHER_SETTING_LABEL_HIDE_HEADER_FOOTER_IN_REPORT_TOOLTIP:
+    OTHER_SETTING_TOOLTIP_HIDE_HEADER_FOOTER_IN_REPORT:
       'Configure to hide or show the header and footer section in Report Viewer and Report Designer by default.',
+    OTHER_SETTING_LABEL_REPEAT_TABLE_HEADER: 'Repeat Table Header in Forms (for PDF only)',
+    OTHER_SETTING_TOOLTIP_REPEAT_TABLE_HEADER:
+      'Configure to repeat table header in forms on each PDF page.',
+    OTHER_SETTINGS_LABEL_MAXIMUM_SUBREPORT_LEVEL: 'Maximum embedded subreport nesting level for exporting ({0} - {1})',
+    OTHER_SETTINGS_TOOLTIP_MAXIMUM_SUBREPORT_LEVEL:
+      'Configure how the system should show embedded subreports for exporting. If the nesting level is higher than the specified one, then embedded subreports will be displayed as links. Note: Increasing the maximum nested subreport for export beyond "1" may severely impact performance of exporting.',
+    OTHER_SETTINGS_MESSAGE_MAXIMUM_SUBREPORT_LEVEL_REQUIRED: 'Maximum embedded subreport nesting level is required.',
+    OTHER_SETTINGS_MESSAGE_MAXIMUM_SUBREPORT_LEVEL_ONLYINTEGER:
+      'Maximum embedded subreport nesting level should be integer.',
+    OTHER_SETTINGS_MESSAGE_MAXIMUM_SUBREPORT_LEVEL_GREATER_THAN:
+      'Maximum embedded subreport nesting level must be greater than or equal to {0}.',
+    OTHER_SETTINGS_MESSAGE_MAXIMUM_SUBREPORT_LEVEL_LESS_THAN:
+      'Maximum embedded subreport nesting level must be less than or equal to {0}.',
 
     // EXPLORE
     EXPLORE_CTAS: {
@@ -607,10 +620,15 @@ localizer.registerLanguage(
     },
     EXPLORE_SEARCH_PLACEHOLDER: 'Type your query here, for example: "Average sales between June 2019 and December 2020"',
 
+    EXPLORE_SEARCH_NLQ_NOT_CONFIGURED: 'NLQ not configured',
+    NOTIFICATION_DOWNLOAD_COMPLETE: 'Download Complete',
     // RELATIONSHIP
     RELATIONSHIP_MESSAGE_CONFIRM_DELETE_RELATIONSHIP_HAS_USED:
       'Any report part built from this relationship will be impacted. Are you sure you want to delete this relationship?',
     RELATIONSHIP_MESSAGE_CONFIRM_DELETE_RELATIONSHIP: 'Are you sure you want to delete the relationship?',
+    RELATIONSHIP_MESSAGE_CONFIRM_DISABLE_RELATIONSHIP_HAS_USED:
+      'Any report part built from this relationship will be impacted. Are you sure you want to disable this relationship?',
+    RELATIONSHIP_MESSAGE_CONFIRM_DISABLE_RELATIONSHIP: 'Are you sure you want to disable the relationship?',
     RELATIONSHIP_MESSAGES_CONFIRM_SAVE_WITH_POSITION_ID:
       'There are some relationships which have positionID set. Thus, in report query, these relationships will be placed in order above all non-prioritized joins, regardless of the join type.',
     RELATIONSHIP_MESSAGES_CONFIRM_SAVE_WITHOUT_POSITION_ID:
@@ -690,6 +708,7 @@ localizer.registerLanguage(
     REPORTDESIGNER_LABEL_DRILL_DOWN_STYLE_EMBEDDED: 'Embedded',
     REPORTDESIGNER_LABEL_DRILL_DOWN_STYLE_POPUP: 'Popup',
     REPORTDESIGNER_MESSAGE_HINT_CATEGORY: '(Enter to create new Category)',
+    REPORTDESIGNER_DASHBOARD_MESSAGE_HINT_CATEGORY: '(Enter to create new Dashboard)',
     REPORTDESIGNER_MESSAGE_HINT_SUB_CATEGORY: '(Enter to create new Sub-Category)',
     REPORTDESIGNER_LABEL_TABLE_DEF_SIMPLE_MODE_CATEGORY: 'Category',
     REPORTDESIGNER_LABEL_TABLE_DEF_SIMPLE_MODE_DATABASE_NAME: 'Database Name',
@@ -759,6 +778,8 @@ localizer.registerLanguage(
     REPORTDESIGNER_LABEL_VIEW_SETTING_AS: 'You would like to view this setting as:',
     REPORTDESIGNER_LABEL_ENTIRE_CHART: 'Entire Chart',
     REPORTDESIGNER_LABEL_PLOT_AREA: 'Plot Area',
+    REPORTDESIGNER_LABEL_Y_AXIS_UPPER: 'Y-Axis',
+    REPORTDESIGNER_TOOLTIP_USE_EXISTING_Y_AXIS: 'Use the Y-axis of an existing metric',
     REPORTDESIGNER_TOOLTIP_APPLIED_TO: 'Applied to',
     REPORTDESIGNER_TOOLTIP_X_AXIS_LOWER: 'X-axis',
     REPORTDESIGNER_TOOLTIP_Y_AXIS_LOWER: 'Y-axis',
@@ -771,6 +792,7 @@ localizer.registerLanguage(
     REPORTDESIGNER_LABEL_BORDER: 'Border',
     REPORTDESIGNER_LABEL_INTERVALS: 'Intervals',
     REPORTDESIGNER_LABEL_STARTING_POINT: 'Starting Point',
+    REPORTDESIGNER_LABEL_POSITION: 'Position',
     REPORTDESIGNER_LABEL_ENDING_POINT: 'Ending Point',
     REPORTDESIGNER_LABEL_THRESHOLD_LABEL_SETTINGS: 'Threshold Label Settings',
     REPORTDESIGNER_LABEL_COPY_SETTING: 'Copy setting',
@@ -905,6 +927,7 @@ localizer.registerLanguage(
     CONNECTION_TYPE_CONNECT: 'Connect',
     CONNECTION_TYPE_RECONNECT: 'Reconnect',
     CONNECTION_REQUIRE_CONNECTION_STRING: 'Connection String is required.',
+    CONNECTION_IS_DUPLICATED: 'Connection String already exist in another connection.',
     CONNECTION_REQUIRE_DATABASE_NAME: 'Database Name is required.',
     CONNECTION_MAX_LENGTH_DATABASE_NAME: 'Maximum length of Database Name is 150 characters.',
     CONNECTION_GUIDE_CONTENT: 'You can select the item or group to move between Available and Visible Data Source.',
@@ -915,15 +938,22 @@ localizer.registerLanguage(
     CONNECTION_VALID_STATUS: 'Valid',
     CONNECTION_INVALID_STATUS: 'Invalid',
     CONNECTION_DETECT_CHANGE_ICON_TOOLTIP: 'Data source changes',
+    CONNECTION_EMPTY_NAME_LABEL: '<Empty>',
+    CONNECTION_ADVANCED_OPTIONS: 'Advanced Options',
+    CONNECTION_ADVANCED_OPTIONS_SHOW_LESS: 'Show Less',
     CONNECTION_LABEL_DATABASE_NAME: 'Connector Name',
     CONNECTION_LABEL_DATA_SERVER_TYPE: 'Data Server Type',
     CONNECTION_LABEL_CONNECTION_STRING: 'Connection String',
-    CONNECTION_LABEL_CONNECTION_BUILDER: 'Connection Builder',
+    CONNECTION_LABEL_CONNECTION_BUILDER: 'Edit Connection',
     CONNECTION_LABEL_CONNECTION_BUILDER_UPLOAD: 'Upload Data File',
     CONNECTION_AVAILABLE_DATA_SOURCE: 'Available Data Sources',
     CONNECTION_VISIBLE_DATA_SOURCE: 'Visible Data Sources',
     CONNECTION_CAN_NOT_MOVE_CUSTOM_VIEW:
       'There is a data source which has same name or alias with this data source, so you cannot move it to Visible Data Sources box.',
+
+    // CONNECTION MASTER
+    CONNECTION_MASTER_POPUP_TITLE: 'Choose Data Server Type',
+    CONNECTION_MASTER_POPUP_TITLE2: 'Set Up Connection',
 
     // CONNECTION STRING BUILDER
     CONNECTION_STRING_BUILDER_REQUIRED_SERVER_NAME: 'Server Name is required.',
@@ -934,6 +964,35 @@ localizer.registerLanguage(
     CONNECTION_STRING_BUILDER_LABEL_SERVER_NAME: 'Server Name',
     CONNECTION_STRING_BUILDER_LABEL_DATABASE: 'Database',
     CONNECTION_STRING_BUILDER_LABEL_DATABASE_CONNECTION: 'Database Connection',
+
+    // REQUEST BUILDER
+    CONNECTION_STRING_BUILDER_REST_TITLE: 'REST Adaptor Connection String Builder',
+    CONNECTION_STRING_BUILDER_REST_ENDPOINT_NAME: 'Endpoint Name',
+    CONNECTION_STRING_BUILDER_REST_ENDPOINT_NAME_HINT: 'The name of the current endpoint',
+    CONNECTION_STRING_BUILDER_REST_LABEL_ADDRESS: 'Address',
+    CONNECTION_STRING_BUILDER_REST_LABEL_ADDRESS_HINT: 'Rest API server address, e.g. "http://someserver.aa:12345"',
+    CONNECTION_STRING_BUILDER_REST_LABEL_SCHEMEPATH: 'Scheme Path',
+    CONNECTION_STRING_BUILDER_REST_LABEL_SCHEMEPATH_HINT: '(Optional) Rest API path which returns list of tables. It may be in formats:\n - API path, e.g. "/path/to/scheme"\n - List of table names, e.g. "[Table1, Table2, ...., TableN]"\n - Empty. In this case table name parameter will be ignored and endpoint will contain only 1 table with data from data path.',
+    CONNECTION_STRING_BUILDER_REST_LABEL_DATAPATH: 'Data Path',
+    CONNECTION_STRING_BUILDER_REST_LABEL_DATAPATH_HINT: 'Rest API path which returns tables data, e.g. "/path/to/data/{0}". Supported optional parameter: \n - {0} - table name',
+    CONNECTION_STRING_BUILDER_REST_LABEL_FLATTENARRAYS: 'Flatten Arrays',
+    CONNECTION_STRING_BUILDER_REST_LABEL_FLATTENOBJECTS: 'Flatten Objects',
+    CONNECTION_STRING_BUILDER_REST_LABEL_DBNAME: 'Database Name',
+    CONNECTION_STRING_BUILDER_REST_LABEL_FLATTENDEPTH: 'Flatten Depth',
+    CONNECTION_STRING_BUILDER_REST_LABEL_SCHEMENAME: 'Scheme Name',
+    CONNECTION_STRING_BUILDER_REST_LABEL_SEPARATOR: 'Sub-column Separator',
+    CONNECTION_STRING_BUILDER_REST_LABEL_CACHE_SETTINGS: 'Cache settings',
+    CONNECTION_STRING_BUILDER_REST_LABEL_CACHE_ENABLED: 'Request Cache Enabled',
+    CONNECTION_STRING_BUILDER_REST_LABEL_CACHE_TTL: 'Request Cache TTL',
+    CONNECTION_STRING_BUILDER_ADD_ENDPOINT: 'Add New Endpoint',
+    CONNECTION_STRING_BUILDER_REST_VALIDATION1: 'Some required values are blank',
+    CONNECTION_STRING_BUILDER_REST_VALIDATION2: 'Endpoint name should be unique',
+    CONNECTION_STRING_BUILDER_REST_LOAD_PRESET: 'Load preset',
+    REQUEST_BUILDER_HEADERS_TITLE: 'Request Headers',
+    REQUEST_BUILDER_BODY_TITLE: 'Request Body',
+    REQUEST_BUILDER_TABLE_HEADER_KEY: 'Key',
+    REQUEST_BUILDER_TABLE_HEADER_VALUE: 'Value',
+    REQUEST_BUILDER_HEADERS_PRESETS: 'Presets',
 
     // QUERY_SOURCE_TYPE_CONFIG
     QUERY_SOURCE_TYPE_CONFIG_MESSAGE_REQUIRE_PARAMETER:
@@ -985,6 +1044,8 @@ localizer.registerLanguage(
     DATA_MODEL_CONSTANTS_TITLE_QUERY_SOURCE_TYPE_DETAIL_FILTERABLE: 'Filterable',
     DATA_MODEL_CONSTANTS_RELATIONSHIP_JOIN_FIELD: 'Join Field',
     DATA_MODEL_CONSTANTS_RELATIONSHIP_FIELD: 'Field',
+    DATA_MODEL_CONSTANTS_RELATIONSHIP_DISABLED: 'Disabled',
+    DATA_MODEL_LABEL_EXPORT: 'Export',
     DATA_MODEL_LABEL_ADD_CUSTOM_VIEW: 'Add Custom View',
     DATA_MODEL_LABEL_EDIT_CUSTOM_VIEW: 'Edit Custom View',
     DATA_MODEL_LABEL_ADD_CUSTOM_VIEW_VIEW_NAME: 'View Name',
@@ -997,6 +1058,8 @@ localizer.registerLanguage(
     DATA_MODEL_CONSTANTS_DELETED_FUNCTION: 'Deleted function.',
     DATA_MODEL_CONSTANTS_FUNCTION_CHANGE: 'Function changes.',
     DATA_MODEL_CONSTANTS_FUNCTION_ADD: 'Function add',
+    DATA_MODEL_MESSAGE_PLEASE_SELECT_DATASOURCE: 'Please select data sources to export',
+    DATA_MODEL_TOOLTIP_RELATIONSHIP_DISABLED: 'Checking this will prevent this relationship from loading automatically in the report designer.',
     DATA_MODEL_TOOLTIP_INVALID_FILTER_LOOKUP_CONNECTION:
       'The current field(s) {0} could not be found because the database is not currently visible. Please check your Connection String page.',
     DATA_MODEL_TOOLTIP_INVALID_FILTER_LOOKUP_QUERY_SOURCE:
@@ -1009,6 +1072,8 @@ localizer.registerLanguage(
       'The current field(s) {0} could not be found because it is set as Tenant Field in Advanced Settings. Please check your Advanced Settings - Security page.',
     DATA_MODEL_TOOLTIP_INVALID_FILTER_TENANT_FIELD:
       'The current field {0} could not be found because it is set as Tenant Field in Advanced Settings. Please check your Advanced Settings - Security page.',
+    DATA_MODEL_UNAVAILABLE_DATA_SOURCE:
+      'The report is invalid because data source(s)/field(s) cannot be found or filter field(s) are unfilterable. Please switch to Data Source tab to modify it or contact System Administrator for assistance.',
 
     // CALCULATED_FIELD_CONSTANTS
     CALCULATED_FIELD_CONSTANTS_FUNCTION_NAME_NONE: '[None]',
@@ -1074,12 +1139,15 @@ localizer.registerLanguage(
     COPY_MANAGEMENT_WORK_SPACE_LIST_SHOW_ONLY_MY_WORKSPACES: 'Show only my workspaces',
 
     // COPY_MANAGEMENT_WORKSPACE_DETAIL
+    COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_COPY_ONLY_SETTINGS: 'Only Settings',
+    COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_DATA_CONNECTOR: 'Data Connectors',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_DATA_MODEL: 'Data Model',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ADVANCED_DATA_SETTING: 'Advanced Data Settings',
+    COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_SYSTEM_CONFIGURATION: 'System Configuration',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_TENANT_PERMISSIONS: 'Tenant Permissions',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ROLES: 'Roles',
-    COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ROLE_PERMISSIONS: 'Roles & Permissions',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_SELECT_ROLES_TO_COPY: 'Please select roles to copy',
+    COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_SELECT_SYSYEM_CONFIGURATION_TO_COPY: 'Please select items to copy',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_SET_DESCRIPTION: 'Set Description',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_REVERT_DESCRIPTION: 'Revert Description',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_RENAME: 'Rename',
@@ -1104,6 +1172,8 @@ localizer.registerLanguage(
     COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_DATA_MODEL_SETTING: 'Data Model Setting',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ITEMS_TO_COPY: 'Items to Copy:',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ALL_TENANTS: 'All Tenants',
+    COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_COPY_RELATIONSHIP_POSITION_ID: 'Copy Relationship PositionID',
+    COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_COPY_ROLE_PERMISSIONS: 'Copy Role Permissions',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_DATA_MODEL_INFORMATION:
       'Below connection strings have setup data model already.',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_DATA_MODEL_CONFIRMATION:
@@ -1132,6 +1202,7 @@ localizer.registerLanguage(
       "Please select which templates in destination's tenants you want to overwrite after copied?",
     COPY_MANAGEMENT_WORKSPACE_DETAIL_PLEASE_SELECT_DATASOURCE: 'Please select data source to copy',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_PLEASE_SELECT_DASHBOARD: 'Please select dashboards to copy',
+    COPY_MANAGEMENT_WORKSPACE_DETAIL_PLEASE_SELECT_DATA_CONNECTOR: 'Please select data connectors to copy',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_PLEASE_SELECT_REPORT: 'Please select reports to copy',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_DESTINATION_GRID: 'Destination Grid',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_DASHBOARD_OVERWRITE_CONFIRMATION: 'Copy Dashboards - Overwrite Confirmation',
@@ -1184,6 +1255,7 @@ localizer.registerLanguage(
     COPY_MANAGEMENT_LABEL_ADD_FIELD: 'Add Calculated Field',
     COPY_MANAGEMENT_LABEL_PREDICTED_FIELD: ' Add Predicted Field',
     COPY_MANAGEMENT_LABEL_EXECUTE: 'Execute',
+    COPY_MANAGEMENT_TITLE_POPUP_CONFIGURE_SCHEDULE: 'Configure Schedule',
     COPY_MANAGEMENT_MERGE_DUPLICATE_TOOLTIP:
       'Checking this box will allow the system to automatically merge any duplicate mappings found below. If one source is mapped to multiple destinations, it will be merged to one mapping.',
     COPY_MANAGEMENT_ALL_MAPPING_TOOLTIP: 'This section shows all mappings between source and all destinations.',
@@ -1801,7 +1873,38 @@ localizer.registerLanguage(
     SYSTEM_CONFIGURATION_REPORT_DEFAULT_COLOR_THEME_INFO:
       'This setting changes the color palette of all charts, gauges, and maps for newly created reports.\nThe user can select a different theme to overwrite the set default.',
 
-    // ACCOUNT_CONSTANTS
+    // SYSTEM_CONFIGURATION_EXPORTING
+    SYSTEM_CONFIGURATION_EXPORTING_TITLE_ASYNC_EXPORT_SERVICE: 'Exporting Service',
+    SYSTEM_CONFIGURATION_EXPORTING_TITLE_ROUTINE_FILE_PROCESS: 'Routine File Process',
+    SYSTEM_CONFIGURATION_EXPORTING_LABEL_EXPORT_SERVICE: 'Export Service',
+    SYSTEM_CONFIGURATION_EXPORTING_LABEL_ASYNC_EXPORTING_INTERVAL: 'Async Exporting Interval',
+    SYSTEM_CONFIGURATION_EXPORTING_LABEL_EXPORT_STORAGE_OPTION: 'Export Storage Option',
+    SYSTEM_CONFIGURATION_EXPORTING_LABEL_AZURE_FILES_CONNECTION_STRING: 'Azure Files Service Connection String',
+    SYSTEM_CONFIGURATION_EXPORTING_LABEL_FILE_REPOSITORY: 'File Repository',
+    SYSTEM_CONFIGURATION_EXPORTING_LABEL_AWS_BUCKET_NAME: 'AWS Bucket Name',
+    SYSTEM_CONFIGURATION_EXPORTING_LABEL_AWS_ACCESS_KEY: 'AWS Access Key',
+    SYSTEM_CONFIGURATION_EXPORTING_LABEL_AWS_SECRET_KEY: 'AWS Secret Key',
+    SYSTEM_CONFIGURATION_EXPORTING_LABEL_S3_BUCKET_REGION: 'S3 Bucket Region',
+    SYSTEM_CONFIGURATION_EXPORTING_LABEL_SMART_EXPORTING: 'Enable Smart Exporting',
+    SYSTEM_CONFIGURATION_EXPORTING_LABEL_ENCRYPTION: 'Enable Encryption',
+    SYSTEM_CONFIGURATION_EXPORTING_LABEL_FILE_REFRESH: 'Export File Refresh',
+    SYSTEM_CONFIGURATION_EXPORTING_LABEL_FILE_REFRESH_INTERVAL: 'Export File Refresh Job Interval',
+    SYSTEM_CONFIGURATION_EXPORTING_CONSTRAINT_MESSAGE_TIME_INTERVAL: 'Time Interval can not be zero',
+    SYSTEM_CONFIGURATION_EXPORTING_TIME_UNIT: '(m)',
+
+    //EXPORT_MANAGER
+    EXPORT_MANAGER_TITLE_MY_EXPORTS: 'My Exports',
+    EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_ID: 'ID',
+    EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_NAME: 'Name',
+    EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_FILE_TYPE: 'File Type',
+    EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_EXPORTED_DATE: 'Exported Date',
+    EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_DOWNLOAD_FILE: 'Download File',
+    EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_STATUS: 'Status',
+    EXPORT_MANAGER_STATUS_PENDING: 'Pending',
+    EXPORT_MANAGER_STATUS_COMPLETED: 'Completed',
+    EXPORT_MANAGER_STATUS_FAILED: 'Failed',
+
+      // ACCOUNT_CONSTANTS
     ACCOUNT_CONSTANTS_MESSAGE_INCORECT_CREDENTIALS: 'Incorrect credentials, please try again.',
     ACCOUNT_CONSTANTS_MESSAGE_RESET_PASSWORD_SUCCESSFULLY: 'Your password has been successfully created/reset.',
     ACCOUNT_CONSTANTS_MESSAGE_PASSOWRD_EXPIRED: 'Your password has expired.',
@@ -2461,6 +2564,7 @@ localizer.registerLanguage(
     REPORT_CONSTANTS_DRILL_DOWN_STATE_MAINTAIN: 'How would you like to export this report?',
     REPORT_CONSTANT_DRILL_DOWN_EXPORT_WITH_PREVIEW_STATE: 'Export with all rows as shown in viewer?',
     REPORT_CONSTANT_DRILL_DOWN_EXPORT_WITHOUT_PREVIEW_STATE: 'Export with all expanded records',
+    REPORT_CONSTANT_ASYNC_EXPORT_IN_PROGRESS: '{0} export of "{1}" {2} is in progress. You can download exported {2} from "Export Manager" when it is available.',
 
     // REPORT_SUBCRIPTION_CONSTANT
     REPORT_SUBCRIPTION_CONSTANT_SUBSCRIPTION_REPORT: 'Subscription Reporting Item',
@@ -2773,6 +2877,18 @@ localizer.registerLanguage(
     COMPARISION_VALUE_COMPARISON: 'Value Comparison',
     COMPARISION_BOOLEAN: 'Boolean',
 
+    // NOTIFICATION POPUP MESSAGES
+    NOTIFICATION_POPUP_TITLE: 'Notifications',
+    NOTIFICATION_POPUP_NO_NOTIFICATIONS_MESSAGE: 'No Notification',
+    NOTIFICATION_POPUP_EXPORT_TYPE_TITLE: 'Export Notification',
+    NOTIFICATION_POPUP_EXPORT_SUCCESS_MESSAGE_TEMPLATE: '{0} export for {1} has been completed.',
+    NOTIFICATION_POPUP_EXPORT_READY_MESSAGE_TEMPLATE: '{0} export for {1} is ready.',
+    NOTIFICATION_POPUP_EXPORT_FAILED_MESSAGE_TEMPLATE: '{0} export for {1} is failed.',
+    NOTIFICATION_POPUP_MAP_TYPE_TITLE: 'Provision Map Notification',
+    NOTIFICATION_POPUP_MAP_STARTED_MESSAGE_TEMPLATE: 'Map provisioning is started.',
+    NOTIFICATION_POPUP_MAP_SUCCESS_MESSAGE_TEMPLATE: 'Map provisioning is finished. You should able to design your map reports.',
+    NOTIFICATION_POPUP_MAP_ERROR_MESSAGE_TEMPLATE: 'Map provisioning is failed. Please check logs for error.',
+
     // NOTIFICATION MESSAGES
     NOTIFICATION_PROVISION_MAP_DATA_IMPORTING:
       'The system is importing Map data into the configuration database. Please wait for the process to complete before using Maps.',
@@ -2868,6 +2984,16 @@ localizer.registerLanguage(
     IMPORT_CUSTOM_VIEWS: 'Custom Views',
     IMPORT_CALCULATED_FIELDS: 'Data Model Calculated Fields',
 
+    // IMPORT DATA MODEL
+    IMPORT_DATAMODEL_MESSAGE_IMPORT_PROCESS_DONE: 'The import process is complete',
+    IMPORT_DATAMODEL_MESSAGE_STATUS_READY_TO_IMPORT: 'Ready to import',
+    IMPORT_DATAMODEL_LABEL_SELECTED_FILE: 'Data Model File:',
+    IMPORT_DATAMODEL_LABEL_ADVANCED_OPTIONS: 'Data Model Import Advanced Options:',
+    IMPORT_DATAMODEL_LABEL_TABLE_CONNECTION: 'Connection',
+    IMPORT_DATAMODEL_LABEL_TABLE_SCHEMA: 'Schema',
+    IMPORT_DATAMODEL_LABEL_OVERWRITE_NOTIFICATION: 'Import Data Model - Overwrite notification',
+    IMPORT_DATAMODEL_MESSAGE_OVERWRITE_NOTIFICATION: 'The following data sources will be overwritten. Do you actually want to import the data model?',
+
     // DATABASE MAPPING
     // BUTTONS LABEL
     DATABASE_MAPPING: 'Database Mapping',
@@ -2919,7 +3045,8 @@ localizer.registerLanguage(
     CONDITIONAL_FORMATTING_TABEL_FIELDS_COL: 'Apply to Fields',
     CONDITIONAL_FORMATTING_TABEL_FORMAT_COL: 'Format',
     CONDITIONAL_FORMATTING_CONDITION_POPUP_TITLE: 'Condition',
-    CONDITIONAL_FORMATTING_FIELDS_POPUP_TITLE: 'Selected Fields',
+    CONDITIONAL_FORMATTING_FIELDS_POPUP_TITLE: 'Apply to Fields',
+    CONDITIONAL_FORMATTING_ADDITIONAL_CONDITIONS_APPLY_TO_SIDE_TOTAL: 'Apply to Side Total',
     CONDITIONAL_FORMATTING_FORMAT_POPUP_TITLE: 'Format',
     CONDITIONAL_FORMATTING_ADDITIONAL_CONDITIONS_POPUP_TITLE: 'Additional Conditions',
 
@@ -2939,7 +3066,12 @@ localizer.registerLanguage(
     NLQ_MODAL_DASHBOARD_DUPLICATE_NAME_MSG: 'Dashboard Name is already available.',
     NLQ_MODAL_DASHBOARD_ALREADY_CREATED_MSG: 'You have already saved your dashboard',
     NLQ_SAVE_POPUP_BLANK_CATEGORY_MSG: 'Category name can not be blank',
-    NLQ_SAVE_POPUP_DUPLICATE_CATEGORY_MSG: 'Category name already available'
+    NLQ_SAVE_POPUP_DUPLICATE_CATEGORY_MSG: 'Category name already available',
+    NLQ_SAVE_POPUP_ADD_REPORT_NAME: 'Add Report Name',
+    NLQ_SAVE_POPUP_ADD_TEMPLATE_NAME: 'Add Template Name',
+    NLQ_SAVE_POPUP_ADD_REPORT_TITLE: 'Add Report Title',
+    NLQ_SAVE_ADVANCED_OPTIONS: 'Advanced Options',
+    NLQ_SAVE_SELECT_SUBCATEGORY: 'Select Category',
   },
   'en-US'
 );
