@@ -2409,4 +2409,4 @@ NLQ_SAVE_POPUP_ADD_TEMPLATE_NAME : 'Ajouter un nom de modèle',
 NLQ_SAVE_POPUP_ADD_REPORT_TITLE : 'Ajouter un titre de rapport',
 NLQ_SAVE_ADVANCED_OPTIONS : 'Options avancées',
 NLQ_SAVE_SELECT_SUBCATEGORY : 'Choisir une catégorie'
-}, 'fr');
+}, 'fr-CA');

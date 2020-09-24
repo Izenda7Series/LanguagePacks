@@ -71,9 +71,9 @@ LIMIT 1;
 
 /* French (fr) */
 INSERT INTO IzendaLanguage(Id, CultureName, Language, Deleted)
-SELECT 'a08d220c-9efd-4e05-88d0-55c19ea64103', 'fr', 'French', 0 FROM IzendaLanguage
+SELECT 'a08d220c-9efd-4e05-88d0-55c19ea64103', 'fr-CA', 'French', 0 FROM IzendaLanguage
 WHERE NOT EXISTS(SELECT* FROM IzendaLanguage
-      WHERE CultureName= 'fr')
+      WHERE CultureName= 'fr-CA')
 LIMIT 1; 
 
 /* German (de) */

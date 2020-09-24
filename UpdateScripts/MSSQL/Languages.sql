@@ -79,11 +79,11 @@ BEGIN
     END
 END
 
-/* French (fr) */
+/* French (fr-CA) */
 BEGIN
-    IF NOT EXISTS(SELECT * FROM[IzendaLanguage] WHERE[CultureName] = 'fr')
+    IF NOT EXISTS(SELECT * FROM[IzendaLanguage] WHERE[CultureName] = 'fr-CA')
     BEGIN
-        INSERT INTO IzendaLanguage (Id, CultureName, Language, Deleted) VALUES('a08d220c-9efd-4e05-88d0-55c19ea64103', 'fr', 'French', 0);
+        INSERT INTO IzendaLanguage (Id, CultureName, Language, Deleted) VALUES('a08d220c-9efd-4e05-88d0-55c19ea64103', 'fr-CA', 'French', 0);
     END
 END
 

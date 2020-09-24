@@ -15,7 +15,7 @@ The Izenda 7 Series language pack allows you to support additional languages in 
 - English - United States - en-US
 - Estonian - et
 - Finnish - fi
-- French - fr
+- French - fr-CA
 - German - de
 - Greek - el
 - Hebrew - iw
@@ -62,7 +62,7 @@ The Izenda 7 Series language pack allows you to support additional languages in 
 <script type="text/javascript" src="/languages/Izenda.texts.es.js"></script>
 <script type="text/javascript" src="/languages/Izenda.texts.et.js"></script>
 <script type="text/javascript" src="/languages/Izenda.texts.fi.js"></script>
-<script type="text/javascript" src="/languages/Izenda.texts.fr.js"></script>
+<script type="text/javascript" src="/languages/Izenda.texts.fr-CA.js"></script>
 <script type="text/javascript" src="/languages/Izenda.texts.hi.js"></script>
 <script type="text/javascript" src="/languages/Izenda.texts.hr.js"></script>
 <script type="text/javascript" src="/languages/Izenda.texts.hu.js"></script>
