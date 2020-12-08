@@ -400,7 +400,6 @@ OTHER_SETTINGS_TOOLTIP_DETERMINE_INHERIT_FILTER : 'قم بتكوين الطري�
 OTHER_SETTINGS_TOOLTIP_MAXIMUM_SUBREPORT_LEVEL : 'قم بتكوين كيفية عرض النظام للتقارير الفرعية المدمجة للتصدير. إذا كان مستوى التعشيش أعلى من المستوى المحدد ، فسيتم عرض التقارير الفرعية المدمجة كروابط. ملاحظة: زيادة الحد الأقصى للتقرير الفرعي المتداخل للتصدير بما يتجاوز &quot;1&quot; قد يؤثر بشدة على أداء التصدير.',
 OTHER_SETTING_LABEL_MULTIPLE_SORT_ON_GRID_HEADER : 'السماح لأنواع متعددة على رأس الشبكة',
 OTHER_SETTING_LABEL_HIDE_HEADER_FOOTER_IN_REPORT : 'إخفاء رأس التقرير وتذييله بشكل افتراضي',
-RELATIONSHIP_MESSAGE_CONFIRM_DELETE_RELATIONSHIP_HAS_USED : 'سيتأثر أي جزء تقرير مبني من هذه العلاقة. هل أنت متأكد أنك تريد حذف هذه العلاقة؟',
 RELATIONSHIP_MESSAGE_CONFIRM_DELETE_RELATIONSHIP : 'هل أنت متأكد أنك تريد حذف العلاقة؟',
 RELATIONSHIP_MESSAGES_CONFIRM_SAVE_WITH_POSITION_ID : 'هناك بعض العلاقات التي لها مجموعة موضع. وبالتالي ، في استعلام التقرير ، سيتم وضع هذه العلاقات بالترتيب فوق جميع الصلات غير ذات الأولوية ، بغض النظر عن نوع الصلة.',
 RELATIONSHIP_MESSAGES_CONFIRM_SAVE_WITHOUT_POSITION_ID : 'هل تريد حفظ جميع العلاقات دون تحديد الأولويات؟',
@@ -2305,7 +2304,6 @@ OTHER_SETTINGS_MESSAGE_MAXIMUM_SUBREPORT_LEVEL_GREATER_THAN : 'يجب أن يك�
 OTHER_SETTINGS_MESSAGE_MAXIMUM_SUBREPORT_LEVEL_LESS_THAN : 'يجب أن يكون الحد الأقصى لمستوى تداخل التقرير الفرعي المضمن أقل من أو يساوي {0}.',
 EXPLORE_SEARCH_NLQ_NOT_CONFIGURED : 'لم يتم تكوين NLQ',
 NOTIFICATION_DOWNLOAD_COMPLETE : 'تم التحميل',
-RELATIONSHIP_MESSAGE_CONFIRM_DISABLE_RELATIONSHIP_HAS_USED : 'سيتأثر أي جزء تقرير تم إنشاؤه من هذه العلاقة. هل أنت متأكد أنك تريد تعطيل هذه العلاقة؟',
 RELATIONSHIP_MESSAGE_CONFIRM_DISABLE_RELATIONSHIP : 'هل أنت متأكد أنك تريد تعطيل العلاقة؟',
 REPORTDESIGNER_DASHBOARD_MESSAGE_HINT_CATEGORY : '(أدخل لإنشاء لوحة تحكم جديدة)',
 REPORTDESIGNER_LABEL_Y_AXIS_UPPER : 'المحور ص',
@@ -2408,5 +2406,50 @@ NLQ_SAVE_POPUP_ADD_REPORT_NAME : 'أضف اسم التقرير',
 NLQ_SAVE_POPUP_ADD_TEMPLATE_NAME : 'أضف اسم القالب',
 NLQ_SAVE_POPUP_ADD_REPORT_TITLE : 'أضف عنوان التقرير',
 NLQ_SAVE_ADVANCED_OPTIONS : 'خيارات متقدمة',
-NLQ_SAVE_SELECT_SUBCATEGORY : 'اختر الفئة'
+NLQ_SAVE_SELECT_SUBCATEGORY : 'اختر الفئة',
+COMMON_LABEL_SENDEMAIL : 'ارسل بريد الكتروني',
+COMMON_LABEL_DOWNLOADFILE : 'تحميل الملف',
+COMMON_LABEL_TENANT_GROUP : 'مجموعة المستأجر',
+SELECT_TENANT_POPUP_HEADER : 'حدد المستأجر',
+SELECT_TENANT : 'حدد المستأجر',
+NLQ_CONFIGURATION_SERVER_TEST : 'اختبار',
+NLQ_CONFIGURATION_CONFIG_BUTTON : 'تكوين NLQ',
+NLQ_CONFIGURATION_RESET_BUTTON : 'إعادة تعيين NLQ',
+ACCESS_CONSTANT_CONSTRAINT_TENANT : 'مطلوب مجموعة المستأجر أو المستأجر',
+ROLE_SETUP_ROLE_DETAIL_LABEL_ROLE_TYPE_ADMINISTRATOR : 'مدير',
+ROLE_SETUP_ROLE_DETAIL_LABEL_ROLE_TYPE_ADVREPORTCREATOR : 'حال. تقرير الخالق',
+ROLE_SETUP_ROLE_DETAIL_LABEL_ROLE_TYPE_BASICREPORTCREATOR : 'منشئ التقرير الأساسي',
+ROLE_SETUP_ROLE_DETAIL_LABEL_ROLE_TYPE_REPORTVIEWER : 'عارض التقرير',
+ROLE_SETUP_ROLE_DETAIL_LABEL_ROLE_TYPE_CUSTOM : 'مخصص',
+SECURITY_RULES_LIST_TITLE_ROW_LEVEL_SECURITY : 'أمان على مستوى الصف',
+SECURITY_RULES_LIST_LABEL_ADD_RULES_SET : 'أضف',
+SECURITY_RULES_LIST_TABLE_COLUMN_NAME : 'اسم',
+SECURITY_RULES_LIST_TABLE_COLUMN_DESCRIPTION : 'وصف',
+SECURITY_RULES_LIST_TEXT_NO_NAME : 'بدون اسم',
+SECURITY_RULES_LIST_TEXT_NO_DESCRIPTION : 'بدون وصف',
+SECURITY_RULES_LIST_TOOLTIP_EDIT_RULES_SET : 'تحرير مجموعة القواعد',
+SECURITY_RULES_LIST_TOOLTIP_CLONE_RULES_SET : 'مجموعة قواعد الاستنساخ',
+SECURITY_RULES_LIST_TOOLTIP_DELETE_RULES_SET : 'حذف مجموعة القواعد',
+SECURITY_RULES_SET_LABEL_NAME : 'اسم',
+SECURITY_RULES_SET_LABEL_DESCRIPTION : 'وصف',
+SECURITY_RULES_SET_LABEL_ADD_RULE : 'أضف القاعدة',
+SECURITY_RULES_SET_TABEL_COLUMN_USER_GROUP : 'مجموعة المستخدمين',
+SECURITY_RULES_SET_TABEL_COLUMN_USER_VALUES : 'قيم مجموعة المستخدم',
+SECURITY_RULES_SET_TABEL_COLUMN_ACCESSIBLE_VALUES : 'القيم',
+SECURITY_RULES_SET_TABEL_COLUMN_ACCESS_MODE : 'وضع وصول',
+SECURITY_RULES_SET_TOOLTIP_CLONE_RULE : 'قاعدة استنساخ',
+SECURITY_RULES_SET_TOOLTIP_DELETE_RULE : 'حذف القاعدة',
+SECURITY_RULES_POPUP_TITLE_FIRST_STEP : 'الخطوة 1: اختر مصادر البيانات',
+SECURITY_RULES_POPUP_TITLE_SECOND_STEP : 'الخطوة 2: اختر الحقول',
+SECURITY_RULES_POPUP_TITLE_THIRD_STEP : 'الخطوة 3: تكوين القواعد',
+SECURITY_RULES_MESSAGE_DATA_SOURCES_NOT_SELECTED : 'الرجاء اختيار مصدر بيانات واحد على الأقل.',
+SECURITY_RULES_MESSAGE_FIELDS_NOT_SELECTED : 'الرجاء اختيار حقل واحد على الأقل.',
+SECURITY_RULES_MESSAGE_RULES_NOT_CREATED : 'الرجاء إضافة قاعدة واحدة على الأقل.',
+SECURITY_RULES_MESSAGE_CONFIRM_SAVING : 'سيؤثر تطبيق هذه القواعد على كيفية تصدير البيانات ، هل تريد المتابعة؟',
+INCLUDE_FILTER_ON_FIRST_PAGE_IN_EXPORT : 'عرض عوامل التصفية في الصفحة الأولى من التقرير',
+INCLUDE_FILTER_ON_LAST_PAGE_IN_EXPORT : 'عرض عوامل التصفية في الصفحة الأخيرة من التقرير',
+INCLUDE_FILTER_VALUE_IN_EXPORT : 'تم تطبيق عوامل التصفية على هذا التقرير. هل تريد تضمين عوامل التصفية وقيمها في هذه الصادرات؟',
+REPORT_SUBCRIPTION_CONSTANT_MESSAGE_DELIVERY_TYPE_NO_PERM : 'ليس لديك إذن لنوع التسليم &quot;{0}&quot;. الرجاء اختيار واحد آخر.',
+REPORT_SUBCRIPTION_CONSTANT_MESSAGE_ATTACHMENT_TYPE_NO_PERM : 'ليس لديك إذن لنوع المرفق &quot;{0}&quot;. الرجاء اختيار واحد آخر.',
+REPORT_SUBCRIPTION_CONSTANT_MESSAGE_FILE_TYPE_NO_PERM : 'ليس لديك إذن لنوع الملف &quot;{0}&quot;. الرجاء اختيار واحد آخر.'
 }, 'ar');
