@@ -141,6 +141,8 @@ localizer.registerLanguage(
     COMMON_LABEL_SAVEINTO: 'Save into',
     COMMON_LABEL_CONFIGURATION: 'Configuration',
     COMMON_LABEL_CONNECT: 'Connect',
+    COMMON_LABEL_SENDEMAIL: 'Send Email',
+    COMMON_LABEL_DOWNLOADFILE: 'Download File',
     COMMON_LABEL_COPY: 'Copy',
     COMMON_LABEL_CREATE: 'Create',
     COMMON_LABEL_CREATED: 'Created',
@@ -206,6 +208,7 @@ localizer.registerLanguage(
     COMMON_LABEL_TENANT_SETUP: 'Tenant Setup',
     COMMON_LABEL_SYSTEM_WIDE: 'System-wide',
     COMMON_LABEL_TENANT: 'Tenant',
+    COMMON_LABEL_TENANT_GROUP: 'Tenant Group',
     COMMON_LABEL_TEST: 'Test',
     COMMON_LABEL_TEXT: 'Text',
     COMMON_LABEL_TITLE: 'Title',
@@ -500,6 +503,9 @@ localizer.registerLanguage(
       'Are you sure you want to delete {0} category? All subcategories in this category will also be removed.',
     CATEGORY_MESSAGES_CONFIRM_DELETE_SUBCATEGORY: 'Are you sure you want to delete {0} subcategory?',
 
+    SELECT_TENANT_POPUP_HEADER: 'Select Tenant',
+    SELECT_TENANT: 'Select Tenant',
+
     // SECURITY
     SECURITY_LABEL_SHOW_TENANT_FIELD: 'Show Tenant Field',
     SECURITY_LABEL_TENANT_FIELD: 'Tenant Field',
@@ -623,11 +629,7 @@ localizer.registerLanguage(
     EXPLORE_SEARCH_NLQ_NOT_CONFIGURED: 'NLQ not configured',
     NOTIFICATION_DOWNLOAD_COMPLETE: 'Download Complete',
     // RELATIONSHIP
-    RELATIONSHIP_MESSAGE_CONFIRM_DELETE_RELATIONSHIP_HAS_USED:
-      'Any report part built from this relationship will be impacted. Are you sure you want to delete this relationship?',
     RELATIONSHIP_MESSAGE_CONFIRM_DELETE_RELATIONSHIP: 'Are you sure you want to delete the relationship?',
-    RELATIONSHIP_MESSAGE_CONFIRM_DISABLE_RELATIONSHIP_HAS_USED:
-      'Any report part built from this relationship will be impacted. Are you sure you want to disable this relationship?',
     RELATIONSHIP_MESSAGE_CONFIRM_DISABLE_RELATIONSHIP: 'Are you sure you want to disable the relationship?',
     RELATIONSHIP_MESSAGES_CONFIRM_SAVE_WITH_POSITION_ID:
       'There are some relationships which have positionID set. Thus, in report query, these relationships will be placed in order above all non-prioritized joins, regardless of the join type.',
@@ -907,7 +909,7 @@ localizer.registerLanguage(
     // CONNECTION
     CONNECTION_LABEL_ADD_CONNECTION: 'Add Connector',
     CONNECTION_DELETE_MESSAGE:
-      'All data items available in the current data model associated with this connection will be removed. Are you sure you want to delete this connection?',
+      'All data items available in the current data model associated with this connection will be removed. Global Database Mapping may stop working properly either. Are you sure you want to delete this connection?',
     CONNECTION_OVERRIDE_EXCEL_MESSAGE: 'Do you want to replace the data source with new file?',
     CONNECTION_INVISIBLE_MESSAGE:
       'The current data items associated with this connection will be made visible in the data model. Are you sure you want to make all data associated visible?',
@@ -1498,6 +1500,9 @@ localizer.registerLanguage(
     PERMISSION_LABEL_USER_ROLE_ASSOCIATION: 'User Role Association',
     PERMISSION_LABEL_PASSWORD_OPTIONS: 'Configure Password Option',
 
+    NLQ_CONFIGURATION_SERVER_TEST: 'Test',
+    NLQ_CONFIGURATION_CONFIG_BUTTON:'Configure NLQ',
+    NLQ_CONFIGURATION_RESET_BUTTON: 'Reset NLQ', 
     // ACCESS CONSTANT
     ACCESS_CONSTANT_ACCESS_TABLE_DEF_SHARE_WITH: 'Share With',
     ACCESS_CONSTANT_ACCESS_TABLE_DEF_ACCESS_RIGHT: 'Access Rights',
@@ -1515,6 +1520,7 @@ localizer.registerLanguage(
     ACCESS_CONSTANT_CONSTRAINT_ACCESS_RIGHT: 'Access Right is required',
     ACCESS_CONSTANT_CONSTRAINT_USER: 'User is required',
     ACCESS_CONSTANT_CONSTRAINT_ROLE: 'Role is required',
+    ACCESS_CONSTANT_CONSTRAINT_TENANT: 'Tenant or Tenant Group is required',
     ACCESS_CONSTANT_CONSTRAINT_REPORT_OWNER: 'Missing owner info. Please specify who will be the owner of this report.',
     ACCESS_CONSTANT_CONSTRAINT_DASHBOARD_OWNER:
       'Missing owner info. Please specify who will be the owner of this dashboard.',
@@ -1659,6 +1665,11 @@ localizer.registerLanguage(
     // ROLE_SETUP_ROLE_DETAIL
     ROLE_SETUP_ROLE_DETAIL_LABEL_ROLE_NAME: 'Role Name',
     ROLE_SETUP_ROLE_DETAIL_LABEL_ROLE_TYPE: 'Role Type',
+    ROLE_SETUP_ROLE_DETAIL_LABEL_ROLE_TYPE_ADMINISTRATOR: 'Administrator',
+    ROLE_SETUP_ROLE_DETAIL_LABEL_ROLE_TYPE_ADVREPORTCREATOR: 'Adv. Report Creator',
+    ROLE_SETUP_ROLE_DETAIL_LABEL_ROLE_TYPE_BASICREPORTCREATOR: 'Basic Report Creator',
+    ROLE_SETUP_ROLE_DETAIL_LABEL_ROLE_TYPE_REPORTVIEWER: 'Report Viewer',
+    ROLE_SETUP_ROLE_DETAIL_LABEL_ROLE_TYPE_CUSTOM: 'Custom',
 
     // SETTING LEVEL
     SETTING_LEVEL_LABEL_SETTING_LEVEL: 'Setting Level',
@@ -1672,6 +1683,33 @@ localizer.registerLanguage(
     // SYSTEM CONFIGURATION SCHEDULING REPORTING TYPE
     SYSTEM_CONFIGURATION_LABEL_REPORTING_TYPE: 'Reporting Type',
     SYSTEM_CONFIGURATION_PLACEHOLDER_REPORT_OR_DASHBOARD_NAME: 'Report/Dashboard Name',
+
+    // SECURITY RULES
+    SECURITY_RULES_LIST_TITLE_ROW_LEVEL_SECURITY: 'Row-Level Security',
+    SECURITY_RULES_LIST_LABEL_ADD_RULES_SET: 'Add',
+    SECURITY_RULES_LIST_TABLE_COLUMN_NAME: 'Name',
+    SECURITY_RULES_LIST_TABLE_COLUMN_DESCRIPTION: 'Description',
+    SECURITY_RULES_LIST_TEXT_NO_NAME: 'No name',
+    SECURITY_RULES_LIST_TEXT_NO_DESCRIPTION: 'No description',
+    SECURITY_RULES_LIST_TOOLTIP_EDIT_RULES_SET: 'Edit Rules Set',
+    SECURITY_RULES_LIST_TOOLTIP_CLONE_RULES_SET: 'Clone Rules Set',
+    SECURITY_RULES_LIST_TOOLTIP_DELETE_RULES_SET: 'Delete Rules Set',
+    SECURITY_RULES_SET_LABEL_NAME: 'Name',
+    SECURITY_RULES_SET_LABEL_DESCRIPTION: 'Description',
+    SECURITY_RULES_SET_LABEL_ADD_RULE: 'Add Rule',
+    SECURITY_RULES_SET_TABEL_COLUMN_USER_GROUP: 'User Group',
+    SECURITY_RULES_SET_TABEL_COLUMN_USER_VALUES: 'User Group Values',
+    SECURITY_RULES_SET_TABEL_COLUMN_ACCESSIBLE_VALUES: 'Values',
+    SECURITY_RULES_SET_TABEL_COLUMN_ACCESS_MODE: 'Access Mode',
+    SECURITY_RULES_SET_TOOLTIP_CLONE_RULE: 'Clone Rule',
+    SECURITY_RULES_SET_TOOLTIP_DELETE_RULE: 'Delete Rule',
+    SECURITY_RULES_POPUP_TITLE_FIRST_STEP: 'Step 1: Choose Data Sources',
+    SECURITY_RULES_POPUP_TITLE_SECOND_STEP: 'Step 2: Choose Fields',
+    SECURITY_RULES_POPUP_TITLE_THIRD_STEP: 'Step 3: Configure Rules',
+    SECURITY_RULES_MESSAGE_DATA_SOURCES_NOT_SELECTED: 'Please choose at least one data source.',
+    SECURITY_RULES_MESSAGE_FIELDS_NOT_SELECTED: 'Please choose at least one field.',
+    SECURITY_RULES_MESSAGE_RULES_NOT_CREATED: 'Please add at least one rule.',
+    SECURITY_RULES_MESSAGE_CONFIRM_SAVING: 'Applying these rules will impact how data can be exported, do you want to proceed?',
 
     // SCHEDULING SEARCH CONSTANT
     SCHEDULING_SEARCH_CONSTANT_TOOLTIP_EXPAND: 'Expand',
@@ -2566,6 +2604,10 @@ localizer.registerLanguage(
     REPORT_CONSTANT_DRILL_DOWN_EXPORT_WITHOUT_PREVIEW_STATE: 'Export with all expanded records',
     REPORT_CONSTANT_ASYNC_EXPORT_IN_PROGRESS: '{0} export of "{1}" {2} is in progress. You can download exported {2} from "Export Manager" when it is available.',
 
+    INCLUDE_FILTER_ON_FIRST_PAGE_IN_EXPORT:'Display filters on the first page of report',
+    INCLUDE_FILTER_ON_LAST_PAGE_IN_EXPORT:'Display filters on the last page of report',
+    INCLUDE_FILTER_VALUE_IN_EXPORT:'Filters have been applied to this report. Do you want to include filters and their values in this exports?',
+
     // REPORT_SUBCRIPTION_CONSTANT
     REPORT_SUBCRIPTION_CONSTANT_SUBSCRIPTION_REPORT: 'Subscription Reporting Item',
     REPORT_SUBCRIPTION_CONSTANT_MESSAGE_DELETE_INSTANCE: 'Are you sure you want to delete the subscribed instance?',
@@ -2579,6 +2621,9 @@ localizer.registerLanguage(
     REPORT_SUBCRIPTION_CONSTANT_MESSAGE_ADJUSTED_ACCORDINGLY:
       'Due to your schedule configuration the start date of the subscription must be auto adjusted accordingly. You can review the adjusted start date before further proceed.',
     REPORT_SUBCRIPTION_CONSTANT_MESSAGE_REQUIRED_OCCURRENCE: 'Occurrence is required.',
+    REPORT_SUBCRIPTION_CONSTANT_MESSAGE_DELIVERY_TYPE_NO_PERM: 'You do not have permission for delivery type "{0}". Please choose another one.',
+    REPORT_SUBCRIPTION_CONSTANT_MESSAGE_ATTACHMENT_TYPE_NO_PERM: 'You do not have permission for attachment type "{0}". Please choose another one.',
+    REPORT_SUBCRIPTION_CONSTANT_MESSAGE_FILE_TYPE_NO_PERM: 'You do not have permission for file type "{0}". Please choose another one.',
     REPORT_SUBCRIPTION_CONSTANT_MESSAGE_CANNOT_BE_SUBSCRIBE:
       'The report cannot be subscribed because you do not have an email address set up in the system. Please contact your System Administrator for assistance.',
     REPORT_SUBCRIPTION_CONSTANT_ADD: 'Add Subscription',
