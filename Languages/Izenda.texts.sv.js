@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Återge HTML i utskrift / export',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Ge HTML i rapportvisaren',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Om detta är markerat kommer HTML-innehållet från fälten att återges i rapportvisaren',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Koda variabler i anpassad URL',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;Exponera nya data till vår Natural Language Query-tjänst för att skapa mer komplicerade rapporter.&quot;, &quot;LABEL&quot; : &quot;Lägg till ny datakälla&quot;}, &quot;DASHBOARD&quot;: {&quot;DESCRIPTION&quot;: &quot;Design en ny instrumentbräda för att förbättra dina insikter från flera rapporter.&quot;, &quot;LABEL&quot;: &quot;Create Dashboard&quot;}, &quot;REPORT&quot;: {&quot;DESCRIPTION &quot;:&quot; Skapa en ny rapport för att visa dina företags framsteg. &quot;,&quot; LABEL &quot;:&quot; Skapa rapport &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1, &quot;title&quot;: &quot;Ask your query&quot;}, &quot;results&quot;: {&quot;order&quot;: 2, &quot;title&quot;: &quot;Query results&quot;}, &quot;vis&quot;: {&quot; order &quot;: 3,&quot; title &quot;:&quot; Visualisering &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Exponera nya data till vår Natural Language Query-tjänst för att skapa mer komplicerade rapporter.',
+        LABEL: 'Lägg till ny datakälla'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Design en ny instrumentbräda för att förbättra dina insikter från flera rapporter.',
+        LABEL: 'Create Dashboard'
+    },
+    REPORT: {
+        DESCRIPTION: 'Skapa en ny rapport för att visa dina företags framsteg.',
+        LABEL: 'Skapa rapport'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Ask your query'
+    },
+    results: {
+        order: 2,
+        title: 'Query results'
+    },
+    vis: {
+        order: 3,
+        title: 'Visualisering'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Skriv din fråga här, till exempel: &quot;Genomsnittlig försäljning mellan juni 2019 och december 2020&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Rensa filtret',
 REPORTDESIGNER_LABEL_SCALE : 'Skala',

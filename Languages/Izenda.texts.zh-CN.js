@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : '在打印/导出中渲染HTML',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : '在报表查看器中渲染HTML',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : '如果选中此选项，则来自字段的HTML内容将在报告查看器中呈现。',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : '在自定义网址中编码变量',
-EXPLORE_CTAS : '{“ DATA_SOURCE”：{“ ICON”：“ /static/img/explore/new-data.png”，“ DESCRIPTION”：“将新数据暴露给我们的自然语言查询服务以构建更复杂的报告。”，“ LABEL” ：“添加新数据源”}，“仪表板”：{“ DESCRIPTION”：“设计新的仪表板以增强您对多个报告的见解。”，“ LABEL”：“ Create Dashboard”}，“ REPORT”：{“ DESCRIPTION ”：“建立新的报告以展示您的业务进展。”，“标签”：“创建报告”}}',
-EXPLORE_NAV : '{“ ask”：{“ order”：1，“ title”：“询问您的查询”}，“ results”：{“ order”：2，2，“ title”：“查询结果”}，“ vis”：{“顺序”：3，“标题”：“可视化”}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: '将新数据暴露给我们的自然语言查询服务以构建更复杂的报告。',
+        LABEL: '添加新数据源'
+    },
+    DASHBOARD: {
+        DESCRIPTION: '设计新的仪表板以增强您对多个报告的见解。',
+        LABEL: 'Create Dashboard'
+    },
+    REPORT: {
+        DESCRIPTION: '建立新的报告以展示您的业务进展。',
+        LABEL: '创建报告'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: '询问您的查询'
+    },
+    results: {
+        order: 2,
+        title: '查询结果'
+    },
+    vis: {
+        order: 3,
+        title: '可视化'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : '在此处输入查询，例如：“ 2019年6月至2020年12月的平均销售额”',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : '清除筛选',
 REPORTDESIGNER_LABEL_SCALE : '规模',

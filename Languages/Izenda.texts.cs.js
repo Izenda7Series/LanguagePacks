@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Vykreslete HTML v tisku / exportu',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Vykreslete HTML v Prohlížeči sestav',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Pokud je toto zaškrtnuto, bude obsah HTML z polí vykreslen v prohlížeči sestav',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Proměnné zakódujte do vlastní adresy URL',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;Vystavte nová data naší službě dotazu v přirozeném jazyce a vytvořte složitější sestavy.&quot;, &quot;LABEL&quot; : &quot;Přidat nový zdroj dat&quot;}, &quot;DASHBOARD&quot;: {&quot;DESCRIPTION&quot;: &quot;Navrhněte nový dashboard, abyste vylepšili svůj přehled z více přehledů.&quot;, &quot;LABEL&quot;: &quot;Create Dashboard&quot;}, &quot;REPORT&quot;: {&quot;DESCRIPTION &quot;:&quot; Vytvořte nový přehled, který předvede váš obchodní pokrok. &quot;,&quot; LABEL &quot;:&quot; Vytvořit přehled &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1, &quot;title&quot;: &quot;Ask your query&quot;}, &quot;results&quot;: {&quot;order&quot;: 2, &quot;title&quot;: &quot;Query results&quot;}, &quot;vis&quot;: {&quot; objednávka &quot;: 3,&quot; title &quot;:&quot; Vizualizace &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Vystavte nová data naší službě dotazu v přirozeném jazyce a vytvořte složitější sestavy.',
+        LABEL: 'Přidat nový zdroj dat'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Navrhněte nový dashboard, abyste vylepšili svůj přehled z více přehledů.',
+        LABEL: 'Create Dashboard'
+    },
+    REPORT: {
+        DESCRIPTION: 'Vytvořte nový přehled, který předvede váš obchodní pokrok.',
+        LABEL: 'Vytvořit přehled'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Ask your query'
+    },
+    results: {
+        order: 2,
+        title: 'Query results'
+    },
+    vis: {
+        order: 3,
+        title: 'Vizualizace'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Sem zadejte svůj dotaz, například: „Průměrný prodej mezi červnem 2019 a prosincem 2020“',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Vymazat filtr',
 REPORTDESIGNER_LABEL_SCALE : 'Stupnice',

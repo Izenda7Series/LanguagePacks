@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Gefðu HTML í prentun / útflutning',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Sendu HTML í skýrsluskoðara',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Ef þetta er hakað verður HTML-innihaldið frá reitunum gert í skýrsluskoðandanum',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Kóða breytur í sérsniðinni vefslóð',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;Lýstu nýjum gögnum fyrir Natural Language Query þjónustu okkar til að byggja upp flóknari skýrslur.&quot;, &quot;LABEL&quot; : &quot;Bæta við nýjum gagnaheimild&quot;}, &quot;DASHBOARD&quot;: {&quot;DESCRIPTION&quot;: &quot;Hannaðu nýtt mælaborð til að bæta innsýn þín úr mörgum skýrslum.&quot;, &quot;LABEL&quot;: &quot;Búðu til mælaborð&quot;}, &quot;REPORT&quot;: {&quot;LÝSING &quot;:&quot; Búðu til nýja skýrslu til að sýna framvindu fyrirtækisins. &quot;,&quot; LABEL &quot;:&quot; Búa til skýrslu &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1, &quot;title&quot;: &quot;Spurðu fyrirspurn þína&quot;}, &quot;results&quot;: {&quot;order&quot;: 2, &quot;title&quot;: &quot;Niðurstöður fyrirspurna&quot;}, &quot;vis&quot;: {&quot; röð &quot;: 3,&quot; title &quot;:&quot; Sjónræn &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Lýstu nýjum gögnum fyrir Natural Language Query þjónustu okkar til að byggja upp flóknari skýrslur.',
+        LABEL: 'Bæta við nýjum gagnaheimild'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Hannaðu nýtt mælaborð til að bæta innsýn þín úr mörgum skýrslum.',
+        LABEL: 'Búðu til mælaborð'
+    },
+    REPORT: {
+        DESCRIPTION: 'Búðu til nýja skýrslu til að sýna framvindu fyrirtækisins.',
+        LABEL: 'Búa til skýrslu'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Spurðu fyrirspurn þína'
+    },
+    results: {
+        order: 2,
+        title: 'Niðurstöður fyrirspurna'
+    },
+    vis: {
+        order: 3,
+        title: 'Sjónræn'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Sláðu inn fyrirspurn þína hér, til dæmis: &quot;Meðalsala milli júní 2019 og desember 2020&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Hreinsa síu',
 REPORTDESIGNER_LABEL_SCALE : 'Mælikvarði',

@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Renderējiet HTML drukājot / eksportējot',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Renderējiet HTML pārskatu skatītājā',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Ja tas ir atzīmēts, HTML saturs no laukiem tiks parādīts pārskata skatītājā',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Šifrējiet mainīgos pielāgotajā URL',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;Atklājiet jaunus datus mūsu Natural Language Query pakalpojumam, lai izveidotu sarežģītākus pārskatus.&quot;, &quot;LABEL&quot; : &quot;Pievienot jaunu datu avotu&quot;}, &quot;DASHBOARD&quot;: {&quot;APRAKSTS&quot;: &quot;Izstrādājiet jaunu informācijas paneli, lai uzlabotu savu ieskatu no vairākiem pārskatiem.&quot;, &quot;LABEL&quot;: &quot;Izveidot informācijas paneli&quot;}, &quot;ZIŅOJUMS&quot;: {&quot;APRAKSTS &quot;:&quot; Veidojiet jaunu pārskatu, lai parādītu jūsu biznesa gaitu. &quot;,&quot; LABEL &quot;:&quot; Izveidot pārskatu &quot;}}',
-EXPLORE_NAV : '{&quot;jautājiet&quot;: {&quot;pasūtiet&quot;: 1, &quot;nosaukums&quot;: &quot;jautājiet vaicājumam&quot;}, &quot;rezultāti&quot;: {&quot;pasūtiet&quot;: 2, &quot;nosaukums&quot;: &quot;vaicājuma rezultāti&quot;}, &quot;vis&quot;: {&quot; pasūtījums &quot;: 3,&quot; nosaukums &quot;:&quot; vizualizācija &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Atklājiet jaunus datus mūsu Natural Language Query pakalpojumam, lai izveidotu sarežģītākus pārskatus.',
+        LABEL: 'Pievienot jaunu datu avotu'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Izstrādājiet jaunu informācijas paneli, lai uzlabotu savu ieskatu no vairākiem pārskatiem.',
+        LABEL: 'Izveidot informācijas paneli'
+    },
+    REPORT: {
+        DESCRIPTION: 'Veidojiet jaunu pārskatu, lai parādītu jūsu biznesa gaitu.',
+        LABEL: 'Izveidot pārskatu'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'jautājiet vaicājumam'
+    },
+    results: {
+        order: 2,
+        title: 'vaicājuma rezultāti'
+    },
+    vis: {
+        order: 3,
+        title: 'vizualizācija'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Šeit ierakstiet vaicājumu, piemēram: &quot;Vidējie pārdošanas apjomi no 2019. gada jūnija līdz 2020. gada decembrim&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Notīrīt filtru',
 REPORTDESIGNER_LABEL_SCALE : 'Mērogs',

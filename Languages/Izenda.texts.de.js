@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Rendern Sie HTML beim Drucken / Exportieren',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'HTML in der Berichtsanzeige rendern',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Wenn diese Option aktiviert ist, wird der HTML-Inhalt aus den Feldern im Berichts-Viewer gerendert',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Codieren Sie Variablen in der benutzerdefinierten URL',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;Stellen Sie unserem Abfragedienst für natürliche Sprachen neue Daten zur Verfügung, um komplexere Berichte zu erstellen.&quot;, &quot;LABEL&quot; : &quot;Neue Datenquelle hinzufügen&quot;}, &quot;DASHBOARD&quot;: {&quot;BESCHREIBUNG&quot;: &quot;Entwerfen Sie ein neues Dashboard, um Ihre Erkenntnisse aus mehreren Berichten zu verbessern.&quot;, &quot;LABEL&quot;: &quot;Dashboard erstellen&quot;}, &quot;BERICHT&quot;: {&quot;BESCHREIBUNG&quot; &quot;:&quot; Erstellen Sie einen neuen Bericht, um Ihren Geschäftsfortschritt darzustellen. &quot;,&quot; LABEL &quot;:&quot; Bericht erstellen &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1, &quot;title&quot;: &quot;Ask your query&quot;}, &quot;results&quot;: {&quot;order&quot;: 2, &quot;title&quot;: &quot;Query results&quot;}, &quot;vis&quot;: {&quot; order &quot;: 3,&quot; title &quot;:&quot; Visualization &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Stellen Sie unserem Abfragedienst für natürliche Sprachen neue Daten zur Verfügung, um komplexere Berichte zu erstellen.',
+        LABEL: 'Neue Datenquelle hinzufügen'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Entwerfen Sie ein neues Dashboard, um Ihre Erkenntnisse aus mehreren Berichten zu verbessern.',
+        LABEL: 'Dashboard erstellen'
+    },
+    REPORT: {
+        DESCRIPTION: 'Erstellen Sie einen neuen Bericht, um Ihren Geschäftsfortschritt darzustellen.',
+        LABEL: 'Bericht erstellen'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Ask your query'
+    },
+    results: {
+        order: 2,
+        title: 'Query results'
+    },
+    vis: {
+        order: 3,
+        title: 'Visualization'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Geben Sie hier Ihre Anfrage ein, zum Beispiel: &quot;Durchschnittlicher Umsatz zwischen Juni 2019 und Dezember 2020&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Filter löschen',
 REPORTDESIGNER_LABEL_SCALE : 'Rahmen',

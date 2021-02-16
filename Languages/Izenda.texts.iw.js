@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'הגש HTML בהדפסה / ייצוא',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'הגש HTML במציג הדוחות',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'אם זה מסומן, תוכן ה- HTML מהשדות יוצג במציג הדוחות',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'קידוד משתנים בכתובת אתר מותאמת אישית',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;חשוף נתונים חדשים לשירות שאילתת השפה הטבעית שלנו כדי לבנות דוחות מורכבים יותר.&quot;, &quot;LABEL&quot; : &quot;הוסף מקור נתונים חדש&quot;}, &quot;DASHBOARD&quot;: {&quot;DESCRIPTION&quot;: &quot;תכנן לוח מחוונים חדש כדי לשפר את התובנות שלך מדוחות מרובים.&quot;, &quot;LABEL&quot;: &quot;צור לוח מחוונים&quot;}, &quot;REPORT&quot;: {&quot;DESCRIPTION &quot;:&quot; בנה דוח חדש כדי להציג את ההתקדמות העסקית שלך. &quot;,&quot; LABEL &quot;:&quot; צור דוח &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1, &quot;title&quot;: &quot;שאל את השאילתה שלך&quot;}, &quot;results&quot;: {&quot;order&quot;: 2, &quot;title&quot;: &quot;תוצאות שאילתה&quot;}, &quot;vis&quot;: {&quot; סדר &quot;: 3,&quot; title &quot;:&quot; ויזואליזציה &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'חשוף נתונים חדשים לשירות שאילתת השפה הטבעית שלנו כדי לבנות דוחות מורכבים יותר.',
+        LABEL: 'הוסף מקור נתונים חדש'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'תכנן לוח מחוונים חדש כדי לשפר את התובנות שלך מדוחות מרובים.',
+        LABEL: 'צור לוח מחוונים'
+    },
+    REPORT: {
+        DESCRIPTION: 'בנה דוח חדש כדי להציג את ההתקדמות העסקית שלך.',
+        LABEL: 'צור דוח'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'שאל את השאילתה שלך'
+    },
+    results: {
+        order: 2,
+        title: 'תוצאות שאילתה'
+    },
+    vis: {
+        order: 3,
+        title: 'ויזואליזציה'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'הקלד את השאילתה שלך כאן, למשל: &quot;מכירות ממוצעות בין יוני 2019 לדצמבר 2020&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'נקה את המסנן',
 REPORTDESIGNER_LABEL_SCALE : 'קנה מידה',

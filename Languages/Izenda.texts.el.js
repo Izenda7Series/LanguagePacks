@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Δώστε HTML στην εκτύπωση / εξ�
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Δώστε HTML στο πρόγραμμα προβολής αναφορών',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Εάν αυτό είναι επιλεγμένο, τότε το περιεχόμενο HTML από τα πεδία θα αποδοθεί στην προβολή αναφορών',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Κωδικοποίηση μεταβλητών στο προσαρμοσμένο URL',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;Εκθέστε νέα δεδομένα στην υπηρεσία ερωτημάτων φυσικής γλώσσας για να δημιουργήσετε πιο περίπλοκες αναφορές.&quot;, &quot;LABEL&quot; : &quot;Προσθήκη νέας πηγής δεδομένων&quot;}, &quot;Πίνακας ελέγχου&quot;: {&quot;ΠΕΡΙΓΡΑΦΗ&quot;: &quot;Σχεδιάστε έναν νέο πίνακα ελέγχου για να βελτιώσετε τις πληροφορίες σας από πολλές αναφορές.&quot;, &quot;LABEL&quot;: &quot;Δημιουργία πίνακα ελέγχου&quot;}, &quot;ΕΚΘΕΣΗ&quot;: {&quot;ΠΕΡΙΓΡΑΦΗ &quot;:&quot; Δημιουργήστε μια νέα αναφορά για να δείξετε την πρόοδο της επιχείρησής σας. &quot;,&quot; LABEL &quot;:&quot; Δημιουργία αναφοράς &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1, &quot;title&quot;: &quot;Ask your query&quot;}, &quot;results&quot;: {&quot;order&quot;: 2, &quot;title&quot;: &quot;Query results&quot;}, &quot;vis&quot;: {&quot; παραγγελία &quot;: 3,&quot; title &quot;:&quot; Visualization &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Εκθέστε νέα δεδομένα στην υπηρεσία ερωτημάτων φυσικής γλώσσας για να δημιουργήσετε πιο περίπλοκες αναφορές.',
+        LABEL: 'Προσθήκη νέας πηγής δεδομένων'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Σχεδιάστε έναν νέο πίνακα ελέγχου για να βελτιώσετε τις πληροφορίες σας από πολλές αναφορές.',
+        LABEL: 'Δημιουργία πίνακα ελέγχου'
+    },
+    REPORT: {
+        DESCRIPTION: 'Δημιουργήστε μια νέα αναφορά για να δείξετε την πρόοδο της επιχείρησής σας.',
+        LABEL: 'Δημιουργία αναφοράς'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Ask your query'
+    },
+    results: {
+        order: 2,
+        title: 'Query results'
+    },
+    vis: {
+        order: 3,
+        title: 'Visualization'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Πληκτρολογήστε το ερώτημά σας εδώ, για παράδειγμα: &quot;Μέσες πωλήσεις μεταξύ Ιουνίου 2019 και Δεκεμβρίου 2020&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Εκκαθάριση φίλτρου',
 REPORTDESIGNER_LABEL_SCALE : 'Κλίμακα',

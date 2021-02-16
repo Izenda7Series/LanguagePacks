@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'تقديم HTML في الطباعة / التصد�
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'تقديم HTML في عارض التقارير',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'إذا تم تحديد ذلك ، فسيتم عرض محتوى HTML من الحقول في عارض التقارير',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'ترميز المتغيرات في عنوان URL المخصص',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;، &quot;DESCRIPTION&quot;: &quot;فضح بيانات جديدة لخدمة استعلام اللغة الطبيعية لدينا لإنشاء تقارير أكثر تعقيدًا.&quot;، &quot;LABEL&quot; : &quot;إضافة مصدر بيانات جديد&quot;} ، &quot;DASHBOARD&quot;: {&quot;DESCRIPTION&quot;: &quot;تصميم لوحة تحكم جديدة لتحسين رؤيتك من تقارير متعددة.&quot;، &quot;LABEL&quot;: &quot;Create Dashboard&quot;}، &quot;REPORT&quot;: {&quot;DESCRIPTION &quot;:&quot; أنشئ تقريرًا جديدًا لعرض تقدم عملك. &quot;،&quot; LABEL &quot;:&quot; إنشاء تقرير &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1، &quot;title&quot;: &quot;Ask your query&quot;}، &quot;results&quot;: {&quot;order&quot;: 2، &quot;title&quot;: &quot;Query results&quot;}، &quot;vis&quot;: {&quot; الطلب &quot;: 3،&quot; title &quot;:&quot; Visualization &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'فضح بيانات جديدة لخدمة استعلام اللغة الطبيعية لدينا لإنشاء تقارير أكثر تعقيدًا.',
+        LABEL: 'إضافة مصدر بيانات جديد'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'تصميم لوحة تحكم جديدة لتحسين رؤيتك من تقارير متعددة.',
+        LABEL: 'Create Dashboard'
+    },
+    REPORT: {
+        DESCRIPTION: 'أنشئ تقريرًا جديدًا لعرض تقدم عملك.',
+        LABEL: 'إنشاء تقرير'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Ask your query'
+    },
+    results: {
+        order: 2,
+        title: 'Query results'
+    },
+    vis: {
+        order: 3,
+        title: 'Visualization'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'اكتب استعلامك هنا ، على سبيل المثال: &quot;متوسط المبيعات بين يونيو 2019 وديسمبر 2020&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'مرشح واضح',
 REPORTDESIGNER_LABEL_SCALE : 'مقياس',

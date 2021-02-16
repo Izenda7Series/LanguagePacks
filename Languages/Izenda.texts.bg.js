@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Представете HTML при отпечат
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Render HTML в Viewer Report',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Ако това е отметнато, HTML съдържанието от полетата ще бъде представено в програмата за преглед на отчетите',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Кодирайте променливи в персонализиран URL адрес',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;ОПИСАНИЕ&quot;: &quot;Изложи нови данни в нашата услуга за естествен език за заявки, за да създадем по-сложни отчети.&quot;, &quot;LABEL&quot; : &quot;Добавяне на нов източник на данни&quot;}, &quot;DASHBOARD&quot;: {&quot;DESCRIPTION&quot;: &quot;Дизайн на ново табло за подобряване на представите ви от множество отчети.&quot;, &quot;LABEL&quot;: &quot;Създаване на табло за управление&quot;}, &quot;ОТЧЕТ&quot;: {&quot;DESCRIPTION &quot;:&quot; Създайте нов отчет, за да покажете напредъка на бизнеса си. &quot;,&quot; LABEL &quot;:&quot; Създаване на отчет &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1, &quot;title&quot;: &quot;Попитайте вашето запитване&quot;}, &quot;results&quot;: {&quot;order&quot;: 2, &quot;title&quot;: &quot;Резултати от заявките&quot;}, &quot;vis&quot;: {&quot; ред &quot;: 3,&quot; заглавие &quot;:&quot; Визуализация &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Изложи нови данни в нашата услуга за естествен език за заявки, за да създадем по-сложни отчети.',
+        LABEL: 'Добавяне на нов източник на данни'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Дизайн на ново табло за подобряване на представите ви от множество отчети.',
+        LABEL: 'Създаване на табло за управление'
+    },
+    REPORT: {
+        DESCRIPTION: 'Създайте нов отчет, за да покажете напредъка на бизнеса си.',
+        LABEL: 'Създаване на отчет'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Попитайте вашето запитване'
+    },
+    results: {
+        order: 2,
+        title: 'Резултати от заявките'
+    },
+    vis: {
+        order: 3,
+        title: 'Визуализация'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Въведете вашето запитване тук, например: „Средни продажби между юни 2019 г. и декември 2020 г.“',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Изчисти филтъра',
 REPORTDESIGNER_LABEL_SCALE : 'мащаб',

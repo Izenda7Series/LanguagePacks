@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Rendering HTML in Stampa / Esportazione',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Rendering HTML nel Visualizzatore report',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Se questa opzione è selezionata, il contenuto HTML dei campi verrà visualizzato nel visualizzatore di report',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Codifica le variabili nell\'URL personalizzato',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;Esponi nuovi dati al nostro servizio di query in linguaggio naturale per creare rapporti più complessi.&quot;, &quot;LABEL&quot; : &quot;Aggiungi nuova origine dati&quot;}, &quot;DASHBOARD&quot;: {&quot;DESCRIPTION&quot;: &quot;Progetta una nuova dashboard per migliorare le tue conoscenze da più report.&quot;, &quot;LABEL&quot;: &quot;Crea dashboard&quot;}, &quot;REPORT&quot;: {&quot;DESCRIPTION &quot;:&quot; Crea un nuovo rapporto per mostrare i progressi della tua attività. &quot;,&quot; LABEL &quot;:&quot; Crea rapporto &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1, &quot;title&quot;: &quot;Ask your query&quot;}, &quot;results&quot;: {&quot;order&quot;: 2, &quot;title&quot;: &quot;Query results&quot;}, &quot;vis&quot;: {&quot; ordine &quot;: 3,&quot; titolo &quot;:&quot; Visualizzazione &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Esponi nuovi dati al nostro servizio di query in linguaggio naturale per creare rapporti più complessi.',
+        LABEL: 'Aggiungi nuova origine dati'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Progetta una nuova dashboard per migliorare le tue conoscenze da più report.',
+        LABEL: 'Crea dashboard'
+    },
+    REPORT: {
+        DESCRIPTION: 'Crea un nuovo rapporto per mostrare i progressi della tua attività.',
+        LABEL: 'Crea rapporto'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Ask your query'
+    },
+    results: {
+        order: 2,
+        title: 'Query results'
+    },
+    vis: {
+        order: 3,
+        title: 'Visualizzazione'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Digita qui la tua query, ad esempio: &quot;Vendite medie tra giugno 2019 e dicembre 2020&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Filtro pulito',
 REPORTDESIGNER_LABEL_SCALE : 'Scala',

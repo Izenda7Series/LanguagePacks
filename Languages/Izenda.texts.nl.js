@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'HTML weergeven bij afdrukken / exporteren',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'HTML weergeven in Report Viewer',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Als dit is aangevinkt, wordt de HTML-inhoud uit de velden weergegeven in de rapportviewer',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Codeer variabelen in aangepaste URL',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;Stel nieuwe gegevens bloot aan onze Natural Language Query-service om ingewikkelder rapporten te maken.&quot;, &quot;LABEL&quot; : &quot;Add new data source&quot;}, &quot;DASHBOARD&quot;: {&quot;DESCRIPTION&quot;: &quot;Ontwerp een nieuw dashboard om uw inzichten uit meerdere rapporten te verbeteren.&quot;, &quot;LABEL&quot;: &quot;Create Dashboard&quot;}, &quot;REPORT&quot;: {&quot;DESCRIPTION &quot;:&quot; Bouw een nieuw rapport om uw bedrijfsvoortgang te demonstreren. &quot;,&quot; LABEL &quot;:&quot; Create Report &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1, &quot;title&quot;: &quot;Ask your query&quot;}, &quot;results&quot;: {&quot;order&quot;: 2, &quot;title&quot;: &quot;Query results&quot;}, &quot;vis&quot;: {&quot; order &quot;: 3,&quot; title &quot;:&quot; Visualization &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Stel nieuwe gegevens bloot aan onze Natural Language Query-service om ingewikkelder rapporten te maken.',
+        LABEL: 'Add new data source'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Ontwerp een nieuw dashboard om uw inzichten uit meerdere rapporten te verbeteren.',
+        LABEL: 'Create Dashboard'
+    },
+    REPORT: {
+        DESCRIPTION: 'Bouw een nieuw rapport om uw bedrijfsvoortgang te demonstreren.',
+        LABEL: 'Create Report'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Ask your query'
+    },
+    results: {
+        order: 2,
+        title: 'Query results'
+    },
+    vis: {
+        order: 3,
+        title: 'Visualization'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Typ hier uw vraag, bijvoorbeeld: &quot;Gemiddelde verkoop tussen juni 2019 en december 2020&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Filter wissen',
 REPORTDESIGNER_LABEL_SCALE : 'Schaal',

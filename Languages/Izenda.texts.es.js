@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Renderizar HTML en impresión / exportación',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Renderizar HTML en el Visor de informes',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Si esto está marcado, el contenido HTML de los campos se representará en el visor de informes.',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Codificar variables en URL personalizada',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;Exponga nuevos datos a nuestro servicio de consultas de lenguaje natural para crear informes más complejos&quot;, &quot;LABEL&quot; : &quot;Agregar nueva fuente de datos&quot;}, &quot;TABLERO DE INSTRUMENTOS&quot;: {&quot;DESCRIPCIÓN&quot;: &quot;Diseñe un nuevo tablero de instrumentos para mejorar sus conocimientos de múltiples informes&quot;, &quot;ETIQUETA&quot;: &quot;Crear tablero de instrumentos&quot;}, &quot;INFORME&quot;: {&quot;DESCRIPCIÓN &quot;:&quot; Cree un nuevo informe para mostrar el progreso de su negocio &quot;,&quot; LABEL &quot;:&quot; Crear informe &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1, &quot;title&quot;: &quot;Ask your query&quot;}, &quot;results&quot;: {&quot;order&quot;: 2, &quot;title&quot;: &quot;Query results&quot;}, &quot;vis&quot;: {&quot; orden &quot;: 3,&quot; título &quot;:&quot; Visualización &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Exponga nuevos datos a nuestro servicio de consultas de lenguaje natural para crear informes más complejos',
+        LABEL: 'Agregar nueva fuente de datos'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Diseñe un nuevo tablero de instrumentos para mejorar sus conocimientos de múltiples informes',
+        LABEL: 'Crear tablero de instrumentos'
+    },
+    REPORT: {
+        DESCRIPTION: 'Cree un nuevo informe para mostrar el progreso de su negocio',
+        LABEL: 'Crear informe'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Ask your query'
+    },
+    results: {
+        order: 2,
+        title: 'Query results'
+    },
+    vis: {
+        order: 3,
+        title: 'Visualización'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Escriba su consulta aquí, por ejemplo: &quot;Ventas promedio entre junio de 2019 y diciembre de 2020&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Filtro claro',
 REPORTDESIGNER_LABEL_SCALE : 'Escala',

@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : '印刷/エクスポートでのHTMLのレンダ�
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'レポートビューアーでHTMLをレンダリングする',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'これをオンにすると、フィールドのHTMLコンテンツがレポートビューアーに表示されます',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'カスタムURLの変数をエンコードする',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;：{&quot;ICON&quot;： &quot;/static/img/explore/new-data.png&quot;、 &quot;DESCRIPTION&quot;： &quot;新しいデータを自然言語クエリサービスに公開して、より複雑なレポートを作成します。&quot;、 &quot;LABEL&quot; ： &quot;新しいデータソースを追加&quot;}、 &quot;DASHBOARD&quot;：{&quot;説明&quot;： &quot;複数のレポートからの洞察を強化する新しいダッシュボードを設計します。&quot;、 &quot;LABEL&quot;： &quot;ダッシュボードを作成する&quot;}、 &quot;レポート&quot;：{&quot;説明&quot;：&quot;ビジネスの進捗状況を示す新しいレポートを作成してください。 &quot;、&quot; LABEL &quot;：&quot;レポートを作成 &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;：{&quot;order&quot;：1、 &quot;title&quot;： &quot;Ask your query&quot;}、 &quot;results&quot;：{&quot;order&quot;：2、 &quot;title&quot;： &quot;Query results&quot;}、 &quot;vis&quot;：{&quot; order &quot;：3、&quot; title &quot;：&quot; Visualization &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: '新しいデータを自然言語クエリサービスに公開して、より複雑なレポートを作成します。',
+        LABEL: '新しいデータソースを追加'
+    },
+    DASHBOARD: {
+        DESCRIPTION: '複数のレポートからの洞察を強化する新しいダッシュボードを設計します。',
+        LABEL: 'ダッシュボードを作成する'
+    },
+    REPORT: {
+        DESCRIPTION: 'ビジネスの進捗状況を示す新しいレポートを作成してください。',
+        LABEL: 'レポートを作成'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Ask your query'
+    },
+    results: {
+        order: 2,
+        title: 'Query results'
+    },
+    vis: {
+        order: 3,
+        title: 'Visualization'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'ここにクエリを入力します。例：「2019年6月から2020年12月までの平均売上高」',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'フィルターをクリア',
 REPORTDESIGNER_LABEL_SCALE : '規模',
