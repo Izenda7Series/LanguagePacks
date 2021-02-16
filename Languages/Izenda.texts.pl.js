@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Renderuj HTML podczas drukowania / eksportowania'
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Renderuj HTML w przeglądarce raportów',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Jeśli ta opcja jest zaznaczona, treść HTML z pól będzie renderowana w przeglądarce raportów',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Zakoduj zmienne w niestandardowym adresie URL',
-EXPLORE_CTAS : '{„DATA_SOURCE”: {„ICON”: „/static/img/explore/new-data.png”, „DESCRIPTION”: „Ujawnij nowe dane w naszej usłudze zapytania w języku naturalnym, aby tworzyć bardziej skomplikowane raporty.”, „LABEL” : „Dodaj nowe źródło danych”}, „DASHBOARD”: {„DESCRIPTION”: „Zaprojektuj nowy pulpit nawigacyjny, aby poprawić swoje spostrzeżenia z wielu raportów.”, „LABEL”: „Utwórz pulpit nawigacyjny”}, „RAPORT”: {„OPIS „:„ Utwórz nowy raport, aby pokazać postępy firmy. ”,„ LABEL ”:„ Utwórz raport ”}}',
-EXPLORE_NAV : '{„ask”: {„order”: 1, „title”: „Ask your query”}, „results”: {„order”: 2, „title”: „Query results”}, „vis”: {” kolejność „: 3,„ tytuł ”:„ Wizualizacja ”}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Ujawnij nowe dane w naszej usłudze zapytania w języku naturalnym, aby tworzyć bardziej skomplikowane raporty.',
+        LABEL: 'Dodaj nowe źródło danych'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Zaprojektuj nowy pulpit nawigacyjny, aby poprawić swoje spostrzeżenia z wielu raportów.',
+        LABEL: 'Utwórz pulpit nawigacyjny'
+    },
+    REPORT: {
+        DESCRIPTION: 'Utwórz nowy raport, aby pokazać postępy firmy.',
+        LABEL: 'Utwórz raport'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Ask your query'
+    },
+    results: {
+        order: 2,
+        title: 'Query results'
+    },
+    vis: {
+        order: 3,
+        title: 'Wizualizacja'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Wpisz tutaj zapytanie, na przykład: „Średnia sprzedaż od czerwca 2019 r. Do grudnia 2020 r.”',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Czysty filtr',
 REPORTDESIGNER_LABEL_SCALE : 'Skala',

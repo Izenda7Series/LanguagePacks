@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Redați HTML în Tipărire / Export',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Redați HTML în raportul vizualizator',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Dacă se verifică acest lucru, conținutul HTML din câmpuri va fi redat în vizualizatorul de rapoarte',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Codificați variabile în URL personalizată',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;Expunem date noi la serviciul nostru de interogare pentru limbajul natural pentru a crea rapoarte mai complexe.&quot;, &quot;LABEL&quot; : &quot;Adăugați o nouă sursă de date&quot;}, &quot;DASHBOARD&quot;: {&quot;DESCRIPTION&quot;: &quot;Proiectați un nou tablou de bord pentru a vă îmbunătăți informațiile din mai multe rapoarte.&quot;, &quot;LABEL&quot;: &quot;Creare tablou de bord&quot;}, &quot;RAPORT&quot;: {&quot;DESCRIERE &quot;:&quot; Creează un raport nou pentru a arăta progresul afacerii tale. &quot;,&quot; LABEL &quot;:&quot; Creare raport &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1, &quot;title&quot;: &quot;Întrebați-vă interogarea&quot;}, &quot;results&quot;: {&quot;order&quot;: 2, &quot;title&quot;: &quot;Rezultate interogare&quot;}, &quot;vis&quot;: {&quot; ordine &quot;: 3,&quot; title &quot;:&quot; vizualizare &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Expunem date noi la serviciul nostru de interogare pentru limbajul natural pentru a crea rapoarte mai complexe.',
+        LABEL: 'Adăugați o nouă sursă de date'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Proiectați un nou tablou de bord pentru a vă îmbunătăți informațiile din mai multe rapoarte.',
+        LABEL: 'Creare tablou de bord'
+    },
+    REPORT: {
+        DESCRIPTION: 'Creează un raport nou pentru a arăta progresul afacerii tale.',
+        LABEL: 'Creare raport'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Întrebați-vă interogarea'
+    },
+    results: {
+        order: 2,
+        title: 'Rezultate interogare'
+    },
+    vis: {
+        order: 3,
+        title: 'vizualizare'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Introduceți întrebarea aici, de exemplu: „Vânzări medii între iunie 2019 și decembrie 2020”',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Ștergeți filtrul',
 REPORTDESIGNER_LABEL_SCALE : 'Scară',

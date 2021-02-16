@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'HTML megjelenítés a nyomtatás / exportálás s
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Megjeleníti a HTML-t a Jelentésmegjelenítőben',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Ha ez be van jelölve, akkor a mezők HTML-tartalma megjelenik a jelentésnézegetőben',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Kódoljuk a változókat az egyéni URL-ben',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;LEÍRÁS&quot;: &quot;Helyezze el az új adatokat a természetes nyelv lekérdezés szolgáltatásunkba, hogy bonyolultabb jelentéseket készítsen.&quot;, &quot;LABEL&quot; : &quot;Új adatforrás hozzáadása&quot;}, &quot;DASHBOARD&quot;: {&quot;LEÍRÁS&quot;: &quot;Tervezze meg az új irányítópultot, hogy javítsa a több jelentésből származó betekintést.&quot;, &quot;LABEL&quot;: &quot;Készítsen irányítópultot&quot;}, &quot;JELENTÉS&quot;: {&quot;LEÍRÁS &quot;:&quot; Új jelentés készítése az üzleti fejlődés bemutatására. &quot;,&quot; LABEL &quot;:&quot; Jelentés létrehozása &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1, &quot;title&quot;: &quot;Ask the query&quot;}, &quot;results&quot;: {&quot;order&quot;: 2, &quot;title&quot;: &quot;Query results&quot;}, &quot;vis&quot;: {&quot; sorrend &quot;: 3,&quot; cím &quot;:&quot; megjelenítés &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Helyezze el az új adatokat a természetes nyelv lekérdezés szolgáltatásunkba, hogy bonyolultabb jelentéseket készítsen.',
+        LABEL: 'Új adatforrás hozzáadása'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Tervezze meg az új irányítópultot, hogy javítsa a több jelentésből származó betekintést.',
+        LABEL: 'Készítsen irányítópultot'
+    },
+    REPORT: {
+        DESCRIPTION: 'Új jelentés készítése az üzleti fejlődés bemutatására.',
+        LABEL: 'Jelentés létrehozása'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Ask the query'
+    },
+    results: {
+        order: 2,
+        title: 'Query results'
+    },
+    vis: {
+        order: 3,
+        title: 'megjelenítés'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Írja ide a lekérdezését, például: &quot;Átlagos eladások 2019. június és 2020. december között&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Törölje a szűrőt',
 REPORTDESIGNER_LABEL_SCALE : 'Skála',

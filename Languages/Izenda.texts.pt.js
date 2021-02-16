@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Renderizar HTML em Impressão / Exportação',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Renderizar HTML no Report Viewer',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Se esta opção estiver marcada, o conteúdo HTML dos campos será renderizado no visualizador de relatórios',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Codificar variáveis no URL personalizado',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;Exponha novos dados ao nosso serviço de Consulta de linguagem natural para criar relatórios mais complexos.&quot;, &quot;LABEL&quot; : &quot;Adicionar nova fonte de dados&quot;}, &quot;DASHBOARD&quot;: {&quot;DESCRIPTION&quot;: &quot;Crie um novo painel para aprimorar suas idéias a partir de vários relatórios.&quot;, &quot;LABEL&quot;: &quot;Criar painel&quot;}, &quot;RELATÓRIO&quot;: {&quot;DESCRIÇÃO &quot;:&quot; Crie um novo relatório para mostrar o progresso do seu negócio. &quot;,&quot; LABEL &quot;:&quot; Criar relatório &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1, &quot;title&quot;: &quot;Faça sua consulta&quot;}, &quot;results&quot;: {&quot;order&quot;: 2, &quot;title&quot;: &quot;Query results&quot;}, &quot;vis&quot;: {&quot; order &quot;: 3,&quot; title &quot;:&quot; Visualização &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Exponha novos dados ao nosso serviço de Consulta de linguagem natural para criar relatórios mais complexos.',
+        LABEL: 'Adicionar nova fonte de dados'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Crie um novo painel para aprimorar suas idéias a partir de vários relatórios.',
+        LABEL: 'Criar painel'
+    },
+    REPORT: {
+        DESCRIPTION: 'Crie um novo relatório para mostrar o progresso do seu negócio.',
+        LABEL: 'Criar relatório'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Faça sua consulta'
+    },
+    results: {
+        order: 2,
+        title: 'Query results'
+    },
+    vis: {
+        order: 3,
+        title: 'Visualização'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Digite sua consulta aqui, por exemplo: &quot;Vendas médias entre junho de 2019 e dezembro de 2020&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Filtro limpo',
 REPORTDESIGNER_LABEL_SCALE : 'Escala',

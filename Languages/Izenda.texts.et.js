@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Renderdage HTML printimisel / eksportimisel',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Renderdage HTML aruannete vaaturis',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Kui see on märgitud, renderdatakse väljade HTML-sisu aruandevaaturis',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Kodeerige muutujad kohandatud URL-is',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;Paljastage meie loomuliku keele päringu teenusele uusi andmeid, et luua keerukamaid aruandeid.&quot;, &quot;LABEL&quot; : &quot;Lisage uus andmeallikas&quot;}, DASHBOARD &quot;: {&quot; KIRJELDUS &quot;:&quot; Kujundage uus armatuurlaud, et parandada oma arusaama mitmest aruandest. &quot;,&quot; LABEL &quot;:&quot; Loo juhtpaneel &quot;},&quot; ARUANNE &quot;: {&quot; KIRJELDUS &quot;:&quot; Koostage uus aruanne, et näidata oma ettevõtte edusamme. &quot;,&quot; LABEL &quot;:&quot; Loo aruanne &quot;}}',
-EXPLORE_NAV : '{&quot;küsi&quot;: {&quot;telli&quot;: 1, &quot;pealkiri&quot;: &quot;küsige oma päringut&quot;}, &quot;tulemused&quot;: {&quot;telli&quot;: 2, &quot;pealkiri&quot;: &quot;Päringu tulemused&quot;}, &quot;vis&quot;: {&quot; tellimine &quot;: 3,&quot; pealkiri &quot;:&quot; visualiseerimine &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Paljastage meie loomuliku keele päringu teenusele uusi andmeid, et luua keerukamaid aruandeid.',
+        LABEL: 'Lisage uus andmeallikas'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Kujundage uus armatuurlaud, et parandada oma arusaama mitmest aruandest.',
+        LABEL: 'Loo juhtpaneel'
+    },
+    REPORT: {
+        DESCRIPTION: 'Koostage uus aruanne, et näidata oma ettevõtte edusamme.',
+        LABEL: 'Loo aruanne'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'küsige oma päringut'
+    },
+    results: {
+        order: 2,
+        title: 'Päringu tulemused'
+    },
+    vis: {
+        order: 3,
+        title: 'visualiseerimine'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Sisestage siia oma päring, näiteks: &quot;Keskmine müük vahemikus juuni 2019 kuni detsember 2020&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Kustuta filter',
 REPORTDESIGNER_LABEL_SCALE : 'Kaal',

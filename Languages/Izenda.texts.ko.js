@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : '인쇄 / 내보내기에서 HTML 렌더링',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : '보고서 뷰어에서 HTML 렌더링',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : '이 옵션을 선택하면 필드의 HTML 내용이 보고서 뷰어에 렌더링됩니다.',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : '맞춤 URL에서 변수 인코딩',
-EXPLORE_CTAS : '{ &quot;DATA_SOURCE&quot;: { &quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;보다 복잡한 보고서를 작성하기 위해 새 데이터를 자연어 쿼리 서비스에 공개하십시오.&quot;, &quot;LABEL&quot; : &quot;새 데이터 소스 추가&quot;}, &quot;DASHBOARD&quot;: { &quot;DESCRIPTION&quot;: &quot;여러 보고서의 통찰력을 향상시키기 위해 새 대시 보드를 디자인하십시오.&quot;, &quot;LABEL&quot;: &quot;대시 보드 만들기&quot;}, &quot;REPORT&quot;: { &quot;DESCRIPTION &quot;:&quot;비즈니스 진행 상황을 보여주는 새 보고서를 작성하십시오. &quot;,&quot;LABEL &quot;:&quot;보고서 작성 &quot;}}',
-EXPLORE_NAV : '{ &quot;질문&quot;: { &quot;주문&quot;: 1, &quot;제목&quot;: &quot;조회 요청&quot;}, &quot;결과&quot;: { &quot;주문&quot;: 2, &quot;제목&quot;: &quot;조회 결과&quot;}, &quot;vis&quot;: { &quot; 순서 &quot;: 3,&quot;제목 &quot;:&quot;시각화 &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: '보다 복잡한 보고서를 작성하기 위해 새 데이터를 자연어 쿼리 서비스에 공개하십시오.',
+        LABEL: '새 데이터 소스 추가'
+    },
+    DASHBOARD: {
+        DESCRIPTION: '여러 보고서의 통찰력을 향상시키기 위해 새 대시 보드를 디자인하십시오.',
+        LABEL: '대시 보드 만들기'
+    },
+    REPORT: {
+        DESCRIPTION: '비즈니스 진행 상황을 보여주는 새 보고서를 작성하십시오.',
+        LABEL: '보고서 작성'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: '조회 요청'
+    },
+    results: {
+        order: 2,
+        title: '조회 결과'
+    },
+    vis: {
+        order: 3,
+        title: '시각화'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : '여기에 검색어를 입력하십시오 (예 : &quot;2019 년 6 월에서 2020 년 12 월 사이의 평균 판매량&quot;).',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : '필터 지우기',
 REPORTDESIGNER_LABEL_SCALE : '규모',

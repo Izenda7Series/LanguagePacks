@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Yazdırma / Dışa Aktarmada HTML Oluşturma',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Rapor Görüntüleyicisi\'nde HTML oluşturma',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Bu işaretlenirse, alanlardaki HTML içeriği rapor görüntüleyicide işlenir',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Özel URL\'deki değişkenleri kodlama',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;Daha karmaşık raporlar oluşturmak için Doğal Dil Sorgu hizmetimize yeni veriler sunun.&quot;, &quot;LABEL&quot; : &quot;Yeni veri kaynağı ekle&quot;}, &quot;GÖSTERGE TABLOSU&quot;: {&quot;AÇIKLAMA&quot;: &quot;Birden çok rapordan elde ettiğiniz bilgileri artırmak için yeni bir gösterge panosu tasarlayın.&quot;, &quot;LABEL&quot;: &quot;Gösterge Tablosu Oluştur&quot;}, &quot;RAPOR&quot;: {&quot;AÇIKLAMA &quot;:&quot; İşletmenizin ilerlemesini göstermek için yeni bir rapor oluşturun. &quot;,&quot; LABEL &quot;:&quot; Rapor Oluştur &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;sipariş&quot;: 1, &quot;başlık&quot;: &quot;Sorgunuzu sorun&quot;}, &quot;sonuçlar&quot;: {&quot;sipariş&quot;: 2, &quot;başlık&quot;: &quot;Sorgu sonuçları&quot;}, &quot;vis&quot;: {&quot; order &quot;: 3,&quot; title &quot;:&quot; Görselleştirme &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Daha karmaşık raporlar oluşturmak için Doğal Dil Sorgu hizmetimize yeni veriler sunun.',
+        LABEL: 'Yeni veri kaynağı ekle'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Birden çok rapordan elde ettiğiniz bilgileri artırmak için yeni bir gösterge panosu tasarlayın.',
+        LABEL: 'Gösterge Tablosu Oluştur'
+    },
+    REPORT: {
+        DESCRIPTION: 'İşletmenizin ilerlemesini göstermek için yeni bir rapor oluşturun.',
+        LABEL: 'Rapor Oluştur'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Sorgunuzu sorun'
+    },
+    results: {
+        order: 2,
+        title: 'Sorgu sonuçları'
+    },
+    vis: {
+        order: 3,
+        title: 'Görselleştirme'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Sorgunuzu buraya yazın, örneğin: &quot;Haziran 2019 ve Aralık 2020 arasındaki ortalama satışlar&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Temiz filtre',
 REPORTDESIGNER_LABEL_SCALE : 'ölçek',

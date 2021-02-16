@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Render HTML tulostusta / vientiä varten',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Render HTML HTML Report Viewerissa',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Jos tämä on valittuna, kenttien HTML-sisältö tehdään raportin katseluohjelmassa',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Koodaa muuttujat mukautettuun URL-osoitteeseen',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;Paljasta uudet tiedot Natural Language Query -palvelulle rakentaaksesi monimutkaisempia raportteja.&quot;, &quot;LABEL&quot; : &quot;Lisää uusi tietolähde&quot;}, DASHBOARD &quot;: {&quot; KUVAUS &quot;:&quot; Suunnittele uusi kojetaulu parantamaan näkemyksisi useista raporteista. &quot;,&quot; LABEL &quot;:&quot; Luo hallintapaneeli &quot;},&quot; RAPORTTI &quot;: {&quot; KUVAUS &quot;:&quot; Luo uusi raportti esittelemään liiketoiminnan edistymistä. &quot;,&quot; LABEL &quot;:&quot; Luo raportti &quot;}}',
-EXPLORE_NAV : '{&quot;kysy&quot;: {&quot;tilaus&quot;: 1, &quot;otsikko&quot;: &quot;kysy kyselysi&quot;}, &quot;tulokset&quot;: {&quot;tilaus&quot;: 2, &quot;otsikko&quot;: &quot;kyselyn tulokset&quot;}, &quot;vis&quot;: {&quot; järjestys &quot;: 3,&quot; otsikko &quot;:&quot; visualisointi &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Paljasta uudet tiedot Natural Language Query -palvelulle rakentaaksesi monimutkaisempia raportteja.',
+        LABEL: 'Lisää uusi tietolähde'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Suunnittele uusi kojetaulu parantamaan näkemyksisi useista raporteista.',
+        LABEL: 'Luo hallintapaneeli'
+    },
+    REPORT: {
+        DESCRIPTION: 'Luo uusi raportti esittelemään liiketoiminnan edistymistä.',
+        LABEL: 'Luo raportti'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'kysy kyselysi'
+    },
+    results: {
+        order: 2,
+        title: 'kyselyn tulokset'
+    },
+    vis: {
+        order: 3,
+        title: 'visualisointi'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Kirjoita kyselysi esimerkiksi: &quot;Keskimääräinen myynti kesäkuusta 2019 joulukuuhun 2020&quot;.',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Tyhjennä suodatin',
 REPORTDESIGNER_LABEL_SCALE : 'asteikko',

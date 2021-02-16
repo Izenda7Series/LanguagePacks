@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Визуализация HTML в печати / �
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Визуализация HTML в средстве просмотра отчетов',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Если этот флажок установлен, то содержимое HTML из полей будет отображаться в средстве просмотра отчетов.',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Кодировать переменные в Custom URL',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;Предоставлять новые данные нашей службе запросов на естественном языке для создания более сложных отчетов.&quot;, &quot;LABEL&quot; : &quot;Добавить новый источник данных&quot;}, &quot;DASHBOARD&quot;: {&quot;DESCRIPTION&quot;: &quot;Разработать новую панель мониторинга, чтобы улучшить понимание нескольких отчетов.&quot;, &quot;LABEL&quot;: &quot;Create Dashboard&quot;}, &quot;REPORT&quot;: {&quot;DESCRIPTION &quot;:&quot; Создайте новый отчет, чтобы продемонстрировать прогресс вашего бизнеса. &quot;,&quot; LABEL &quot;:&quot; Создать отчет &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1, &quot;title&quot;: &quot;Ask your query&quot;}, &quot;results&quot;: {&quot;order&quot;: 2, &quot;title&quot;: &quot;Query results&quot;}, &quot;vis&quot;: {&quot; order &quot;: 3,&quot; title &quot;:&quot; Visualization &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Предоставлять новые данные нашей службе запросов на естественном языке для создания более сложных отчетов.',
+        LABEL: 'Добавить новый источник данных'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Разработать новую панель мониторинга, чтобы улучшить понимание нескольких отчетов.',
+        LABEL: 'Create Dashboard'
+    },
+    REPORT: {
+        DESCRIPTION: 'Создайте новый отчет, чтобы продемонстрировать прогресс вашего бизнеса.',
+        LABEL: 'Создать отчет'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Ask your query'
+    },
+    results: {
+        order: 2,
+        title: 'Query results'
+    },
+    vis: {
+        order: 3,
+        title: 'Visualization'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Введите здесь свой запрос, например: «Средние продажи в период с июня 2019 года по декабрь 2020 года»',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Очистить фильтр',
 REPORTDESIGNER_LABEL_SCALE : 'Шкала',

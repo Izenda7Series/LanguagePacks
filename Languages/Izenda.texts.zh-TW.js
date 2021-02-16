@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : '在打印/導出中渲染HTML',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : '在報表查看器中渲染HTML',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : '如果選中此選項，則來自字段的HTML內容將在報告查看器中呈現。',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : '在自定義網址中編碼變量',
-EXPLORE_CTAS : '{“ DATA_SOURCE”：{“ ICON”：“ /static/img/explore/new-data.png”，“ DESCRIPTION”：“將新數據暴露給我們的自然語言查詢服務以構建更複雜的報告。”，“ LABEL” ：“添加新數據源”}，“儀表板”：{“ DESCRIPTION”：“設計新的儀表板以增強您對多個報告的見解。”，“ LABEL”：“ Create Dashboard”}，“ REPORT”：{“ DESCRIPTION ”：“建立新的報告以展示您的業務進展。”，“標籤”：“創建報告”}}',
-EXPLORE_NAV : '{“ ask”：{“ order”：1，“ title”：“詢問您的查詢”}，“ results”：{“ order”：2，2，“ title”：“查詢結果”}，“ vis”：{“順序”：3，“標題”：“可視化”}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: '將新數據暴露給我們的自然語言查詢服務以構建更複雜的報告。',
+        LABEL: '添加新數據源'
+    },
+    DASHBOARD: {
+        DESCRIPTION: '設計新的儀表板以增強您對多個報告的見解。',
+        LABEL: 'Create Dashboard'
+    },
+    REPORT: {
+        DESCRIPTION: '建立新的報告以展示您的業務進展。',
+        LABEL: '創建報告'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: '詢問您的查詢'
+    },
+    results: {
+        order: 2,
+        title: '查詢結果'
+    },
+    vis: {
+        order: 3,
+        title: '可視化'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : '在此處輸入查詢，例如：“ 2019年6月至2020年12月的平均銷售額”',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : '清除篩選',
 REPORTDESIGNER_LABEL_SCALE : '規模',

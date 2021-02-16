@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Renderirajte HTML u ispisu / izvozu',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Vratite HTML u preglednik izvještaja',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Ako je to potvrđeno, tada će se HTML sadržaj iz polja prikazati u pregledniku izvještaja',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Kodirajte varijable u prilagođeni URL',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;OPIS&quot;: &quot;Izložite nove podatke našoj usluzi upita za prirodni jezik da biste stvorili još zamršenija izvješća.&quot;, &quot;LABEL&quot; : &quot;Dodajte novi izvor podataka&quot;}, &quot;DASHBOARD&quot;: {&quot;DESCRIPTION&quot;: &quot;Dizajnirajte novu nadzornu ploču kako biste poboljšali uvid u više izvještaja.&quot;, &quot;LABEL&quot;: &quot;Create Dashboard&quot;}, &quot;REPORT&quot;: {&quot;DESCRIPTION &quot;:&quot; Napravite novo izvješće da biste prikazali svoj napredak. &quot;,&quot; LABEL &quot;:&quot; Stvori izvješće &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1, &quot;title&quot;: &quot;Pitajte svoj upit&quot;}, &quot;results&quot;: {&quot;order&quot;: 2, &quot;title&quot;: &quot;Rezultati upita&quot;}, &quot;vis&quot;: {&quot; poredak &quot;: 3,&quot; naslov &quot;:&quot; Vizualizacija &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Izložite nove podatke našoj usluzi upita za prirodni jezik da biste stvorili još zamršenija izvješća.',
+        LABEL: 'Dodajte novi izvor podataka'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Dizajnirajte novu nadzornu ploču kako biste poboljšali uvid u više izvještaja.',
+        LABEL: 'Create Dashboard'
+    },
+    REPORT: {
+        DESCRIPTION: 'Napravite novo izvješće da biste prikazali svoj napredak.',
+        LABEL: 'Stvori izvješće'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Pitajte svoj upit'
+    },
+    results: {
+        order: 2,
+        title: 'Rezultati upita'
+    },
+    vis: {
+        order: 3,
+        title: 'Vizualizacija'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Ovdje upišite upit, na primjer: &quot;Prosječna prodaja između lipnja 2019. i prosinca 2020.&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Očisti filtar',
 REPORTDESIGNER_LABEL_SCALE : 'ljestvica',

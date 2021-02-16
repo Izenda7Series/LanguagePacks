@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Upišite HTML pri tiskanju / izvozu',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Upišite HTML v pregledovalnik poročil',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Če je to potrjeno, bo vsebina HTML iz polj prikazana v pregledovalniku poročil',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Kodirajte spremenljivke v URL po meri',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;OPIS&quot;: &quot;Izpostavite nove podatke v naši storitvi za poizvedbo v naravnem jeziku, da sestavite več zapletenih poročil.&quot;, &quot;LABEL&quot; : &quot;Dodaj nov vir podatkov&quot;}, &quot;DASHBOARD&quot;: {&quot;DESCRIPTION&quot;: &quot;Oblikujte novo nadzorno ploščo, da izboljšate svoje vpoglede v več poročil.&quot;, &quot;LABEL&quot;: &quot;Ustvari nadzorno ploščo&quot;}, &quot;POROČAJ&quot;: {&quot;OPIS &quot;:&quot; Sestavite novo poročilo, ki bo prikazal napredek vašega podjetja. &quot;,&quot; LABEL &quot;:&quot; Ustvari poročilo &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1, &quot;title&quot;: &quot;Vprašajte poizvedbo&quot;}, &quot;results&quot;: {&quot;order&quot;: 2, &quot;title&quot;: &quot;Rezultati poizvedb&quot;}, &quot;vis&quot;: {&quot; vrstni red &quot;: 3,&quot; naslov &quot;:&quot; Vizualizacija &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Izpostavite nove podatke v naši storitvi za poizvedbo v naravnem jeziku, da sestavite več zapletenih poročil.',
+        LABEL: 'Dodaj nov vir podatkov'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Oblikujte novo nadzorno ploščo, da izboljšate svoje vpoglede v več poročil.',
+        LABEL: 'Ustvari nadzorno ploščo'
+    },
+    REPORT: {
+        DESCRIPTION: 'Sestavite novo poročilo, ki bo prikazal napredek vašega podjetja.',
+        LABEL: 'Ustvari poročilo'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Vprašajte poizvedbo'
+    },
+    results: {
+        order: 2,
+        title: 'Rezultati poizvedb'
+    },
+    vis: {
+        order: 3,
+        title: 'Vizualizacija'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Tu vnesite poizvedbo, na primer: &quot;Povprečna prodaja med junijem 2019 in decembrom 2020&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Počisti filter',
 REPORTDESIGNER_LABEL_SCALE : 'Lestvica',

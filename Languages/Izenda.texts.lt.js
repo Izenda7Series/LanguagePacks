@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Pateikti HTML spausdinant / eksportuojant',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Pateikite HTML ataskaitų peržiūros priemonėje',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Jei tai pažymėta, tada HTML turinys iš laukų bus pateiktas ataskaitų peržiūros priemonėje',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Užkoduokite kintamuosius tinkintame URL',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;Pateikite naujus duomenis mūsų natūralios kalbos užklausos tarnybai, kad galėtumėte kurti sudėtingesnes ataskaitas.&quot;, &quot;LABEL&quot; : &quot;Pridėti naują duomenų šaltinį&quot;}, &quot;DASHBOARD&quot;: {&quot;APRAŠYMAS&quot;: &quot;Sukurkite naują informacijos suvestinę, kad pagerintumėte savo įžvalgas iš kelių ataskaitų.&quot;, &quot;LABEL&quot;: &quot;Sukurkite informacijos suvestinę&quot;}, &quot;ATASKAITA&quot;: {&quot;APRAŠYMAS &quot;:&quot; Sukurkite naują ataskaitą, kad parodytumėte savo verslo pažangą. &quot;,&quot; LABEL &quot;:&quot; Kurti ataskaitą &quot;}}',
-EXPLORE_NAV : '{&quot;paklausti&quot;: {&quot;užsakymas&quot;: 1, &quot;pavadinimas&quot;: &quot;užduoti užklausą&quot;}, &quot;rezultatai&quot;: {&quot;užsakymas&quot;: 2, &quot;pavadinimas&quot;: &quot;užklausos rezultatai&quot;}, &quot;vis&quot;: {&quot; užsakymas &quot;: 3,&quot; pavadinimas &quot;:&quot; vizualizacija &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Pateikite naujus duomenis mūsų natūralios kalbos užklausos tarnybai, kad galėtumėte kurti sudėtingesnes ataskaitas.',
+        LABEL: 'Pridėti naują duomenų šaltinį'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Sukurkite naują informacijos suvestinę, kad pagerintumėte savo įžvalgas iš kelių ataskaitų.',
+        LABEL: 'Sukurkite informacijos suvestinę'
+    },
+    REPORT: {
+        DESCRIPTION: 'Sukurkite naują ataskaitą, kad parodytumėte savo verslo pažangą.',
+        LABEL: 'Kurti ataskaitą'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'užduoti užklausą'
+    },
+    results: {
+        order: 2,
+        title: 'užklausos rezultatai'
+    },
+    vis: {
+        order: 3,
+        title: 'vizualizacija'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Čia įveskite savo užklausą, pavyzdžiui: „Vidutinis pardavimas nuo 2019 m. Birželio iki 2020 m. Gruodžio mėn.“',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Išvalyti filtrą',
 REPORTDESIGNER_LABEL_SCALE : 'Skalė',

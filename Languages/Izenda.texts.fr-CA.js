@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Rendu HTML en impression / exportation',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Rendu HTML dans la visionneuse de rapports',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Si cette case est cochée, le contenu HTML des champs sera rendu dans la visionneuse de rapports',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Encoder des variables dans une URL personnalisée',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;Exposez de nouvelles données à notre service Natural Language Query pour créer des rapports plus complexes.&quot;, &quot;LABEL&quot; : &quot;Ajouter une nouvelle source de données&quot;}, &quot;TABLEAU DE BORD&quot;: {&quot;DESCRIPTION&quot;: &quot;Concevoir un nouveau tableau de bord pour améliorer vos connaissances à partir de plusieurs rapports.&quot;, &quot;ÉTIQUETTE&quot;: &quot;Créer un tableau de bord&quot;}, &quot;RAPPORT&quot;: {&quot;DESCRIPTION &quot;:&quot; Créez un nouveau rapport pour présenter les progrès de votre entreprise. &quot;,&quot; LABEL &quot;:&quot; Créer un rapport &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1, &quot;title&quot;: &quot;Ask your query&quot;}, &quot;results&quot;: {&quot;order&quot;: 2, &quot;title&quot;: &quot;Query results&quot;}, &quot;vis&quot;: {&quot; order &quot;: 3,&quot; title &quot;:&quot; Visualization &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Exposez de nouvelles données à notre service Natural Language Query pour créer des rapports plus complexes.',
+        LABEL: 'Ajouter une nouvelle source de données'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Concevoir un nouveau tableau de bord pour améliorer vos connaissances à partir de plusieurs rapports.',
+        LABEL: 'Créer un tableau de bord'
+    },
+    REPORT: {
+        DESCRIPTION: 'Créez un nouveau rapport pour présenter les progrès de votre entreprise.',
+        LABEL: 'Créer un rapport'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Ask your query'
+    },
+    results: {
+        order: 2,
+        title: 'Query results'
+    },
+    vis: {
+        order: 3,
+        title: 'Visualization'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Saisissez votre requête ici, par exemple: &quot;Ventes moyennes entre juin 2019 et décembre 2020&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Effacer le filtre',
 REPORTDESIGNER_LABEL_SCALE : 'Échelle',

@@ -2183,8 +2183,35 @@ SECURITY_RENDER_HTML_EXPORT : 'Gjengi HTML i utskrift / eksport',
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'Gjengiv HTML i rapportvisningen',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'Hvis dette er merket av, blir HTML-innholdet fra feltene gjengitt i rapportvisningen',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'Koder variabler i tilpasset URL',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;, &quot;DESCRIPTION&quot;: &quot;Utsett nye data for vår Natural Language Query-tjeneste for å lage mer intrikate rapporter.&quot;, &quot;LABEL&quot; : &quot;Legg til ny datakilde&quot;}, &quot;DASHBOARD&quot;: {&quot;BESKRIVELSE&quot;: &quot;Design et nytt dashbord for å forbedre innsikten din fra flere rapporter.&quot;, &quot;LABEL&quot;: &quot;Create Dashboard&quot;}, &quot;REPORT&quot;: {&quot;BESKRIVELSE &quot;:&quot; Lag en ny rapport for å vise fremgang i bedriften. &quot;,&quot; LABEL &quot;:&quot; Opprett rapport &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1, &quot;title&quot;: &quot;Still spørringen&quot;}, &quot;results&quot;: {&quot;order&quot;: 2, &quot;title&quot;: &quot;Query results&quot;}, &quot;vis&quot;: {&quot; ordre &quot;: 3,&quot; title &quot;:&quot; Visualisering &quot;}}',
+EXPLORE_CTAS: {
+    DATA_SOURCE: {
+        ICON: '/static/img/explore/new-data.png',
+        DESCRIPTION: 'Utsett nye data for vår Natural Language Query-tjeneste for å lage mer intrikate rapporter.',
+        LABEL: 'Legg til ny datakilde'
+    },
+    DASHBOARD: {
+        DESCRIPTION: 'Design et nytt dashbord for å forbedre innsikten din fra flere rapporter.',
+        LABEL: 'Create Dashboard'
+    },
+    REPORT: {
+        DESCRIPTION: 'Lag en ny rapport for å vise fremgang i bedriften.',
+        LABEL: 'Opprett rapport'
+    }
+},
+EXPLORE_NAV: {
+    ask: {
+        order: 1,
+        title: 'Still spørringen'
+    },
+    results: {
+        order: 2,
+        title: 'Query results'
+    },
+    vis: {
+        order: 3,
+        title: 'Visualisering'
+    }
+},
 EXPLORE_SEARCH_PLACEHOLDER : 'Skriv inn spørringen her, for eksempel: &quot;Gjennomsnittlig salg mellom juni 2019 og desember 2020&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'Fjern filter',
 REPORTDESIGNER_LABEL_SCALE : 'skala',
