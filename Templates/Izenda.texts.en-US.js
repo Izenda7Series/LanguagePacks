@@ -74,8 +74,11 @@ localizer.registerLanguage(
     TOP_MENU_DASHBOARDS: 'Dashboards',
     TOP_MENU_SETTINGS: 'Settings',
     TOP_MENU_EXPLORE: 'Explore',
-    TOP_MENU_NEW_REPORTS: 'Create Reports',
-    TOP_MENU_NEW_DASHBOARDS: 'Create Dashboards',
+    TOP_MENU_REPORT_LIST: 'Report List',
+    TOP_MENU_NEW_REPORT: 'Classic Designer View',
+    TOP_MENU_NEW_REPORT_RD2: 'Beta Designer View',
+    TOP_MENU_DASHBOARD_LIST: 'Dashboard List',
+    TOP_MENU_NEW_DASHBOARD: 'New Dashboard',
 
     //RECORD
 
@@ -87,6 +90,7 @@ localizer.registerLanguage(
     // MESSAGES
     COMMON_MESSAGES_ANOTHER_USER_MODIFIED:
       'Another user recently modified this data. Up-to-date data has been reloaded. You can now review and continue your work.',
+    COMMON_MESSAGES_NOT_ALLOWED_ACTION: 'You are not allowed to do this action.',
     COMMON_MESSAGES_CONFIRM_CANCEL: 'Are you sure you want to cancel the changes?',
     COMMON_MESSAGES_CONFIRM_CHANGES_LOST: 'Are you sure? All your changes will be lost.',
     COMMON_MESSAGES_CONFIRM_SAVE: 'Are you sure you want to save all of the modifications?',
@@ -108,13 +112,16 @@ localizer.registerLanguage(
     COMMON_MESSAGES_ERROR: 'Error',
     COMMON_MESSAGES_UNKNOWN_ERROR: 'Unknown Error',
     COMMON_MESSAGES_NOPERMISSION_VIEWREPORT: 'You do not have permission to view this report.',
+    COMMON_MESSAGES_NOPERMISSION_CREATEREPORT: 'Your account has no permission to create Reports. Please contact your System Administrator for assistance.',
+    COMMON_MESSAGES_NOPERMISSION_GENERAL: "Your account has no permission to perform this action. Please contact your System Administrator for assistance.",
+    COMMON_MESSAGES_NOPERMISSION_CREATEDASHBOARD: 'Your account has no permission to create DashBoard. Please contact your System Administrator for assistance.',
     COMMON_MESSAGES_GENERAL_ERROR: 'Errors have occurred, please correct them before continuing.',
     COMMON_MESSAGES_GENERIC_ERROR:
       'The application has encountered an unknown error. Please contact System Administrator for further information and help.',
     COMMON_MESSAGES_EXPIRED_LICENSE:
       'There is a problem with the license. Please contact System Administrator for assistance.',
     COMMON_MESSAGES_INVALID_TIMEZONE: 'Invalid timezone value',
-
+    COMMON_MESSAGES_NO_PERMISSION: "You don't have permission to perform this action",
     // COMMON_CONSTRAINT
     COMMON_REQUIRE_CONSTRAINT: ' is required.',
     COMMON_CONSTRAINT_REQUIRED: 'Required',
@@ -139,6 +146,9 @@ localizer.registerLanguage(
     COMMON_LABEL_PREVIOUS: 'Previous',
     COMMON_LABEL_CATEGORY: 'Category',
     COMMON_LABEL_SAVEINTO: 'Save into',
+    COMMON_LABEL_SAVE_CHANGES: 'Save Changes',
+    COMMON_LABEL_ADD_REPORT_TITLE: 'Add report title',
+    COMMON_LABEL_SAVE_REPORT_ADV_OPTIONS: 'Advanced options',
     COMMON_LABEL_CONFIGURATION: 'Configuration',
     COMMON_LABEL_CONNECT: 'Connect',
     COMMON_LABEL_SENDEMAIL: 'Send Email',
@@ -193,8 +203,8 @@ localizer.registerLanguage(
     COMMON_LABEL_SAVE: 'Save',
     COMMON_LABEL_SAVE_AS: 'Save As',
     COMMON_LABEL_SAVE_CONFIRMATION: 'Confirmation',
-    COMMON_LABEL_SAVE_REPORT_BEFORE_DASHBOARD_CONFIRMATION: 'Please save the Report before adding this to a Dashboard',
-    COMMON_LABEL_SAVE_REPORT_BEFORE_EXPORT_CONFIRMATION: 'Please save the Report before exporting',
+    COMMON_LABEL_SAVE_REPORT_BEFORE_DASHBOARD_CONFIRMATION: 'Please save the Report before adding it to a Dashboard',
+    COMMON_LABEL_SAVE_REPORT_BEFORE_EXPORT_CONFIRMATION: 'Please save the report before exporting',
     COMMON_LABEL_SAVE_INTO: 'Save Into',
     COMMON_LABEL_SCHEDULE: 'Schedule',
     COMMON_LABEL_SCHEDULING: 'Scheduling',
@@ -220,6 +230,7 @@ localizer.registerLanguage(
     COMMON_LABEL_UNCATEGORIZED: 'Uncategorized',
     COMMON_LABEL_USER_SETUP: 'User Setup',
     COMMON_LABEL_VALIDATE: 'Validate',
+    COMMON_LABEL_UPGRADE: 'Upgrade',
     COMMON_LABEL_VALUE: 'Value',
     COMMON_LABEL_HIGH: 'High',
     COMMON_LABEL_LOW: 'Low',
@@ -245,7 +256,9 @@ localizer.registerLanguage(
     COMMON_LABEL_BOTTOM: 'Bottom',
     COMMON_LABEL_BULLET_LIST: 'Bullet List',
     COMMON_LABEL_NUMBERED_LIST: 'Numbered List',
+    COMMON_LABEL_SAVE_REPORT_TYPE_LABEL: 'Choose how you want to save your data',
     COMMON_LABEL_REPORT: 'Report',
+    COMMON_LABEL_DRAFT: 'Draft',
     COMMON_LABEL_CHART: 'Chart',
     COMMON_LABEL_FORM: 'Form',
     COMMON_LABEL_GAUGE: 'Gauge',
@@ -263,6 +276,8 @@ localizer.registerLanguage(
     COMMON_LABEL_ADD_CALCULATED_FIELD: 'Add Calculated Field',
     COMMON_LABEL_FILTER_PROPERTIES: 'Filter Properties',
     COMMON_LABEL_FIELD_PROPERTIES: 'Field Properties',
+    COMMON_LABEL_MENU_CLEAR_FORMAT: 'Clear Formats',
+    COMMON_LABEL_MENU_REMOVE_FUNCTION: 'Remove Function',
     COMMON_LABEL_COLOR: 'Color',
     COMMON_LABEL_ADD_SETTING: 'Add Setting',
     COMMON_LABEL_SUNDAY: 'Sunday',
@@ -283,6 +298,7 @@ localizer.registerLanguage(
     COMMON_LABEL_DATE_TIME: 'Date Time',
     COMMON_LABEL_SUBTOTAL: 'Subtotal',
     COMMON_LABEL_GRAND_TOTAL: 'Grand Total',
+    COMMON_LABEL_POSOTION_GRAND_TOTAL: 'Grand Total Label Position',
     COMMON_LABEL_BORDER: 'Border',
     COMMON_LABEL_GENERAL_INFO: 'General Info',
     COMMON_LABEL_GROUPING: 'Grouping',
@@ -309,12 +325,14 @@ localizer.registerLanguage(
     COMMON_LABEL_OPEN: 'Open',
     COMMON_LABEL_EXPAND: 'Expand',
     COMMON_LABEL_COLLAPSE: 'Collapse',
+    COMMON_LABEL_EVERY_HOUR: 'Every Hour',
     COMMON_LABEL_EVERY_DATE: 'Every Day',
     COMMON_LABEL_EVERY_WEEKDAY: 'Every Weekday',
     COMMON_LABEL_EVERY_WEEK: 'Every Week',
     COMMON_LABEL_EVERY_TWO_WEEK: 'Every Two Weeks',
     COMMON_LABEL_EVERY_MONTH: 'Every Month',
     COMMON_LABEL_EVERY_QUARTER: 'Every Quarter',
+    COMMON_LABEL_REMOVE: 'Remove',
     COMMON_LABEL_RESET: 'Reset',
     COMMON_LABEL_PRINTINGS: 'Printing',
     COMMON_LABEL_ICON: 'Icon',
@@ -346,6 +364,8 @@ localizer.registerLanguage(
     COMMON_LABEL_OFF: 'OFF',
     COMMON_LABEL_ON: 'ON',
     COMMON_LABEL_DASHBOARD_NAME: 'Add Report Part to Dashboard',
+    COMMON_LABEL_VIEW_MORE: 'View more',
+    COMMON_LABEL_SHOW_LESS: 'Show less',
 
     // COMMON_DATA_TYPE
     COMMON_DATA_TYPE_IMAGE: 'Image',
@@ -372,6 +392,11 @@ localizer.registerLanguage(
     COMMON_CRITERIA_NUMBER_OF_VIEWS: 'Number of Views',
     COMMON_CRITERIA_VERSION: 'Version',
     COMMON_CRITERIA_DASHBOARD_OWNER: 'Dashboard Owner',
+
+    //CATEGORY TOOLTIP
+    CATEGORY_TOOLTIP_DELETE: 'Delete',
+    CATEGORY_TOOLTIP_ADD: 'Add new category',
+    SUBCATEGORY_TOOLTIP_ADD: 'Add new sub category',
 
     // PAGINATOR
     PAGINATOR_ITEMS_PER_PAGE: '{0} to {1} of {2} | Items per page ',
@@ -446,6 +471,10 @@ localizer.registerLanguage(
     USER_MENU_MY_PROFILE: 'My Profile',
     USER_MENU_EXPORT_MANAGER: 'Export Manager',
     USER_MENU_SIGN_OUT: 'Sign Out',
+
+    // QUERY RESULT
+    QUERY_RESULT_ADD_COLUMNS: 'Add Columns',
+    QUERY_RESULT_APPLY: 'Apply',
 
     // PERFORMANCE
     PERFORMANCE_LABEL_QUERY_TIMEOUT: 'Query Timeout',
@@ -562,14 +591,14 @@ localizer.registerLanguage(
     OTHER_SETTINGS_TOOLTIP_EXCEL_DATA_FILES_PATH: 'Sets the path where excel data source files will be uploaded.',
     OTHER_SETTINGS_LABEL_DETERMINE_COMMON_FILTER: 'Determine common filter for the same field based on',
     OTHER_SETTINGS_TOOLTIP_DETERMINE_COMMON_FILTER:
-      'Configure how the system should consider whether different filters are to filter the “same” field or not so that they are eligible for considering as common filter in Dashboard.',
+      'Configure how the system should consider whether different filters are to filter the â€œsameâ€ field or not so that they are eligible for considering as common filter in Dashboard.',
     OTHER_SETTINGS_LABEL_SAMEFIELD_SAMEDBSCHEMA: 'Same field of the same data object from the same DB schema',
     OTHER_SETTINGS_LABEL_SAMEFIELD_SAMEDBSCHEMA_OR_CONNECTIONSTRING:
       'Same field name regardless of DB schema or connection string',
     OTHER_SETTINGS_LABEL_SAMEALIAS: 'Same alias name regardless of DB schema or connection string',
     OTHER_SETTINGS_LABEL_DETERMINE_INHERIT_FILTER: 'Determine inheritable filter for the same field based on',
     OTHER_SETTINGS_TOOLTIP_DETERMINE_INHERIT_FILTER:
-      'Configure how the system should consider whether different filters are to filter the “same” field or not so that their values are eligible for inheritance in subreport.',
+      'Configure how the system should consider whether different filters are to filter the â€œsameâ€ field or not so that their values are eligible for inheritance in subreport.',
     OTHER_SETTINGS_LABEL_IHS_FIELD_ID: 'Same field of the same data object from the same DB schema',
     OTHER_SETTINGS_LABEL_IHS_FIELD_NAME: 'Same field name regardless of DB schema or data object',
     OTHER_SETTING_LABEL_MULTIPLE_SORT_ON_GRID_HEADER: 'Allow Multiple Sorts on Grid Header',
@@ -577,7 +606,7 @@ localizer.registerLanguage(
       'If this flag is turned on, system allows multiple column sorting in Grid Header. If this flag is turned off, system allows single column sorting in Grid Header.',
     OTHER_SETTING_LABEL_SHOW_PREVIEW: 'Show Preview section in Configuration Mode',
     OTHER_SETTING_TOOLTIP_SHOW_PREVIEW:
-      'Configure to show or hide the Preview section in the report part’s backside.',
+      'Configure to show or hide the Preview section in the report partâ€™s backside.',
     OTHER_SETTING_LABEL_HIDE_HEADER_FOOTER_IN_REPORT: 'Hide report header and footer by default',
     OTHER_SETTING_TOOLTIP_HIDE_HEADER_FOOTER_IN_REPORT:
       'Configure to hide or show the header and footer section in Report Viewer and Report Designer by default.',
@@ -594,7 +623,20 @@ localizer.registerLanguage(
       'Maximum embedded subreport nesting level must be greater than or equal to {0}.',
     OTHER_SETTINGS_MESSAGE_MAXIMUM_SUBREPORT_LEVEL_LESS_THAN:
       'Maximum embedded subreport nesting level must be less than or equal to {0}.',
-
+    OTHER_SETTINGS_CALENDAR_WEEK_START:
+      'Calendar Week Start',
+    OTHER_SETTINGS_TOOLTIP_CALENDAR_WEEK_START:
+      'Configure to set start day of a week which will be referred to in the Time Period - Calendar Week filter when applied.',
+    OTHER_SETTINGS_CALENDAR_CONFIGURE_PERIOD:
+      'Configure Period',
+    OTHER_SETTINGS_ALLOW_REPORTS_AND_DASHBOARDS_TO_INHERIT_CATEGORY_ACCESS_RIGHTS:
+     'Allow Reports and Dashboards to inherit Category Access Rights',
+    OTHER_SETTINGS_TOOLTIP_ALLOW_REPORTS_AND_DASHBOARDS_TO_INHERIT_CATEGORY_ACCESS_RIGHTS:
+     'Configure to apply category access defaults for roles.',
+    OTHER_SETTINGS_INHERIT_CATEGORY_ACCESS_RIGHTS_ENABLE_WARNING:
+     "Are you sure you want to enable this setting? This setting will  <br/><br/> <ul> <li> Reset all Tenant & Role level access defaults which cannot be restored  </li>  <li>Disable Tenant level access defaults</li> <li>Category Access defaults will apply to roles</li> <li> Not impact previous reports & dashboards access rights </li> <li> 'Prevent Report/ Dashboard Sharing Based on Category Accessibility' setting will be enabled and cannot be changed </li>",
+    OTHER_SETTINGS_INHERIT_CATEGORY_ACCESS_RIGHTS_DISABLE_WARNING:
+     "Are you sure you want to disable this setting? This setting will  <br/><br/> <ul> <li>Reset all Role access defaults which cannot be restored</li>  <li>Enable Tenant level access defaults</li>",
     // EXPLORE
     EXPLORE_CTAS: {
       DATA_SOURCE: {
@@ -625,8 +667,8 @@ localizer.registerLanguage(
         title: 'Visualization'
       }
     },
-    EXPLORE_SEARCH_PLACEHOLDER: 'Type your query here, for example: "Average sales between June 2019 and December 2020"',
-
+    EXPLORE_SEARCH_PLACEHOLDER: 'Type your query here, for example: "Avg freight for orderdate between June 1990 and June 2020"',
+    EXPLORE_SEARCH_ISDATAMODELACCESS: "Your account has no permission to access data sources. Please contact your System Administrator for assistance.",
     EXPLORE_SEARCH_NLQ_NOT_CONFIGURED: 'NLQ not configured',
     NOTIFICATION_DOWNLOAD_COMPLETE: 'Download Complete',
     // RELATIONSHIP
@@ -698,7 +740,7 @@ localizer.registerLanguage(
     REPORTDESIGNER_MESSAGE_CHANGE_JOIN_TYPE:
       'The join type between "{0}" and "{1}" in the new relationship is different from the one defined in previous existing relationship(s). Are you sure you want to update join type between these two data objects in all existing relationship(s) to the new one',
     REPORTDESIGNER_MESSAGE_SAVE_BEFORE_PREVIEW:
-      'You haven’t saved this new report yet. Please save it before previewing it in Report Viewer.',
+      'You havenâ€™t saved this new report yet. Please save it before previewing it in Report Viewer.',
     REPORTDESIGNER_MESSAGE_CONFIRM_PREVIEW:
       'You are about to preview the report in Report Viewer. Any unsaved changes will be lost. Do you want to continue?',
     REPORT_DESIGNER_MESSAGE_CONFIRM_QUICK_EDIT:
@@ -735,8 +777,11 @@ localizer.registerLanguage(
     REPORTDESIGNER_LABEL_FIELDS_FILTERS_HEADER: 'Filter',
     REPORTDESIGNER_LABEL_FIELDS_SHOW_FILTERS: 'Show Filters',
     REPORTDESIGNER_LABEL_FIELDS_ADD_FILTER: 'Add Filter',
+    REPORTDESIGNER_LABEL_FIELDS_ADD_FILTERS: 'Add Filters',
     REPORTDESIGNER_LABEL_FIELDS_FREEZE: 'Freeze',
     REPORTDESIGNER_LABEL_FIELDS_FILTER_LOGIC: 'Filter Logic',
+    REPORTDESIGNER_LABEL_FIELDS_APPLY_FILTER_LOGIC: 'Apply Filter Logic',
+    REPORTDESIGNER_LABEL_FIELDS_CLEAR_FILTER_LOGIC: 'Clear Filter Logic',
     REPORTDESIGNER_PLACEHOLDER_FIELDS_FILTER_LOGIC: 'Example (1 OR 2) AND (3 OR 4)',
     REPORTDESIGNER_LABEL_FIELDS_VALIDATE_SYNTAX: 'Validate Syntax',
     REPORTDESIGNER_MESSAGE_REPORT_NAME_REQUIRED: 'Report Name is required.',
@@ -830,6 +875,7 @@ localizer.registerLanguage(
     REPORTDESIGNER_LABEL_SEPARATORS: 'Separators',
     REPORTDESIGNER_PLACEHOLDER_CHART_GOES_HERE: '<Chart Goes here>',
     REPORTDESIGNER_PLACEHOLDER_GAUGE_GOES_HERE: '<Gauge Goes here>',
+    REPORTDESIGNER_PLACEHOLDER_KPI_GOES_HERE: '<KPI Goes here>',
     REPORTDESIGNER_PLACEHOLDER_ERROR: '<h1>error</h1>',
     REPORTDESIGNER_LABEL_SHOW_TOTAL: 'Show Total',
     REPORTDESIGNER_LABEL_SETTINGS: 'Settings',
@@ -856,6 +902,7 @@ localizer.registerLanguage(
     REPORTDESIGNER_LABEL_GROUPS: 'Groups',
     REPORTDESIGNER_LABEL_VALUES: 'Values',
     REPORTDESIGNER_LABEL_ADD_SIDE_TOTAL: 'Add Side Total',
+    REPORTDESIGNER_LABEL_REMOVE_EXTRA_COLUMN_SIDE_TOTAL: 'Remove Extra Side Total Column(s)',
     REPORTDESIGNER_LABEL_USE_EXPANDERS: 'Use Expanders',
     REPORTDESIGNER_LABEL_TOTAL_FOR: 'Total for {0}',
     REPORTDESIGNER_MESSAGE_NO_RESULT_FOUND: 'No result found.',
@@ -877,12 +924,12 @@ localizer.registerLanguage(
     REPORTDESIGNER_LOGGING_EMBEDDED_REPORT_PART: 'Get Data for Report Part Container (embedded)',
     REPORTDESIGNER_LABEL_REPORT_BODY_SNAP_MODE_CHECKBOX: 'Snap to Grid',
     REPORTDESIGNER_FILTER_FIELDS_TYPE_VALIDATE:
-      'Only “AND” conditions can be used when the Filters section contains both aggregated and non-aggregated fields. The current filter logic will be removed.',
+      'Only â€œANDâ€ conditions can be used when the Filters section contains both aggregated and non-aggregated fields. The current filter logic will be removed.',
     REPORTDESIGNER_FILTER_FIELDS_TYPE_VALIDATE_INFO:
-      'Any subreports which are inheriting filters will automatically use “AND” conditions between filters',
-    REPORTDESIGNER_FILTER_LOGIC_REPORT: 'Filter logic in this report was altered to use “AND” conditions only',
+      'Any subreports which are inheriting filters will automatically use â€œANDâ€ conditions between filters',
+    REPORTDESIGNER_FILTER_LOGIC_REPORT: 'Filter logic in this report was altered to use â€œANDâ€ conditions only',
     REPORTDESIGNER_FILTER_LOGIC_SUBREPORT:
-      'Filter logic in the embedded subreport was altered to use “AND” conditions only',
+      'Filter logic in the embedded subreport was altered to use â€œANDâ€ conditions only',
     REPORTDESIGNER_FILTER_SHOW_TOOLTIP: 'Show Filters Under Report Description',
     REPORTDESIGNER_ADD_FILTER_TOOLTIP: 'Add new filter',
     REPORTDESIGNER_DATASOURCE_OVERLAY_LABEL:
@@ -894,6 +941,8 @@ localizer.registerLanguage(
     REPORTDESIGNER_LABEL_DELIMITER_VALUE: 'Delimiter Values',
     REPORTDESIGNER_NEWLINE_DELIMITER_PLACEHOLDER:
       'Please paste your data with new line delimiter and press enter for apply that delimiter.',
+    REPORTDESIGNER_ADD_NEW_REPORT_PART: 'Add New Report Part',
+    REPORTDESIGNER_TOOLTIP_CHARTMETRIC: 'Please click on this icon to slide down the list of metrics.',
 
     // CROSS FILTERING
     CROSSFILTERING_OPTION_LABEL: 'Cross Filtering',
@@ -903,6 +952,17 @@ localizer.registerLanguage(
     CROSSFILTERING_REMOVE_TOOLTIP: 'Remove this cross filter',
     CROSSFILTERING_REMOVE_ALL_TOOLTIP: 'Remove all cross filters',
     CROSSFILTERING_REMOVE_ALL_CONFIRM: 'Are you sure you want to remove all cross filters?',
+
+    // KPI
+    KPI_GRID_MENU_IMAGE: 'Image Tile',
+    KPI_GRID_MENU_METRIC: 'Metric Tile',
+    KPI_GRID_MENU_TEXT: 'Text Tile',
+    REPORT_PART_PROPS_KPI_CELL_SIZE: 'Cell Size (px)',
+    REPORT_PART_PROPS_KPI_COLS: 'Number of Columns',
+    REPORT_PART_PROPS_KPI_ROWS: 'Number of Rows',
+
+    // Tile Properties
+    TILE_PROPERTIES_PANEL_TITLE: 'Tile Properties',
 
     // SCHEMA
     SCHEMA_ZOOM: 'Zoom',
@@ -1176,6 +1236,7 @@ localizer.registerLanguage(
     COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ITEMS_TO_COPY: 'Items to Copy:',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_ALL_TENANTS: 'All Tenants',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_COPY_RELATIONSHIP_POSITION_ID: 'Copy Relationship PositionID',
+    COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_COPY_FILTER_VALUES: 'Copy Report/Dashboard filter values',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_COPY_ROLE_PERMISSIONS: 'Copy Role Permissions',
     COPY_MANAGEMENT_WORKSPACE_DETAIL_RUN_COPY_OVERWRITE_CONFIRM_DATA_MODEL_INFORMATION:
       'Below connection strings have setup data model already.',
@@ -1328,6 +1389,7 @@ localizer.registerLanguage(
     LICENSE_CHECKER_LABEL_NEXT_MODULE: 'Next Module',
     LICENSE_CHECKER_LABEL_READY_PURCHASE: 'Ready to Purchase?',
     LICENSE_CHECKER_LABEL_RENEW_LICENSE: 'Renew License?',
+    LICENSE_CHECKER_LABEL_UPGRADE_ENCRYPTION: 'You can upgrade the encryption of your license key to 256-bit encryption.',
     // LICENSE_CHECKER - IMPORT DATA MAP
     LICENSE_CHECKER_LABEL_IMPORT_MAP_DATA: 'Import Map Data',
     LICENSE_CHECKER_LABEL_PROVISION_MAP_DATA: 'Provision Map Data',
@@ -1364,7 +1426,7 @@ localizer.registerLanguage(
       'You are required to login to perform further configuration. Please use the default system account info to login.',
 
     // EMAIL
-    EMAIL_MESSAGE_CONSTRAINT: 'Field is required.',
+    EMAIL_MESSAGE_CONSTRAINT: 'Email is required.',
     EMAIL_MESSAGE_VALIDATION: 'The following email is not valid: ',
     EMAIL_LABEL_TO: 'To',
     EMAIL_LABEL_CC: 'CC',
@@ -1434,6 +1496,12 @@ localizer.registerLanguage(
     NLQ_SETTINGS_LABEL_PREDICTION_SERVICE: 'NLQ Service IP Address',
     NLQ_CONFIGURATION_SETTINGS_DATACONNECTORS: 'Data connectors',
     NLQ_CONFIGURE_ERROR_MESSAGE: 'Please Configure NLQ',
+    NLQ_CONFIGURATION_SEARCH_MODE: 'Search Mode',
+    NLQ_CONFIGURATION_SEARCH_MODE_GUIDED: 'Guided',
+    NLQ_CONFIGURATION_SEARCH_MODE_NATURAL: 'Natural',
+    NLQ_CONFIGURATION_SERVER_TEST: 'Test',
+    NLQ_CONFIGURATION_CONFIG_BUTTON: 'Configure NLQ',
+    NLQ_CONFIGURATION_RESET_BUTTON: 'Reset NLQ',
 
     // PERMISSION
     PERMISSION_LABEL_TENANT_ACCESS: 'Tenant Access',
@@ -1451,6 +1519,8 @@ localizer.registerLanguage(
     PERMISSION_LABEL_DISPLAY_TILE_HEADER_IN_UNEDITABLE_DASHBOARD: 'Display tile header in uneditable dashboard',
     PERMISSION_LABEL_DASHBOARD_CATEGORIES_SUBCATEGORIES: 'Dashboard Categories/Subcategories',
     PERMISSION_LABEL_CAN_CREATE_CATEGORY: 'Can create new category?',
+    PERMISSION_LABEL_CAN_DELETE_CATEGORY: 'Can delete category?',
+    PERMISSION_LABEL_PREVENT_REPORT_SHARING: 'Prevent Report Sharing Based on Category Accessibility',
     // PERMISSION DATA SETUP
     PERMISSION_LABEL_ADVANCED_SETTING: 'Advanced Settings',
 
@@ -1469,7 +1539,9 @@ localizer.registerLanguage(
     PERMISSION_LABEL_UNARCHIVE_REPORT_VERSIONS: 'Unarchive Report Versions',
     PERMISSION_LABEL_OVERWRITE_EXISTING_REPORT: 'Overwrite Existing Report',
     // PERMISSION REPORT HEADER
+    PERMISSION_LABEL_CAN_USE_RD20: 'Report Designer 2.0',
     PERMISSION_LABEL_CAN_CREATE_REPORT: 'Can create new report?',
+    PERMISSION_LABEL_SHOW_EXPLORE_MENU: 'Show Explore Menu',
     PERMISSION_LABEL_DATA_SOURCES: 'Data Sources',
     PERMISSION_LABEL_SIMPLE_DATA_SOURCES: 'Simple Data Sources',
     PERMISSION_LABEL_ADVANCED_DATA_SOURCES: 'Advanced Data Sources',
@@ -1478,6 +1550,7 @@ localizer.registerLanguage(
     PERMISSION_LABEL_FORM: 'Form',
     PERMISSION_LABEL_GAUGE: 'Gauge',
     PERMISSION_LABEL_MAP: 'Map',
+    PERMISSION_LABEL_KPI: 'KPI',
     PERMISSION_LABEL_ENABLE_GOOGLE_ADDRESS: 'Enable Google Address?',
     PERMISSION_LABEL_REPORT_CATEGORIES_SUBCATEGORIES: 'Report Categories/Subcategories',
     // PERMISSION ROLE SETUP
@@ -1501,9 +1574,6 @@ localizer.registerLanguage(
     PERMISSION_LABEL_USER_ROLE_ASSOCIATION: 'User Role Association',
     PERMISSION_LABEL_PASSWORD_OPTIONS: 'Configure Password Option',
 
-    NLQ_CONFIGURATION_SERVER_TEST: 'Test',
-    NLQ_CONFIGURATION_CONFIG_BUTTON:'Configure NLQ',
-    NLQ_CONFIGURATION_RESET_BUTTON: 'Reset NLQ',
     // ACCESS CONSTANT
     ACCESS_CONSTANT_ACCESS_TABLE_DEF_SHARE_WITH: 'Share With',
     ACCESS_CONSTANT_ACCESS_TABLE_DEF_ACCESS_RIGHT: 'Access Rights',
@@ -1534,6 +1604,8 @@ localizer.registerLanguage(
       'Are you sure you want to delete the selected default access rights?',
     ACCESS_CONSTANT_LABEL_ADD_SHARING: 'Add Sharing',
     ACCESS_CONSTANT_LABEL_ADD_DEFAULT_ACCESS: 'Add Access Default',
+    ACCESS_CONSTANT_LABEL_ASSIGNED_TYPE_CATEGORY: 'Category',
+    ACCESS_CONSTANT_CONSTRAINT_CATEGORY: 'Category is required.',
 
     DASHBOARD_CONSTANT_MESSAGE_REMOVE_USERS:
       'You are selecting the Global Dashboard checkbox. Any sharing with users will be removed in Access page and all schedules will be removed. Are you sure you want to select this checkbox?',
@@ -1547,6 +1619,7 @@ localizer.registerLanguage(
     // FONT SETTINGS POPUP
     FONT_SETTINGS_LABEL_FONT: 'Font',
     FONT_SETTINGS_LABEL_ALIGNMENT: 'Alignment',
+    FONT_SETTINGS_LABEL_VERTICAL_ALIGNMENT: 'Vertical Alignment',
 
     // ROLE_SETUP_CONSTANT
     ROLE_SETUP_CONSTANT_MESSAGE_DELETE:
@@ -1558,8 +1631,9 @@ localizer.registerLanguage(
     ROLE_SETUP_CONSTANT_DATA_MODEL_ACCESS_TREE_HEADER: 'Data Sources',
 
     // ROLE_SETUP_PERMISSION_ERROR
-    ROLE_SETUP_PERMISSION_CATEGORIES_ERROR:
-      'The {0}(s) saved in the following categories/subcategories may no longer be {1} due to these changes in categories/subcategories permissions.<br>{2}<br>Please correct this before moving forward.',
+    ROLE_SETUP_PERMISSION_CATEGORIES_ERROR_HEADER:
+      'The {0}(s) saved in the following categories/subcategories may no longer be {1} due to these changes in categories/subcategories permissions.',
+    ROLE_SETUP_PERMISSION_CATEGORIES_ERROR_FOOTER: 'Please correct this before moving forward.',
     ROLE_SETUP_PERMISSION_CATEGORIES_ERROR_EDITABLE: 'editable',
     ROLE_SETUP_PERMISSION_CATEGORIES_ERROR_ACCESSIBLE: 'accessible',
     ROLE_SETUP_PERMISSION_NOT_ALLOW_TO_SAVE:
@@ -1578,7 +1652,7 @@ localizer.registerLanguage(
     ROLE_SETUP_PERMISSION_SUMMARY_HEADER_NAME_ACCESS: 'Access',
     ROLE_SETUP_PERMISSION_SUMMARY_ACCESS_LIMITS: 'Access Limits',
     ROLE_SETUP_PERMISSION_SUMMARY_ACCESS_DEFAULT: 'Access Defaults',
-    ROLE_SETUP_PERMISSION_SUMMARY_LABEL_CAN_CREATE_NEW_REPORTS: 'Can create new reports?',
+    ROLE_SETUP_PERMISSION_SUMMARY_LABEL_PREVENT_REPORT_SHARING: 'Prevent Report Sharing Based on Category Accessibility',
     ROLE_SETUP_PERMISSION_SUMMARY_LABEL_DASHBOARD_CATEGORIES_SUBCATEGORIES: 'Dashboard Categories/Subcategories',
     ROLE_SETUP_PERMISSION_SUMMARY_LABEL_ACCESSIBILITY: 'Category Accessibility',
     ROLE_SETUP_PERMISSION_SUMMARY_LABEL_VISIBLE_CATEGORIES: 'Visible Categories',
@@ -1601,6 +1675,10 @@ localizer.registerLanguage(
     ROLE_SETUP_PERMISSION_SUMMARY_LABEL_JSON: 'JSON',
     ROLE_SETUP_PERMISSION_SUMMARY_LABEL_QUERY_EXECUTION: 'Query Execution',
     ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_CAN_CREATE_NEW_REPORTS: 'Can create new reports?',
+    ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_CAN_USE_RD20: 'Report Designer 2.0',
+    ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_CAN_CREATE_NEW_CATEGORY: 'Can create new category?',
+    ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_CAN_DELETE_CATEGORY: 'Can delete category?',
+    ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_SHOW_EXPLORE_MENU: 'Show Explore Menu',
     ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_DATA_SOURCES: 'Data Sources',
     ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_SIMPLE_DATA_SOURCE: 'Simple Data Sources',
     ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_ADVANCED_DATA_SOURCE: 'Advanced Data Sources',
@@ -1913,6 +1991,8 @@ localizer.registerLanguage(
       'This setting changes the color palette of all charts, gauges, and maps for newly created reports.\nThe user can select a different theme to overwrite the set default.',
 
     // SYSTEM_CONFIGURATION_EXPORTING
+    SYSTEM_CONFIGURATION_EXPORTING_LABEL_USE_SYSTEM_CONFIGURATION: 'Use System Configuration',
+    SYSTEM_CONFIGURATION_EXPORTING_LABEL_USE_CUSTOM_CONFIGURATION: 'Use Custom Configuration',
     SYSTEM_CONFIGURATION_EXPORTING_TITLE_ASYNC_EXPORT_SERVICE: 'Exporting Service',
     SYSTEM_CONFIGURATION_EXPORTING_TITLE_ROUTINE_FILE_PROCESS: 'Routine File Process',
     SYSTEM_CONFIGURATION_EXPORTING_LABEL_EXPORT_SERVICE: 'Export Service',
@@ -1937,13 +2017,21 @@ localizer.registerLanguage(
     EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_NAME: 'Name',
     EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_FILE_TYPE: 'File Type',
     EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_EXPORTED_DATE: 'Exported Date',
+    EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_REFRESHED_DATE: 'Refreshed Date',
     EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_DOWNLOAD_FILE: 'Download File',
     EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_STATUS: 'Status',
+    EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_DELETE: 'Delete',
     EXPORT_MANAGER_STATUS_PENDING: 'Pending',
     EXPORT_MANAGER_STATUS_COMPLETED: 'Completed',
     EXPORT_MANAGER_STATUS_FAILED: 'Failed',
+    EXPORT_MANAGER_MESSAGE_DETAILS_WERE_SAVED: 'Details were saved.',
+    EXPORT_MANAGER_MESSAGE_DETAILS_WERE_NOT_SAVED: 'Details were not saved. Please contact your System Administrator for assistance.',
+    EXPORT_MANAGER_MESSAGE_CANCEL_IN_PROGRESS: '{0} export of "{1}" {2} is {3}. Do you want to cancel the exporting process?',
+    EXPORT_MANAGER_MESSAGE_DELETE_COMPLETED: 'Are you sure you want to delete the exported {0}?',
+    EXPORT_MANAGER_MESSAGE_DELETE_FAILED: 'Are you sure you want to delete the failed item?',
+    EXPORT_MANAGER_MESSAGE_DELETE_DEFAULT: 'Are you sure you want to delete the item?',
 
-      // ACCOUNT_CONSTANTS
+    // ACCOUNT_CONSTANTS
     ACCOUNT_CONSTANTS_MESSAGE_INCORECT_CREDENTIALS: 'Incorrect credentials, please try again.',
     ACCOUNT_CONSTANTS_MESSAGE_RESET_PASSWORD_SUCCESSFULLY: 'Your password has been successfully created/reset.',
     ACCOUNT_CONSTANTS_MESSAGE_PASSOWRD_EXPIRED: 'Your password has expired.',
@@ -2082,6 +2170,7 @@ localizer.registerLanguage(
       'Link/this icon was configured to show in other settings (Sub-report/Custom URL/ Embedded Javascript). Please select the other ones',
     PROPERTIES_BUILDER_CONSTANTS_MESSAGE_EMBEDDED_LINK_SUB_REPORT:
       'Link was configured to show in Custom URL/ Embedded Javascript. If you still want to select Embedded style for sub-report, the link in Custom URL/ Embedded Javascript will be automatically changed to icon.',
+    PROPERTIES_BUILDER_BACKGROUND_IMAGE_SOURCE: 'Image Source',
 
     OPEN_SUB_REPORT_WARNING_MESSAGE:
       'You are not allowed to open the subreport with Link style if the current report is not saved. Please save the current report first or change the style.',
@@ -2102,11 +2191,11 @@ localizer.registerLanguage(
     REPORT_BODY_CONSTANTS_NUMBER_OF_RECORD_LIMIT_CONSTRAINT:
       'No of Record must be a number smaller than or equal to 2147483648.',
     REPORT_BODY_CONSTANTS_MESSAGE_REMOVE_BINARY_FIELD:
-      'The following fields have data type as Image/LOB/XML/JSON: {0}. The Distinct feature from the Data Sources tab cannot be used with binary fields like Image/LOB/XML/JSON. Please remove the binary fields or disable Distinct',
+      'The Distinct feature from the Data Sources tab cannot be used with binary fields like Image/LOB/XML/JSON. Please disable Distinct or remove the following binary fields: {0}',
     REPORT_BODY_CONSTANTS_MESSAGE_CANNOT_GROUPED_OR_SORTED:
-      'The following fields have data type as Image/LOB/XML/JSON: {0} will not be added into the container because the Image/LOB/XML/JSON data type cannot be grouped or sorted.',
+      'Image/LOB/XML/JSON data type cannot be grouped or sorted, so the following fields will not be added into the container: {0}',
     REPORT_BODY_CONSTANTS_MESSAGE_INVALID_COUNT_OPERATOR:
-      'The following fields have data type as Image/LOB/XML/JSON: {0} will not be added into the container because the Image/LOB/XML/JSON data type is invalid for Count operator.',
+      'Image/LOB/XML/JSON data type is invalid for Count operator, so the following fields will not be added into the container: {0}',
     REPORT_BODY_CONSTANTS_MESSAGE_RESOURCE_CANNOT_FOUND: 'The resource cannot be found',
     REPORT_BODY_CONSTANTS_MESSAGE_FIELD_NOT_EXIST: 'The field {0} does not exist in the current report',
     REPORT_BODY_CONSTANTS_MESSAGE_COLUMN_NOT_EXIST: 'The field {0} is not existing in the subreport',
@@ -2120,9 +2209,13 @@ localizer.registerLanguage(
     UNSPECIFIED_FILTER_WILL_BE_IGNORED: "Filters that aren't used in filter logic will be ignored",
     INVALID_REPORT_NAME: 'The report name is invalid when contains ["/", "<", ">", "&"] characters.',
     INVALID_TEMPLATE_NAME: 'The report template name is invalid when contains ["/", "<", ">", "&"] characters.',
+    INVALID_REPORT_NAME_STRICT: 'Report name should contain alphanumeric values, hyphens, and underscores',
+    INVALID_REPORT_TITLE_STRICT: 'Report title should contain alphanumeric values, hyphens, and underscores',
     // REPORT_DESIGNER_FORMAT_CONSTANTS
     REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_REPORT_HEADER: 'Report Header',
     REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_REPORT_TITLE_DESCRIPTION: 'Report Title & Description',
+    REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_REPORT_TITLE: 'Report Title',
+    REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_REPORT_DESCRIPTION: 'Report Description',
     REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_REPORT_FOOTER: 'Report Footer',
     REPORT_DESIGNER_FORMAT_CONSTANTS_ITEMS_TYPE_HORIZONTAL_RULE: 'Horizontal Rule',
     REPORT_DESIGNER_FORMAT_CONSTANTS_ITEMS_TYPE_VERTICAL_RULE: 'Vertical Rule',
@@ -2194,9 +2287,20 @@ localizer.registerLanguage(
     REPORTS_CONSTANTS_IFRAME_EXPORT_POPUP_LABEL_COPY_PASTE:
       'To copy, please use Ctrl + C, to paste, please use Ctrl + V',
 
+    //Category LookUp Constants
+    CATEGORY_LOOKUP_CATEGORY_ACCESS_VISIBLE: 'Visible Categories',
+    CATEGORY_LOOKUP_CATEGORY_ACCESS_ALLOWFORSAVE: 'Categories allowed for saving reports/dashboard',
+    CATEGORY_LOOKUP_CATEGORY_ACCESS_AVAILABLE: 'Available Categories',
+    CATEGORY_LOOKUP_LABEL_SELECT_CATEGORY: 'Select Category',
+    CATEGORY_LOOKUP_LABEL_ALL_CATEGORIES: 'All Categories',
+    CATEGORY_LOOKUP_LABEL_REPORT: 'Report',
+    CATEGORY_LOOKUP_LABEL_DASHBOARD: 'Dashboard',
+    CATEGORY_LOOKUP_LABEL_CATEGORY: 'CATEGORY',
+    CATEGORY_LOOKUP_LABEL_CATEGORY_ACCESS: 'CATEGORY ACCESSIBILITY',
+
     // USER_ACCOUNT
     USER_LABEL_USER_NAME: 'User Name',
-    USER_LABEL_EMAIL_ADDRESS: 'Email Address',
+    USER_LABEL_EMAIL_ADDRESS: 'Email Addresses',
     USER_LABEL_ROLE: 'Role',
     USER_MESSAGE_FIELD_IS_REQUIRED: 'Field is required.',
     USER_MESSAGE_SEND_PASSWORD: 'Send password link in email',
@@ -2204,7 +2308,7 @@ localizer.registerLanguage(
     USER_STATE_ACTIVATE: 'Activate',
     USER_STATE_DEACTIVATE: 'Deactivate',
     USER_MESSAGE_DEACTIVE:
-      'Deactivate will disable this user and not allow them to login to the system. Are you sure you want to deactivate this user?',
+      'Deactivate will disable this user and will not allow them to log into the system. The user will not receive scheduled and subscribed reports. Are you sure you want to deactivate this user?',
     USER_MESSAGE_DELETE:
       'Deleting this User will delete all data belonging to the user, including: Reports, Dashboards, Scheduled Instances, Subscription Instances, etc. Are you sure you want to delete this User?',
     USER_MESSAGE_DELETE_LAST_SYSTEM_ADMIN:
@@ -2222,6 +2326,7 @@ localizer.registerLanguage(
     USER_MESSAGE_RECIPIENT_IS_REQUIRED: 'Recipient(s) is required.',
     USER_LABEL_ALL: 'All',
     USER_LABEL_SELECT_USER: 'Select User',
+    ROLE_LABEL_SELECT_ROLE: 'Select Role',
     USER_MESSAGE_ENTER_TO_ADD_EMAIL: 'Enter to add email',
     USER_LABEL_ALL_USERS: 'All Users',
     USER_MESSAGE_CHANGE_LANGUAGE: 'The new language will be applied after your next login.',
@@ -2338,6 +2443,7 @@ localizer.registerLanguage(
     REPORT_PART_FORM_CONSTANTS_MESSAGE_INCORRECT_GRAND_TOTAL_SYNTAX: 'Incorrect grand total syntax',
     REPORT_PART_FORM_CONSTANTS_MESSAGE_INCORRECT_SUBTOTAL_SYNTAX: 'Incorrect subtotal syntax',
     REPORT_PART_FORM_CONSTANTS_MESSAGE_NO_TEMPLATE_DEFINED: 'No template defined',
+    REPORT_PART_FORM_CONSTANTS_MESSAGE_LOB_FIELDS_OUTSIDE_REPEATER: '{0} type field \'{1}\' cannot be used as a sibling element to a repeater.',
     REPORT_PART_FORM_CONSTANTS_LABEL_HEADING_1: 'Heading 1',
     REPORT_PART_FORM_CONSTANTS_LABEL_HEADING_2: 'Heading 2',
     REPORT_PART_FORM_CONSTANTS_LABEL_HEADING_3: 'Heading 3',
@@ -2416,13 +2522,19 @@ localizer.registerLanguage(
     REPORT_PART_GRID_CONSTANTS_LABEL_DESCRIPTION_SETTING_TOOLTIP: 'Description Settings',
     REPORT_PART_GRID_CONSTANTS_LABEL_EXPAND_ALL_TOOLTIP: 'Expand All',
     REPORT_PART_GRID_CONSTANTS_LABEL_COLLAPSE_ALL_TOOLTIP: 'Collapse All',
+    REPORT_PART_GRID_CONSTANTS_LABEL_DISABLE_REPEAT_HEADERS: 'Disable Repeat Headers',
     REPORT_PART_GRID_CONSTANTS_LABEL_FREEZE_HEADERS: 'Freeze Headers',
     REPORT_PART_GRID_CONSTANTS_LABEL_VERTICALLY: 'Vertically',
     REPORT_PART_GRID_CONSTANTS_LABEL_HORIZONTALLY: 'Horizontally',
+    // PAGE_NUMBER_OPTIONS
+    PAGE_NUMBER_OPTIONS_PAGE_ONLY: 'Page Number',
+    PAGE_NUMBER_OPTIONS_PAGE_OF_TOTAL: 'Page Number of Total Pages',
+    PAGE_NUMBER_OPTIONS_PAGE_TOTAL: 'Page Number / Total Pages',
 
     // REPORT_PART_PROPS_CHART_SCHEMA
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_TYPE: 'Chart Type',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_LIBRARY: 'Library',
+    REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_LIBRARY: 'Chart Library',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_BORDER_SETTINGS: 'Chart Border Settings',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_BACKGROUND_COLOR_SETTINGS: 'Chart Background Color Settings',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_XY_PLANE: 'XY-Plane',
@@ -2455,6 +2567,7 @@ localizer.registerLanguage(
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_SHOW_VALUE_LABELS: 'Show Value Labels',
     REPORT_PART_PROPS_CHART_SCHEMA_SHOW_TOOLTIPS: 'Show Tooltips',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_SHOW_SLICE_LABELS: 'Show Slice Labels',
+    REPORT_PART_PROPS_CHART_SCHEMA_LABEL_SHOW_VALUE_FIELD_NAME: 'Show Values Field Name',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_RANGE: 'Range',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_THRESHOLDS: 'Thresholds',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_THRESHOLDS_SETTINGS: 'Thresholds Settings',
@@ -2605,9 +2718,9 @@ localizer.registerLanguage(
     REPORT_CONSTANT_DRILL_DOWN_EXPORT_WITHOUT_PREVIEW_STATE: 'Export with all expanded records',
     REPORT_CONSTANT_ASYNC_EXPORT_IN_PROGRESS: '{0} export of "{1}" {2} is in progress. You can download exported {2} from "Export Manager" when it is available.',
 
-    INCLUDE_FILTER_ON_FIRST_PAGE_IN_EXPORT:'Display filters on the first page of report',
-    INCLUDE_FILTER_ON_LAST_PAGE_IN_EXPORT:'Display filters on the last page of report',
-    INCLUDE_FILTER_VALUE_IN_EXPORT:'Filters have been applied to this report. Do you want to include filters and their values in this exports?',
+    INCLUDE_FILTER_ON_FIRST_PAGE_IN_EXPORT: 'Display filters on the first page of report',
+    INCLUDE_FILTER_ON_LAST_PAGE_IN_EXPORT: 'Display filters on the last page of report',
+    INCLUDE_FILTER_VALUE_IN_EXPORT: 'Filters have been applied to this report. Do you want to include filters and their values in this exports?',
 
     // REPORT_SUBCRIPTION_CONSTANT
     REPORT_SUBCRIPTION_CONSTANT_SUBSCRIPTION_REPORT: 'Subscription Reporting Item',
@@ -2754,7 +2867,7 @@ localizer.registerLanguage(
     REGRESSION_POLYNOMIAL_ORDER_THREE: 'Polynomial forms a cubic expression',
     REGRESSION_POLYNOMIAL_ORDER_FOUR: 'Polynomial forms a quartic expression',
     REGRESSION_LINE_POPUP_WARNING:
-      'Regression line doesn’t work with Separator fields. Do you want to remove the Separator fields and apply the regression line?',
+      'Regression line doesnâ€™t work with Separator fields. Do you want to remove the Separator fields and apply the regression line?',
     REGRESSION_LINE_REMOVE_WARNING:
       'Regression line is not supported with Separator fields. Do you want to remove the regression line settings and apply the Separators?',
 
@@ -2799,16 +2912,8 @@ localizer.registerLanguage(
     USER_SETUP_LABEL_TIME_ZONE: 'Time Zone',
     USER_SETUP_LABEL_DATA_OFFSET: 'Data Offset',
     USER_SETUP_LABEL_TIMESTAMP_OFFSET: 'Timestamp Offset',
-    USER_SETUP_ERROR_ROLE_ASSOCIATION_MESSAGE: 'Please correct this before moving forward.',
-    USER_SETUP_ERROR_ROLE_REPORT_ASSOCIATION_EDITABLE:
-      'The report(s) saved in the following categories/subcategories may no longer be editable by this user due to the change in their roles’ association.',
-    USER_SETUP_ERROR_ROLE_REPORT_ASSOCIATION_ACCESSIBLE:
-      'The report(s) saved in the following categories/subcategories may no longer be accessible by this user due to the change in their roles’ association.',
-    USER_SETUP_ERROR_ROLE_DASHBOARD_ASSOCIATION_EDITABLE:
-      'The dashboard(s) saved in the following categories/subcategories may no longer be editable by this user due to the change in their roles’ association.',
-    USER_SETUP_ERROR_ROLE_DASHBOARD_ASSOCIATION_ACCESSIBLE:
-      'The dashboard(s) saved in the following categories/subcategories may no longer be accessible by this user due to the change in their roles’ association.',
-
+    USER_SETUP_ERROR_ROLE_ASSOCIATION_MESSAGE_HEADER: 'The {0}(s) saved in the following categories/subcategories may no longer be {1} by this user due to the change in their rolesâ€™ association.',
+    USER_SETUP_ERROR_ROLE_ASSOCIATION_MESSAGE_FOOTER: 'Please correct this before moving forward.',
     // COMPONENT
     COMPONENT_CONTROL_LABEL_ADD_METRIC: 'Add Metric',
 
@@ -2831,9 +2936,20 @@ localizer.registerLanguage(
     REPORT_PART_PROPS_GRID_SCHEMA_LABEL_REMOVE_HEADER_FOR_VIEWER: 'Remove Header For Viewer',
     REPORT_PART_PROPS_GRID_SCHEMA_LABEL_DATA_REFRESH_INTERVAL: 'Data Refresh Interval',
     REPORT_PART_PROPS_GRID_SCHEMA_LABEL_EXPORT_COLUMNS_PER_PAGE: 'No. of Columns Per Exported Page',
+    REPORT_PART_PROPS_GRID_SCHEMA_LABEL_EXPORT_COLUMNS_PER_PAGE_DISABLED: 'No. of Columns Per Exported Page is disabled because "Disable Repeat Headers" is turned on',
     REPORT_PART_PROPS_GRID_SCHEMA_LABEL_PAGE_BREAK_AFTER_SEPARATOR: 'Page Break After Separator',
     REPORT_PART_PROPS_GRID_SCHEMA_LABEL_COLLAPSE_DRILLDOWN_BY_DEFAULT: 'Collapse Expanders by Default',
     REPORT_PART_PROPS_GRID_SCHEMA_LABEL_EXPANDER_ROW_SPACING: 'Expander Row Spacing',
+
+    // REPORT_PART_PROPS_LAYOUT_SCHEMA
+    REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_HEADER: 'Header',
+    REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_FOOTER: 'Footer',
+    REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_PAGE_NUMBER: 'Page Number',
+    REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_REPORT_TITLE: 'Report Title',
+    REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_REPORT_DESCRIPTION: 'Report Description',
+    REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_ENABLE_HEADER: 'Enable Header',
+    REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_ENABLE_FOOTER: 'Enable Footer',
+
 
     // CALCULATED_FIELD_PROPERTIES_SCHEMA
     CALCULATED_FIELD_PROPERTIES_SCHEMA_LABEL_FIELD_PROPERTIES: 'FIELD PROPERTIES',
@@ -2934,22 +3050,33 @@ localizer.registerLanguage(
     NOTIFICATION_POPUP_MAP_STARTED_MESSAGE_TEMPLATE: 'Map provisioning is started.',
     NOTIFICATION_POPUP_MAP_SUCCESS_MESSAGE_TEMPLATE: 'Map provisioning is finished. You should able to design your map reports.',
     NOTIFICATION_POPUP_MAP_ERROR_MESSAGE_TEMPLATE: 'Map provisioning is failed. Please check logs for error.',
-
+    NOTIFICATION_POPUP_RESET_NLQ_ERROR_MESSAGE_TEMPLATE: 'Reset NLQ configuration is failed.',
+    NOTIFICATION_POPUP_RESET_NLQ_SUCCESS_MESSAGE_TEMPLATE: 'NLQ configuration reset successfully.',
+    NOTIFICATION_POPUP_SAVE_NLQ_REPORT_TYPE_TITLE: 'NLQ Notification',
+    NOTIFICATION_POPUP_SAVE_NLQ_REPORT_MESSAGE_TEMPLATE: 'saved successfully.',
+    NOTIFICATION_POPUP_CONFIGURE_NLQ_ERROR_MESSAGE_TEMPLATE: 'NLQ Module configuration has been failed',
+    NOTIFICATION_POPUP_CONFIGURE_NLQ_SUCCESS_MESSAGE_TEMPLATE: 'NLQ Module Configured Successfully.',
+    NOTIFICATION_POPUP_ENCRYPTION_DATA_TYPE_TITLE: 'Provision Encryption Data Notification',
+    NOTIFICATION_POPUP_ENCRYPTION_DATA_STARTED_MESSAGE_TEMPLATE: 'Encryption data provisioning is started.',
+    NOTIFICATION_POPUP_ENCRYPTION_DATA_SUCCESS_MESSAGE_TEMPLATE: 'Encryption data provisioning is finished.',
+    NOTIFICATION_POPUP_ENCRYPTION_DATA_ERROR_MESSAGE_TEMPLATE: 'Encryption data provisioning is failed. Please check logs for error.',
     // NOTIFICATION MESSAGES
     NOTIFICATION_PROVISION_MAP_DATA_IMPORTING:
       'The system is importing Map data into the configuration database. Please wait for the process to complete before using Maps.',
     NOTIFICATION_PROVISION_MAP_DATA_IMPORT_FAILED:
       'The map data provisioning process has failed. The map cannot be drawn at this time. Please re-provision it.',
+    NOTIFICATION_PROVISION_ENCRYPTION_DATA_MESSAGE:
+      'The system will upgrade your license key to 256-bit encryption. Please wait for the process to complete. After the upgrade is finished, you will need to log in to the system.',
 
     // NOTIFICATION MESSAGES FOR NLQ Configuration
     NLQ_MODULE_CONFIGURED: 'NLQ Module Configured Successfully',
     NLQ_MODULE_CONFIGURATION_FAILED: 'NLQ Module configuration has been failed',
 
-   //NOTIFICATION NLQ SAVE REPORT
+    //NOTIFICATION NLQ SAVE REPORT
     NOTIFICATION_NLQ_SAVE_REPORT:
-       'saved successfully',
+      'saved successfully',
     NOTIFICATION_NLQ_SAVE_REPORT_FAILED:
-       'saving failed ',
+      'saving failed ',
     // NOTIFICATION MESSAGES FOR NLQ RESET
     NLQ_RESET_SUCCESS: 'NLQ configuration reset successfully',
     NLQ_RESET_FAILED: 'NLQ configuration reset failed',
@@ -3057,7 +3184,8 @@ localizer.registerLanguage(
 
     // GRID POPUP
     GRID_POPUP_TOOLTIP: 'Please click on this icon to see the grid view of current chart data.',
-
+    GRID_POPUP_LABEL_POSITION_LEFT: 'Left',
+    GRID_POPUP_LABEL_POSITION_RIGHT: 'Right',
     // COLOR THEME
     COLORTHEME_OPTION_TOOLTIP: 'Color Theme Selection',
     COLORTHEME_POPUP_HEADER: 'Color Theme Selection',
@@ -3118,6 +3246,176 @@ localizer.registerLanguage(
     NLQ_SAVE_POPUP_ADD_REPORT_TITLE: 'Add Report Title',
     NLQ_SAVE_ADVANCED_OPTIONS: 'Advanced Options',
     NLQ_SAVE_SELECT_SUBCATEGORY: 'Select Category',
+
+
+
+    /** IZENDA BETA **/
+
+    // COMMON LABELS
+    COMMON_CREATE_NEW_REPORT: 'Create a New Report',
+    COMMON_LABEL_INFORMATION: 'Information',
+    COMMON_TAB_VISUALS: 'Visuals',
+    COMMON_TAB_STYLING: 'Styling',
+    COMMON_LABEL_SAVE_CHANGES: 'Save Changes',
+    COMMON_TAB_FORMATS: 'Formats',
+    COMMON_TAB_FILTERS: 'Filters',
+
+    // CREATE NAVIGATION
+    CREATE_M1: 'Report Part Designer',
+    CREATE_M2: 'Layout Designer',
+    CREATE_M3: 'Permissions and Sharing',
+
+    // CREATE SUB NAVIGATION
+    CREATE_M1S1: 'Select Your Data',
+    CREATE_M1S2: 'Filter Your Data',
+    CREATE_M1S3: 'Apply Visualization',
+    CREATE_M2S1: 'Layout Designer',
+    CREATE_M3S1: 'Permissions and Sharing',
+
+    // REPORT PART RAIL
+    REPORT_PART_RAIL: 'Report Parts',
+    REPORT_PART_RAIL_REDIRECT_MODAL_TITLE: 'Redirect',
+    REPORT_PART_RAIL_REDIRECT_MODAL_BODY: 'You will be redirected to choose your data sources for the new report part',
+    REPORT_PART_RAIL_LAST_FIELD_MODAL_TITLE: 'Attention',
+    REPORT_PART_RAIL_LAST_FIELD_MODAL_BODY: 'By deleting this field you will be returned to the first step to select your data. Do you wish to continue?',
+
+    // REPORT PART
+    REPORT_PART_REMOVE_CONFIRMATION_TITLE: 'Deleting a report part',
+    REPORT_PART_REMOVE_CONFIRMATION_BODY: 'Are you sure you want to remove report part?',
+    REPORT_PART_RENAME_ERROR_TITLE: 'Invalid name',
+    REPORT_PART_RENAME_ERROR_BODY: 'The name is empty or already in use. Try another name.',
+    REPORT_PART_PLACEHOLDER: 'Select fields to form report part',
+
+    // DATA SOURCE SELECTOR
+    DATA_SOURCE_CATEGORY: 'Category',
+    DATA_SOURCE_ADD_NEW_DATABASE: 'Add New Database',
+    DATA_SOURCE_ADD_NEW_RELATIONSHIP: 'Add New Relationship',
+    DATA_SOURCE_MODIFY_RELATIONSHIP: 'Modify Relationship',
+    DATA_SOURCE_NOT_SORTABLE_FIELDS_MESSAGE: 'The report uses aggregate functions so you can not add non-aggregable data type (XML, JSON, Image, Lob) fields: {0}',
+
+    ADD_NEW_DATABASE_POPUP_TEXT: 'You must leave the report designer to add new data sources, and any unsaved changes may be lost. Do you want to proceed?',
+
+    FIELD_PROPERTIES_SCHEMA_LABEL: 'Properties',
+    FIELD_PROPERTIES_SCHEMA_LABEL_FILTERS: 'Filters',
+
+    // BETA FONT SETTINGS POPUP
+    FONT_SETTINGS_LABEL_FONT_FORMATING: 'Font Formatting',
+    FONT_SETTINGS_LABEL_TEXT_ALIGNMENT: 'Text Alignment',
+    FONT_SETTINGS_LABEL_TEXT_JUSTIFICATION: 'Text Justification',
+
+    // LAYOUT DESIGNER SIZES
+    REPORT_CREATOR_LAYOUT_SIZE_SMALL: 'Small',
+    REPORT_CREATOR_LAYOUT_SIZE_SMALL_WIDE: 'Small Wide',
+    REPORT_CREATOR_LAYOUT_SIZE_MEDIUM: 'Medium',
+    REPORT_CREATOR_LAYOUT_SIZE_MEDIUM_WIDE: 'Medium Wide',
+    REPORT_CREATOR_LAYOUT_SIZE_LARGE: 'Large',
+    REPORT_CREATOR_LAYOUT_SIZE_LARGE_WIDE: 'Large Wide',
+
+    REPORT_CREATOR_EMPTY_LAYOUT_WARNING: 'No layout has been created for this report and it may appear empty in the viewer. Do you want to proceed?',
+    REPORT_CREATOR_EMPTY_LAYOUT_MESSAGE: 'No layout has been created for this report. Please navigate to the Layout Designer and configure this report\'s content.',
+    REPORT_CREATOR_EMPTY_LAYOUT_MESSAGE_VIEWONLY: 'The report creator has not configured a layout for this report. Please contact your administrator for more information.',
+
+    // PREVIEW MODE
+    PREVIEW_MODE_LABEL_DESIGNER: 'Designer',
+    PREVIEW_MODE_COMMON_TAB_WEB: 'Web',
+    PREVIEW_MODE_LABEL_FILTERS: 'Applied Filter Values',
+    PREVIEW_MODE_LABEL_APPLY_FILTERS: 'Apply Filters',
+    PREVIEW_MODE_LABEL_FILTERS_PANEL: 'Filters',
+    PREVIEW_MODE_LABEL_FILTERS_RAIL_POSITION: 'Filters Rail Position',
+    PREVIEW_MODE_LABEL_FILTERS_RAIL_POSITION_LEFT: 'Left',
+    PREVIEW_MODE_LABEL_FILTERS_RAIL_POSITION_RIGHT: 'Right',
+
+    // FILTERS
+    FILTER_POPUP_TITLE: 'Modify Filters',
+    FILTER_RESET_BUTTON: 'Reset All',
+    FILTER_SELECTED_FIELDS_LABEL: 'Selected Fields',
+    FILTER_AVAILABLE_FIELDS_LABEL: 'Available Fields',
+    FILTER_VALUE_LABEL: 'Filter Value',
+    FILTER_AUTOCOMPLETE_LABEL: 'Autocomplete',
+    FILTER_FIELD_COMPARISON_LABEL: 'Field Comparison',
+    FILTER_ENABLE_END_USER_FILTER_MODIFICATION_LABEL: 'Enable End User Filter[s] Modification',
+    FILTER_ENABLE_END_USER_FILTER_MODIFICATION_TOOLTIP: 'Determines if an end-user can see and manipulate filters in the report viewer.',
+    FILTER_NO_SELECTED_FIELDS_TEXT: 'Select a field from list',
+    FILTER_NO_FILTER_SELECTED_TEXT: 'No filter selected.',
+    FILTER_TYPE_CHOOSE_LABEL: 'Choose Filter Type',
+    FILTER_OPTIONS: 'Filter Options',
+    FILTER_OPTIONS_ALIAS: 'Filter Alias',
+    FILTER_OPTIONS_VISIBLE: 'Filter Visible',
+    FILTER_OPTIONS_VISBLE_TOOLTIP: 'This filter will be visible in the report viewer for all users.',
+    FILTER_USER_OPTIONS: 'User Interaction Options',
+    FILTER_USER_OPTIONS_TYPEAHEAD_LABEL: 'Typeahead',
+    FILTER_USER_OPTIONS_CHECKBOXES_LABEL: 'Checkboxes',
+    FILTER_OPERATOR_CHOOSE_LABEL: 'Choose Filter Operator',
+    FILTER_TYPE_EQUALS: 'Equals',
+    FILTER_TYPE_NOT_EQUALS: 'Not Equals',
+    FILTER_TYPE_COMPARE: 'Compare',
+    FILTER_TYPE_TEXT: 'Text',
+    FILTER_TYPE_BOOLEAN: 'Boolean',
+    FILTER_TYPE_DATETIME: 'Date & Time',
+    FILTER_TYPE_DATE: 'Date',
+    FILTER_TYPE_TIME: 'Time',
+
+    // PERMISSION SHARING
+    PERMISSION_SHARING_LABEL_PERMISSION: 'Permission',
+    PERMISSION_SHARING_LABEL_SHARE_SCHEDULE: 'Share & Schedule',
+    PERMISSION_SHARING_LABEL_EMAIL: 'Email',
+    PERMISSION_SHARING_LABEL_EMAIL_HEADER: 'Send email',
+    PERMISSION_SHARING_ALLOW_MEMBERS: 'Allow members to Connect and Control your Report',
+    PERMISSION_SHARING_GRANT_PERMISSION: 'Grant permission',
+    PERMISSION_SHARING_SELECT_ROLE: 'Select role',
+    PERMISSION_SHARING_SELECT_USER: 'Select user',
+    PERMISSION_SHARING_ACCESS_RIGHTS: 'Access rights',
+    PERMISSION_SHARING_REPORT_NAME: 'Report Name:',
+    PERMISSION_SHARING_GRANT_PERMISSION_WITH: 'Grant permission with',
+    PERMISSION_SHARING_COMMON_LABEL_OWNER: 'Report Owner:',
+    PERMISSION_SHARING_LABEL_OWNER: 'Owner:',
+    PERMISSION_SHARING_PERMISSION_POPUP_BODY: 'Are you sure you want to delete selected permissions?',
+    PERMISSION_SHARING_SHARING_POPUP_BODY: 'Are you sure you want to delete selected scheduled item?',
+    PERMISSION_SHARING_DESC: '{0} sent as {1}{2} {3} at {4} / {5} / {6}',
+    PERMISSION_SHARING_SELECT_TENANT: 'Select tenant',
+
+    //EDITABLE PERMISSION LIST
+    PERMISSION_EDITABLE_LIST_USER_ERROR_MESSAGE :'Please add one or more user to save changes. If you wish to delete all users, please select cancel and use the trash can icon to delete the item.',
+    PERMISSION_EDITABLE_LIST_ROLE_ERROR_MESSAGE :'Please add one or more role to save changes. If you wish to delete all roles, please select cancel and use the trash can icon to delete the item.',
+    PERMISSION_EDITABLE_LIST_TENANT_ERROR_MESSAGE :'Please add one or more tenant to save changes. If you wish to delete all tenants, please select cancel and use the trash can icon to delete the item.',
+
+    // SHARING SCHEDULE
+    SHARING_SCHEDULE_REMOVE: 'Remove Recurring as Schedule',
+    SHARING_SCHEDULE: 'Schedule as Recurring',
+    SHARING_SCHEDULE_REPORT_ITEM: 'Reporting Item',
+    SHARING_SCHEDULE_ALERT: 'Alert',
+    SHARING_SCHEDULE_ADD_RECIPIENT: 'Add Recipient',
+    SHARING_SCHEDULE_DATE: 'Starting Date',
+    SHARING_SCHEDULE_TIME: 'Starting Time',
+    SHARING_SCHEDULE_PERIOD: 'Period',
+    SHARING_SCHEDULE_TIMEZONE: 'Timezone',
+    SHARING_SCHEDULE_SELECT_VALUE: 'Select Value',
+    SHARE_YOUR_REPORT_EXTERNALLY: 'Share your report externally',
+    SHARE_POPUP_SAVE_REPORT_TEXT_ERROR: 'Emails can only be sent for reports that have been previously saved. Please save your report and try again',
+    SHARE_POPUP_EMAIL_SUCCESS: 'Your email(s) have been successfully sent',
+    SHARE_POPUP_EMAIL_ERROR_TITLE: 'There was an error sending your email.',
+    SHARE_POPUP_EMAIL_ERROR_TEXT: 'There are unsaved changes in the report. Please save before sending.',
+    SHARING_SCHEDULE_RECIPIENTS_ERROR: 'Please add one or more recipients to save changes',
+
+    // ADVANCED EMAILING OPTIONS
+    ADVANCED_EMAILING_OPTIONS: 'Advanced Emailing Options',
+    HIDE_ADVANCED_EMAILING_OPTIONS: 'Hide Advanced Emailing Options',
+    // FILTER VALUE SELECTION
+    FILTER_VALUE_SELECTION: 'Filter Value Selection',
+    HIDE_FILTER_VALUE_SELECTION: 'Hide Filter Value Selection',
+
+    //MY PROFILE SETTINGS
+    My_PROFILE_PREFERENCE: 'My Preference',
+    My_PROFILE_SECURITY_OPTIONS: 'Security Options',
+    My_PROFILE_EXPORT_MANAGER: 'Export Manager',
+
+    // LAYOUT HEADER AND FOOTER
+    LAYOUT_HEADER_TITLE_MAX_LENGHT_EXCEEDED: 'Maximum length of Report Title is 120 characters',
+    LAYOUT_HEADER_DESCRIPTION_MAX_LENGHT_EXCEEDED: 'Maximum length of Report Description is 240 characters',
+    LAYOUT_FOOTER_TEXT_MAX_LENGHT_EXCEEDED: 'Maximum length of Footer Text is 120 characters',
+
+    //CHARTYAXISMETRICSCONTAINER
+    ADD_NEW_METRICS: 'Add New Metrics'
   },
   'en-US'
 );

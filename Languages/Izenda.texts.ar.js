@@ -176,7 +176,6 @@ COMMON_LABEL_FORM : 'شكل',
 COMMON_LABEL_GAUGE : 'مقياس',
 COMMON_LABEL_GRID : 'شبكة',
 COMMON_LABEL_MAP : 'خريطة',
-COMMON_LABEL_KPI : 'KPI',
 COMMON_LABEL_STATUS : 'الحالة',
 COMMON_LABEL_ACTIVE : 'نشيط',
 COMMON_LABEL_ARCHIVED : 'أرشفة',
@@ -1068,7 +1067,6 @@ ROLE_SETUP_CONSTANT_MESSAGE_DEACTIVE : 'سيؤدي إلغاء تنشيط هذا 
 ROLE_SETUP_CONSTANT_CONSTRAINTS_REQUIRE_VALUE : 'قيمة محددة مطلوبة.',
 ROLE_SETUP_CONSTANT_ROLE_SETUP_USERS : 'حدد المستخدمين المراد تعيينهم لهذا الدور',
 ROLE_SETUP_CONSTANT_DATA_MODEL_ACCESS_TREE_HEADER : 'مصادر البيانات',
-ROLE_SETUP_PERMISSION_CATEGORIES_ERROR : 'قد لا يكون {0} (ق) المحفوظة في الفئات / الفئات الفرعية التالية {1} بسبب هذه التغييرات في أذونات الفئات / الفئات الفرعية. <br> {2} <br> يرجى تصحيح هذا قبل المضي قدما.',
 ROLE_SETUP_PERMISSION_CATEGORIES_ERROR_EDITABLE : 'قابل للتعديل',
 ROLE_SETUP_PERMISSION_CATEGORIES_ERROR_ACCESSIBLE : 'يمكن الوصول',
 ROLE_SETUP_PERMISSION_NOT_ALLOW_TO_SAVE : 'لا يُسمح للدور بحفظ {0} في الفئات / الفئات الفرعية العامة التالية. <br><br> {1}',
@@ -1082,7 +1080,6 @@ ROLE_SETUP_LABEL_ROLES : 'الأدوار',
 ROLE_SETUP_PERMISSION_SUMMARY_HEADER_NAME_ACCESS : 'التمكن من',
 ROLE_SETUP_PERMISSION_SUMMARY_ACCESS_LIMITS : 'حدود الوصول',
 ROLE_SETUP_PERMISSION_SUMMARY_ACCESS_DEFAULT : 'افتراضيات الوصول',
-ROLE_SETUP_PERMISSION_SUMMARY_LABEL_CAN_CREATE_NEW_REPORTS : 'يمكن إنشاء تقارير جديدة؟',
 ROLE_SETUP_PERMISSION_SUMMARY_LABEL_DASHBOARD_CATEGORIES_SUBCATEGORIES : 'فئات لوحة القيادة / الفئات الفرعية',
 ROLE_SETUP_PERMISSION_SUMMARY_LABEL_ACCESSIBILITY : 'فئة إمكانية الوصول',
 ROLE_SETUP_PERMISSION_SUMMARY_LABEL_VISIBLE_CATEGORIES : 'فئات مرئية',
@@ -2008,11 +2005,6 @@ USER_SETUP_LABEL_LAST_NAME : 'الكنية',
 USER_SETUP_LABEL_TIME_ZONE : 'وحدة زمنية',
 USER_SETUP_LABEL_DATA_OFFSET : 'إزاحة البيانات',
 USER_SETUP_LABEL_TIMESTAMP_OFFSET : 'إزاحة الطابع الزمني',
-USER_SETUP_ERROR_ROLE_ASSOCIATION_MESSAGE : 'يرجى تصحيح هذا قبل المضي قدما.',
-USER_SETUP_ERROR_ROLE_REPORT_ASSOCIATION_EDITABLE : 'قد لا يكون هذا التقرير (التقارير) المحفوظة في الفئات / الفئات الفرعية التالية قابلاً للتحرير بواسطة هذا المستخدم بسبب التغيير في ارتباط أدواره.',
-USER_SETUP_ERROR_ROLE_REPORT_ASSOCIATION_ACCESSIBLE : 'قد يتعذر على هذا المستخدم الوصول إلى التقارير (التقارير) المحفوظة في الفئات / الفئات الفرعية التالية بسبب التغيير في ارتباط أدوارهم.',
-USER_SETUP_ERROR_ROLE_DASHBOARD_ASSOCIATION_EDITABLE : 'قد لا تكون لوحة (لوحات) المحفوظة في الفئات / الفئات الفرعية التالية قابلة للتحرير بواسطة هذا المستخدم بسبب التغيير في ارتباط أدوارها.',
-USER_SETUP_ERROR_ROLE_DASHBOARD_ASSOCIATION_ACCESSIBLE : 'ربما لم يعد الوصول إلى لوحة (لوحات) المحفوظة في الفئات / الفئات الفرعية التالية من قبل هذا المستخدم بسبب التغيير في ارتباط أدوارهم.',
 COMPONENT_CONTROL_LABEL_ADD_METRIC : 'أضف متري',
 REPORT_PART_PROPS_GRID_SCHEMA_LABEL_GRID_STYLE : 'نمط الشبكة',
 REPORT_PART_PROPS_GRID_SCHEMA_LABEL_SEPARATOR_STYLE : 'نمط فاصل',
@@ -2170,8 +2162,6 @@ THREHOSLD_Y_LABEL : 'قم بتطبيق العتبة على المحور ص',
 THRESHOLDS_TITLE_POPUP_CHANGE_FIELD : 'تغيير الحقل أو تغيير وظيفة',
 CONTEXT_MENU_LABEL_NLQ_CONFIG : 'nlq',
 TOP_MENU_EXPLORE : 'يكتشف',
-TOP_MENU_NEW_REPORTS : 'إنشاء تقارير',
-TOP_MENU_NEW_DASHBOARDS : 'إنشاء لوحات تحكم',
 TOTAL : 'مجموع',
 RECORDS : 'السجلات',
 COLUMNS : 'الأعمدة',
@@ -2184,35 +2174,8 @@ SECURITY_RENDER_HTML_EXPORT : 'تقديم HTML في الطباعة / التصد�
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'تقديم HTML في عارض التقارير',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'إذا تم تحديد ذلك ، فسيتم عرض محتوى HTML من الحقول في عارض التقارير',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'ترميز المتغيرات في عنوان URL المخصص',
-EXPLORE_CTAS: {
-    DATA_SOURCE: {
-        ICON: '/static/img/explore/new-data.png',
-        DESCRIPTION: 'فضح بيانات جديدة لخدمة استعلام اللغة الطبيعية لدينا لإنشاء تقارير أكثر تعقيدًا.',
-        LABEL: 'إضافة مصدر بيانات جديد'
-    },
-    DASHBOARD: {
-        DESCRIPTION: 'تصميم لوحة تحكم جديدة لتحسين رؤيتك من تقارير متعددة.',
-        LABEL: 'Create Dashboard'
-    },
-    REPORT: {
-        DESCRIPTION: 'أنشئ تقريرًا جديدًا لعرض تقدم عملك.',
-        LABEL: 'إنشاء تقرير'
-    }
-},
-EXPLORE_NAV: {
-    ask: {
-        order: 1,
-        title: 'Ask your query'
-    },
-    results: {
-        order: 2,
-        title: 'Query results'
-    },
-    vis: {
-        order: 3,
-        title: 'Visualization'
-    }
-},
+EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;، &quot;DESCRIPTION&quot;: &quot;فضح بيانات جديدة لخدمة استعلام اللغة الطبيعية لدينا لإنشاء تقارير أكثر تعقيدًا.&quot;، &quot;LABEL&quot; : &quot;إضافة مصدر بيانات جديد&quot;} ، &quot;DASHBOARD&quot;: {&quot;DESCRIPTION&quot;: &quot;تصميم لوحة تحكم جديدة لتحسين رؤيتك من تقارير متعددة.&quot;، &quot;LABEL&quot;: &quot;Create Dashboard&quot;}، &quot;REPORT&quot;: {&quot;DESCRIPTION &quot;:&quot; أنشئ تقريرًا جديدًا لعرض تقدم عملك. &quot;،&quot; LABEL &quot;:&quot; إنشاء تقرير &quot;}}',
+EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1، &quot;title&quot;: &quot;Ask your query&quot;}، &quot;results&quot;: {&quot;order&quot;: 2، &quot;title&quot;: &quot;Query results&quot;}، &quot;vis&quot;: {&quot; الطلب &quot;: 3،&quot; title &quot;:&quot; Visualization &quot;}}',
 EXPLORE_SEARCH_PLACEHOLDER : 'اكتب استعلامك هنا ، على سبيل المثال: &quot;متوسط المبيعات بين يونيو 2019 وديسمبر 2020&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'مرشح واضح',
 REPORTDESIGNER_LABEL_SCALE : 'مقياس',
@@ -2479,5 +2442,257 @@ INCLUDE_FILTER_ON_LAST_PAGE_IN_EXPORT : 'عرض عوامل التصفية في �
 INCLUDE_FILTER_VALUE_IN_EXPORT : 'تم تطبيق عوامل التصفية على هذا التقرير. هل تريد تضمين عوامل التصفية وقيمها في هذه الصادرات؟',
 REPORT_SUBCRIPTION_CONSTANT_MESSAGE_DELIVERY_TYPE_NO_PERM : 'ليس لديك إذن لنوع التسليم &quot;{0}&quot;. الرجاء اختيار واحد آخر.',
 REPORT_SUBCRIPTION_CONSTANT_MESSAGE_ATTACHMENT_TYPE_NO_PERM : 'ليس لديك إذن لنوع المرفق &quot;{0}&quot;. الرجاء اختيار واحد آخر.',
-REPORT_SUBCRIPTION_CONSTANT_MESSAGE_FILE_TYPE_NO_PERM : 'ليس لديك إذن لنوع الملف &quot;{0}&quot;. الرجاء اختيار واحد آخر.'
+REPORT_SUBCRIPTION_CONSTANT_MESSAGE_FILE_TYPE_NO_PERM : 'ليس لديك إذن لنوع الملف &quot;{0}&quot;. الرجاء اختيار واحد آخر.',
+TOP_MENU_REPORT_LIST : 'قائمة التقارير',
+TOP_MENU_NEW_REPORT : 'عرض المصمم الكلاسيكي',
+TOP_MENU_NEW_REPORT_RD2 : 'عرض مصمم بيتا',
+TOP_MENU_DASHBOARD_LIST : 'قائمة لوحة القيادة',
+TOP_MENU_NEW_DASHBOARD : 'لوحة تحكم جديدة',
+COMMON_MESSAGES_NOT_ALLOWED_ACTION : 'لا يسمح لك للقيام بهذا العمل.',
+COMMON_MESSAGES_NOPERMISSION_CREATEREPORT : 'حسابك ليس لديه إذن لإنشاء التقارير. الرجاء الاتصال بمسؤول النظام للحصول على المساعدة.',
+COMMON_MESSAGES_NOPERMISSION_GENERAL : 'حسابك ليس لديه إذن لتنفيذ هذا الإجراء. الرجاء الاتصال بمسؤول النظام للحصول على المساعدة.',
+COMMON_MESSAGES_NOPERMISSION_CREATEDASHBOARD : 'حسابك ليس لديه إذن لإنشاء لوحة القيادة. الرجاء الاتصال بمسؤول النظام للحصول على المساعدة.',
+COMMON_MESSAGES_NO_PERMISSION : 'ليس لديك إذن للقيام بهذا الإجراء',
+COMMON_LABEL_SAVE_CHANGES : 'حفظ التغييرات',
+COMMON_LABEL_ADD_REPORT_TITLE : 'أضف عنوان التقرير',
+COMMON_LABEL_SAVE_REPORT_ADV_OPTIONS : 'خيارات متقدمة',
+COMMON_LABEL_UPGRADE : 'تطوير',
+COMMON_LABEL_SAVE_REPORT_TYPE_LABEL : 'اختر كيف تريد حفظ بياناتك',
+COMMON_LABEL_DRAFT : 'مسودة',
+COMMON_LABEL_KPI : 'kpi',
+COMMON_LABEL_MENU_CLEAR_FORMAT : 'تنسيقات واضحة',
+COMMON_LABEL_MENU_REMOVE_FUNCTION : 'إزالة الوظيفة',
+COMMON_LABEL_POSOTION_GRAND_TOTAL : 'إجمالي موقف التصنيف الإجمالي',
+COMMON_LABEL_EVERY_HOUR : 'كل ساعة',
+COMMON_LABEL_VIEW_MORE : 'عرض المزيد',
+COMMON_LABEL_SHOW_LESS : 'عرض أقل',
+CATEGORY_TOOLTIP_DELETE : 'حذف',
+CATEGORY_TOOLTIP_ADD : 'إضافة فئة جديدة',
+SUBCATEGORY_TOOLTIP_ADD : 'إضافة فئة فرعية جديدة',
+QUERY_RESULT_ADD_COLUMNS : 'أضف أعمدة',
+QUERY_RESULT_APPLY : 'تطبيق',
+OTHER_SETTINGS_CALENDAR_WEEK_START : 'بداية الأسبوع في التقويم',
+OTHER_SETTINGS_TOOLTIP_CALENDAR_WEEK_START : 'قم بالتكوين لتعيين يوم بدء الأسبوع والذي سيشار إليه في مرشح الفترة الزمنية - أسبوع التقويم عند تطبيقه.',
+OTHER_SETTINGS_CALENDAR_CONFIGURE_PERIOD : 'تكوين الفترة',
+OTHER_SETTINGS_ALLOW_REPORTS_AND_DASHBOARDS_TO_INHERIT_CATEGORY_ACCESS_RIGHTS : 'السماح للتقارير ولوحات المعلومات بوراثة حقوق الوصول إلى الفئات',
+OTHER_SETTINGS_TOOLTIP_ALLOW_REPORTS_AND_DASHBOARDS_TO_INHERIT_CATEGORY_ACCESS_RIGHTS : 'قم بالتكوين لتطبيق الإعدادات الافتراضية للوصول إلى الفئات للأدوار.',
+OTHER_SETTINGS_INHERIT_CATEGORY_ACCESS_RIGHTS_ENABLE_WARNING : 'هل أنت متأكد أنك تريد تمكين هذا الإعداد؟ هذا الإعداد<br/><br/><ul style=";text-align:right;direction:rtl"><li style=";text-align:right;direction:rtl"> إعادة تعيين كل المستأجر',
+OTHER_SETTINGS_INHERIT_CATEGORY_ACCESS_RIGHTS_DISABLE_WARNING : 'هل أنت متأكد أنك تريد تعطيل هذا الإعداد؟ هذا الإعداد<br/><br/><ul style=";text-align:right;direction:rtl"><li style=";text-align:right;direction:rtl"> إعادة تعيين كافة الإعدادات الافتراضية للوصول إلى الدور والتي لا يمكن استعادتها</li><li style=";text-align:right;direction:rtl"> قم بتمكين الإعدادات الافتراضية للوصول إلى مستوى المستأجر</li>',
+EXPLORE_SEARCH_ISDATAMODELACCESS : 'حسابك ليس لديه إذن للوصول إلى مصادر البيانات. الرجاء الاتصال بمسؤول النظام للحصول على المساعدة.',
+REPORTDESIGNER_LABEL_FIELDS_ADD_FILTERS : 'إضافة عوامل التصفية',
+REPORTDESIGNER_LABEL_FIELDS_APPLY_FILTER_LOGIC : 'تطبيق منطق المرشح',
+REPORTDESIGNER_LABEL_FIELDS_CLEAR_FILTER_LOGIC : 'مسح منطق عامل التصفية',
+REPORTDESIGNER_PLACEHOLDER_KPI_GOES_HERE : '<kpi goes here>',
+REPORTDESIGNER_LABEL_REMOVE_EXTRA_COLUMN_SIDE_TOTAL : 'إزالة عمود (أعمدة) إجمالي الجانب الإضافي',
+REPORTDESIGNER_ADD_NEW_REPORT_PART : 'إضافة جزء تقرير جديد',
+REPORTDESIGNER_TOOLTIP_CHARTMETRIC : 'الرجاء النقر فوق هذا الرمز لتنزلق قائمة المقاييس.',
+KPI_GRID_MENU_IMAGE : 'تجانب الصورة',
+KPI_GRID_MENU_METRIC : 'بلاط متري',
+KPI_GRID_MENU_TEXT : 'بلاط النص',
+REPORT_PART_PROPS_KPI_CELL_SIZE : 'حجم الخلية (بكسل)',
+REPORT_PART_PROPS_KPI_COLS : 'عدد الأعمدة',
+REPORT_PART_PROPS_KPI_ROWS : 'عدد الصفوف',
+TILE_PROPERTIES_PANEL_TITLE : 'خصائص البلاط',
+COPY_MANAGEMENT_WORKSPACE_DETAIL_LABEL_COPY_FILTER_VALUES : 'نسخ قيم عامل تصفية التقرير / لوحة المعلومات',
+LICENSE_CHECKER_LABEL_UPGRADE_ENCRYPTION : 'يمكنك ترقية تشفير مفتاح الترخيص الخاص بك إلى تشفير 256 بت.',
+NLQ_CONFIGURATION_SEARCH_MODE : 'وضع البحث',
+NLQ_CONFIGURATION_SEARCH_MODE_GUIDED : 'يسترشد',
+NLQ_CONFIGURATION_SEARCH_MODE_NATURAL : 'طبيعي &gt;&gt; صفة',
+PERMISSION_LABEL_CAN_DELETE_CATEGORY : 'يمكن حذف الفئة؟',
+PERMISSION_LABEL_PREVENT_REPORT_SHARING : 'منع مشاركة التقارير بناءً على إمكانية الوصول للفئة',
+PERMISSION_LABEL_CAN_USE_RD20 : 'مصمم التقارير 2.0',
+PERMISSION_LABEL_SHOW_EXPLORE_MENU : 'إظهار قائمة الاستكشاف',
+PERMISSION_LABEL_KPI : 'kpi',
+ACCESS_CONSTANT_LABEL_ASSIGNED_TYPE_CATEGORY : 'فئة',
+ACCESS_CONSTANT_CONSTRAINT_CATEGORY : 'اختيار القسم مطلوب.',
+FONT_SETTINGS_LABEL_VERTICAL_ALIGNMENT : 'انحياز عمودي',
+ROLE_SETUP_PERMISSION_CATEGORIES_ERROR_HEADER : 'ربما لم تعد {0} (s) المحفوظة في الفئات / الفئات الفرعية التالية {1} بسبب هذه التغييرات في أذونات الفئات / الفئات الفرعية.',
+ROLE_SETUP_PERMISSION_CATEGORIES_ERROR_FOOTER : 'يرجى تصحيح هذا قبل المضي قدما.',
+ROLE_SETUP_PERMISSION_SUMMARY_LABEL_PREVENT_REPORT_SHARING : 'منع مشاركة التقارير بناءً على إمكانية الوصول للفئة',
+ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_CAN_USE_RD20 : 'مصمم التقارير 2.0',
+ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_CAN_CREATE_NEW_CATEGORY : 'يمكن إنشاء فئة جديدة؟',
+ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_CAN_DELETE_CATEGORY : 'يمكن حذف الفئة؟',
+ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_SHOW_EXPLORE_MENU : 'إظهار قائمة الاستكشاف',
+SYSTEM_CONFIGURATION_EXPORTING_LABEL_USE_SYSTEM_CONFIGURATION : 'استخدم تكوين النظام',
+SYSTEM_CONFIGURATION_EXPORTING_LABEL_USE_CUSTOM_CONFIGURATION : 'استخدم التكوين المخصص',
+EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_REFRESHED_DATE : 'تاريخ التحديث',
+EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_DELETE : 'حذف',
+EXPORT_MANAGER_MESSAGE_DETAILS_WERE_SAVED : 'تم حفظ التفاصيل.',
+EXPORT_MANAGER_MESSAGE_DETAILS_WERE_NOT_SAVED : 'لم يتم حفظ التفاصيل. الرجاء الاتصال بمسؤول النظام للحصول على المساعدة.',
+EXPORT_MANAGER_MESSAGE_CANCEL_IN_PROGRESS : '{0} تصدير &quot;{1}&quot; {2} هو {3}. هل تريد إلغاء عملية التصدير؟',
+EXPORT_MANAGER_MESSAGE_DELETE_COMPLETED : 'هل تريد بالتأكيد حذف {0} الذي تم تصديره؟',
+EXPORT_MANAGER_MESSAGE_DELETE_FAILED : 'هل أنت متأكد أنك تريد حذف العنصر الفاشل؟',
+EXPORT_MANAGER_MESSAGE_DELETE_DEFAULT : 'هل أنت متأكد أنك تريد حذف العنصر؟',
+PROPERTIES_BUILDER_BACKGROUND_IMAGE_SOURCE : 'مصدر الصورة',
+INVALID_REPORT_NAME_STRICT : 'يجب أن يحتوي اسم التقرير على قيم أبجدية رقمية وواصلات وشرطات سفلية',
+INVALID_REPORT_TITLE_STRICT : 'يجب أن يحتوي عنوان التقرير على قيم أبجدية رقمية وواصلات وشرطات سفلية',
+REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_REPORT_TITLE : 'عنوان التقرير',
+REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_REPORT_DESCRIPTION : 'وصف تقرير',
+CATEGORY_LOOKUP_CATEGORY_ACCESS_VISIBLE : 'الفئات المرئية',
+CATEGORY_LOOKUP_CATEGORY_ACCESS_ALLOWFORSAVE : 'الفئات المسموح بها لحفظ التقارير / لوحة القيادة',
+CATEGORY_LOOKUP_CATEGORY_ACCESS_AVAILABLE : 'الفئات المتاحة',
+CATEGORY_LOOKUP_LABEL_SELECT_CATEGORY : 'اختر الفئة',
+CATEGORY_LOOKUP_LABEL_ALL_CATEGORIES : 'جميع الفئات',
+CATEGORY_LOOKUP_LABEL_REPORT : 'نقل',
+CATEGORY_LOOKUP_LABEL_DASHBOARD : 'لوحة القيادة',
+CATEGORY_LOOKUP_LABEL_CATEGORY : 'الفئة',
+CATEGORY_LOOKUP_LABEL_CATEGORY_ACCESS : 'إمكانية الوصول إلى الفئات',
+ROLE_LABEL_SELECT_ROLE : 'حدد الدور',
+REPORT_PART_FORM_CONSTANTS_MESSAGE_LOB_FIELDS_OUTSIDE_REPEATER : '{0} لا يمكن استخدام حقل النوع &quot;{1}&quot; كعنصر شقيق لمكرر.',
+REPORT_PART_GRID_CONSTANTS_LABEL_DISABLE_REPEAT_HEADERS : 'تعطيل تكرار الرؤوس',
+PAGE_NUMBER_OPTIONS_PAGE_ONLY : 'رقم الصفحة',
+PAGE_NUMBER_OPTIONS_PAGE_OF_TOTAL : 'رقم الصفحة لإجمالي الصفحات',
+PAGE_NUMBER_OPTIONS_PAGE_TOTAL : 'رقم الصفحة / إجمالي الصفحات',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_LIBRARY : 'مكتبة الرسوم البيانية',
+REPORT_PART_PROPS_CHART_SCHEMA_LABEL_SHOW_VALUE_FIELD_NAME : 'إظهار اسم حقل القيم',
+USER_SETUP_ERROR_ROLE_ASSOCIATION_MESSAGE_HEADER : 'قد لا تكون {0} (s) المحفوظة في الفئات / الفئات الفرعية التالية {1} بواسطة هذا المستخدم بسبب التغيير في اقتران الأدوار الخاصة بهم.',
+USER_SETUP_ERROR_ROLE_ASSOCIATION_MESSAGE_FOOTER : 'يرجى تصحيح هذا قبل المضي قدما.',
+REPORT_PART_PROPS_GRID_SCHEMA_LABEL_EXPORT_COLUMNS_PER_PAGE_DISABLED : 'تم تعطيل عدد الأعمدة لكل صفحة تم تصديرها بسبب تشغيل &quot;تعطيل رؤوس التكرار&quot;',
+REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_HEADER : 'رأس',
+REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_FOOTER : 'تذييل',
+REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_PAGE_NUMBER : 'رقم الصفحة',
+REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_REPORT_TITLE : 'عنوان التقرير',
+REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_REPORT_DESCRIPTION : 'وصف تقرير',
+REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_ENABLE_HEADER : 'تمكين الرأس',
+REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_ENABLE_FOOTER : 'تمكين التذييل',
+NOTIFICATION_POPUP_RESET_NLQ_ERROR_MESSAGE_TEMPLATE : 'فشل إعادة تعيين تكوين NLQ.',
+NOTIFICATION_POPUP_RESET_NLQ_SUCCESS_MESSAGE_TEMPLATE : 'تمت إعادة ضبط تكوين NLQ بنجاح.',
+NOTIFICATION_POPUP_SAVE_NLQ_REPORT_TYPE_TITLE : 'إعلام NLQ',
+NOTIFICATION_POPUP_SAVE_NLQ_REPORT_MESSAGE_TEMPLATE : 'حفظ بنجاح.',
+NOTIFICATION_POPUP_CONFIGURE_NLQ_ERROR_MESSAGE_TEMPLATE : 'فشل تكوين الوحدة النمطية NLQ',
+NOTIFICATION_POPUP_CONFIGURE_NLQ_SUCCESS_MESSAGE_TEMPLATE : 'تم تكوين الوحدة النمطية NLQ بنجاح.',
+NOTIFICATION_POPUP_ENCRYPTION_DATA_TYPE_TITLE : 'إعلام توفير بيانات التشفير',
+NOTIFICATION_POPUP_ENCRYPTION_DATA_STARTED_MESSAGE_TEMPLATE : 'بدأ توفير بيانات التشفير.',
+NOTIFICATION_POPUP_ENCRYPTION_DATA_SUCCESS_MESSAGE_TEMPLATE : 'تم الانتهاء من توفير بيانات التشفير.',
+NOTIFICATION_POPUP_ENCRYPTION_DATA_ERROR_MESSAGE_TEMPLATE : 'فشل توفير بيانات التشفير. يرجى التحقق من السجلات عن الخطأ.',
+NOTIFICATION_PROVISION_ENCRYPTION_DATA_MESSAGE : 'سيقوم النظام بترقية مفتاح الترخيص الخاص بك إلى تشفير 256 بت. يرجى الانتظار حتى تكتمل العملية. بعد انتهاء الترقية ، ستحتاج إلى تسجيل الدخول إلى النظام.',
+GRID_POPUP_LABEL_POSITION_LEFT : 'متبقى',
+GRID_POPUP_LABEL_POSITION_RIGHT : 'حق',
+COMMON_CREATE_NEW_REPORT : 'إنشاء تقرير جديد',
+COMMON_LABEL_INFORMATION : 'معلومة',
+COMMON_TAB_VISUALS : 'المرئيات',
+COMMON_TAB_STYLING : 'التصميم',
+COMMON_TAB_FORMATS : 'تنسيقات',
+COMMON_TAB_FILTERS : 'المرشحات',
+CREATE_M1 : 'تقرير مصمم الجزء',
+CREATE_M2 : 'مصمم التخطيط',
+CREATE_M3 : 'الأذونات والمشاركة',
+CREATE_M1S1 : 'حدد بياناتك',
+CREATE_M1S2 : 'تصفية البيانات الخاصة بك',
+CREATE_M1S3 : 'تطبيق التصور',
+CREATE_M2S1 : 'مصمم التخطيط',
+CREATE_M3S1 : 'الأذونات والمشاركة',
+REPORT_PART_RAIL : 'أجزاء التقرير',
+REPORT_PART_RAIL_REDIRECT_MODAL_TITLE : 'إعادة توجيه',
+REPORT_PART_RAIL_REDIRECT_MODAL_BODY : 'ستتم إعادة توجيهك لاختيار مصادر البيانات الخاصة بك لجزء التقرير الجديد',
+REPORT_PART_RAIL_LAST_FIELD_MODAL_TITLE : 'انتباه',
+REPORT_PART_RAIL_LAST_FIELD_MODAL_BODY : 'بحذف هذا الحقل ، ستتم إعادتك إلى الخطوة الأولى لتحديد بياناتك. هل ترغب في الاستمرار؟',
+REPORT_PART_REMOVE_CONFIRMATION_TITLE : 'حذف جزء التقرير',
+REPORT_PART_REMOVE_CONFIRMATION_BODY : 'هل أنت متأكد أنك تريد إزالة جزء التقرير؟',
+REPORT_PART_RENAME_ERROR_TITLE : 'اسم غير صحيح',
+REPORT_PART_RENAME_ERROR_BODY : 'الاسم فارغ أو قيد الاستخدام بالفعل. جرب اسمًا آخر.',
+REPORT_PART_PLACEHOLDER : 'حدد الحقول لتشكيل جزء التقرير',
+DATA_SOURCE_CATEGORY : 'فئة',
+DATA_SOURCE_ADD_NEW_DATABASE : 'أضف قاعدة بيانات جديدة',
+DATA_SOURCE_ADD_NEW_RELATIONSHIP : 'أضف علاقة جديدة',
+DATA_SOURCE_MODIFY_RELATIONSHIP : 'تعديل العلاقة',
+DATA_SOURCE_NOT_SORTABLE_FIELDS_MESSAGE : 'يستخدم التقرير وظائف مجمعة لذلك لا يمكنك إضافة حقول نوع بيانات غير قابلة للتجميع (XML ، JSON ، صورة ، Lob): {0}',
+ADD_NEW_DATABASE_POPUP_TEXT : 'يجب ترك مصمم التقرير لإضافة مصادر بيانات جديدة ، وقد يتم فقد أي تغييرات غير محفوظة. هل تريد المتابعة؟',
+FIELD_PROPERTIES_SCHEMA_LABEL : 'ملكيات',
+FIELD_PROPERTIES_SCHEMA_LABEL_FILTERS : 'المرشحات',
+FONT_SETTINGS_LABEL_FONT_FORMATING : 'تنسيق الخط',
+FONT_SETTINGS_LABEL_TEXT_ALIGNMENT : 'محاذاة النص',
+FONT_SETTINGS_LABEL_TEXT_JUSTIFICATION : 'تبرير النص',
+REPORT_CREATOR_LAYOUT_SIZE_SMALL : 'صغير',
+REPORT_CREATOR_LAYOUT_SIZE_SMALL_WIDE : 'صغير على نطاق واسع',
+REPORT_CREATOR_LAYOUT_SIZE_MEDIUM : 'وسط',
+REPORT_CREATOR_LAYOUT_SIZE_MEDIUM_WIDE : 'متوسط واسع',
+REPORT_CREATOR_LAYOUT_SIZE_LARGE : 'كبير',
+REPORT_CREATOR_LAYOUT_SIZE_LARGE_WIDE : 'كبير على نطاق واسع',
+REPORT_CREATOR_EMPTY_LAYOUT_WARNING : 'لم يتم إنشاء تخطيط لهذا التقرير وقد يظهر فارغًا في العارض. هل تريد المتابعة؟',
+REPORT_CREATOR_EMPTY_LAYOUT_MESSAGE : 'لم يتم إنشاء تخطيط لهذا التقرير. الرجاء الانتقال إلى مصمم التخطيط وتكوين محتوى هذا التقرير.',
+REPORT_CREATOR_EMPTY_LAYOUT_MESSAGE_VIEWONLY : 'لم يقم منشئ التقرير بتكوين تخطيط لهذا التقرير. يرجى الاتصال بالمسؤول للحصول على مزيد من المعلومات.',
+PREVIEW_MODE_LABEL_DESIGNER : 'مصمم',
+PREVIEW_MODE_COMMON_TAB_WEB : 'الويب',
+PREVIEW_MODE_LABEL_FILTERS : 'قيم التصفية المطبقة',
+PREVIEW_MODE_LABEL_APPLY_FILTERS : 'تطبيق المرشحات',
+PREVIEW_MODE_LABEL_FILTERS_PANEL : 'المرشحات',
+PREVIEW_MODE_LABEL_FILTERS_RAIL_POSITION : 'مرشحات موقف السكك الحديدية',
+PREVIEW_MODE_LABEL_FILTERS_RAIL_POSITION_LEFT : 'متبقى',
+PREVIEW_MODE_LABEL_FILTERS_RAIL_POSITION_RIGHT : 'حق',
+FILTER_POPUP_TITLE : 'تعديل المرشحات',
+FILTER_RESET_BUTTON : 'إعادة ضبط الجميع',
+FILTER_SELECTED_FIELDS_LABEL : 'الحقول المختارة',
+FILTER_AVAILABLE_FIELDS_LABEL : 'الحقول المتاحة',
+FILTER_VALUE_LABEL : 'قيمة التصفية',
+FILTER_AUTOCOMPLETE_LABEL : 'الإكمال التلقائي',
+FILTER_FIELD_COMPARISON_LABEL : 'مقارنة ميدانية',
+FILTER_ENABLE_END_USER_FILTER_MODIFICATION_LABEL : 'تفعيل تعديل عامل تصفية المستخدم النهائي',
+FILTER_ENABLE_END_USER_FILTER_MODIFICATION_TOOLTIP : 'يحدد ما إذا كان يمكن للمستخدم رؤية عوامل التصفية ومعالجتها في عارض التقارير.',
+FILTER_NO_SELECTED_FIELDS_TEXT : 'حدد حقلاً من القائمة',
+FILTER_NO_FILTER_SELECTED_TEXT : 'لم يتم اختيار مرشح.',
+FILTER_TYPE_CHOOSE_LABEL : 'اختر نوع الفلتر',
+FILTER_OPTIONS : 'خيارات التصفية',
+FILTER_OPTIONS_ALIAS : 'تصفية الاسم المستعار',
+FILTER_OPTIONS_VISIBLE : 'المرشح مرئي',
+FILTER_OPTIONS_VISBLE_TOOLTIP : 'سيكون هذا الفلتر مرئيًا في عارض التقارير لجميع المستخدمين.',
+FILTER_USER_OPTIONS : 'خيارات تفاعل المستخدم',
+FILTER_USER_OPTIONS_TYPEAHEAD_LABEL : 'الكتابة',
+FILTER_USER_OPTIONS_CHECKBOXES_LABEL : 'مربعات الاختيار',
+FILTER_OPERATOR_CHOOSE_LABEL : 'اختر عامل التصفية',
+FILTER_TYPE_EQUALS : 'يساوي',
+FILTER_TYPE_NOT_EQUALS : 'لا يساوي',
+FILTER_TYPE_COMPARE : 'قارن',
+FILTER_TYPE_TEXT : 'نص',
+FILTER_TYPE_BOOLEAN : 'قيمة منطقية',
+FILTER_TYPE_DATETIME : 'تاريخ',
+FILTER_TYPE_DATE : 'تاريخ',
+FILTER_TYPE_TIME : 'وقت',
+PERMISSION_SHARING_LABEL_PERMISSION : 'الإذن',
+PERMISSION_SHARING_LABEL_SHARE_SCHEDULE : 'يشارك',
+PERMISSION_SHARING_LABEL_EMAIL : 'بريد إلكتروني',
+PERMISSION_SHARING_LABEL_EMAIL_HEADER : 'ارسل بريد الكتروني',
+PERMISSION_SHARING_ALLOW_MEMBERS : 'اسمح للأعضاء بالاتصال والتحكم في تقريرك',
+PERMISSION_SHARING_GRANT_PERMISSION : 'يعطي الأذن',
+PERMISSION_SHARING_SELECT_ROLE : 'حدد الدور',
+PERMISSION_SHARING_SELECT_USER : 'اختر المستخدم',
+PERMISSION_SHARING_ACCESS_RIGHTS : 'حقوق الوصول',
+PERMISSION_SHARING_REPORT_NAME : 'تقرير اسم:',
+PERMISSION_SHARING_GRANT_PERMISSION_WITH : 'منح الإذن مع',
+PERMISSION_SHARING_COMMON_LABEL_OWNER : 'صاحب التقرير:',
+PERMISSION_SHARING_LABEL_OWNER : 'مالك:',
+PERMISSION_SHARING_PERMISSION_POPUP_BODY : 'هل أنت متأكد أنك تريد حذف الأذونات المحددة؟',
+PERMISSION_SHARING_SHARING_POPUP_BODY : 'هل أنت متأكد أنك تريد حذف العنصر المجدول المحدد؟',
+PERMISSION_SHARING_DESC : 'تم إرسال {0} كـ {1} {2} {3} في {4} / {5} / {6}',
+PERMISSION_SHARING_SELECT_TENANT : 'حدد المستأجر',
+PERMISSION_EDITABLE_LIST_USER_ERROR_MESSAGE : 'الرجاء إضافة مستخدم واحد أو أكثر لحفظ التغييرات. إذا كنت ترغب في حذف جميع المستخدمين ، فالرجاء تحديد إلغاء واستخدام رمز سلة المهملات لحذف العنصر.',
+PERMISSION_EDITABLE_LIST_ROLE_ERROR_MESSAGE : 'الرجاء إضافة دور واحد أو أكثر لحفظ التغييرات. إذا كنت ترغب في حذف جميع الأدوار ، فالرجاء تحديد إلغاء واستخدام رمز سلة المهملات لحذف العنصر.',
+PERMISSION_EDITABLE_LIST_TENANT_ERROR_MESSAGE : 'الرجاء إضافة مستأجر واحد أو أكثر لحفظ التغييرات. إذا كنت ترغب في حذف جميع المستأجرين ، يرجى تحديد إلغاء واستخدام أيقونة سلة المهملات لحذف العنصر.',
+SHARING_SCHEDULE_REMOVE : 'إزالة المتكررة كجدول زمني',
+SHARING_SCHEDULE : 'جدولة على أنها متكررة',
+SHARING_SCHEDULE_REPORT_ITEM : 'عنصر الإبلاغ',
+SHARING_SCHEDULE_ALERT : 'يحذر',
+SHARING_SCHEDULE_ADD_RECIPIENT : 'أضف المستلم',
+SHARING_SCHEDULE_DATE : 'تاريخ البدء',
+SHARING_SCHEDULE_TIME : 'وقت البدء',
+SHARING_SCHEDULE_PERIOD : 'فترة',
+SHARING_SCHEDULE_TIMEZONE : 'وحدة زمنية',
+SHARING_SCHEDULE_SELECT_VALUE : 'اختار القيمة',
+SHARE_YOUR_REPORT_EXTERNALLY : 'شارك تقريرك خارجيًا',
+SHARE_POPUP_SAVE_REPORT_TEXT_ERROR : 'يمكن إرسال رسائل البريد الإلكتروني فقط للتقارير التي تم حفظها مسبقًا. يرجى حفظ التقرير الخاص بك وحاول مرة أخرى',
+SHARE_POPUP_EMAIL_SUCCESS : 'تم إرسال البريد الإلكتروني الخاص بك بنجاح',
+SHARE_POPUP_EMAIL_ERROR_TITLE : 'كان هناك خطأ في إرسال البريد الإلكتروني الخاص بك.',
+SHARE_POPUP_EMAIL_ERROR_TEXT : 'هناك تغييرات غير محفوظة في التقرير. يرجى الحفظ قبل الإرسال.',
+SHARING_SCHEDULE_RECIPIENTS_ERROR : 'الرجاء إضافة مستلم واحد أو أكثر لحفظ التغييرات',
+ADVANCED_EMAILING_OPTIONS : 'خيارات البريد الإلكتروني المتقدمة',
+HIDE_ADVANCED_EMAILING_OPTIONS : 'إخفاء خيارات البريد الإلكتروني المتقدمة',
+FILTER_VALUE_SELECTION : 'تحديد قيمة المرشح',
+HIDE_FILTER_VALUE_SELECTION : 'إخفاء تحديد قيمة عامل التصفية',
+My_PROFILE_PREFERENCE : 'أفضله',
+My_PROFILE_SECURITY_OPTIONS : 'خيارات الأمان',
+My_PROFILE_EXPORT_MANAGER : 'مدير التصدير',
+LAYOUT_HEADER_TITLE_MAX_LENGHT_EXCEEDED : 'الحد الأقصى لطول عنوان التقرير 120 حرفًا',
+LAYOUT_HEADER_DESCRIPTION_MAX_LENGHT_EXCEEDED : 'أقصى طول لوصف التقرير 240 حرفًا',
+LAYOUT_FOOTER_TEXT_MAX_LENGHT_EXCEEDED : 'الحد الأقصى لطول نص التذييل 120 حرفًا',
+ADD_NEW_METRICS : 'أضف مقاييس جديدة'
 }, 'ar');
