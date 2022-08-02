@@ -1,4 +1,3 @@
-
 /* Arabic (ar) */
 INSERT INTO IzendaLanguage(Id, CultureName, Language, Deleted)
 SELECT 'c8a07bd5-c099-49ea-afb5-eea7767ef151', 'ar', 'Arabic', false
@@ -49,7 +48,7 @@ INSERT INTO IzendaLanguage(Id, CultureName, Language, Deleted)
 SELECT 'd3fa462a-41ba-4417-bca5-eaf0bcbb0296', 'fi', 'Finnish', false
 WHERE NOT EXISTS(SELECT* FROM IzendaLanguage WHERE CultureName = 'fi');
 
-/* French (fr) */
+/* French (fr-CA) */
 INSERT INTO IzendaLanguage(Id, CultureName, Language, Deleted)
 SELECT 'a08d220c-9efd-4e05-88d0-55c19ea64103', 'fr-CA', 'French', false
 WHERE NOT EXISTS(SELECT* FROM IzendaLanguage WHERE CultureName = 'fr-CA');
@@ -173,3 +172,4 @@ WHERE NOT EXISTS(SELECT* FROM IzendaLanguage WHERE CultureName = 'es');
 INSERT INTO IzendaLanguage(Id, CultureName, Language, Deleted)
 SELECT '73aa5101-540d-4c5b-bb6e-7e8c814a68a4', 'pt-BR', 'PortuguêsBrazil', false
 WHERE NOT EXISTS(SELECT* FROM IzendaLanguage WHERE CultureName = 'pt-BR');
+

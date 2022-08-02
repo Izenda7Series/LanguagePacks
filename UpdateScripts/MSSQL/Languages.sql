@@ -1,4 +1,3 @@
-
 /* Arabic (ar) */
 BEGIN
     IF NOT EXISTS(SELECT * FROM[IzendaLanguage] WHERE[CultureName] = 'ar')
@@ -278,3 +277,4 @@ BEGIN
         INSERT INTO IzendaLanguage (Id, CultureName, Language, Deleted) VALUES('73aa5101-540d-4c5b-bb6e-7e8c814a68a4', 'pt-BR', 'PortuguêsBrazil', 0);
     END
 END
+

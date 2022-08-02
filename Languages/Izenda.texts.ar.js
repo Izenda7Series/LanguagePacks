@@ -1624,7 +1624,6 @@ REPORT_PART_FORM_CONSTANTS_MESSAGE_NOTHING_FOUND : 'لم يتم العثور ع�
 REPORT_PART_FORM_CONSTANTS_MESSAGE_NOTHING_TO_REPLACE : 'لا شيء ليحل محل.',
 REPORT_PART_FORM_CONSTANTS_MESSAGE_INCORRECT_GRAND_TOTAL_SYNTAX : 'بناء جملة الإجمالي غير صحيح',
 REPORT_PART_FORM_CONSTANTS_MESSAGE_INCORRECT_SUBTOTAL_SYNTAX : 'بناء جملة المجموع غير صحيح',
-REPORT_PART_FORM_CONSTANTS_MESSAGE_NO_TEMPLATE_DEFINED : 'لم يتم تعريف القالب',
 REPORT_PART_FORM_CONSTANTS_LABEL_HEADING_1 : 'عنوان 1',
 REPORT_PART_FORM_CONSTANTS_LABEL_HEADING_2 : 'العنوان 2',
 REPORT_PART_FORM_CONSTANTS_LABEL_HEADING_3 : 'العنوان 3',
@@ -1764,7 +1763,6 @@ REPORT_PART_PROPS_FORM_SCHEMA_INSERT_SPECIAL_CHARACTER : 'إدراج شخصية 
 REPORT_PART_PROPS_FORM_SCHEMA_INSERT_DATE_TIME_VALUE : 'أدخل قيمة التاريخ / الوقت',
 REPORT_PART_PROPS_FORM_SCHEMA_HORIZONTAL_LINE : 'خط أفقي',
 REPORT_PART_PROPS_FORM_SCHEMA_INSERT_PAGE_BREAK : 'إدراج فاصل الصفحات',
-REPORT_PART_PROPS_FORM_SCHEMA_INSERT_TEMPLATE_BREAK : 'إدراج قالب استراحة',
 REPORT_PART_PROPS_FORM_SCHEMA_ADD_FIELD : 'أضف حقل',
 REPORT_PART_PROPS_FORM_SCHEMA_FIELD_SELECTION : 'اختيار المجال',
 REPORT_PART_PROPS_FORM_SCHEMA_SMART_TAG : 'العلامة الذكية',
@@ -2174,8 +2172,6 @@ SECURITY_RENDER_HTML_EXPORT : 'تقديم HTML في الطباعة / التصد�
 SECURITY_LABEL_RENDER_HTML_IN_REPORT_VIEWER : 'تقديم HTML في عارض التقارير',
 SECURITY_RENDER_HTML_IN_REPORT_VIEWER_TOOLTIP : 'إذا تم تحديد ذلك ، فسيتم عرض محتوى HTML من الحقول في عارض التقارير',
 OTHER_SETTINGS_LABEL_ENCODE_VARIABLES_IN_CUSTOM_URL : 'ترميز المتغيرات في عنوان URL المخصص',
-EXPLORE_CTAS : '{&quot;DATA_SOURCE&quot;: {&quot;ICON&quot;: &quot;/static/img/explore/new-data.png&quot;، &quot;DESCRIPTION&quot;: &quot;فضح بيانات جديدة لخدمة استعلام اللغة الطبيعية لدينا لإنشاء تقارير أكثر تعقيدًا.&quot;، &quot;LABEL&quot; : &quot;إضافة مصدر بيانات جديد&quot;} ، &quot;DASHBOARD&quot;: {&quot;DESCRIPTION&quot;: &quot;تصميم لوحة تحكم جديدة لتحسين رؤيتك من تقارير متعددة.&quot;، &quot;LABEL&quot;: &quot;Create Dashboard&quot;}، &quot;REPORT&quot;: {&quot;DESCRIPTION &quot;:&quot; أنشئ تقريرًا جديدًا لعرض تقدم عملك. &quot;،&quot; LABEL &quot;:&quot; إنشاء تقرير &quot;}}',
-EXPLORE_NAV : '{&quot;ask&quot;: {&quot;order&quot;: 1، &quot;title&quot;: &quot;Ask your query&quot;}، &quot;results&quot;: {&quot;order&quot;: 2، &quot;title&quot;: &quot;Query results&quot;}، &quot;vis&quot;: {&quot; الطلب &quot;: 3،&quot; title &quot;:&quot; Visualization &quot;}}',
 EXPLORE_SEARCH_PLACEHOLDER : 'اكتب استعلامك هنا ، على سبيل المثال: &quot;متوسط المبيعات بين يونيو 2019 وديسمبر 2020&quot;',
 REPORTDESIGNER_LABEL_CLEAR_FILTER : 'مرشح واضح',
 REPORTDESIGNER_LABEL_SCALE : 'مقياس',
@@ -2524,8 +2520,6 @@ EXPORT_MANAGER_MESSAGE_DELETE_COMPLETED : 'هل تريد بالتأكيد حذف
 EXPORT_MANAGER_MESSAGE_DELETE_FAILED : 'هل أنت متأكد أنك تريد حذف العنصر الفاشل؟',
 EXPORT_MANAGER_MESSAGE_DELETE_DEFAULT : 'هل أنت متأكد أنك تريد حذف العنصر؟',
 PROPERTIES_BUILDER_BACKGROUND_IMAGE_SOURCE : 'مصدر الصورة',
-INVALID_REPORT_NAME_STRICT : 'يجب أن يحتوي اسم التقرير على قيم أبجدية رقمية وواصلات وشرطات سفلية',
-INVALID_REPORT_TITLE_STRICT : 'يجب أن يحتوي عنوان التقرير على قيم أبجدية رقمية وواصلات وشرطات سفلية',
 REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_REPORT_TITLE : 'عنوان التقرير',
 REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_REPORT_DESCRIPTION : 'وصف تقرير',
 CATEGORY_LOOKUP_CATEGORY_ACCESS_VISIBLE : 'الفئات المرئية',
@@ -2694,5 +2688,67 @@ My_PROFILE_EXPORT_MANAGER : 'مدير التصدير',
 LAYOUT_HEADER_TITLE_MAX_LENGHT_EXCEEDED : 'الحد الأقصى لطول عنوان التقرير 120 حرفًا',
 LAYOUT_HEADER_DESCRIPTION_MAX_LENGHT_EXCEEDED : 'أقصى طول لوصف التقرير 240 حرفًا',
 LAYOUT_FOOTER_TEXT_MAX_LENGHT_EXCEEDED : 'الحد الأقصى لطول نص التذييل 120 حرفًا',
-ADD_NEW_METRICS : 'أضف مقاييس جديدة'
+ADD_NEW_METRICS : 'أضف مقاييس جديدة',
+COMMON_LABEL_CONFIGURE_CALCULATED_FIELDS : 'تكوين الحقول المحسوبة',
+COMMON_LABEL_DESIGN : 'تصميم',
+COMMON_LABEL_MAP_IZENDA : 'خرائط عالية',
+COMMON_LABEL_MAP_GOOGLE : 'خرائط جوجل',
+COMMON_SELECT_LABEL_ALL : 'الجميع',
+COMMON_SELECT_VALUE_ALL : 'الكل',
+EXPLORE_CTAS_DATA_SOURCE_DESCRIPTION : 'اعرض بيانات جديدة على خدمة استعلام اللغة الطبيعية الخاصة بنا لإنشاء تقارير أكثر تعقيدًا.',
+EXPLORE_CTAS_DATA_SOURCE_LABEL : 'أضف مصدر بيانات جديد',
+EXPLORE_CTAS_DASHBOARD_DESCRIPTION : 'صمم لوحة تحكم جديدة لتحسين رؤيتك من تقارير متعددة.',
+EXPLORE_CTAS_DASHBOARD_LABEL : 'إنشاء لوحة القيادة',
+EXPLORE_CTAS_REPORT_DESCRIPTION : 'أنشئ تقريرًا جديدًا لعرض تقدم عملك.',
+EXPLORE_CTAS_REPORT_LABEL : 'إنشاء تقرير',
+EXPLORE_NAV_ASK : 'اسأل استفسارك',
+EXPLORE_NAV_RESULTS : 'نتائج الاستعلام',
+EXPLORE_NAV_VIS : 'التصور',
+REPORTDESIGNER_MESSAGE_RANGEONLY_CALCULATEDFIELD : 'لا تتوافق خيارات النطاق فقط مع الحقول المحسوبة التي تحتوي على وظائف مجمعة. يرجى تعديل أو إزالة هذه الحقول المحسوبة قبل تمكين هذا الإعداد',
+REPORTDESIGNER_LABEL_DROP_FIELD : 'يسقط',
+REPORTDESIGNER_CALCULATEDFIELDS_LABEL : 'الحقول المحسوبة',
+CROSSFILTERING_HEADER_TOOLTIP : 'حدد جزئين كحد أدنى من أجزاء التقرير للفلاتر العرضية ، ويجب أن يكون جزء تقرير واحد على الأقل عبارة عن تنقل إلى أسفل.',
+REPORT_PART_PROPS_KPI_BACKGROUND_IMAGE : 'الصورة الخلفية',
+REPORT_PART_PROPS_KPI_BACKGROUND_IMAGE_POPUP_HEADER : 'صورة خلفية KPI',
+PERMISSION_LABEL_HIDE_SUBREPORTS_IN_REPORTS_LIST : 'إخفاء التقارير الفرعية في قائمة التقارير',
+PERMISSION_LABEL_TEMPLATE_REPORT_PARTS : 'أجزاء تقرير القالب',
+PERMISSION_LABEL_CREATE : 'خلق',
+PERMISSION_LABEL_VIEW : 'رأي',
+PERMISSION_ROLE_SETUP_CONFIGURE_CALCULATED_FIELDS_TOOLTIP_INFO : 'الإذن هو لـ RD 2.0',
+ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_TEMPLATE_REPORT_PARTS : 'أجزاء تقرير القالب',
+ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_CREATE : 'خلق',
+ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_VIEW : 'رأي',
+EXPORT_MANAGER_TABLE_DEF_COLUMN_LAYOUT : 'اسم التصميم',
+PROPERTIES_BUILDER_BACKGROUND_IMAGE_EMPTY : 'لم يتم تحميل الصورة',
+PROPERTIES_BUILDER_BACKGROUND_IMAGE_ERROR : 'خطأ في تحميل الصورة',
+INVALID_REPORT_TITLE : 'يكون عنوان التقرير غير صالح عندما يحتوي على [&quot;/&quot; ، &quot;&lt;&quot; ، &quot;&gt;&quot; ، &quot;',
+REPORT_GAUGE_TYPE_SIMPLE : 'بسيط',
+REPORT_GAUGE_TYPE_SOLID : 'صلب',
+REPORT_GAUGE_TYPE_LINEAR : 'خطي',
+REPORT_KPI_TYPE : 'kpi',
+REPORT_PART_PROPS_FORM_SCHEMA_SHOW_TOOLBAR : 'إظهار شريط الأدوات',
+SCHEDULE_CONSTANTS_MESSAGE_RECURRENCE_DAYS_REQUIRED : 'مطلوب قيمة يوم (أيام) التكرار.',
+SCHEDULE_CONSTANTS_MESSAGE_RECURRENCE_WEEKS_REQUIRED : 'مطلوب قيمة أسبوع (أسابيع) التكرار.',
+SCHEDULE_CONSTANTS_MESSAGE_RECURRENCE_DAY_REQUIRED : 'اليوم مطلوب.',
+SCHEDULE_CONSTANTS_MESSAGE_RECURRENCE_MONTHS_REQUIRED : 'شهر (أشهر) التكرار مطلوب.',
+SCHEDULE_CONSTANTS_MESSAGE_RECURRENCE_YEARS_REQUIRED : 'سنة (سنوات) التكرار مطلوبة.',
+REPORT_PART_PROPS_GRID_SCHEMA_LABEL_DISABLE_REPEAT_HEADERS_INFO : 'يجب أن تعمل هذه الميزة عند استخدام القيم الفاصلة في جزء التقرير.',
+REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_CROSS_FILTERING : 'عبر التصفية',
+FORMAT_PROPERTIES_LABEL_APPLY_CROSS_FILTERS : 'يتقدم',
+FORMAT_PROPERTIES_LABEL_RESET_CROSS_FILTERS : 'إعادة ضبط',
+COMMON_TAB_FIELDS : 'مجالات',
+REPORT_CREATOR_LAYOUT_SIZE_MOBILE_SHORT : 'قصيرة',
+REPORT_CREATOR_LAYOUT_SIZE_MOBILE_MEDIUM : 'متوسط',
+REPORT_CREATOR_LAYOUT_SIZE_MOBILE_TALL : 'طويل',
+PREVIEW_MODE_LABEL_EDIT_FILTERS : 'تحرير المرشحات',
+PREVIEW_MODE_LABEL_EDIT_FILTERS_WARNING : 'تم تغيير المرشحات. تطبيق عوامل التصفية لتحديث البيانات.',
+REPORT_CREATOR_LAYOUT_WEB_TITLE : 'تخطيط ويب',
+REPORT_CREATOR_LAYOUT_PRINT_TITLE : 'تخطيط الطباعة',
+REPORT_CREATOR_LAYOUT_MOBILE_TITLE : 'تخطيط المحمول',
+REPORT_CREATOR_LAYOUT_DELETE_CONFIRMATION : 'هل أنت متأكد أنك تريد حذف التخطيط؟',
+REPORT_CREATOR_LAYOUT_ORIENTATION : 'توجيه',
+REPORT_CREATOR_LAYOUT_MARGINS : 'الهوامش',
+PEPORT_CREATOR_LAYOUT_MESSAGE_EXIST : 'تنسيق التقرير بالاسم &quot;{0}&quot; موجود بالفعل.',
+PEPORT_CREATOR_LAYOUT_MESSAGE_MARGIN : 'يجب أن تكون قيمة الهامش رقمًا موجبًا داخل النطاق [0in ، 2in]',
+REPORT_DISPLAYER_CHOOSE_LAYOUT : 'اختر تخطيط الطباعة'
 }, 'ar');

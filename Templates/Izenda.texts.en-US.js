@@ -154,6 +154,7 @@ localizer.registerLanguage(
     COMMON_LABEL_SENDEMAIL: 'Send Email',
     COMMON_LABEL_DOWNLOADFILE: 'Download File',
     COMMON_LABEL_COPY: 'Copy',
+    COMMON_LABEL_CONFIGURE_CALCULATED_FIELDS: 'Configure Calculated Fields',
     COMMON_LABEL_CREATE: 'Create',
     COMMON_LABEL_CREATED: 'Created',
     COMMON_LABEL_DASHBOARD: 'Dashboard',
@@ -193,6 +194,7 @@ localizer.registerLanguage(
     COMMON_LABEL_OWNER: 'Owner',
     COMMON_LABEL_PASSWORD: 'Password',
     COMMON_LABEL_PERMISSIONS: 'Permissions',
+    COMMON_LABEL_DESIGN: 'Design',
     COMMON_LABEL_PREVIEW: 'Preview',
     COMMON_LABEL_REPORT_VIEWER: 'Report Viewer',
     COMMON_LABEL_PRINT: 'Print',
@@ -264,6 +266,8 @@ localizer.registerLanguage(
     COMMON_LABEL_GAUGE: 'Gauge',
     COMMON_LABEL_GRID: 'Grid',
     COMMON_LABEL_MAP: 'Map',
+    COMMON_LABEL_MAP_IZENDA: 'High Maps',
+    COMMON_LABEL_MAP_GOOGLE: 'Google Maps',
     COMMON_LABEL_KPI: 'KPI',
     COMMON_LABEL_STATUS: 'Status',
     COMMON_LABEL_ACTIVE: 'Active',
@@ -366,6 +370,10 @@ localizer.registerLanguage(
     COMMON_LABEL_DASHBOARD_NAME: 'Add Report Part to Dashboard',
     COMMON_LABEL_VIEW_MORE: 'View more',
     COMMON_LABEL_SHOW_LESS: 'Show less',
+
+    // COMMON_SELECT
+    COMMON_SELECT_LABEL_ALL: 'All',
+    COMMON_SELECT_VALUE_ALL: 'all',
 
     // COMMON_DATA_TYPE
     COMMON_DATA_TYPE_IMAGE: 'Image',
@@ -591,14 +599,14 @@ localizer.registerLanguage(
     OTHER_SETTINGS_TOOLTIP_EXCEL_DATA_FILES_PATH: 'Sets the path where excel data source files will be uploaded.',
     OTHER_SETTINGS_LABEL_DETERMINE_COMMON_FILTER: 'Determine common filter for the same field based on',
     OTHER_SETTINGS_TOOLTIP_DETERMINE_COMMON_FILTER:
-      'Configure how the system should consider whether different filters are to filter the â€œsameâ€ field or not so that they are eligible for considering as common filter in Dashboard.',
+      'Configure how the system should consider whether different filters are to filter the “same” field or not so that they are eligible for considering as common filter in Dashboard.',
     OTHER_SETTINGS_LABEL_SAMEFIELD_SAMEDBSCHEMA: 'Same field of the same data object from the same DB schema',
     OTHER_SETTINGS_LABEL_SAMEFIELD_SAMEDBSCHEMA_OR_CONNECTIONSTRING:
       'Same field name regardless of DB schema or connection string',
     OTHER_SETTINGS_LABEL_SAMEALIAS: 'Same alias name regardless of DB schema or connection string',
     OTHER_SETTINGS_LABEL_DETERMINE_INHERIT_FILTER: 'Determine inheritable filter for the same field based on',
     OTHER_SETTINGS_TOOLTIP_DETERMINE_INHERIT_FILTER:
-      'Configure how the system should consider whether different filters are to filter the â€œsameâ€ field or not so that their values are eligible for inheritance in subreport.',
+      'Configure how the system should consider whether different filters are to filter the “same” field or not so that their values are eligible for inheritance in subreport.',
     OTHER_SETTINGS_LABEL_IHS_FIELD_ID: 'Same field of the same data object from the same DB schema',
     OTHER_SETTINGS_LABEL_IHS_FIELD_NAME: 'Same field name regardless of DB schema or data object',
     OTHER_SETTING_LABEL_MULTIPLE_SORT_ON_GRID_HEADER: 'Allow Multiple Sorts on Grid Header',
@@ -606,7 +614,7 @@ localizer.registerLanguage(
       'If this flag is turned on, system allows multiple column sorting in Grid Header. If this flag is turned off, system allows single column sorting in Grid Header.',
     OTHER_SETTING_LABEL_SHOW_PREVIEW: 'Show Preview section in Configuration Mode',
     OTHER_SETTING_TOOLTIP_SHOW_PREVIEW:
-      'Configure to show or hide the Preview section in the report partâ€™s backside.',
+      'Configure to show or hide the Preview section in the report part’s backside.',
     OTHER_SETTING_LABEL_HIDE_HEADER_FOOTER_IN_REPORT: 'Hide report header and footer by default',
     OTHER_SETTING_TOOLTIP_HIDE_HEADER_FOOTER_IN_REPORT:
       'Configure to hide or show the header and footer section in Report Viewer and Report Designer by default.',
@@ -638,35 +646,15 @@ localizer.registerLanguage(
     OTHER_SETTINGS_INHERIT_CATEGORY_ACCESS_RIGHTS_DISABLE_WARNING:
      "Are you sure you want to disable this setting? This setting will  <br/><br/> <ul> <li>Reset all Role access defaults which cannot be restored</li>  <li>Enable Tenant level access defaults</li>",
     // EXPLORE
-    EXPLORE_CTAS: {
-      DATA_SOURCE: {
-        ICON: '/static/img/explore/new-data.png',
-        DESCRIPTION: 'Expose new data to our Natural Language Query service to build more intricate reports.',
-        LABEL: 'Add new data source'
-      },
-      DASHBOARD: {
-        DESCRIPTION: 'Design a new dashboard to enhance your insights from multiple reports.',
-        LABEL: 'Create Dashboard'
-      },
-      REPORT: {
-        DESCRIPTION: 'Build a new report to showcase your business progress.',
-        LABEL: 'Create Report'
-      }
-    },
-    EXPLORE_NAV: {
-      ask: {
-        order: 1,
-        title: 'Ask your query'
-      },
-      results: {
-        order: 2,
-        title: 'Query results'
-      },
-      vis: {
-        order: 3,
-        title: 'Visualization'
-      }
-    },
+    EXPLORE_CTAS_DATA_SOURCE_DESCRIPTION: 'Expose new data to our Natural Language Query service to build more intricate reports.',
+    EXPLORE_CTAS_DATA_SOURCE_LABEL: 'Add new data source',
+    EXPLORE_CTAS_DASHBOARD_DESCRIPTION: 'Design a new dashboard to enhance your insights from multiple reports.',
+    EXPLORE_CTAS_DASHBOARD_LABEL: 'Create Dashboard',
+    EXPLORE_CTAS_REPORT_DESCRIPTION: 'Build a new report to showcase your business progress.',
+    EXPLORE_CTAS_REPORT_LABEL: 'Create Report',
+    EXPLORE_NAV_ASK: 'Ask your query',
+    EXPLORE_NAV_RESULTS: 'Query results',
+    EXPLORE_NAV_VIS: 'Visualization',
     EXPLORE_SEARCH_PLACEHOLDER: 'Type your query here, for example: "Avg freight for orderdate between June 1990 and June 2020"',
     EXPLORE_SEARCH_ISDATAMODELACCESS: "Your account has no permission to access data sources. Please contact your System Administrator for assistance.",
     EXPLORE_SEARCH_NLQ_NOT_CONFIGURED: 'NLQ not configured',
@@ -740,7 +728,7 @@ localizer.registerLanguage(
     REPORTDESIGNER_MESSAGE_CHANGE_JOIN_TYPE:
       'The join type between "{0}" and "{1}" in the new relationship is different from the one defined in previous existing relationship(s). Are you sure you want to update join type between these two data objects in all existing relationship(s) to the new one',
     REPORTDESIGNER_MESSAGE_SAVE_BEFORE_PREVIEW:
-      'You havenâ€™t saved this new report yet. Please save it before previewing it in Report Viewer.',
+      'You haven’t saved this new report yet. Please save it before previewing it in Report Viewer.',
     REPORTDESIGNER_MESSAGE_CONFIRM_PREVIEW:
       'You are about to preview the report in Report Viewer. Any unsaved changes will be lost. Do you want to continue?',
     REPORT_DESIGNER_MESSAGE_CONFIRM_QUICK_EDIT:
@@ -749,6 +737,8 @@ localizer.registerLanguage(
       'You are about to preview the report in Report Designer. Any unsaved changes will be lost. Do you want to continue?',
     REPORTDESIGNER_MESSAGE_CASCADING_CHANGED:
       'Cascading checkbox of some fields become unselected and disabled due to some setting changes from System Administration. Please save your report again to keep these changes.',
+    REPORTDESIGNER_MESSAGE_RANGEONLY_CALCULATEDFIELD:
+      'Range Only options are not compatible with calculated fields containing aggregate functions. Please adjust or remove these calculated fields before enabling this setting',
     REPORTDESIGNER_LABEL_DRILL_DOWN_STYLE_LINK_NEW_WINDOW: 'Link (New Window)',
     REPORTDESIGNER_LABEL_DRILL_DOWN_STYLE_EMBEDDED: 'Embedded',
     REPORTDESIGNER_LABEL_DRILL_DOWN_STYLE_POPUP: 'Popup',
@@ -856,6 +846,7 @@ localizer.registerLanguage(
     REPORTDESIGNER_LABEL_REVERT_REPORT_PART_NAME: 'Revert Report Name',
     REPORTDESIGNER_LABEL_DRAG_FIELD: 'Drag or ',
     REPORTDESIGNER_LABEL_ADD_NEW_FIELD: 'Add a field',
+    REPORTDESIGNER_LABEL_DROP_FIELD: 'Drop',
     REPORTDESIGNER_LABEL_FIELD_SELECTION: 'Field Selection',
     REPORTDESIGNER_LABEL_ADD_FILTER_SELECTION: 'Filter Selection',
     REPORTDESIGNER_LABEL_METRICS: 'Metrics',
@@ -924,12 +915,12 @@ localizer.registerLanguage(
     REPORTDESIGNER_LOGGING_EMBEDDED_REPORT_PART: 'Get Data for Report Part Container (embedded)',
     REPORTDESIGNER_LABEL_REPORT_BODY_SNAP_MODE_CHECKBOX: 'Snap to Grid',
     REPORTDESIGNER_FILTER_FIELDS_TYPE_VALIDATE:
-      'Only â€œANDâ€ conditions can be used when the Filters section contains both aggregated and non-aggregated fields. The current filter logic will be removed.',
+      'Only “AND” conditions can be used when the Filters section contains both aggregated and non-aggregated fields. The current filter logic will be removed.',
     REPORTDESIGNER_FILTER_FIELDS_TYPE_VALIDATE_INFO:
-      'Any subreports which are inheriting filters will automatically use â€œANDâ€ conditions between filters',
-    REPORTDESIGNER_FILTER_LOGIC_REPORT: 'Filter logic in this report was altered to use â€œANDâ€ conditions only',
+      'Any subreports which are inheriting filters will automatically use “AND” conditions between filters',
+    REPORTDESIGNER_FILTER_LOGIC_REPORT: 'Filter logic in this report was altered to use “AND” conditions only',
     REPORTDESIGNER_FILTER_LOGIC_SUBREPORT:
-      'Filter logic in the embedded subreport was altered to use â€œANDâ€ conditions only',
+      'Filter logic in the embedded subreport was altered to use “AND” conditions only',
     REPORTDESIGNER_FILTER_SHOW_TOOLTIP: 'Show Filters Under Report Description',
     REPORTDESIGNER_ADD_FILTER_TOOLTIP: 'Add new filter',
     REPORTDESIGNER_DATASOURCE_OVERLAY_LABEL:
@@ -943,6 +934,7 @@ localizer.registerLanguage(
       'Please paste your data with new line delimiter and press enter for apply that delimiter.',
     REPORTDESIGNER_ADD_NEW_REPORT_PART: 'Add New Report Part',
     REPORTDESIGNER_TOOLTIP_CHARTMETRIC: 'Please click on this icon to slide down the list of metrics.',
+    REPORTDESIGNER_CALCULATEDFIELDS_LABEL: 'Calculated Fields',
 
     // CROSS FILTERING
     CROSSFILTERING_OPTION_LABEL: 'Cross Filtering',
@@ -952,6 +944,7 @@ localizer.registerLanguage(
     CROSSFILTERING_REMOVE_TOOLTIP: 'Remove this cross filter',
     CROSSFILTERING_REMOVE_ALL_TOOLTIP: 'Remove all cross filters',
     CROSSFILTERING_REMOVE_ALL_CONFIRM: 'Are you sure you want to remove all cross filters?',
+    CROSSFILTERING_HEADER_TOOLTIP: 'Select minimum 2 report parts for cross filters, at least 1 report part should be drilldown.',
 
     // KPI
     KPI_GRID_MENU_IMAGE: 'Image Tile',
@@ -960,6 +953,8 @@ localizer.registerLanguage(
     REPORT_PART_PROPS_KPI_CELL_SIZE: 'Cell Size (px)',
     REPORT_PART_PROPS_KPI_COLS: 'Number of Columns',
     REPORT_PART_PROPS_KPI_ROWS: 'Number of Rows',
+    REPORT_PART_PROPS_KPI_BACKGROUND_IMAGE: 'Background Image',
+    REPORT_PART_PROPS_KPI_BACKGROUND_IMAGE_POPUP_HEADER: 'KPI Background Image',
 
     // Tile Properties
     TILE_PROPERTIES_PANEL_TITLE: 'Tile Properties',
@@ -1183,7 +1178,7 @@ localizer.registerLanguage(
     CALCULATED_FIELD_CONSTANTS_MESSAGE_DUPLICATE_NAME: 'The column name {0} already exists',
     CALCULATED_FIELD_MESSAGE_INVALID_NAME: "A field name can't contain any of the following characters: '[', ']'",
     CALCULATED_FIELD_MESSAGE_HAS_BEEN_USED:
-      'This calculated field is in used in one or more of the following places: other calculated fields, report part field containers, filters, subtotal, grand total, dynamic threholds. Please remove these instances first.',
+      'This calculated field is in use in one or more of the following places: other calculated fields, report part field containers, filters, subtotal, grand total, dynamic thresholds. Please remove these instances first.',
     CALCULATED_FIELD_MESSAGE_MISSING_DATA_TYPE: 'Missing data type',
     CALCULATED_FIELD_DEFAULT_SORT_MESSAGE: 'has been sorted in ascending order.',
 
@@ -1523,7 +1518,6 @@ localizer.registerLanguage(
     PERMISSION_LABEL_PREVENT_REPORT_SHARING: 'Prevent Report Sharing Based on Category Accessibility',
     // PERMISSION DATA SETUP
     PERMISSION_LABEL_ADVANCED_SETTING: 'Advanced Settings',
-
     // PERMISSION EXPORTING
     PERMISSION_LABEL_EXPORTING_FORMAT: 'Exporting Format',
     PERMISSION_LABEL_QUERY_EXECUTION: 'Query Execution',
@@ -1537,6 +1531,7 @@ localizer.registerLanguage(
     PERMISSION_LABEL_REGISTER_TO_ALERTS: 'Register to alerts',
     PERMISSION_LABEL_VIEW_REPORT_HISTORY: 'View Report History',
     PERMISSION_LABEL_UNARCHIVE_REPORT_VERSIONS: 'Unarchive Report Versions',
+    PERMISSION_LABEL_HIDE_SUBREPORTS_IN_REPORTS_LIST: 'Hide Subreports in Report List',
     PERMISSION_LABEL_OVERWRITE_EXISTING_REPORT: 'Overwrite Existing Report',
     // PERMISSION REPORT HEADER
     PERMISSION_LABEL_CAN_USE_RD20: 'Report Designer 2.0',
@@ -1545,6 +1540,9 @@ localizer.registerLanguage(
     PERMISSION_LABEL_DATA_SOURCES: 'Data Sources',
     PERMISSION_LABEL_SIMPLE_DATA_SOURCES: 'Simple Data Sources',
     PERMISSION_LABEL_ADVANCED_DATA_SOURCES: 'Advanced Data Sources',
+    PERMISSION_LABEL_TEMPLATE_REPORT_PARTS: 'Template Report Parts',
+    PERMISSION_LABEL_CREATE: 'Create',
+    PERMISSION_LABEL_VIEW: 'View',
     PERMISSION_LABEL_REPORT_PART_TYPES: 'Report Part Types',
     PERMISSION_LABEL_CHART: 'Chart',
     PERMISSION_LABEL_FORM: 'Form',
@@ -1558,6 +1556,7 @@ localizer.registerLanguage(
     PERMISSION_LABEL_PERMISSIONS: 'Permissions',
     PERMISSION_LABEL_GRANT_ROLE_WITH_FULL_REPORT_AND_DASHBOARD_ACCESS:
       'Grant Role with Full Report and Dashboard Access',
+    PERMISSION_ROLE_SETUP_CONFIGURE_CALCULATED_FIELDS_TOOLTIP_INFO: 'Permission is for RD 2.0 & will not impact existing reports',
     // PERMISSION SCHEDULING
     PERMISSION_LABEL_SCHEDULING_LIMITS: 'Scheduling Limits',
     PERMISSION_LABEL_SCHEDULING_SCOPE: 'Scheduling Scope',
@@ -1682,6 +1681,9 @@ localizer.registerLanguage(
     ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_DATA_SOURCES: 'Data Sources',
     ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_SIMPLE_DATA_SOURCE: 'Simple Data Sources',
     ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_ADVANCED_DATA_SOURCE: 'Advanced Data Sources',
+    ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_TEMPLATE_REPORT_PARTS: 'Template Report Parts',
+    ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_CREATE: 'Create',
+    ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_VIEW: 'View',
     ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_REPORT_PART_TYPES: 'Report Part Types',
     ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_CHART: 'Chart',
     ROLE_SETUP_PERMISSION_SUMMARY_REPORTS_LABEL_FORM: 'Form',
@@ -2016,6 +2018,7 @@ localizer.registerLanguage(
     EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_ID: 'ID',
     EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_NAME: 'Name',
     EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_FILE_TYPE: 'File Type',
+    EXPORT_MANAGER_TABLE_DEF_COLUMN_LAYOUT: 'Layout Name',
     EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_EXPORTED_DATE: 'Exported Date',
     EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_REFRESHED_DATE: 'Refreshed Date',
     EXPORT_MANAGER_TABEL_DEF_COLUMN_TITLE_DOWNLOAD_FILE: 'Download File',
@@ -2171,6 +2174,8 @@ localizer.registerLanguage(
     PROPERTIES_BUILDER_CONSTANTS_MESSAGE_EMBEDDED_LINK_SUB_REPORT:
       'Link was configured to show in Custom URL/ Embedded Javascript. If you still want to select Embedded style for sub-report, the link in Custom URL/ Embedded Javascript will be automatically changed to icon.',
     PROPERTIES_BUILDER_BACKGROUND_IMAGE_SOURCE: 'Image Source',
+    PROPERTIES_BUILDER_BACKGROUND_IMAGE_EMPTY: 'Image is not loaded',
+    PROPERTIES_BUILDER_BACKGROUND_IMAGE_ERROR: 'Image loading error',
 
     OPEN_SUB_REPORT_WARNING_MESSAGE:
       'You are not allowed to open the subreport with Link style if the current report is not saved. Please save the current report first or change the style.',
@@ -2208,9 +2213,8 @@ localizer.registerLanguage(
     FORM_CANNOT_ADD_REPEATER_RUNNING_FIELD: 'RUNNING fields can be added in the inner most repeater only',
     UNSPECIFIED_FILTER_WILL_BE_IGNORED: "Filters that aren't used in filter logic will be ignored",
     INVALID_REPORT_NAME: 'The report name is invalid when contains ["/", "<", ">", "&"] characters.',
+    INVALID_REPORT_TITLE: 'The report title is invalid when contains ["/", "<", ">", "&"] characters.',
     INVALID_TEMPLATE_NAME: 'The report template name is invalid when contains ["/", "<", ">", "&"] characters.',
-    INVALID_REPORT_NAME_STRICT: 'Report name should contain alphanumeric values, hyphens, and underscores',
-    INVALID_REPORT_TITLE_STRICT: 'Report title should contain alphanumeric values, hyphens, and underscores',
     // REPORT_DESIGNER_FORMAT_CONSTANTS
     REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_REPORT_HEADER: 'Report Header',
     REPORT_DESIGNER_FORMAT_CONSTANTS_LABEL_REPORT_TITLE_DESCRIPTION: 'Report Title & Description',
@@ -2277,6 +2281,11 @@ localizer.registerLanguage(
     REPORT_CHART_TYPE_SCATTER: 'Scatter',
     REPORT_CHART_TYPE_WATERFALL: 'Waterfall',
     REPORT_CHART_TYPE_SPARKLINE: 'Sparkline',
+    REPORT_GAUGE_TYPE_SIMPLE: 'Simple',
+    REPORT_GAUGE_TYPE_SOLID: 'Solid',
+    REPORT_GAUGE_TYPE_LINEAR: 'Linear',
+    REPORT_KPI_TYPE: 'KPI',
+
 
     // REPORT_PART_FIELD_CONSTANTS
     REPORT_PART_FIELD_CONSTANTS_MESSAGES_NOT_ACCEPT_EMPTY_FUNCTION: 'This field {0} does not accept "empty" function',
@@ -2442,7 +2451,6 @@ localizer.registerLanguage(
     REPORT_PART_FORM_CONSTANTS_MESSAGE_NOTHING_TO_REPLACE: 'Nothing to Replace.',
     REPORT_PART_FORM_CONSTANTS_MESSAGE_INCORRECT_GRAND_TOTAL_SYNTAX: 'Incorrect grand total syntax',
     REPORT_PART_FORM_CONSTANTS_MESSAGE_INCORRECT_SUBTOTAL_SYNTAX: 'Incorrect subtotal syntax',
-    REPORT_PART_FORM_CONSTANTS_MESSAGE_NO_TEMPLATE_DEFINED: 'No template defined',
     REPORT_PART_FORM_CONSTANTS_MESSAGE_LOB_FIELDS_OUTSIDE_REPEATER: '{0} type field \'{1}\' cannot be used as a sibling element to a repeater.',
     REPORT_PART_FORM_CONSTANTS_LABEL_HEADING_1: 'Heading 1',
     REPORT_PART_FORM_CONSTANTS_LABEL_HEADING_2: 'Heading 2',
@@ -2555,7 +2563,7 @@ localizer.registerLanguage(
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_DATA_LABELS: 'Data Labels',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_X_LABELS: 'X Labels',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_Y_LABELS: 'Y Labels',
-    REPORT_PART_PROPS_CHART_SCHEMA_LABEL_HOVER_LABELS: 'Hover Labels',
+    REPORT_PART_PROPS_CHART_SCHEMA_LABEL_HOVER_LABELS: 'Hover Labels Area',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_LEGENDS: 'Legends',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_SETTINGS: 'Settings',
     REPORT_PART_PROPS_CHART_SCHEMA_LABEL_CHART_LEGEND_SETTINGS: 'Chart Legend Settings',
@@ -2611,7 +2619,6 @@ localizer.registerLanguage(
     REPORT_PART_PROPS_FORM_SCHEMA_INSERT_DATE_TIME_VALUE: 'Insert date/time value',
     REPORT_PART_PROPS_FORM_SCHEMA_HORIZONTAL_LINE: 'Horizontal Line',
     REPORT_PART_PROPS_FORM_SCHEMA_INSERT_PAGE_BREAK: 'Insert Page Break',
-    REPORT_PART_PROPS_FORM_SCHEMA_INSERT_TEMPLATE_BREAK: 'Insert Template Break',
     REPORT_PART_PROPS_FORM_SCHEMA_ADD_FIELD: 'Add a field',
     REPORT_PART_PROPS_FORM_SCHEMA_FIELD_SELECTION: 'Field Selection',
     REPORT_PART_PROPS_FORM_SCHEMA_SMART_TAG: 'Smart Tag',
@@ -2655,6 +2662,7 @@ localizer.registerLanguage(
     REPORT_PART_PROPS_FORM_SCHEMA_REFORMAT: 'Reformat',
     REPORT_PART_PROPS_FORM_SCHEMA_SHOW_INVISIBLE_CHARACTERS: 'Show invisible characters',
     REPORT_PART_PROPS_FORM_SCHEMA_SHOW_VISUAL_AIDS: 'Visual Aids',
+    REPORT_PART_PROPS_FORM_SCHEMA_SHOW_TOOLBAR: 'Show Toolbar',
     REPORT_PART_PROPS_FORM_SCHEMA_FULLSCREEN: 'Fullscreen',
     REPORT_PART_PROPS_FORM_SCHEMA_PRINTING: 'Printing',
     REPORT_PART_PROPS_FORM_SCHEMA_PAGE_BREAK_AFTER_EACH_ENTRY: 'Page Break After Each Entry',
@@ -2793,6 +2801,11 @@ localizer.registerLanguage(
     SCHEDULE_CONSTANTS_MONTHNAME_LIST_OCTOBER: 'October',
     SCHEDULE_CONSTANTS_MONTHNAME_LIST_NOVEMBER: 'November',
     SCHEDULE_CONSTANTS_MONTHNAME_LIST_DECEMBER: 'December',
+    SCHEDULE_CONSTANTS_MESSAGE_RECURRENCE_DAYS_REQUIRED: 'Recurrence day(s) value is required.',
+    SCHEDULE_CONSTANTS_MESSAGE_RECURRENCE_WEEKS_REQUIRED: 'Recurrence week(s) value is required.',
+    SCHEDULE_CONSTANTS_MESSAGE_RECURRENCE_DAY_REQUIRED: 'Day is required.',
+    SCHEDULE_CONSTANTS_MESSAGE_RECURRENCE_MONTHS_REQUIRED: 'Recurrence month(s) is required.',
+    SCHEDULE_CONSTANTS_MESSAGE_RECURRENCE_YEARS_REQUIRED: 'Recurrence year(s) is required.',
 
     // REPORT PART MAP CONSTANT
     REPORT_PART_MAP_CONSTANTS_MAP_TYPE: 'Map Type',
@@ -2867,7 +2880,7 @@ localizer.registerLanguage(
     REGRESSION_POLYNOMIAL_ORDER_THREE: 'Polynomial forms a cubic expression',
     REGRESSION_POLYNOMIAL_ORDER_FOUR: 'Polynomial forms a quartic expression',
     REGRESSION_LINE_POPUP_WARNING:
-      'Regression line doesnâ€™t work with Separator fields. Do you want to remove the Separator fields and apply the regression line?',
+      'Regression line doesn’t work with Separator fields. Do you want to remove the Separator fields and apply the regression line?',
     REGRESSION_LINE_REMOVE_WARNING:
       'Regression line is not supported with Separator fields. Do you want to remove the regression line settings and apply the Separators?',
 
@@ -2912,7 +2925,7 @@ localizer.registerLanguage(
     USER_SETUP_LABEL_TIME_ZONE: 'Time Zone',
     USER_SETUP_LABEL_DATA_OFFSET: 'Data Offset',
     USER_SETUP_LABEL_TIMESTAMP_OFFSET: 'Timestamp Offset',
-    USER_SETUP_ERROR_ROLE_ASSOCIATION_MESSAGE_HEADER: 'The {0}(s) saved in the following categories/subcategories may no longer be {1} by this user due to the change in their rolesâ€™ association.',
+    USER_SETUP_ERROR_ROLE_ASSOCIATION_MESSAGE_HEADER: 'The {0}(s) saved in the following categories/subcategories may no longer be {1} by this user due to the change in their roles’ association.',
     USER_SETUP_ERROR_ROLE_ASSOCIATION_MESSAGE_FOOTER: 'Please correct this before moving forward.',
     // COMPONENT
     COMPONENT_CONTROL_LABEL_ADD_METRIC: 'Add Metric',
@@ -2940,6 +2953,7 @@ localizer.registerLanguage(
     REPORT_PART_PROPS_GRID_SCHEMA_LABEL_PAGE_BREAK_AFTER_SEPARATOR: 'Page Break After Separator',
     REPORT_PART_PROPS_GRID_SCHEMA_LABEL_COLLAPSE_DRILLDOWN_BY_DEFAULT: 'Collapse Expanders by Default',
     REPORT_PART_PROPS_GRID_SCHEMA_LABEL_EXPANDER_ROW_SPACING: 'Expander Row Spacing',
+    REPORT_PART_PROPS_GRID_SCHEMA_LABEL_DISABLE_REPEAT_HEADERS_INFO: 'This feature shall work when separator values are used in a report part.',
 
     // REPORT_PART_PROPS_LAYOUT_SCHEMA
     REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_HEADER: 'Header',
@@ -2949,6 +2963,7 @@ localizer.registerLanguage(
     REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_REPORT_DESCRIPTION: 'Report Description',
     REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_ENABLE_HEADER: 'Enable Header',
     REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_ENABLE_FOOTER: 'Enable Footer',
+    REPORT_PART_PROPS_FORMAT_SCHEMA_LABEL_CROSS_FILTERING: 'Cross Filtering',
 
 
     // CALCULATED_FIELD_PROPERTIES_SCHEMA
@@ -2994,6 +3009,8 @@ localizer.registerLanguage(
     FORMAT_PROPERTIES_MESSAGE_IMAGE_URL_REQUIRED: 'Url Image is required.',
     FORMAT_PROPERTIES_LABEL_ITEM_FORMATTING: 'Item Formatting',
     FORMAT_PROPERTIES_LABEL_DEFAULT_IMAGE_BUTTON: 'Use Default Image',
+    FORMAT_PROPERTIES_LABEL_APPLY_CROSS_FILTERS: 'Apply',
+    FORMAT_PROPERTIES_LABEL_RESET_CROSS_FILTERS: 'Reset',
 
     //IMAGE_DIMENSIONS
     FORMAT_PROPERTIES_LABEL_IMAGE_DIMENSIONS: 'Dimensions',
@@ -3259,6 +3276,7 @@ localizer.registerLanguage(
     COMMON_LABEL_SAVE_CHANGES: 'Save Changes',
     COMMON_TAB_FORMATS: 'Formats',
     COMMON_TAB_FILTERS: 'Filters',
+    COMMON_TAB_FIELDS: 'Fields',
 
     // CREATE NAVIGATION
     CREATE_M1: 'Report Part Designer',
@@ -3267,7 +3285,7 @@ localizer.registerLanguage(
 
     // CREATE SUB NAVIGATION
     CREATE_M1S1: 'Select Your Data',
-    CREATE_M1S2: 'Filter Your Data',
+    CREATE_M1S2: 'Configure Your Data',
     CREATE_M1S3: 'Apply Visualization',
     CREATE_M2S1: 'Layout Designer',
     CREATE_M3S1: 'Permissions and Sharing',
@@ -3310,6 +3328,9 @@ localizer.registerLanguage(
     REPORT_CREATOR_LAYOUT_SIZE_MEDIUM_WIDE: 'Medium Wide',
     REPORT_CREATOR_LAYOUT_SIZE_LARGE: 'Large',
     REPORT_CREATOR_LAYOUT_SIZE_LARGE_WIDE: 'Large Wide',
+    REPORT_CREATOR_LAYOUT_SIZE_MOBILE_SHORT: 'Short',
+    REPORT_CREATOR_LAYOUT_SIZE_MOBILE_MEDIUM: 'Medium',
+    REPORT_CREATOR_LAYOUT_SIZE_MOBILE_TALL: 'Tall',
 
     REPORT_CREATOR_EMPTY_LAYOUT_WARNING: 'No layout has been created for this report and it may appear empty in the viewer. Do you want to proceed?',
     REPORT_CREATOR_EMPTY_LAYOUT_MESSAGE: 'No layout has been created for this report. Please navigate to the Layout Designer and configure this report\'s content.',
@@ -3320,10 +3341,22 @@ localizer.registerLanguage(
     PREVIEW_MODE_COMMON_TAB_WEB: 'Web',
     PREVIEW_MODE_LABEL_FILTERS: 'Applied Filter Values',
     PREVIEW_MODE_LABEL_APPLY_FILTERS: 'Apply Filters',
+    PREVIEW_MODE_LABEL_EDIT_FILTERS: 'Edit Filters',
+    PREVIEW_MODE_LABEL_EDIT_FILTERS_WARNING: 'Filters were changed. Apply filters to refresh data.',
     PREVIEW_MODE_LABEL_FILTERS_PANEL: 'Filters',
     PREVIEW_MODE_LABEL_FILTERS_RAIL_POSITION: 'Filters Rail Position',
     PREVIEW_MODE_LABEL_FILTERS_RAIL_POSITION_LEFT: 'Left',
     PREVIEW_MODE_LABEL_FILTERS_RAIL_POSITION_RIGHT: 'Right',
+
+    REPORT_CREATOR_LAYOUT_WEB_TITLE: 'Web Layout',
+    REPORT_CREATOR_LAYOUT_PRINT_TITLE: 'Print Layout',
+    REPORT_CREATOR_LAYOUT_MOBILE_TITLE: 'Mobile Layout',
+    REPORT_CREATOR_LAYOUT_DELETE_CONFIRMATION: 'Are you sure you want to delete the layout?',
+    REPORT_CREATOR_LAYOUT_ORIENTATION: 'Orientation',
+    REPORT_CREATOR_LAYOUT_MARGINS: 'Margins',
+    PEPORT_CREATOR_LAYOUT_MESSAGE_EXIST: 'Report layout with name "{0}" already exist.',
+    PEPORT_CREATOR_LAYOUT_MESSAGE_MARGIN: 'Margin value should be a positive number within range [0in, 2in]',
+    REPORT_DISPLAYER_CHOOSE_LAYOUT: 'Choose print layout',
 
     // FILTERS
     FILTER_POPUP_TITLE: 'Modify Filters',
@@ -3334,7 +3367,7 @@ localizer.registerLanguage(
     FILTER_AUTOCOMPLETE_LABEL: 'Autocomplete',
     FILTER_FIELD_COMPARISON_LABEL: 'Field Comparison',
     FILTER_ENABLE_END_USER_FILTER_MODIFICATION_LABEL: 'Enable End User Filter[s] Modification',
-    FILTER_ENABLE_END_USER_FILTER_MODIFICATION_TOOLTIP: 'Determines if an end-user can see and manipulate filters in the report viewer.',
+    FILTER_ENABLE_END_USER_FILTER_MODIFICATION_TOOLTIP: 'This setting will allow report viewers to add filters to the report while they view it.',
     FILTER_NO_SELECTED_FIELDS_TEXT: 'Select a field from list',
     FILTER_NO_FILTER_SELECTED_TEXT: 'No filter selected.',
     FILTER_TYPE_CHOOSE_LABEL: 'Choose Filter Type',
